@@ -2,79 +2,267 @@
 	xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt"
 	height="100%" xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel>
+
 		<content>
-			<html:table class="fanview">
-				<html:tr>
-					<html:th>Model</html:th>
-					<html:th>Model Details</html:th>
-					<html:th>MRP</html:th>
-					<html:th>Discounted Offer Price under New Purchase (without
-						exchange)
-					</html:th>
-					<html:th>View Details</html:th>
-				</html:tr>
-				<html:tr>
-					<html:td>
-						<html:image src="images/ivory_fan_new.jpg"
-							alt="ivory_fan_new" class="img-responsive"></html:image>
-					</html:td>
-					<html:td>Atomberg
-						Make
-						Model-Gorilla
-						Colour-Ivory
+			<html:table class="table table-bordered" width="100%">
+				<html:thead>
+					<html:tr>
+						<html:th scope="col">Sl.No.</html:th>
+						<html:th scope="col">Manufacturer / Brand</html:th>
+						<html:th colspan="5">Model Description</html:th>
+						<html:th scope="col">Capacity (Ltrs)</html:th>
+						<html:th scope="col">MRP (Rs.)</html:th>
+						<html:th scope="col">Offer Price in (Rs.)
+							( Under exchange ) with
+							1 Year Warranty
+						</html:th>
+						<html:th scope="col">Offer Price in (Rs.)
+							( Under exchange ) with
+							2 Year Warranty
+						</html:th>
+						<html:th>Product Details</html:th>
 
-						with Remote
-					</html:td>
-					<html:td>Rs.3600</html:td>
-					<html:td>Rs.1680</html:td>
-					<html:td>
-						<html:a href="pdf/submitfanpdf/Atomberg_Brochure.pdf"
-							target="_blank">
-							<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-						</html:a>
-					</html:td>
-				</html:tr>
-				<html:tr>
-					<html:td>
-						<html:image src="images/brown_fan_new.jpg"
-							alt="white_fan_new" class="img-responsive"></html:image>
-					</html:td>
-					<html:td>Atomberg
-						Make
-						Model-Gorilla
-						Colour-Brown
+					</html:tr>
 
-						with Remote
-					</html:td>
-					<html:td>Rs.3600</html:td>
-					<html:td>Rs.1680</html:td>
-					<html:td><html:a href="pdf/submitfanpdf/Atomberg_Brochure.pdf"
-							target="_blank">
-							<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-						</html:a></html:td>
-				</html:tr>
-				<html:tr>
-					<html:td>
-						<html:image src="images/white_fan_new.jpg"
-							alt="white_fan_new" class="img-responsive"></html:image>
-					</html:td>
-					<html:td>Atomberg
-						Make
-						Model-Gorilla
-						Colour-White
+				</html:thead>
 
-						with Remote
-					</html:td>
-					<html:td>Rs.3600</html:td>
-					<html:td>Rs.1680</html:td>
-					<html:td><html:a href="pdf/submitfanpdf/Atomberg_Brochure.pdf"
-							target="_blank">
-							<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-						</html:a></html:td>
-				</html:tr>
+
+
+				<html:tbody>
+					<html:tr scope="row">
+						<html:td colspan="12">Programme Partner :- Godrej , Type of
+							Refrigerator :- Direct Cool ( Single Door )
+						</html:td>
+
+					</html:tr>
+
+					<html:tr>
+
+						<html:th scope="row">1</html:th>
+						<html:td>Godrej</html:td>
+						<html:td colspan="5">RD EDGE PRO 190 CT INV5.2</html:td>
+						<html:td>190</html:td>
+						<html:td>18690</html:td>
+						<html:td>11730</html:td>
+						<html:td>12730</html:td>
+						<html:td>
+							<html:a href="pdf/submitrefpdf/Godrej1.pdf"
+								target="_blank">Click here
+
+							</html:a>
+						</html:td>
+
+
+					</html:tr>
+					<html:tr>
+						<html:th scope="row">2</html:th>
+						<html:td>Godrej</html:td>
+						<html:td colspan="5">RD EDGE PRO 190 CT INV5.2</html:td>
+						<html:td>190</html:td>
+						<html:td>19990</html:td>
+						<html:td>12730</html:td>
+						<html:td>13730</html:td>
+						<html:td>
+							<html:a href="pdf/submitrefpdf/Godrej2.pdf"
+								target="_blank">
+								Click here
+							</html:a>
+						</html:td>
+
+					</html:tr>
+					<html:tr>
+						<html:th scope="row">3</html:th>
+						<html:td>Godrej</html:td>
+						<html:td colspan="5">RD EDGE PRO 210 CT INV5.2</html:td>
+						<html:td>210</html:td>
+						<html:td>20690</html:td>
+						<html:td>13180</html:td>
+						<html:td>14180</html:td>
+						<html:td>
+							<html:a href="pdf/submitrefpdf/Godrej3.pdf"
+								target="_blank">
+								Click here
+							</html:a>
+						</html:td>
+
+					</html:tr>
+					<html:tr>
+						<html:th scope="row">4</html:th>
+						<html:td>Godrej</html:td>
+						<html:td colspan="5">RD EDGE PRO 210 CT INV5.2</html:td>
+						<html:td>210</html:td>
+						<html:td>21990</html:td>
+						<html:td>13980</html:td>
+						<html:td>14980</html:td>
+						<html:td>
+							<html:a href="pdf/submitrefpdf/Godrej4.pdf"
+								target="_blank">
+								Click here
+							</html:a>
+						</html:td>
+					</html:tr>
+
+					<html:tr scope="row">
+						<html:td colspan="12">Programme Partner :- Croma, Type of
+							Refrigerator : - Direct Cool ( Single Door )
+						</html:td>
+
+					</html:tr>
+
+					<html:tr>
+
+						<html:th scope="row">1</html:th>
+						<html:td>LG</html:td>
+						<html:td colspan="5">GL-B201APZY</html:td>
+						<html:td>190</html:td>
+						<html:td>18690</html:td>
+						<html:td>11730</html:td>
+						<html:td>12730</html:td>
+						<html:td rowspan="10" class="greentabref">
+							<html:a href="https://www.croma.com/op-tata-power-offers"
+								target="_blank">
+								Click here
+							</html:a>
+							(Only for Product
+							information offer
+							price as given
+							in this table)
+
+						</html:td>
+
+
+					</html:tr>
+					<html:tr>
+						<html:th scope="row">2</html:th>
+						<html:td>LG</html:td>
+						<html:td colspan="5">GL-D201ASAY</html:td>
+						<html:td>190</html:td>
+						<html:td>19990</html:td>
+						<html:td>12730</html:td>
+						<html:td>13730</html:td>
+
+
+					</html:tr>
+					<html:tr>
+						<html:th scope="row">3</html:th>
+						<html:td>LG</html:td>
+						<html:td colspan="5">GL-B221APZY</html:td>
+						<html:td>210</html:td>
+						<html:td>20690</html:td>
+						<html:td>13180</html:td>
+						<html:td>14180</html:td>
+
+
+					</html:tr>
+					<html:tr>
+						<html:th scope="row">4</html:th>
+						<html:td>LG</html:td>
+						<html:td colspan="5">GL-D221ASOY</html:td>
+						<html:td>210</html:td>
+						<html:td>21990</html:td>
+						<html:td>13980</html:td>
+						<html:td>14980</html:td>
+
+					</html:tr>
+					<html:tr>
+
+						<html:th scope="row">5</html:th>
+						<html:td>Samsung</html:td>
+						<html:td colspan="5">RR20M2Y2XUT/NL</html:td>
+						<html:td>190</html:td>
+						<html:td>18690</html:td>
+						<html:td>11730</html:td>
+						<html:td>12730</html:td>
+
+
+					</html:tr>
+					<html:tr>
+						<html:th scope="row">6</html:th>
+						<html:td>Samsung</html:td>
+						<html:td colspan="5">RR20M1Y2XUT/HL</html:td>
+						<html:td>190</html:td>
+						<html:td>19990</html:td>
+						<html:td>12730</html:td>
+						<html:td>13730</html:td>
+
+
+					</html:tr>
+					<html:tr>
+						<html:th scope="row">7</html:th>
+						<html:td>Samsung</html:td>
+						<html:td colspan="5">RR20M1Z2XBS/HL</html:td>
+						<html:td>210</html:td>
+						<html:td>20690</html:td>
+						<html:td>13180</html:td>
+						<html:td>14180</html:td>
+
+
+					</html:tr>
+					<html:tr>
+						<html:th scope="row">8</html:th>
+						<html:td>Samsung</html:td>
+						<html:td colspan="5">RR20M2Z2XBS/NL</html:td>
+						<html:td>210</html:td>
+						<html:td>21990</html:td>
+						<html:td>13980</html:td>
+						<html:td>14980</html:td>
+
+					</html:tr>
+					<html:tr>
+						<html:th scope="row">9</html:th>
+						<html:td>Samsung</html:td>
+						<html:td colspan="5">RR20M2Z2XR7/NL</html:td>
+						<html:td>210</html:td>
+						<html:td>20690</html:td>
+						<html:td>13180</html:td>
+						<html:td>14180</html:td>
+
+
+					</html:tr>
+					<html:tr>
+						<html:th scope="row">10</html:th>
+						<html:td>Samsung</html:td>
+						<html:td colspan="5">RR20M2Z2XU7/NL</html:td>
+						<html:td>210</html:td>
+						<html:td>21990</html:td>
+						<html:td>13980</html:td>
+						<html:td>14980</html:td>
+
+					</html:tr>
+
+					<html:tr scope="row">
+						<html:td colspan="12">Programme Partner :- Croma, Type of
+							Refrigerator : - Direct Cool ( Single Door )
+						</html:td>
+
+					</html:tr>
+
+					<html:tr>
+						<html:th scope="row">11</html:th>
+						<html:td>Samsung</html:td>
+						<html:td colspan="5">RT30M3425S8/HL</html:td>
+						<html:td>275</html:td>
+						<html:td>38700</html:td>
+						<html:td>25216</html:td>
+						<html:td>26615</html:td>
+						<html:td>
+							<html:a href="https://www.croma.com/op-tata-power-offers"
+								target="_blank">
+								Click here
+							</html:a>
+						</html:td>
+
+					</html:tr>
+				</html:tbody>
 
 			</html:table>
 
+			<html:p>Consumer can purchase New Refrigerator without Exchange by
+				paying Additional Rs.1000 .
+
+				This is a limited period offer , Models and Prices may change without
+				any prior notice.
+			</html:p>
 		</content>
 	</Panel>
 </core:FragmentDefinition>

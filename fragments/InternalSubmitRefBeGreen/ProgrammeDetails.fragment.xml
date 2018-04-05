@@ -4,9 +4,30 @@
 	<Panel>
 		<content>
 
-			<html:h4 align="center">Super Efficient Ceiling Fan DSM Programme
+			<html:h4 align="center">Energy Efficient Refrigerator New Purchase &amp;
+				Exchange Programme
 			</html:h4>
-			<html:h4 align="center">Programme Details</html:h4>
+			<html:h5>Dear Consumer,</html:h5>
+
+			<html:p>
+				Thanks for your interest in our DSM 5 Star Refrigerator New Purchase and
+				Exchange programme.
+
+				Here is a chance to bring the energy efficiency to an appliance which
+				works 24X7.
+
+				A whooping discount upto 40% on MRP is provided on the products in
+				this programme.
+
+				This phase of the programme offers many benefits including multiple
+				brands, wide range of models,
+				more purchase options, choice of warranty period and others.
+
+				This programme is open for new purchase and exchange basis.
+
+				Models offered under this program comply with the latest BEE 5 Star rating
+				of energy efficiency.
+			</html:p>
 			<html:ol>
 				<html:li>
 					<html:h5>
@@ -17,70 +38,88 @@
 				</html:li>
 				<html:li>
 					<html:h5>
-						<html:b>Program partner:</html:b>
-						Tata Power has partnered with Atomberg Technologies Private
-						Limited (M/S Atomberg) which will offer the super efficient
-						ceiling fans under this programme.
+						<html:b>Type and Capacity:</html:b>
+						Wide range of models upto 300 Litres of net capacity.
 					</html:h5>
 				</html:li>
 				<html:li>
 					<html:h5>
-						<html:b>Product Details:</html:b>
-						The product offered is Atomberg Make , Energy efficient Fan of
-						1200 mm Size. Please click on Product Details for more
-						information.
+						<html:b>Implementation partners:</html:b>
+						Infiniti Retail Limited (Croma) and Godrej and Boyce Manufacturing
+						Company Ltd (Godrej).
 					</html:h5>
 				</html:li>
 				<html:li>
 					<html:h5>
-						<html:b>Number of Ceiling Fans per consumer:</html:b>
-						Each consumer is eligible to purchase upto 4 ceiling fans under
-						the programme.
+						<html:b>Number of Refrigerators per consumer:</html:b>
+						1 Number
 					</html:h5>
 				</html:li>
 				<html:li>
 					<html:h5>
 						<html:b>Warranty:</html:b>
-						The ceiling fans purchased under this programme, will have 3 years
-						warranty, which will be provided by manufacturer
+						One Year Refrigerator Warranty and 5/10 years of compressor
+						warranty.
 					</html:h5>
 				</html:li>
 				<html:li>
 					<html:h5>
-						<html:b>Offer price:</html:b>The
-						ceiling fans are offered under New Purchase Scheme . The products
-						and offer price may change without giving prior notice. (Please
-						click on 'Models Available' tab to view the price). includes all
-						taxes &amp; duties and three years warranty. The price doesn't
-						include installation of ceiling fans.
+						<html:b>Extended Warranty:</html:b>
+						The
+						A consumer can avail 1 year extended warranty by paying the
+						additional price.
 					</html:h5>
 				</html:li>
 				<html:li>
 					<html:h5>
-						<html:b>Registration </html:b>
-						Web-site:-For registration please click on the "Register Here"
-						tab, read and accept the terms and conditions and submit the
-						details. A unique registration number will be displayed after the
-						successful registration.
-						Call centre:-Consumer can also register by calling the Tata Power Call
-						Centre 1800-209-5161
+						<html:b>Buyback of old Refrigerators:</html:b>
+						A consumer has to surrender his old refrigerator in working
+						condition under the exchange option.
+						Old refrigerator will be
+						scrapped in the ecofriendly manner. Buyback
+						price is included in
+						the offer price.
 					</html:h5>
 				</html:li>
 				<html:li>
 					<html:h5>
-						<html:b>Order confirmation</html:b>
-						A representative of the authroised franchisee of Atomberg will
-						contact you on the phone number provided by you and confirm the
-						models and colour required and confirm the order.
+						<html:b>Offer price:</html:b>
+						Offer price given in the table on website includes all taxes,
+						duties, buyback of old refrigerator and delivery charges.
+						Offer
+						price may be change without any prior notice. The consumers who
+						do
+						not have old refrigerator or do not want to exchange old
+						refrigerator, may opt for new purchase by paying Rs.1000 extra.
 					</html:h5>
 
 				</html:li>
 				<html:li>
 					<html:h5>
-						<html:b>Payment</html:b>
-						Consumer can make the payment through a)Online payment facility
-						b)Cheque/DD and c)Cash Atomberg Installation agency will provide
-						all the details and receipt for the payment.
+						<html:b>Registration</html:b>
+						a. Website:- Consumer can register online by visiting our webpage,
+						'BE GREEN' at
+						<html:a> www.tatapower.com. </html:a>
+						b. Call Center:- Consumer can also register by dialing our call
+						center at 1800 209 5161
+					</html:h5>
+				</html:li>
+				<html:li>
+					<html:h5>
+						<html:b>Order Confirmation and Delivery:</html:b>
+						Post registration, vendor will contact/visit the consumer to
+						provide further details
+						for confirmation of the order. Vendor will
+						also provide necessary
+						information about payment methodology and
+						delivery.
+					</html:h5>
+				</html:li>
+				<html:li>
+					<html:h5>
+						<html:b>Payment Methodology:</html:b>
+						Multiple Online/Card payment options will be made available by the
+						vendor.
 					</html:h5>
 				</html:li>
 				<html:li>
@@ -88,14 +127,17 @@
 						<html:b>Role of Tata Power:</html:b>
 						Tata Power has rolled out this programme to help consumers to save
 						the energy. Tata Power is offering a special rebate to bring the
-						effective price down for the consumers. Tata Power is only a
+						effective cost down for the consumers. Tata Power is only a
 						facilitator and all product related issues/ disputes/ differences
 						shall be referred to the manufacturer directly by the customer
 						without any liability, financial or otherwise, on Tata Power.
 					</html:h5>
 				</html:li>
 			</html:ol>
-
+			<html:h4 align="center">
+				For any query, please write to
+				<html:a href="mailto:dsmcell@tatapower.com">dsmcell@tatapower.com</html:a>
+			</html:h4>
 		</content>
 	</Panel>
 </core:FragmentDefinition>
