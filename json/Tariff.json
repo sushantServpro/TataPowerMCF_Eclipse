@@ -5,12 +5,6 @@
 	"text": "Tariff Schedule",
 	"ref": "sap-icon://attachment-html"
 }, {
-		"text": "Tariff Rates For Change Over Consumer",
-		"ref": "sap-icon://attachment-html"
-	}, {
-		"text": "Tariff Rates For Existing Consumer",
-		"ref": "sap-icon://attachment-html"
-	},{
 	"text": "FAC Rates",
 	"ref": "sap-icon://attachment-html"
 }]

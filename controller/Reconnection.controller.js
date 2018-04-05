@@ -22,13 +22,7 @@ sap.ui.define([
 		//	onBeforeRendering: function() {
 		//
 		//	},
-		onHomePress: function(oEvent) {
-			this.getRouter().navTo("home");
-		},
-		
-			getRouter: function() {
-			return sap.ui.core.UIComponent.getRouterFor(this);
-		}
+
 		/**
 		 * Called when the View has been rendered (so its HTML is part of the document). Post-rendering manipulations of the HTML could be done here.
 		 * This hook is the same one that SAPUI5 controls get after being rendered.

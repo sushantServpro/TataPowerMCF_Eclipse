@@ -57,6 +57,10 @@
 									<html:h5>
 										One unit is thus, the amount of energy consumed in lighting a 100 watt bulb for 10 hours or using a 2 kW (2000 watt) geyser for Â½ hour.</html:h5>
 								</html:li>
+								<html:li>
+									<html:h5>
+										"The electricity meter records consumption in units and the same is billed as energy charges" should be mentioned in bullet.</html:h5>
+								</html:li>
 							</html:ul>
 							<html:h5>
 								The electricity meter records consumption in units and the same is billed as energy charges.</html:h5>
@@ -126,7 +130,7 @@
 							<html:ul class="innerpoint">
 								<html:li>
 									<html:h5>
-										The prevailing tariff for energy is based on an average cost of fuel consumed for thermal generation in TTata Power.</html:h5>
+										The prevailing tariff for energy is based on an average cost of fuel consumed for thermal generation in Tata Power.</html:h5>
 								</html:li>
 								<html:li>
 									<html:h5>
@@ -222,12 +226,12 @@
 									</html:h5>
 								</html:li>
 								<html:li>
-									<html:li>
-										<html:h5>
-											If customer's load is more than 60 A or supply voltage is higher than 440 Volts, Current and voltage transformers are used in metering
+									<html:h5>
+										If customer's load is more than 60 A or supply voltage is higher than 440 Volts, Current and voltage transformers are used in metering
 											circuit to restrict the current and voltage to the rated capacity of meter.
-										</html:h5>
-									</html:li>
+									</html:h5>
+								</html:li>
+								<html:li>
 									<html:h5>
 										These transformers reduce the voltage &amp; current applied to meter in certain proportion which is called transformation ratio.
 									</html:h5>
@@ -299,23 +303,23 @@
 										</html:li>
 										<html:li>
 											<html:h5>
-												Wheeling charges:Wheeling charges are payable for the usage of the distribution network.</html:h5>
+												<html:strong>Wheeling charges :</html:strong>Wheeling charges are payable for the usage of the distribution network.</html:h5>
 										</html:li>
 										<html:li>
 											<html:h5>
-												Regulatory Asset charges :Regulatory Asset Charges is the Charge for past recoveries of the Distribution Utility which could not be
+												<html:strong>Regulatory Asset Charges :</html:strong>Regulatory Asset Charges is the Charge for past recoveries of the Distribution Utility which could not be
 												recovered since, the approved Tariff was not sufficient to recover the costs incurred.</html:h5>
 										</html:li>
 										<html:li>
 											<html:h5>
-												Cross Subsidy Surcharge:Cross Subsidy Surcharge is the charge levied on a consumer who buys power from an entity other than the distribution
+												<html:strong>Cross Subsidy Surcharge :</html:strong>Cross Subsidy Surcharge is the charge levied on a consumer who buys power from an entity other than the distribution
 												licensee he is connected to, to compensate the host distribution licensee serving such consumers for loss of the cross-subsidy element built
 												into the tariff of such consumers. (It is the difference between the tariff applicable to the relevant category of consumers and the cost of
 												the distribution licensee to supply electricity to the consumers of the applicable class.)</html:h5>
 										</html:li>
 										<html:li>
 											<html:h5>
-												Other Charges in view of MTR Tariff impacting July 15 Bill: Due to revised tariff order being retrospectively applicable from 1st June 2015,
+												<html:strong>Other Charges in view of MTR Tariff impacting July 15 Bill :</html:strong> Due to revised tariff order being retrospectively applicable from 1st June 2015,
 												consumers were billed on revised tariff for the month of July 15 along with the differential tariff for the applicable days of the month of
 												June 15. The credit of Fuel Adjustment charges(FAC) that was passed on to the consumers in their June 15 bill had to be recovered in their
 												July 15 bill basis the revised order as the credit of FAC is no more applicable for the said period. Please note that these charges (Tariff
@@ -474,8 +478,7 @@
 					<content>
 						<html:div class="textpara">
 							<html:h5>
-								Even though every effort is made to eliminate billing errors, should the customer face any problem may contact our "Call Centre" at the
-								following telephone numbers: 1800 209 5161 (Toll Free).
+								Even though every effort is made to eliminate billing errors, should the customer face any problem may contact our "Call Centre" on 1800-209-5161 (Toll Free) Or Whatsapp us on 7045116237.
 							</html:h5>
 						</html:div>
 					</content>
@@ -526,7 +529,7 @@
 					<content>
 						<html:div class="textpara">
 							<html:h5>
-								The customer should contact the "Call Centre" and the matter will be attended to.
+								The customer can contact the "Call Centrer" or Whatsapp on 7045116237 and register his/her concern. The duplicate bill will then be sent by courier. You can also visit the Consumer Relations Dept. to collect a duplicate bill.
 							</html:h5>
 						</html:div>
 					</content>
@@ -685,8 +688,10 @@
 					<content>
 						<html:div class="textpara">
 							<html:h5>
-								he relevant part from the new Electricity Act 2003 is quoted as below : PART - XIV : OFFENCES AND PENALTIES Theft of electricity - 135.
+								The relevant part from the new Electricity Act 2003 is quoted as below :
 							</html:h5>
+							<html:h5>PART - XIV : OFFENCES AND PENALTIES</html:h5>
+							<html:h5>Theft of electricity - 135.</html:h5>
 							<html:ul>
 								<html:li>
 									<html:h5>

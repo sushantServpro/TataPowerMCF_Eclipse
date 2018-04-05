@@ -19,10 +19,22 @@
 						<html:ul class="nav navbar-nav navbar-right lang_link">
 							<html:li>
 								<html:a href="#" title="facebook" target="_blank">
-								
+									<html:image src="images/language.png"></html:image>
 								</html:a>
 							</html:li>
-						
+							<html:li>
+								<MenuButton text="English" buttonMode="Split" class="btn_lang">
+									<!--<menu>-->
+									<!--	<Menu itemSelected="onMenuAction">-->
+									<!--		<items>-->
+									<!--			<MenuItem text="English"/>-->
+									<!--			<MenuItem text="Hindi"/>-->
+									<!--			<MenuItem text="Marathi"/>-->
+									<!--		</items>-->
+									<!--	</Menu>-->
+									<!--</menu>-->
+								</MenuButton>
+							</html:li>
 						</html:ul>
 						<html:ul class="nav navbar-nav navbar-right social_links">
 							<html:li>

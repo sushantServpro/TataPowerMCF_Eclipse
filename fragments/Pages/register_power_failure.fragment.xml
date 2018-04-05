@@ -2,10 +2,20 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel id="pnl_10">
-				<html:div class="rpg">
-					<html:h5>
-						Register Power Failure</html:h5>
+			<Panel>
+				<html:div class="row intro_head">
+					<html:div class="col-xs-12">
+						<html:div class="reg_pow_bg border_rad_icon">
+							<html:div class="row icon_row_flex">
+								<html:div class="col-xs-2">
+									<html:image src="images/icon_regster_pwr_flre.png" alt="icon_regster_pwr_flre" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-xs-10">
+									<html:h4>Register Power Failure</html:h4>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
 				</html:div>
 				<html:div class="registerpf">
 					<html:h6 align="center" style="color:red">* Indicate Mondatory fields</html:h6>
@@ -17,7 +27,7 @@
 									<Input id="cnInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 								</html:div>
 								<html:div class="col-md-3">
-									<Button type="Accept" text="Enter" class="switchcenter rpfbtn" press="onPressGo"
+									<Button type="Accept" text="Enter" class="switchcenter rpfbtn" press="onPress"
 										ariaDescribedBy="acceptButtonDescription genericButtonDescription"></Button>
 								</html:div>
 							</html:div>
@@ -40,14 +50,14 @@
 					<html:div class="row">
 						<html:div class="col-md-12">
 							<Label text="Problem Decription" labelFor="input-a"/>
-							<TextArea  id="IdProDec" placeholder="Enter Text" growing="true" growingMaxLines="7" width="100%"/>
+							<TextArea placeholder="Enter Text" growing="true" growingMaxLines="7" width="100%"/>
 						</html:div>
 						<html:div class="col-md-12">
 							<Label text="Nearest Landmark" labelFor="input-a"/>
 							<Input id="nlInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 						</html:div>
 						<html:div class="col-md-2 col-md-offset-5 text-center">
-							<Button text="SUBMIT" press="OnPressSubmit" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 						</html:div>
 					</html:div>
 				</html:div>

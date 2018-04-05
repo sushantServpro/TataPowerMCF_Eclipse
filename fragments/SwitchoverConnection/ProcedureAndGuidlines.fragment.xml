@@ -4,10 +4,10 @@
 		<content>
 			<Panel>
 				<html:div class="procedure_head">
-					<html:h4>Procedure And Guidelines</html:h4> 
+					<html:h4>Procedure And Guidelines</html:h4>
 				</html:div>
 				<html:div class="row procedure_files switch_over">
-					<html:a href="pdf/Instructions_NewConsumers__Switchover.pdf" target="_blank" class="col-sm-3 col-md-3">
+					<html:a href="pdf/switchoverconnection/InstructionsNewConsumersSwitchover.pdf" target="_blank" class="col-sm-3 col-md-3">
 						<html:div class="panel panel-default">
 							<html:div class="panel-body pdfviewer">
 								<html:div>
@@ -19,7 +19,7 @@
 							</html:div>
 						</html:div>
 					</html:a>
-					<html:a href="pdf/Instructions_UtilityConsumers_Switchover.pdf" target="_blank" class="col-sm-3 col-md-3">
+					<html:a href="pdf/switchoverconnection/InstructionsUtilityConsumersSwitchover.pdf" target="_blank" class="col-sm-3 col-md-3">
 						<html:div class="panel panel-default">
 							<html:div class="panel-body pdfviewer">
 								<html:div>
@@ -30,7 +30,7 @@
 								Instructions for Other Utility Consumers (R-Infra / BEST) to avail supply on Tata Power Direct Network.</html:div>
 						</html:div>
 					</html:a>
-					<html:a href="pdf/Procedure_Guidelines_Switchover.pdf" target="_blank" class="col-sm-3 col-md-3">
+					<html:a href="pdf/switchoverconnection/ProcedureGuidelinesSwitchover.pdf" target="_blank" class="col-sm-3 col-md-3">
 						<html:div class="panel panel-default">
 							<html:div class="panel-body pdfviewer">
 								<html:div>
@@ -41,7 +41,7 @@
 							</html:div>
 						</html:div>
 					</html:a>
-					<html:a href="pdf/Switchover_Protocol_June_2017.PDF" target="_blank" class="col-sm-3 col-md-3">
+					<html:a href="pdf/switchoverconnection/SwitchoverProtocolJune2017.PDF" target="_blank" class="col-sm-3 col-md-3">
 						<html:div class="panel panel-default">
 							<html:div class="panel-body pdfviewer">
 								<html:div>

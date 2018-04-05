@@ -5,7 +5,15 @@ sap.ui.define([
 
 	return Controller.extend("tatapower.dev.controller.BeGreen", {
 
-	
+		/**
+		 * Called when a controller is instantiated and its View controls (if available) are already created.
+		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
+		 * @memberOf tatapower.dev.view.BeGreen
+		 */
+		//	onInit: function() {
+		//
+		//	},
+
 		onInit: function(evt) {
 
 			// set explored app's demo model on this sample
@@ -20,7 +28,7 @@ sap.ui.define([
 			var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.AboutDSM"].join("."), this);
 			vbox.addItem(fragment1);
 
-		}, 
+		},
 
 		handleButtonPress: function(evt) {
 
@@ -46,43 +54,49 @@ sap.ui.define([
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.Contact"].join("."), this);
 				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.description === "Ceiling Fan") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.ceiling_fan"].join("."), this);
+				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.description === "Energy Audit") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.energy_audit"].join("."), this);
+				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.description === "Energy Refrigerator") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.energy_eff_refrigerator"].join("."), this);
+				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.description === "LED Tube") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.led_tube"].join("."), this);
+				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.description === "Split AC") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.split_ac"].join("."), this);
+				vbox.addItem(fragment1);
 			}
-
-			// 	else if(evt.oSource.mProperties.text === "Ceiling Fan") {
-
-			// 	var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.ceiling_fan"].join("."), this);
-			// 	vbox.addItem(fragment1);
-			// }
-			// 	else if(evt.oSource.mProperties.text === "Energy Audit") {
-
-			// 	var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.energy_audit"].join("."), this);
-			// 	vbox.addItem(fragment1);
-			// }
-			// 	else if(evt.oSource.mProperties.text ==="Energy Refrigerator") {
-
-			// 	var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.energy_eff_refrigerator"].join("."), this);
-			// 	vbox.addItem(fragment1);
-			// }
-			// 	else if(evt.oSource.mProperties.text === "LED Tube") {
-
-			// 	var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.led_tube"].join("."), this);
-			// 	vbox.addItem(fragment1);
-			// }
-			// 	else if(evt.oSource.mProperties.text === "Split AC") {
-
-			// 	var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.split_ac"].join("."), this);
-			// 	vbox.addItem(fragment1);
-			// }
 
 		},
 		onHomePress: function(oEvent) {
 			this.getRouter().navTo("home");
 		},
+		onPressRef: function() {
+			this.getRouter().navTo("SubmitRef");
+		},
+		onSubmitfanPress: function(oEvent) {
+
+			this.getRouter().navTo("SubmitCeilingFan");
+		},
 
 		getRouter: function() {
-				return sap.ui.core.UIComponent.getRouterFor(this);
-			}
-		
+			return sap.ui.core.UIComponent.getRouterFor(this);
+		},
+		pressTermsOfUse: function() {
+			this.getRouter().navTo("TermOfUse");
+		},
+		pressPrivacyPolicy: function() {
+			this.getRouter().navTo("PrivacyPolicy");
+		}
 
 	});
 

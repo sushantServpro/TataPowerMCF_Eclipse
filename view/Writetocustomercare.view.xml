@@ -120,7 +120,7 @@
 								</Panel>
 							</content>
 						</Panel>
-					</html:div> 
+					</html:div>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
 				</content>
 			</Page>

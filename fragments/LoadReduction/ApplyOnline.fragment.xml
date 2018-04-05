@@ -2,7 +2,7 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel id="pnl_08">
+			<Panel>
 				<html:h5>Apply Online</html:h5>
 				<html:div class="apply">
 					<html:div class="row">
@@ -23,37 +23,34 @@
 					<html:div class="boxpad">
 						<html:div class="row">
 							<html:div class=" col-md-2">
-								<RadioButton groupName="Groupselect" enabled="false" id="LRRBAPPL1" text="Load Enhancement" select="OnApplicationChange" />
+								<RadioButton groupName="Groupselect" id="RBAPPL1" text="Load Enhancement" select="OnApplicationChange" selected="true"/>
 							</html:div>
 							<html:div class="col-md-2">
-								<RadioButton groupName="Groupselect"  id="LRRBAPPL2" text="Load Reduction" select="OnApplicationChange" selected="true" />
+								<RadioButton groupName="Groupselect" id="RBAPPL2" text="Load Reduction" select="OnApplicationChange"/>
 							</html:div>
 							<html:div class="col-md-2">
-								<RadioButton groupName="Groupselect" enabled="false" id="LRRBAPPL3" text="Category Change" select="OnApplicationChange" />
+								<RadioButton groupName="Groupselect" id="RBAPPL3" text="Category Change" select="OnApplicationChange"/>
 							</html:div>
 							<html:div class="col-md-2">
-								<RadioButton groupName="Groupselect" enabled="false" id="LRRBAPPL4" text="Meter Shifting" select="OnApplicationChange" />
+								<RadioButton groupName="Groupselect" id="RBAPPL4" text="Meter Shifting" select="OnApplicationChange"/>
 							</html:div>
 							<html:div class="col-md-2">
-								<RadioButton groupName="Groupselect" enabled="false" id="LRRBAPPL5" text="CMD Enhancement" select="OnApplicationChange" />
+								<RadioButton groupName="Groupselect" id="RBAPPL5" text="CMD Enhancement" select="OnApplicationChange"/>
 							</html:div>
 							<html:div class="col-md-2">
-								<RadioButton groupName="Groupselect"  enabled="false" id="LRRBAPPL6" text="CMD Enhancement" select="OnApplicationChange" />
+								<RadioButton groupName="Groupselect" id="RBAPPL6" text="CMD Enhancement" select="OnApplicationChange"/>
 							</html:div>
 						</html:div>
-						
 						<html:div class="row sapUiMediumMarginTop">
 							<Label class="col-md-4" text="Contract Acct:" labelFor="input-a"/>
 							<html:div class="col-md-4">
 								<!--<Input id="contractacctInput" required="true" type="Text" class="sapUiSmallMarginBottom" showValueHelp="true" valueHelpRequest="ValueHelpAcct" />-->
-								<Input id="LRcontractacctInput" required="true" type="Text" class="sapUiSmallMarginBottom" showValueHelp="true" valueHelpRequest="ValueHelpAcctsearch" 
-								 />
-								
+								<Input id="contractacctInput" required="true" type="Text" class="sapUiSmallMarginBottom" showValueHelp="true"
+									valueHelpRequest="ValueHelpAcctsearch"/>
 								<!--<Input id="TarrifId" showSuggestion="true" showValueHelp="true"
 									     valueHelpRequest="handleValueHelp"
 									     suggestionItems="{path:'Tariff>/results'}" 
 									     value="{BillCalModel>/Tariff}" >-->
-								
 								<!--<suggestionItems>
 										<core:Item text="{Contract>ContractAccountID}" key="{Contract>ContractAccountID}"/>
 								</suggestionItems>-->
@@ -61,218 +58,332 @@
 						</html:div>
 						<html:div class="row">
 							<Label class="col-md-4" text="Bussiness partn" enabled="false" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRbussinesspartnInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" value="{AddressDetails>/BpNo}"/>
-						</html:div></html:div>
-						<html:div class="row">
-							<Label class="col-md-4" text="Type Of Consumer" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRtypeofconInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
-						<html:div class="row">
-							<Label class="col-md-4" text="Business Partner Name" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRbpartnernameInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
-						<html:div class="row">
-							<Label class="col-md-4" text="Flat" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRflatInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" value="{AddressDetails>/DefFlat}"/>
-						</html:div></html:div>
-						<html:div class="row">
-							<Label class="col-md-4" text="c/o" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRco" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" value="{AddressDetails>/DefBuilding}"/>
-						</html:div></html:div>
-						<html:div class="row">
-							<Label class="col-md-4" text="Street 2" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRstreet2Input" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" value="{AddressDetails>/DefSociety}"/>
-						</html:div></html:div>
-						<html:div class="row">
-							<Label class="col-md-4" text="Street 3" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRstreet3Input" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" value="{AddressDetails>/DefLane}"/>
-						</html:div></html:div>
-						<html:div class="row">
-							<Label class="col-md-4"  text="City" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRcityInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" value="{AddressDetails>/DefCity}" />
-						</html:div></html:div>
-						<html:div class="row">
-							<Label class="col-md-4"  text="District" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRdistrictInput" required="true" type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
-						<html:div class="row">
-							<Label class="col-md-4"  text="Postal Code" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRpcodeInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" value="{AddressDetails>/DefPostal}"/>
-						</html:div></html:div> 
-						<html:div class="row">
-							<Label class="col-md-4"  text="Land Mark" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRlandmarkInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" value="{AddressDetails>/DefLandmark}"/>
-						</html:div></html:div> 
-						<html:div class="row">
-							<Label class="col-md-4" required="true" text="Mobile Phone" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRmphone" maxLength="10" required="true" type="Number" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div> 
-						<html:div class="row">
-							<Label class="col-md-4"  text="E-Mail Address" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRemailInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="(Email ID is required for speedy communication)"/>
-						</html:div></html:div>
-							<html:div class="row">
-							<Label class="col-md-4"  text="Meter No." labelFor="input-a"/>
-							<html:div class="col-md-4"><Select>
-										<core:Item key="100" text="100"/>
-										<core:Item key="200" text="200"/>
-										<core:Item key="300" text="300"/>
-									</Select>
-						</html:div></html:div>
-						<html:div class="row">
-							<Label class="col-md-4"  text="Installation" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRinstallationInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
-							<html:div class="row">
-							<Label class="col-md-4"  text="Type Of Supply" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRtypeofsupplyInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
-						
-						<html:div class="row">
-							<Label class="col-md-4"  text="Rate Category" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRratecategoryInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
-						
-						<html:div class="row">
-							<Label class="col-md-4"  text="Existing Con_Load(KW)" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRexistingconloadInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="0.0000000"/>
-						</html:div></html:div>
-						
-					<html:div class="row">
-							<Label class="col-md-4"  text="Existing CMD(KVA)" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRexistingcmdInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="0.0000000"/>
-						</html:div></html:div>
-						
-							<html:div class="row">
-							<Label class="col-md-4"  text="Required/Additional Con_Load(KW)" labelFor="input-a" required="true"/>
-							<html:div class="col-md-4"><Input id="LRreqconloadInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="0.0000000"/>
-						</html:div></html:div>
-						
-					<html:div class="row">
-							<Label class="col-md-4"  text="Required/Additional CMD(KVA)" labelFor="input-a" required="true"/>
-							<html:div class="col-md-4"><Input id="LRreqcmdInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="0.0000000"/>
-						</html:div></html:div>
-						
-							<html:div class="row">
-							<Label class="col-md-4"  text="Required Rate Category" labelFor="input-a" />
-							<html:div class="col-md-4">
-								
-									
-								<Select class="sapUiSmallMarginBottom" width="100%" id="LRreqratecatInput"
-									forceSelection="false"
-									selectedKey=""
-									items="{
-										path: 'SupplyCatSerachdata>/results',
-										sorter: { path: '' }
-									}">
-									<core:Item key="{SupplyCatSerachdata>DomvalueL}" text="{SupplyCatSerachdata>Ddtext}" />
-								</Select>
-								<!--<Input id="reqratecatInput" required="true" type="Text" class="sapUiSmallMarginBottom"/>-->
-						</html:div></html:div>
-						
-					
-						
-							<html:div class="row">
-							<Label class="col-md-4"  text="New Connected Load (kW)"  labelFor="input-a" />
-							<html:div class="col-md-4"><Input id="LRnewconnectedloadkwInput" enabled="false" type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
-						
-							<html:div class="row">
-							<Label class="col-md-4"  text="New Contract Demand (kVA)"  labelFor="input-a" />
-							<html:div class="col-md-4"><Input id="LRnewcontrctdemandInput" enabled="false"  type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
-						
-							<html:div class="row">
-							<html:p class="col-md-12 text-danger">New Connected Load(kW) / New Contracted Demand (KVA) will consider for billing purpose.
-						</html:p></html:div>
-					
-						<html:div class="row">
-							<Label class="col-md-4"  text="Type of premises" labelFor="input-a" />
-							<html:div class="col-md-2">
-								<RadioButton id="LRRB11" groupName="GroupA" text="Owned" selected="true"/>
-							</html:div>
-							<html:div class="col-md-2">
-								<RadioButton id="LRRB22" groupName="GroupA" text="Rented"/>
-							</html:div>
-							<html:div class="col-md-2">
-								<RadioButton id="LRRB33" groupName="GroupA" text="Lease"/>
-							</html:div>
-							<html:div class="col-md-2">
-								<RadioButton id="LRRB44" groupName="GroupA" text="Other (Specify)"/>
+							<html:div class="col-md-4"><Input id="bussinesspartnInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
 							</html:div>
 						</html:div>
-						
+						<html:div class="row">
+							<Label class="col-md-4" text="Type Of Consumer" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="typeofconInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Business Partner Name" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="bpartnernameInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="c/o" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="flatInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Street 2" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="street2Input" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Street 3" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="street3Input" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" required="true" text="City" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="cityInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" required="true" text="District" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="districtInput" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Postal Code" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="pcodeInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Land Mark" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="landmarkInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Mobile Phone" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="mphone" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" required="true" text="E-Mail Address" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="emailInput" required="true" type="Text" class="sapUiSmallMarginBottom"
+								placeholder="(Email ID is required for speedy communication)"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Meter No." labelFor="input-a"/>
+							<html:div class="col-md-4">
+								<Select>
+									<core:Item key="100" text="100"/>
+									<core:Item key="200" text="200"/>
+									<core:Item key="300" text="300"/>
+								</Select>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Installation" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="installationInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Type Of Supply" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="typeofsupplyInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Rate Category" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="ratecategoryInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Existing Con_Load(KW)" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="existingconloadInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="0.0000000"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Existing CMD(KVA)" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="existingcmdInput" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="0.0000000"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Required/Additional Con_Load(KW)" labelFor="input-a" required="true"/>
+							<html:div class="col-md-4"><Input id="reqconloadInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="0.0000000"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Required/Additional CMD(KVA)" labelFor="input-a" required="true"/>
+							<html:div class="col-md-4"><Input id="reqcmdInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="0.0000000"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Required Rate Category" labelFor="input-a" required="true"/>
+							<html:div class="col-md-4">
+								<Select id="reqratecatInput" required="true" class="sapUiSmallMarginBottom">
+									<core:Item key="100" text="100"/>
+									<core:Item key="200" text="200"/>
+									<core:Item key="300" text="300"/>
+								</Select>
+								<!--<Input id="reqratecatInput" required="true" type="Text" class="sapUiSmallMarginBottom"/>-->
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="New Connected Load (kW)" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="newconnectedloadkwInput" enabled="false" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="New Contract Demand (kVA)" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="newcontrctdemandInput" enabled="false" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:p class="col-md-12 text-danger">New Connected Load(kW) / New Contracted Demand (KVA) will consider for billing purpose.
+							</html:p>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Type of premises" labelFor="input-a"/>
+							<html:div class="col-md-2">
+								<RadioButton id="RB11" groupName="GroupA" text="Owned" selected="true"/>
+							</html:div>
+							<html:div class="col-md-2">
+								<RadioButton id="RB22" groupName="GroupA" text="Rented"/>
+							</html:div>
+							<html:div class="col-md-2">
+								<RadioButton id="RB33" groupName="GroupA" text="Lease"/>
+							</html:div>
+							<html:div class="col-md-2">
+								<RadioButton id="RB44" groupName="GroupA" text="Other (Specify)"/>
+							</html:div>
+						</html:div>
 						<html:div class="row powerreq">
 							<html:div class="col-xs-12">
 								<html:h5>Power Supply Requirement
 								</html:h5>
 							</html:div>
 						</html:div>
-						
 						<html:div class="row">
 							<html:div class="col-md-offset-2 col-md-3">
-								<CheckBox id="LRLowVoltSingle" text="Low Voltage Single Phase" selected="false"/>
+								<CheckBox id="LowVoltSingle" text="Low Voltage Single Phase" selected="false"/>
 							</html:div>
 							<html:div class="col-md-3">
-								<CheckBox id="LRLowVoltThree" text="Low Voltage Three Phase" selected="false"/>
+								<CheckBox id="LowVoltThree" text="Low Voltage Three Phase" selected="false"/>
 							</html:div>
-								<html:div class="col-md-3">
-								<CheckBox id="LRHighVolt" text="High Voltage" selected="false"/>
+							<html:div class="col-md-3">
+								<CheckBox id="HighVolt" text="High Voltage" selected="false"/>
 							</html:div>
 						</html:div>
-						
 						<html:div class="row powerreq">
 							<html:div class="col-xs-12">
 								<html:h5>Load Details
 								</html:h5>
 							</html:div>
 						</html:div>
-						
 						<html:div class="row">
 							<html:div class="col-md-offset-2 col-md-3">
-								<RadioButton groupName="GroupE" id="LRRBGRP_ID1" text="LED lights/Tube lights/Bulbs" selected="true"/>
+								<RadioButton groupName="GroupE" id="RBGRP_ID1" text="LED lights/Tube lights/Bulbs" selected="true"/>
 							</html:div>
 							<html:div class="col-md-3">
-								<RadioButton groupName="GroupE" id="LRRBGRP_ID2" text="Fans" selected="true"/>
+								<RadioButton groupName="GroupE" id="RBGRP_ID2" text="Fans" selected="true"/>
 							</html:div>
-								<html:div class="col-md-3">
-								<RadioButton groupName="GroupE" id="LRRBGRP_ID3" text="Geysers" selected="true"/>
+							<html:div class="col-md-3">
+								<RadioButton groupName="GroupE" id="RBGRP_ID3" text="Geysers" selected="true"/>
 							</html:div>
 						</html:div>
-						
 						<html:div class="row">
 							<html:div class="col-md-offset-2 col-md-3">
-								<RadioButton groupName="GroupE" id="LRRBGRP_ID4" text="Oven/Micro Wave" selected="true"/>
+								<RadioButton groupName="GroupE" id="RBGRP_ID4" text="Oven/Micro Wave" selected="true"/>
 							</html:div>
 							<html:div class="col-md-3">
-								<RadioButton groupName="GroupE" id="LRRBGRP_ID5" text="Chiller/Air Conditioners" selected="true"/>
+								<RadioButton groupName="GroupE" id="RBGRP_ID5" text="Chiller/Air Conditioners" selected="true"/>
 							</html:div>
-								<html:div class="col-md-3">
-								<RadioButton groupName="GroupE" id="LRRBGRP_ID6" text="Refrigerator" selected="true"/>
+							<html:div class="col-md-3">
+								<RadioButton groupName="GroupE" id="RBGRP_ID6" text="Refrigerator" selected="true"/>
 							</html:div>
 						</html:div>
-						
 						<html:div class="row">
 							<html:div class="col-md-offset-2 col-md-3">
-								<RadioButton groupName="GroupE" id="LRRBGRP_ID7" text="Television" selected="true"/>
+								<RadioButton groupName="GroupE" id="RBGRP_ID7" text="Television" selected="true"/>
 							</html:div>
 							<html:div class="col-md-3">
-								<RadioButton groupName="GroupE" id="LRRBGRP_ID8" text="Machinery/Apparatus" selected="true"/>
+								<RadioButton groupName="GroupE" id="RBGRP_ID8" text="Machinery/Apparatus" selected="true"/>
 							</html:div>
-								<html:div class="col-md-3">
-								<RadioButton groupName="GroupE" id="LRRBGRP_ID9" text="Miscellaneous" selected="true"/>
+							<html:div class="col-md-3">
+								<RadioButton groupName="GroupE" id="RBGRP_ID9" text="Miscellaneous" selected="true"/>
 							</html:div>
 						</html:div>
-						
 						<html:div class="row">
-							<Label class="col-md-4"  text="No of Points"  labelFor="input-a" required="true" />
-							<html:div class="col-md-4"><Input id="LRpointInput"   type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
-							<html:div class="row">
-							<Label class="col-md-4"  text="W/Point" labelFor="input-a" required="true" />
-							<html:div class="col-md-4"><Input id="LRwattInput"   type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
+							<Label class="col-md-4" text="No of Points" labelFor="input-a" required="true"/>
+							<html:div class="col-md-4"><Input id="pointInput" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
 						<html:div class="row">
+							<Label class="col-md-4" text="W/Point" labelFor="input-a" required="true"/>
+							<html:div class="col-md-4"><Input id="wattInput" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-md-1">
+								<Button text="Add Load Details" press="onAddLoadDetails" class="switchcenter"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							</html:div>
+							<html:div class="col-md-1">
+								<Button text="Remove Load Details" press="onRemoveLoadDetails" class="switchcenter"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Table id="ApplyOlLoadTab" growing="true" noDataText="{NewConnectionView>/tableNoDataText}" growingScrollToLoad="true"
+								mode="SingleSelectLeft" items="{oLoadTableModel}">
+								<columns>
+									<Column minScreenWidth="Desktop">
+										<Text text="Apertures"/>
+									</Column>
+									<Column minScreenWidth="Desktop" demandPopin="true">
+										<Text text="Number Of Point"/>
+									</Column>
+									<Column minScreenWidth="Desktop" demandPopin="true">
+										<Text text="Wattage Per Point"/>
+									</Column>
+									<Column minScreenWidth="Desktop" demandPopin="true">
+										<Text text="Total Wattage"/>
+									</Column>
+								</columns>
+								<items>
+									<ColumnListItem>
+										<cells>
+											<ObjectIdentifier title="{Apertures}"/>
+											<Text text="{NoPoint}"/>
+											<Text text="{WattPerPoint}"/>
+											<Text text="{TotWatt}"/>
+										</cells>
+									</ColumnListItem>
+								</items>
+							</Table>
+							<!--<Table
+									mode="MultiSelect"
+									items="{
+										path: 'products>/ProductCollection'
+									}"
+									columns="{
+										path: 'clone>/'
+									}">
+									<headerToolbar>
+										<Toolbar>
+											<Title text="Products (Correct Usage)" level="H2"/>
+										</Toolbar>
+									</headerToolbar>
+									<columns>
+										<Column width="{clone>width}" styleClass="{clone>styleClass}" demandPopin="{clone>demandPopin}" minScreenWidth="{clone>minScreenWidth}" popinDisplay="WithoutHeader">
+											<Input value="{clone>width}" description="{clone>header}"/>
+										</Column>
+									</columns>
+									<items>
+										<ColumnListItem vAlign="Middle" type="Navigation">
+											<cells>
+												<Text text="{products>Name}" wrapping="false" />
+												<Text text="{products>SupplierName}" wrapping="false"/>
+												<Text text="{products>Description}" wrapping="false" />
+											</cells>
+										</ColumnListItem>
+									</items>
+								</Table>-->
+							<!--<Table id="productsTable"
+		items="{/ProductCollection}">
+		<headerToolbar>
+			<OverflowToolbar>
+				<Title text="Products" level="H2"/>
+				<ToolbarSpacer/>
+				
+				<CheckBox text="Enable Personalization Grouping" select="onTableGrouping" />
+				
+				<Button icon="sap-icon://action-settings" press="onPersoButtonPressed" >
+					<layoutData>
+						<OverflowToolbarLayoutData priority="NeverOverflow" />
+					</layoutData>
+				</Button>
+			</OverflowToolbar>
+		</headerToolbar>
+		<columns>
+			<Column id="productCol" width="12em"><Text text="Product" /></Column>
+			<Column id="supplierCol" minScreenWidth="Tablet" demandPopin="true"><Text text="Supplier" /></Column>
+			<Column id="dimensionsCol" minScreenWidth="Tablet" demandPopin="true" hAlign="End"><Text text="Dimensions" /></Column>
+			<Column id="weightCol" minScreenWidth="Tablet" demandPopin="true" hAlign="Center"><Text text="Weight" /></Column>
+			<Column id="priceCol" hAlign="End"><Text text="Price" /></Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<ObjectIdentifier title="{Name}" text="{ProductId}" class="sapMTableContentMargin" />
+					<Text text="{SupplierName}" />
+					<Text text="{Width} x {Depth} x {Height} {DimUnit}" />
+					<ObjectNumber number="{WeightMeasure}" unit="{WeightUnit}"
+						state="{
+							path: 'WeightMeasure',
+							formatter: 'sap.m.sample.TablePerso.Formatter.weightState'
+						}" />
+					<ObjectNumber
+                        number="{
+                            parts:[{path:'Price'},{path:'CurrencyCode'}],
+                            type: 'sap.ui.model.type.Currency',
+                            formatOptions: {showMeasure: false}
+                        }"
+                        unit="{CurrencyCode}" />
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>-->
+							<!--<table:Table id="Table1" rows="{/}">
+
+            <table:title>
+
+        			 <html:div class="row">
 							<html:div class="col-md-1">
 								<Button  text="Add Load Details" press="onAddLoadDetails" class="switchcenter"
 									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
@@ -282,74 +393,77 @@
 									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 							</html:div>
 						</html:div>	
-			   			<html:div class="row">
-			   				<Table id="LRApplyOlLoadTab" growing="true"
-			            noDataText="{NewConnectionView>/tableNoDataText}"
-			            growingScrollToLoad="true"
-			            mode="SingleSelectLeft"
-                        items="{oLoadTableModel}">
-							<columns>
-								<Column minScreenWidth="Desktop">
-									<Text text="Apertures"/>
-								</Column>
-								<Column minScreenWidth="Desktop" demandPopin="true">
-									<Text text="Number Of Point"/>
-								</Column>
-								<Column minScreenWidth="Desktop" demandPopin="true">
-									<Text text="Wattage Per Point"/>
-								</Column>
-								<Column minScreenWidth="Desktop" demandPopin="true">
-									<Text text="Total Wattage"/>
-								</Column>
-							</columns>
-							<items>
-								<ColumnListItem>
-									<cells>
-										<ObjectIdentifier title="{Apertures}"/>
-										<Text text="{NoPoint}"/>
-										<Text text="{WattPerPoint}"/>
-										<Text text="{TotWatt}"/>
-									</cells>
-								</ColumnListItem>
-							</items>
-						</Table>
-			   				
-								
+
+            </table:title>
+
+            <table:columns>
+                        <table:Column sortProperty="Apparatus" filterProperty="Apparatus">
+
+
+                                  <Label text="Apparatus"/>
+
+                                        <table:template><Text text="{Apparatus}" ></Text></table:template>
+
+                        </table:Column>
+
+                        <table:Column sortProperty="NoofPoints" filterProperty="NoofPoints">
+
+                                  <Label text="No of Points"/>
+
+                                        <table:template><Text text="{NoofPoints}" ></Text></table:template>
+
+                        </table:Column>
+                        <table:Column sortProperty="WattageperPoint" filterProperty="WattageperPoint">
+
+                                  <Label text="Wattage per Point"/>
+
+                                        <table:template><Text text="{WattageperPoint}" ></Text></table:template>
+                        </table:Column>
+                        
+                        <table:Column sortProperty="TotalWattage" filterProperty="TotalWattage">
+
+                                  <Label text="Total Wattage"/>
+
+                                       <table:template><Text text="{TotalWattage}" ></Text></table:template>
+
+                        </table:Column>
+
+            </table:columns>
+
+  </table:Table>-->
 						</html:div>
-						
 						<html:div class="row powerreq">
 							<html:div class="col-xs-12">
 								<html:h5>Licenced Electrical Contract Details
 								</html:h5>
 							</html:div>
 						</html:div>
-						
 						<html:div class="row">
-							<Label class="col-md-4"  text="Name" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRnameInputId" required="true" type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
-						
+							<Label class="col-md-4" text="Name" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="nameInputId" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
 						<html:div class="row">
-							<Label class="col-md-4"  text="Licence No" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRliencenoInputId" required="true" type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
-					
-							<html:div class="row">
-							<Label class="col-md-4"  text="Mobile No" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRmobilenoInputId" required="true" type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
-						
+							<Label class="col-md-4" text="Licence No" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="liencenoInputId" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
 						<html:div class="row">
-							<Label class="col-md-4"  text="E-Mail Address" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="LRemailidInputId" required="true" type="Text" class="sapUiSmallMarginBottom"/>
-						</html:div></html:div>
-					
+							<Label class="col-md-4" text="Mobile No" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="mobilenoInputId" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="E-Mail Address" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="emailidInputId" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-3">
 								<Button icon="sap-icon://save" text="Submit" press="onSaveMeterData" class="switchcenter"
 									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 							</html:div>
-						</html:div>	
+						</html:div>
 					</html:div>
 				</html:div>
 			</Panel>

@@ -1,9 +1,8 @@
-<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core"
-xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel >
+			<Panel>
 				<html:h5>Switch Over</html:h5>
 				<html:div class="apply">
 					<html:div class="row">
@@ -21,70 +20,27 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 						<html:h5 class="indicate2">Switch Over</html:h5>
 						<html:hr/>
 					</html:div>
-					<html:div class="boxpad" id="firstpageSWC">
-						<html:div id="selectiondivSWC">
-						<html:div class="row" id="blkdiv1SWC">
-							<html:div class="col-md-3">
-								<RadioButton id="RBGRP2_11SWC" groupName="GroupexistingSWC" text="Existing Tata Power Consumer"  select="changeconsumer"/>
-							</html:div>
-							<html:div class="col-md-3">
-								<RadioButton id="RBGRP2_22SWC" groupName="GroupexistingSWC" text="Existing Consumer Of Other Utility " select="changeconsumer"/>
-							</html:div>
-						</html:div>
-						<html:div class="row" style="display:none;" id="existingcondivSWC">
+					<html:div class="boxpad">
+						<html:div class="row">
 							<html:div class=" col-md-2">
-							<Input id="consumernoInputSWC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Consumer Number"/>
+								<Input id="consumernoInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Consumer Number"/>
 							</html:div>
 							<html:div class="col-md-2">
 								<Button icon="sap-icon://arrow-right" text="Proceed" press="onConsumerDetails" class="switchcenter"
 									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 							</html:div>
 						</html:div>
-						<html:div  style="display:none;" id="othercondivSWC">
-							<html:div class="row">
-								<html:div class=" col-md-12">
-								<Text  text="Do you have your registration no. for Switchover"/>
-								</html:div>
-								<html:div class="col-md-12">
-									<Text text='If "YES" kindly enter the Registration Number and click on submit. Else click "No" and Apply for Switchover.' />
-								</html:div>
-							</html:div>
-							<html:div class="row" id="blkdiv1SWC">
-							<html:div class="col-md-3">
-								<RadioButton id="RBGRPOTHR_1SWC" groupName="GroupotherSWC" text="Yes"  select="changeregconsumer"/>
-							</html:div>
-							<html:div class="col-md-3">
-								<RadioButton id="RBGRPOTHR_2SWC" groupName="GroupotherSWC" text="No" select="changeregconsumer"/>
-							</html:div>
-						</html:div>
-						<html:div class="row" style="display:none;" id="regcondivSWC">
-							<html:div class=" col-md-2">
-							<Input id="regnoInputSWC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Registration Number"/>
-							</html:div>
-							<html:div class="col-md-2">
-								<Button icon="sap-icon://arrow-right" text="Proceed" press="onConsumerDetails" class="switchcenter"
-									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-							</html:div>
-						</html:div>
-						</html:div>
-						
-						
-						</html:div>
-						
-						<html:div style="display:none;" id="blkdiv2SWC">
 						<html:div class="row">
 							<html:div class="col-md-6">
 								<Label text="Name( As per bill )" labelFor="input-a" required="true"/>
-								<Input id="nameInputSWC" type="Text" required='true' class="sapUiSmallMarginBottom" placeholder="Name" value="{ConsumerDetails>/NameBill}"/>
+								<Input id="nameInput" type="Text" required='true' class="sapUiSmallMarginBottom" placeholder="Name" value="{ConsumerDetails>/NameBill}"/>
 							</html:div>
 							<html:div class="col-md-6">
-									<Label text="Applicant Name (In full)" labelFor="input-a" required="true"/>
-								<Input id="fullnameInputSWC" type="Text" required='true' class="sapUiSmallMarginBottom" placeholder="Applicant Full Name." value="{ConsumerDetails>/ApplName}"/>
+								<Label text="Applicant Name (In full)" labelFor="input-a" required="true"/>
+								<Input id="fullnameInput" type="Text" required='true' class="sapUiSmallMarginBottom" placeholder="Applicant Full Name."
+									value="{ConsumerDetails>/ApplName}"/>
 							</html:div>
 						</html:div>
-						
-					
-						
 						<html:div class="row">
 							<html:div class="col-xs-12 addresspremises">
 								<html:h5>Address Premises at Which Supply is required
@@ -94,100 +50,67 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 						<html:div class="row buildflat">
 							<html:div class="col-md-4">
 								<Label text="Flat/Gala/shop No/ office No" labelFor="input-a" required="true"/>
-								<Input id="flatInputSWC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Flat/Gala/shop No/ office No" value="{ConsumerDetails>/FlatNo}"/>
+								<Input id="flatInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Flat/Gala/shop No/ office No"
+									value="{ConsumerDetails>/FlatNo}"/>
 							</html:div>
 							<html:div class="col-md-8">
 								<Label text="Building Name/Plot No" labelFor="input-a" required="true"/>
-								<Input id="buildInputSWC" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Building Name/Plot No" value="{ConsumerDetails>/PlotNo}"/>
+								<Input id="buildInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Building Name/Plot No"
+									value="{ConsumerDetails>/PlotNo}"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
 								<Label text="Society" labelFor="input-a" required="true"/>
-								<Input id="societyInputSWC" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Society" value="{ConsumerDetails>/Society}"/>
+								<Input id="societyInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Society" value="{ConsumerDetails>/Society}"/>
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Lane/Street" labelFor="input-a" required="true"/>
-								<!--<Input id="laneInputSWC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Lane/Street" showSuggestion="true" showValueHelp="true" valueHelpRequest="onVHLaneStreet1" suggestionItems="{path:'LaneStreet>/results'}"  value="{ConsumerDetails>/Street}"/>-->
-								<Input id="laneInputSWC" showSuggestion="true" showValueHelp="true"
-									     valueHelpRequest="onVHLaneStreet1"
-									     suggestionItems="{path:'LaneStreet>/results'}" 
-									     value="{ConsumerDetails>/Street}" >
-									<suggestionItems>
-										<core:Item text="{LaneStreet>Street}" key="{LaneStreet>StrtCode}"/>
-									</suggestionItems>
-								</Input>
-								
+								<Input id="laneInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Lane/Street"
+									value="{ConsumerDetails>/Street}"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
 								<Label text="Postal Code" labelFor="input-a" required="true"/>
-								<!--<Input id="postInputSWC" type="Number" class="sapUiSmallMarginBottom" placeholder="Enter Postal Code" value="{ConsumerDetails>/PostalCode}"/>-->
-								<Input id="postInputSWC" showSuggestion="true" showValueHelp="true"
-									     valueHelpRequest="onPostalCodeHelp"
-									     suggestionItems="{path:'PostalCode>/results'}" 
-									     value="{ConsumerDetails>/PostalCode}" >
-									<suggestionItems>
-										<core:Item text="{PostalCode>PostCode}" key="{PostalCode>PostCode}"/>
-									</suggestionItems>
-								</Input>
+								<Input id="postInput" type="Number" class="sapUiSmallMarginBottom" placeholder="Enter Postal Code" value="{ConsumerDetails>/PostalCode}"/>
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Locality" labelFor="input-a" required="true"/>
-								<!--<Input id="localityInputSWC" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Locality" value="{ConsumerDetails>/Locality}"/>-->
-								<Input id="localityInputSWC" showSuggestion="true" showValueHelp="true"
-									     valueHelpRequest="onVHSubUrb1"
-									     suggestionItems="{path:'SubUrban>/results'}" 
-									     value="{ConsumerDetails>/Locality}" >
-									<suggestionItems>
-										<core:Item text="{SubUrban>CityPart}" key="{SubUrban>CityPart}"/>
-									</suggestionItems>
-								</Input>
+								<Input id="localityInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Locality" value="{ConsumerDetails>/Locality}"/>
 							</html:div>
-						
 						</html:div>
 						<html:div class="row">
-								<html:div class="col-md-6">
+							<html:div class="col-md-6">
 								<Label text="City" labelFor="input-a" required="true"/>
-								<!--<Input id="cityInputSWC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter City" value="{ConsumerDetails>/City}"/>-->
-								<Input id="cityInputSWC" showSuggestion="true" showValueHelp="true"
-									     valueHelpRequest="onCityValHelp"
-									     suggestionItems="{path:'SubUrban>/results'}" 
-									     value="{ConsumerDetails>/City}" >
-									<suggestionItems>
-										<core:Item text="{SubUrban>CityName}" key="{SubUrban>CityPart}"/>
-									</suggestionItems>
-								</Input>
+								<Input id="cityInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter City" value="{ConsumerDetails>/City}"/>
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Landmark" labelFor="input-a" required="true"/>
-								<Input id="landInputSWC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Landmark" value="{ConsumerDetails>/Landmark}"/>
+								<Input id="landInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Landmark"
+									value="{ConsumerDetails>/Landmark}"/>
 							</html:div>
 						</html:div>
-						
 						<html:div class="row">
 							<html:div class="col-md-6">
 								<Label text="Mobile number" labelFor="input-a" required="true"/>
-								<Input id="mobInputSWC" type="Text" class="sapUiSmallMarginBottom" placeholder="Mobile number" value="{ConsumerDetails>/MobileNo}"/>
+								<Input id="mobInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Mobile number" value="{ConsumerDetails>/MobileNo}"/>
 							</html:div>
-							
-								<html:div class="col-md-6">
-									<Label text="Land Line number" labelFor="input-a"/>
-									<Input id="landlineInputSWC" type="Text" class="sapUiSmallMarginBottom" placeholder="Land Line number" value="{CosumertDetails>/LandlineNo}"/>
-								</html:div>
-						</html:div> 
+							<html:div class="col-md-6">
+								<Label text="Land Line number" labelFor="input-a"/>
+								<Input id="landlineInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Land Line number" value="{CosumertDetails>/LandlineNo}"/>
+							</html:div>
+						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
-									<Label text="Email ID" labelFor="input-a" required="true"/>
-									<Input id="mailInputSWC" type="Text" class="sapUiSmallMarginBottom" placeholder="Email ID" value="{ConsumerDetails>/EmailId}"/>
-								</html:div>
-								<html:div class="col-md-6">
-									<Label text="PAN Number" labelFor="input-a"/>
-									<Input id="panInputSWC" type="Text" class="sapUiSmallMarginBottom" placeholder="PAN Number" value="{ConsumerDetails>/PanNumber}"/>
-								</html:div>
+								<Label text="Email ID" labelFor="input-a" required="true"/>
+								<Input id="mailInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Email ID" value="{ConsumerDetails>/EmailId}"/>
+							</html:div>
+							<html:div class="col-md-6">
+								<Label text="PAN Number" labelFor="input-a"/>
+								<Input id="panInput" type="Text" class="sapUiSmallMarginBottom" placeholder="PAN Number" value="{ConsumerDetails>/PanNumber}"/>
+							</html:div>
 						</html:div>
-						
 						<html:div class="row typepremises">
 							<html:div class="col-xs-12">
 								<html:h5>type of premises</html:h5>
@@ -195,16 +118,16 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-2">
-								<RadioButton id="RB11SWC" groupName="GroupASWC" text="Owned" selected="true" select="rbchange"  />
+								<RadioButton id="RB11" groupName="GroupA" text="Owned" selected="true" select="rbchange"/>
 							</html:div>
 							<html:div class="col-md-2">
-								<RadioButton id="RB22SWC" groupName="GroupASWC" text="Rented" select="rbchange"/>
+								<RadioButton id="RB22" groupName="GroupA" text="Rented" select="rbchange"/>
 							</html:div>
 							<html:div class="col-md-2">
-								<RadioButton id="RB33SWC" groupName="GroupASWC" text="Lease" select="rbchange"/>
+								<RadioButton id="RB33" groupName="GroupA" text="Lease" select="rbchange"/>
 							</html:div>
 							<html:div class="col-md-2">
-								<RadioButton id="RB44SWC" groupName="GroupASWC" text="Other (Specify)" select="rbchange"/>
+								<RadioButton id="RB44" groupName="GroupA" text="Other (Specify)" select="rbchange"/>
 							</html:div>
 						</html:div>
 						<html:div class="row premises">
@@ -216,49 +139,56 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 						<html:div class="row buildflat">
 							<html:div class="col-md-4">
 								<Label text="Name" labelFor="input-a"/>
-								<Input id="rnameInputSWC" required="true" enabled="false" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Flat/Gala/shop No/ office No" value="{ConsumerDetails>/PremiseName}"/>
+								<Input id="rnameInput" required="true" enabled="false" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Flat/Gala/shop No/ office No" value="{ConsumerDetails>/PremiseName}"/>
 							</html:div>
-							
 						</html:div>
 						<html:div class="row buildflat">
 							<html:div class="col-md-4">
 								<Label text="Flat/Gala/shop No/ office No" labelFor="input-a"/>
-								<Input id="rflatInputSWC" required="true" enabled="false" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Flat/Gala/shop No/ office No" value="{ConsumerDetails>/PremiseFlatNo}"/>
+								<Input id="rflatInput" required="true" enabled="false" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Flat/Gala/shop No/ office No" value="{ConsumerDetails>/PremiseFlatNo}"/>
 							</html:div>
 							<html:div class="col-md-8">
 								<Label text="Building Name/Plot No" labelFor="input-a"/>
-								<Input id="rbuildInputSWC" type="Text" enabled="false" class="sapUiSmallMarginBottom" placeholder="Enter Building Name/Plot No" value="{ConsumerDetails>/PremisePlotNo}"/>
+								<Input id="rbuildInput" type="Text" enabled="false" class="sapUiSmallMarginBottom" placeholder="Enter Building Name/Plot No"
+									value="{ConsumerDetails>/PremisePlotNo}"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
 								<Label text="Society" labelFor="input-a"/>
-								<Input id="rsocietyInputSWC" type="Text" enabled="false" class="sapUiSmallMarginBottom" placeholder="Enter Society" value="{ConsumerDetails>/PremiseSociety}"/>
+								<Input id="rsocietyInput" type="Text" enabled="false" class="sapUiSmallMarginBottom" placeholder="Enter Society"
+									value="{ConsumerDetails>/PremiseSociety}"/>
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Lane/Street" labelFor="input-a"/>
-								<Input id="rlaneInputSWC" required="true" enabled="false" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Lane/Street" value="{ConsumerDetails>/PremiseStreet}"/>
+								<Input id="rlaneInput" required="true" enabled="false" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Lane/Street"
+									value="{ConsumerDetails>/PremiseStreet}"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
-								<html:div class="col-md-6">
-								<Label text="Postal Code" labelFor="input-a" />
-								<Input id="rpostInputSWC" type="Number" enabled="false" class="sapUiSmallMarginBottom" placeholder="Enter Postal Code" value="{ConsumerDetails>/PremisePostalCode}"/>
+							<html:div class="col-md-6">
+								<Label text="Postal Code" labelFor="input-a"/>
+								<Input id="rpostInput" type="Number" enabled="false" class="sapUiSmallMarginBottom" placeholder="Enter Postal Code"
+									value="{ConsumerDetails>/PremisePostalCode}"/>
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Locality" labelFor="input-a"/>
-								<Input id="rlocalityInputSWC" type="Text" enabled="false" class="sapUiSmallMarginBottom" placeholder="Enter Locality" value="{ConsumerDetails>/PremiseLocality}"/>
+								<Input id="rlocalityInput" type="Text" enabled="false" class="sapUiSmallMarginBottom" placeholder="Enter Locality"
+									value="{ConsumerDetails>/PremiseLocality}"/>
 							</html:div>
-						
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
 								<Label text="City" labelFor="input-a"/>
-								<Input id="rcityInputSWC" required="true" enabled="false" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter City" value="{ConsumerDetails>/PremiseCity}"/>
+								<Input id="rcityInput" required="true" enabled="false" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter City"
+									value="{ConsumerDetails>/PremiseCity}"/>
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Landmark" labelFor="input-a"/>
-								<Input id="rlandInputSWC" required="true" enabled="false" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Landmark" value="{ConsumerDetails>/PremiseLandmark}"/>
+								<Input id="rlandInput" required="true" enabled="false" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Landmark"
+									value="{ConsumerDetails>/PremiseLandmark}"/>
 							</html:div>
 						</html:div>
 						<html:div class="row coresponding">
@@ -268,46 +198,52 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 							</html:div>
 						</html:div>
 						<html:div class="row">
-							<html:div><CheckBox id="IdSameAsAboveSWC" text="Same as above" selected="false" select="onclickSameAsAbove"/></html:div>
+							<html:div><CheckBox id="IdSameAsAbove" text="Same as above" selected="false"/></html:div>
 						</html:div>
 						<html:div class="row buildflat">
 							<html:div class="col-md-4">
 								<Label text="Flat/Gala/shop No/ office No" labelFor="input-a" required="true"/>
-								<Input id="aflatInputSWC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Flat/Gala/shop No/ office No" value="{ConsumerDetails>/CorrFlatNo}"/>
+								<Input id="aflatInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Flat/Gala/shop No/ office No"
+									value="{ConsumerDetails>/CorrFlatNo}"/>
 							</html:div>
 							<html:div class="col-md-8">
 								<Label text="Building Name/Plot No" labelFor="input-a" required="true"/>
-								<Input id="abuildInputSWC" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Building Name/Plot No" value="{ConsumerDetails>/CorrPlotNo}"/>
+								<Input id="abuildInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Building Name/Plot No"
+									value="{ConsumerDetails>/CorrPlotNo}"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
 								<Label text="Society" labelFor="input-a" required="true"/>
-								<Input id="asocietyInputSWC" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Society" value="{ConsumerDetails>/CorrSociety}"/>
+								<Input id="asocietyInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Society" value="{ConsumerDetails>/CorrSociety}"/>
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Lane/Street" labelFor="input-a" required="true"/>
-								<Input id="alaneInputSWC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Lane/Street" value="{ConsumerDetails>/CorrStreet}"/>
+								<Input id="alaneInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Lane/Street"
+									value="{ConsumerDetails>/CorrStreet}"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
-								<html:div class="col-md-6">
+							<html:div class="col-md-6">
 								<Label text="Postal Code" labelFor="input-a" required="true"/>
-								<Input id="apostInputSWC" type="Number" class="sapUiSmallMarginBottom" placeholder="Enter Postal Code" value="{ConsumerDetails>/CorrPostalCode}"/>
+								<Input id="apostInput" type="Number" class="sapUiSmallMarginBottom" placeholder="Enter Postal Code"
+									value="{ConsumerDetails>/CorrPostalCode}"/>
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Locality" labelFor="input-a" required="true"/>
-								<Input id="alocalityInputSWC" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Locality" value="{ConsumerDetails>/CorrLocality}" />
+								<Input id="alocalityInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Locality" value="{ConsumerDetails>/CorrLocality}"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
-						<html:div class="col-md-6">
+							<html:div class="col-md-6">
 								<Label text="City" labelFor="input-a" required="true"/>
-								<Input id="acityInputSWC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter City" value="{ConsumerDetails>/CorrCity}"/>
+								<Input id="acityInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter City"
+									value="{ConsumerDetails>/CorrCity}"/>
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Landmark" labelFor="input-a" required="true"/>
-								<Input id="alandInputSWC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Landmark" value="{ConsumerDetails>/CorrLandmark}"/>
+								<Input id="alandInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Landmark"
+									value="{ConsumerDetails>/CorrLandmark}"/>
 							</html:div>
 						</html:div>
 						<html:div class="row ebilling">
@@ -318,10 +254,10 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-3">
-								<RadioButton id="RBGRP2_1SWC" groupName="GroupBSWC" text="Yes" selected="true"/>
+								<RadioButton id="RBGRP2_1" groupName="GroupB" text="Yes" selected="true"/>
 							</html:div>
 							<html:div class="col-md-3">
-								<RadioButton id="RBGRP2_2SWC" groupName="GroupBSWC" text="No"/>
+								<RadioButton id="RBGRP2_2" groupName="GroupB" text="No"/>
 							</html:div>
 							<html:div class="col-md-6 col-sm-12 col-xs-12">
 								<html:h6>We promote granulation to avoid waste of papers</html:h6>
@@ -333,91 +269,73 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 								</html:h5>
 							</html:div>
 						</html:div>
-						
 						<html:div class="row buildflat">
 							<html:div class="col-md-6">
 								<Label text="Existing Utility" labelFor="input-a" required="true"/>
-								<Select class="sapUiSmallMarginBottom" width="100%" id="existingutilityInputSWC"
-									forceSelection="false"
-									selectedKey="{CustomerDetails>/ExistingUtility}"
-									items="{
-										path: 'ExistingUtilitydata>/results',
-										sorter: { path: '' }
-									}">
-									<core:Item key="{ExistingUtilitydata>DomvalueL}" text="{ExistingUtilitydata>Ddtext}" />
+								<Select class="sapUiSmallMarginBottom" width="100%" id="existingutilityInput" forceSelection="false"
+									selectedKey="{CustomerDetails>/ExistingUtility}" items="{ path: 'ExistingUtilitydata>/results', sorter: { path: '' } }">
+									<core:Item key="{ExistingUtilitydata>DomvalueL}" text="{ExistingUtilitydata>Ddtext}"/>
 								</Select>
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Existing Utility No" labelFor="input-a" required="true"/>
-								<Input id="existingutilitynoInputSWC" type="Text" class="sapUiSmallMarginBottom" value="{ConsumerDetails>/ExistingUtilityNo}"/>
+								<Input id="existingutilitynoInput" type="Text" class="sapUiSmallMarginBottom" value="{ConsumerDetails>/ExistingUtilityNo}"/>
 							</html:div>
 						</html:div>
-						
 						<html:div class="row">
 							<html:div class="col-md-6">
 								<Label text="Meter No" labelFor="input-a" required="true"/>
-								<Input id="meternoInputSWC" type="Text" class="sapUiSmallMarginBottom" value="{ConsumerDetails>/MeterNo}"/>
+								<Input id="meternoInput" type="Text" class="sapUiSmallMarginBottom" value="{ConsumerDetails>/MeterNo}"/>
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Purpose of Supply" labelFor="input-a" required="true"/>
-							<Select class="sapUiSmallMarginBottom" width="100%" id="purposeofsupplyInputSWC"
-									forceSelection="false"
-									selectedKey="{ConsumerDetails>/PurposeSupply}"
-									items="{
-										path: 'PurposeOfSupplydata>/results',
-										sorter: { path: '' }
-									}">
-									<core:Item key="{PurposeOfSupplydata>DomvalueL}" text="{PurposeOfSupplydata>Ddtext}" />
+								<Select class="sapUiSmallMarginBottom" width="100%" id="purposeofsupplyInput" forceSelection="false"
+									selectedKey="{ConsumerDetails>/PurposeSupply}" items="{ path: 'PurposeOfSupplydata>/results', sorter: { path: '' } }">
+									<core:Item key="{PurposeOfSupplydata>DomvalueL}" text="{PurposeOfSupplydata>Ddtext}"/>
 								</Select>
 							</html:div>
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
 								<Label text="Category of Supply" labelFor="input-a" required="true"/>
-								<Select class="sapUiSmallMarginBottom" width="100%" id="categoryofsupplyInputSWC"
-									forceSelection="false"
-									selectedKey="{/ProductCollection/0/ProductId}"
-									items="{
-										path: 'SupplyCatSerachdata>/results',
-										sorter: { path: '' }
-									}">
-									<core:Item key="{SupplyCatSerachdata>DomvalueL}" text="{SupplyCatSerachdata>Ddtext}" />
+								<Select class="sapUiSmallMarginBottom" width="100%" id="categoryofsupplyInput" forceSelection="false"
+									selectedKey="{/ProductCollection/0/ProductId}" items="{ path: 'SupplyCatSerachdata>/results', sorter: { path: '' } }">
+									<core:Item key="{SupplyCatSerachdata>DomvalueL}" text="{SupplyCatSerachdata>Ddtext}"/>
 								</Select>
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="I Choose Meter" labelFor="input-a" required="true"/>
-								<Input id="ichoosemeterInputSWC" type="Text" enabled="false" value="Tata Power" class="sapUiSmallMarginBottom" />
+								<Input id="ichoosemeterInput" type="Text" enabled="false" value="Tata Power" class="sapUiSmallMarginBottom"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
 								<Label text="Contract Demand" labelFor="input-a" required="true"/>
-								<Input id="contractDemandInputSWC" type="Text"   class="sapUiSmallMarginBottom" value="{ConsumerDetails>/ContractDmd}"/>
+								<Input id="contractDemandInput" type="Text" class="sapUiSmallMarginBottom" value="{ConsumerDetails>/ContractDmd}"/>
 							</html:div>
 							<html:div class="col-md-6">
-									<Label text="Connected Load" labelFor="input-a" />
-								<Input id="connectedLoadInputSWC" type="Text"  class="sapUiSmallMarginBottom" value="{ConsumerDetails>/ConnLoad}"/>
+								<Label text="Connected Load" labelFor="input-a"/>
+								<Input id="connectedLoadInput" type="Text" class="sapUiSmallMarginBottom" value="{ConsumerDetails>/ConnLoad}"/>
 							</html:div>
 						</html:div>
-							<html:div class="row">
+						<html:div class="row">
 							<html:div class="col-md-6">
-								<Label text="Consumption" labelFor="input-a" />
-								<Input id="consumptionInputSWC" type="Text"  class="sapUiSmallMarginBottom"  value="{ConsumerDetails>/Consumption}"/>
+								<Label text="Consumption" labelFor="input-a"/>
+								<Input id="consumptionInput" type="Text" class="sapUiSmallMarginBottom" value="{ConsumerDetails>/Consumption}"/>
 							</html:div>
 							<html:div class="col-md-6">
-									<Label text="Bill Amount" labelFor="input-a" />
-								    <Input id="billAmountInputSWC" type="Text"   class="sapUiSmallMarginBottom" value="{ConsumerDetails>/BillAmount}"/>
+								<Label text="Bill Amount" labelFor="input-a"/>
+								<Input id="billAmountInput" type="Text" class="sapUiSmallMarginBottom" value="{ConsumerDetails>/BillAmount}"/>
 							</html:div>
 						</html:div>
-						
 						<html:div class="row">
 							<html:div class="col-md-6">
 								<Label text="Type Of Supply" labelFor="input-a" required="true"/>
-								<Input id="typeOfSupplyInputSWC" type="Text"   class="sapUiSmallMarginBottom" value="{ConsumerDetails>/PhaseOfSupply}"/>
+								<Input id="typeOfSupplyInput" type="Text" class="sapUiSmallMarginBottom" value="{ConsumerDetails>/PhaseOfSupply}"/>
 							</html:div>
 							<html:div class="col-md-6">
-									<Label text="No Of Meter" labelFor="input-a" />
-								    <Input id="noOfMeterInputSWC" type="Text"   class="sapUiSmallMarginBottom" value="{ConsumerDetails>/NoOfMeters}"/>
+								<Label text="No Of Meter" labelFor="input-a"/>
+								<Input id="noOfMeterInput" type="Text" class="sapUiSmallMarginBottom" value="{ConsumerDetails>/NoOfMeters}"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
@@ -425,152 +343,33 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 								<Label text="Terms &amp; Conditions" labelFor="input-a" required="true"/>
 							</html:div>
 							<html:div class="col-md-3">
-								<CheckBox id="IdagreetermSWC" text="I/We agree to the below Terms and Conditions" selected="false"/> 
+								<CheckBox id="Idagreeterm" text="I/We agree to the below Terms and Conditions" selected="false"/>
 							</html:div>
 						</html:div>
-						<html:div class="row" ><html:div class="col-md-6">	<Link
-						text="Read terms and conditions"
-						press="onMessageErrorDialogPress" /> </html:div></html:div>
+						<html:div class="row">
+							<html:div class="col-md-6">
+								<Link text="Read terms and conditions" press="onMessageErrorDialogPress"/>
+							</html:div>
+						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-3">
-								<Button icon="sap-icon://save" text="SAVE AS DRAFT" id="btnSaveAsDraftSWC" press="onSaveAsDraft" class="switchcenter"
-									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-									<!--<Button icon="sap-icon://save" text="Submit" id="btnSubmit" press="onSaveAsDraft(2)" class="switchcenter"
-									ariaDescribedBy="defaultButtonDescription genericButtonDescription" style="display:none"></Button>-->
-							</html:div>
-							<html:div class="col-md-3">
-								<Button icon="sap-icon://show" text="Next" press="onPressNext" id="btnNextSWC" class="switchcenter"
+								<Button icon="sap-icon://save" text="SAVE AS DRAFT" press="onSaveAsDraft" class="switchcenter"
 									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 							</html:div>
 							<html:div class="col-md-3">
-								<Button icon="sap-icon://show" text="Clear" id="btnClearSWC" press="onClear" class="switchcenter"
+								<Button icon="sap-icon://show" text="PREVIEW BASIC DATA" press="onPress" class="switchcenter"
 									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 							</html:div>
-						<!--	<html:div class="col-md-3">
+							<html:div class="col-md-3">
 								<Button icon="sap-icon://save" text="SAVE IN DRAFT" press="onPress" class="switchcenter"
 									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 							</html:div>
 							<html:div class="col-md-3">
 								<Button icon="sap-icon://arrow-left" text="BACK TO REGISTRATION PAGE" press="onPress" class="switchcenter"
 									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-							</html:div>-->
-						</html:div>
-						</html:div>
-					</html:div>
-					
-				<html:div class="boxpad" id="nextpageSWC" style="display:none;">
-						<html:div class="row">
-							<html:div class="col-md-6">
-								<Label text="Bussiness Partner" labelFor="input-a" required="true"/>
-								<Input id="bussinessPartnerInputSWC" type="Text" required='true' class="sapUiSmallMarginBottom" placeholder="Name" value="{ConsumerDetails>/NameBill}"/>
-							</html:div>
-							<html:div class="col-md-6">
-									<Label text="Consumer Number" labelFor="input-a" required="true"/>
-								<Input id="consumerNoInputSWC" type="Text" required='true' class="sapUiSmallMarginBottom" placeholder="Consumer Number" value="{ConsumerDetails>/ApplName}"/>
-							</html:div>
-						</html:div>
-						
-						
-						<html:div class="row buildflat">
-							<html:div class="col-md-6">
-								<Label text="Application Number" labelFor="input-a" required="true"/>
-								<Input id="applnoInputSWC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Application" value=""/>
-							</html:div>
-							<html:div class="col-md-6">
-								<Label text="Application Charges" labelFor="input-a" required="true"/>
-								<Input id="applChargesInputSWC" type="Text" class="sapUiSmallMarginBottom" placeholder="Application Charges" value=""/>
-							</html:div>
-						</html:div>
-						
-						<html:div class="row">
-							<html:div class="col-md-6">
-								<Label text="Service Connection Charges" labelFor="input-a" required="true"/>
-								<Input id="servConnChargInputSWC" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Sercvice Connection charges" value=""/>
-							</html:div>
-							<html:div class="col-md-6">
-								<Label text="Security Deposite" labelFor="input-a" required="true"/>
-								<Input id="secDepInputSWC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Security Deposite" value=""/>
-							</html:div>
-						</html:div>
-						
-						<html:div class="row">
-					   		<html:div class="col-md-12">
-					   			<html:p >Note : EMI Of 24 months will be applicable for paying the Service Connection Charge which will be billed in your Power Supply bill once the switch over is completed. </html:p>
-						</html:div> </html:div>
-						<html:div class="row">
-							<html:div class="col-md-6">
-								<Label text="Document Type" labelFor="input-a" required="true"/>
-								<Select class="sapUiSmallMarginBottom" width="100%" id="docTypeSWC"
-									forceSelection="false"
-									selectedKey="{/ProductCollection/0/ProductId}"
-									items="{
-										path: 'SupplyCatSerachdata>/results',
-										sorter: { path: '' }
-									}">
-									<core:Item key="{SupplyCatSerachdata>DomvalueL}" text="{SupplyCatSerachdata>Ddtext}" />
-								</Select>
-							</html:div>
-							<html:div class="col-md-6">
-								<Label text="Document Name" labelFor="input-a" required="true"/>
-								<Input id="docNameInputSWC" required="true" type="Text" enabled="false" class="sapUiSmallMarginBottom" placeholder="Enter Security Deposite" value="{ConsumerDetails>/Street}"/>
-							</html:div>
-						</html:div>
-						<html:div class="row">
-					   		<html:div class="col-md-12">
-					   			<html:p >Download and print duly filled form and EMI letter.</html:p>
-					   			<html:p >Kindly upload the duly signed form and EMI letter alog with required document.</html:p>
-				   				<html:p >All Documents should be self-attached.</html:p>
-			   					<html:p >Select document type to uploaded and then Browse/Choose file and attach.</html:p>
-			   					<html:p >*Note : Please not the application will be proccessed only if the application form, EMI Letter &amp; Requested docuuments (As per checklist above) is uploaded </html:p>
-							</html:div> </html:div>
-						<html:div class="row">
-							<html:div class="col-md-3">
-									<u:FileUploader
-												id="fileUploader"
-												name="myFileUpload"
-												uploadUrl="upload/"
-												tooltip="Upload your file to the local server"
-												uploadComplete="handleUploadComplete"
-												change="handleValueChange"
-												typeMissmatch="handleTypeMissmatch"
-												style="Emphasized"
-												fileType="txt,jpg"
-												placeholder="Choose a file for Upload...">
-													<u:parameters>
-														<u:FileUploaderParameter
-															name="param1"
-															value="Foo"/>
-														<u:FileUploaderParameter
-															name="param2"
-															value="bar"/>
-													</u:parameters>
-													<u:headerParameters>
-														<u:FileUploaderParameter
-															name="headerParam1"
-															value="Foo"/>
-														<u:FileUploaderParameter
-															name="headerParam2"
-															value="bar"/>
-													</u:headerParameters>
-										</u:FileUploader>
-						</html:div>
-						<html:div class="col-md-4">	
-							<Button icon="sap-icon://attachment" text="Attach" id="btnuploadSWC" press="onUpload" class="switchcenter"
-									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-						</html:div>	
-						</html:div>
-						<html:div class="row">
-							<html:div class="col-md-3">
-								<Button icon="sap-icon://save" text="Submit" id="btnSaveNextpageSWC" press="onSaveNextPage" class="switchcenter"
-									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-							</html:div>
-							<html:div class="col-md-3">
-								<Button icon="sap-icon://save" text="Back" id="btnBackPageSWC" press="onBackPage" class="switchcenter"
-									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 							</html:div>
 						</html:div>
 					</html:div>
-					
 				</html:div>
 			</Panel>
 		</content>

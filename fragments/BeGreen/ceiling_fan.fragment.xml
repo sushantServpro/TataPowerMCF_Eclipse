@@ -107,7 +107,7 @@
 										<Input type="Text" id="sdlccosm_num"/>
 									</html:div>
 									<html:div class="col-sm-3">
-										<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+										<Button text="SUBMIT" press="onSubmitfanPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 									</html:div>
 								</html:div>
 							</html:div>

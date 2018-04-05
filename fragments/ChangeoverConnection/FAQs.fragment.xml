@@ -3,7 +3,7 @@
 	<Panel >
 		<content>
 			<html:div>
-					<html:h4>FAQs</html:h4> 
+					<html:h4>FAQs</html:h4>
 					<html:h4 class="faqheader">Frequently Ask Question On Change Over Connection</html:h4>
 					<Panel expandable="true" expanded="false" headerText="What is the procedure to change from R-Infra to Tata Power?" width="auto"
 						class="sapUiResponsiveMargin">

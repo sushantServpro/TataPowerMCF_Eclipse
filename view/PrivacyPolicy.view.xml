@@ -2,7 +2,7 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<App>
 		<pages>
-			<Page title="Privacy Policy" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+			<Page title="Privacy Policy">
 				<content>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>

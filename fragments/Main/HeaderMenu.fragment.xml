@@ -126,10 +126,10 @@
 								</MenuButton>
 							</html:li>
 							<html:li>
-								<MenuButton text="Digital Champions" buttonMode="Split" useDefaultActionOnly="true"></MenuButton>
+							<Button text="Digital Champions" type="Transparent" class="digitalchamps" press="pressDigitalChampions"></Button>
 							</html:li>
 							<html:li>
-								<MenuButton text="FAQ's" buttonMode="Split" useDefaultActionOnly="true"></MenuButton>
+								<MenuButton text="FAQ's" buttonMode="Split" useDefaultActionOnly="false"></MenuButton>
 							</html:li>
 							<html:li>
 								<MenuButton text="About Us" buttonMode="Split" useDefaultActionOnly="true">

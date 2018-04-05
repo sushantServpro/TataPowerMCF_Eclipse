@@ -93,6 +93,7 @@
 				</html:p>
 				<html:p class="penleader">TPDDL has an independent Complaint Management Process to ensure complaint resolution in line with regulations and customer satisfaction.</html:p>
 			</Panel>
+			
 			<!--write to sl form-->
 			<Panel>
 				<html:div class="container-fluid">
@@ -109,15 +110,10 @@
 							<html:div class="row form_row">
 								<html:div class="col-sm-2">
 									<Label text="Salutation" labelFor="con_num"/>
-									<!--<MultiComboBox selectionChange="handleSelectionChange" selectionFinish="handleSelectionFinish"-->
-									<!--	items="{ path: 'McfPortalModel>/results' }">-->
-									<!--	<core:Item key="{McfPortalModel>Key}" text="{McfPortalModel>Value}"/>-->
-									<!--</MultiComboBox>-->
-									<ComboBox id="idSal" items="{SeniorLeaderModel>/results}" >
-										<!--<items>-->
-											<core:Item key="{SeniorLeaderModel>Value}" text="{SeniorLeaderModel>Value}"/>
-										<!--</items>-->
-									</ComboBox>
+									<MultiComboBox selectionChange="handleSelectionChange" selectionFinish="handleSelectionFinish"
+										items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+										<core:Item key="{ProductId}" text="{Name}"/>
+									</MultiComboBox>
 								</html:div>
 								<html:div class="col-sm-5">
 									<Label text="Consumer Number" labelFor="consm_num"/>
@@ -152,19 +148,19 @@
 									<html:div class="col-sm-10">
 										<html:div class="row">
 											<html:div class="col-sm-2">
-												<RadioButton groupName="query_cat" id="IdQuery" text="Query"/>
+												<RadioButton groupName="query_cat" text="Query"/>
 											</html:div>
 											<html:div class="col-sm-2">
-												<RadioButton groupName="query_cat" id="IdComplaint" text="Complaint"/>
+												<RadioButton groupName="query_cat" text="Complaint"/>
 											</html:div>
 											<html:div class="col-sm-2">
-												<RadioButton groupName="query_cat" id="IdRequest" text="Request"/>
+												<RadioButton groupName="query_cat" text="Request"/>
 											</html:div>
 											<html:div class="col-sm-2">
-												<RadioButton groupName="query_cat" id="IdFeedback" text="Feedback"/>
+												<RadioButton groupName="query_cat" text="Feedback"/>
 											</html:div>
 											<html:div class="col-sm-2">
-												<RadioButton groupName="query_cat" id="IdAppreciation" text="Appreciation"/>
+												<RadioButton groupName="query_cat" text="Appreciation"/>
 											</html:div>
 										</html:div>
 									</html:div>
@@ -173,31 +169,21 @@
 							<html:div class="row form_row">
 								<html:div class="col-xs-12">
 									<Label text="Please describe your query/complaint" labelFor="purpose"/>
-									<TextArea placeholder="Enter" id="IdQueCom" growing="true" growingMaxLines="7" width="100%"/>
+									<TextArea placeholder="Enter" growing="true" growingMaxLines="7" width="100%"/>
 								</html:div>
 							</html:div>
 							<html:div class="row form_row">
-								<html:div class="col-sm-5">
+								<html:div class="col-sm-6">
 									<Label text="Image Verification" labelFor="captcha"/>
-									<Input id="wInput" type="text" editable="false" value="" class="sapUiSmallMarginBottom"/>
-									<!--<Button text="REFRESH CAPTCHA" press="onRefreshCaptcha" class="switchcenter rpfbtn"-->
-									<!--ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>-->
 								</html:div>
-								<html:div class="col-sm-1">
-									<!--<Label text="Image Verification" labelFor="captcha"/>-->
-									<!--<Input id="wInput" type="text" editable="false" value="" class="sapUiSmallMarginBottom"/>-->
-									<Button text="Refresh" press="onRefreshCaptcha" class="switchcenter rpfbtn"
-										ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-								</html:div>
-								<html:div class="col-sm-5">
+								<html:div class="col-sm-6">
 									<Label text="Enter Image Verification Code" labelFor="captcha"/>
-									<Input type="text" id="captcha1" required="true" placeholder="Enter"/>
+									<Input type="Number" id="captcha1" required="true" placeholder="Enter"/>
 								</html:div>
 							</html:div>
 							<html:div class="row form_row">
 								<html:div class="col-md-2 col-md-offset-5">
-									<Button text="SUBMIT" press="onPressSubmit" class="switchcenter form-control"
-										ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+									<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 								</html:div>
 							</html:div>
 						</html:div>

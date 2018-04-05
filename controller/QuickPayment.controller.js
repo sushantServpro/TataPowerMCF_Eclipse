@@ -73,7 +73,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 
 		
 		},
-         
+
 		/**
 		 * Called when the Controller is destroyed. Use this one to free resources and finalize activities.
 		 * @memberOf sap.ui.core.demo.nav.view.PaymentHistory
@@ -83,66 +83,6 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 		
 		}
 
-		
-		if (sel_METHOD.equalsIgnoreCase(Constants.NET_BANKING)) {
-            String bank_code_billdesk = "";
-            String bank_code_lt = (selected_bank.split(":"))[1];
-            String code_lt[] = bank_code_lt.split(",");
-            for (int i = 0; i < code_lt.length; i++) {
-                if ((code_lt[i].split("-")[0]).equals("B")) {
-                    bank_code_billdesk = code_lt[i].split("-")[1];
-                }
-            }
-            url = "https://www.billdesk.com/pgidsk/PGIMerchantRequestHandler?hidRequestId=PGIME1000&hidOperation=ME100";
-
-            c = "TATAPOWERN|" + randomString + "|NA|" + /amt.toPlainString().toString()/ "1.0" + "|"
-                    + bank_code_billdesk/selected_bank.split(",")[1]/ + "|NA|NA|" + "INR" + "|DIRECT|R|tatapowern|NA|NA|F|"
-                    + accountDetails + "|" + bill_number
-                    + "|MOBILEAPP|NA|NA|NA|NA|https://pgi.billdesk.com/pgidsk/pgmerc/TATAPOWERResponse.jsp";
-        } else {
-            //  url = "https://www.billdesk.com/pgidsk/PGICommonGateway";
-            url = "https://pgi.billdesk.com/pgidsk/PGIMerchantPayment";
-            c = "TATAPOWERN|" + randomString + "|NA|" + /amt.toPlainString().toString()/"1.00" + "|" + "CMP" + "|NA|NA|" + "INR"
-                    + "|DIRECT|R|tatapowern|NA|NA|F|" + accountDetails + "|" + bill_number
-                    + "|MOBILEAPP|NA|NA|NA|NA|https://pgi.billdesk.com/pgidsk/pgmerc/TATAPOWERResponse.jsp";
-        }
-//https://uat.billdesk.com/pgidsk/pgmerc/TATAPOWERResponse.jsp
-        String checksum1 = Billdesk_logic_checksum.HmacSHA256(c, "JQpGGa1ygw8c");
-        String sendBody = c + "|" + checksum1;// http://servpro70.servpro.in/Demo/HtmlPage.html
-        
-        
-		
-		
-        public static String HmacSHA256(String message, String secret)
-        {
-           MessageDigest md = null;
-           try
-           {
-
-              Mac sha256_HMAC = Mac.getInstance("HmacSHA256");
-              SecretKeySpec secret_key = new SecretKeySpec(secret.getBytes(), "HmacSHA256");
-              sha256_HMAC.init(secret_key);
-
-              byte raw[] = sha256_HMAC.doFinal(message.getBytes());
-
-              StringBuffer ls_sb = new StringBuffer();
-              for (int i = 0; i < raw.length; i++)
-                 ls_sb.append(char2hex(raw[i]));
-              return ls_sb.toString(); //step 6
-           }
-           catch (Exception e)
-           {
-              e.printStackTrace();
-              return null;
-           }
-        }
-		
-		
-		
-		
-		
-		
-		
 	});
 
 });

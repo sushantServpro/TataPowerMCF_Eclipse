@@ -1,10 +1,9 @@
-<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core"
-xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-		    <Panel id="pnlx_06">
-				<html:h5>Apply Online</html:h5> 
+			<Panel>
+				<html:h5>Apply Online</html:h5>
 				<html:div class="apply">
 					<html:div class="row">
 						<html:div class=" col-md-2 tata1">
@@ -22,32 +21,33 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 						<html:hr/>
 					</html:div>
 					<html:div class="boxpad">
-					    <html:div class="row">
+						<html:div class="row">
 							<html:div class="col-md-2">
 								<Label text="Registration No." labelFor="IdRegNo1Change"/>
-							</html:div>	
-							<html:div class="col-md-4">	
-								<Input id="IdRegNo1Change" type="Text" class="sapUiSmallMarginBottom"
-								placeholder="Enter registration no. if you have already saved in draft."
-								tooltip="Enter registration no. if you have already saved in draft."/>
-						    </html:div>	
-							<html:div class="col-md-3">  
-						       	<Button text="GO" press="onGetDraftData" class="switchcenter" ariaDescribedBy="defaultButtonDescription genericButtonDescription" />
 							</html:div>
-						</html:div>	
+							<html:div class="col-md-4">
+								<Input id="IdRegNo1Change" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter registration no. if you have already saved in draft."
+									tooltip="Enter registration no. if you have already saved in draft."/>
+							</html:div>
+							<html:div class="col-md-3">
+								<Button text="GO" press="onGetDraftData" class="switchcenter" ariaDescribedBy="defaultButtonDescription genericButtonDescription"/>
+							</html:div>
+						</html:div>
 						<html:div class="row ">
 							<html:div class="col-md-6">
-							    <Label text="Name (As per Bill)" labelFor="nameAsBillIn"/>
-								<Input id="nameAsBillInChange" required="true" type="Text" value="{ChangeOverModel>/NameBill}" class="sapUiSmallMarginBottom" placeholder="Full Name"/>
+								<Label text="Name (As per Bill)" labelFor="nameAsBillIn"/>
+								<Input id="nameAsBillInChange" required="true" type="Text" value="{ChangeOverModel>/NameBill}" class="sapUiSmallMarginBottom"
+									placeholder="Full Name"/>
 							</html:div>
 							<html:div class="col-md-6">
-							    <Label text="Applicant's Name" labelFor="ApplNameInput"/>
+								<Label text="Applicant's Name" labelFor="ApplNameInput"/>
 								<Input id="ApplNameInput" type="Text" value="{ChangeOverModel>/ApplName}" class="sapUiSmallMarginBottom" placeholder="Applicant's Name"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
-								<Label text="Pancard" required="true" />
+								<Label text="Pancard" required="true" labelFor="input-a"/>
 								<Input id="panInputChange" type="Text" value="{ChangeOverModel>/PanNumber}" class="sapUiSmallMarginBottom" placeholder="Pancard No."/>
 							</html:div>
 							<html:div class="col-md-6 pancard">
@@ -56,11 +56,11 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
-								<Label text="Mobile number" required="true" />
+								<Label text="Mobile number" required="true" labelFor="input-a"/>
 								<Input id="mobInputChange" type="Text" value="{ChangeOverModel>/MobileNo}" class="sapUiSmallMarginBottom" placeholder="Mobile number"/>
 							</html:div>
 							<html:div class="col-md-6">
-								<Label text="Email ID" required="true" />
+								<Label text="Email ID" required="true" labelFor="input-a"/>
 								<Input id="mailInputChange" type="Text" value="{ChangeOverModel>/EmailId}" class="sapUiSmallMarginBottom" placeholder="Email ID"/>
 							</html:div>
 						</html:div>
@@ -77,25 +77,25 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 						</html:div>
 						<html:div class="row buildflat">
 							<html:div class="col-md-4">
-								<Label text="Flat/Gala/shop No/ office No" />
-								<Input id="flatInputChange" required="true" value="{ChangeOverModel>/PremiseFlatNo}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Flat/Gala/shop No/ office No"/>
+								<Label text="Flat/Gala/shop No/ office No" labelFor="input-a"/>
+								<Input id="flatInputChange" required="true" value="{ChangeOverModel>/FlatNo}" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Flat/Gala/shop No/ office No"/>
 							</html:div>
 							<html:div class="col-md-8">
-								<Label text="Building Name/Plot No" />
-								<Input id="buildInputChange" type="Text" value="{ChangeOverModel>/PremisePlotNo}" class="sapUiSmallMarginBottom" placeholder="Enter Building Name/Plot No"/>
+								<Label text="Building Name/Plot No" labelFor="input-a"/>
+								<Input id="buildInputChange" type="Text" value="{ChangeOverModel>/PlotNo}" class="sapUiSmallMarginBottom"
+									placeholder="Enter Building Name/Plot No"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
-								<Label text="Society" />
-								<Input id="societyInputChange" value="{ChangeOverModel>/PremiseSociety}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Society"/>
+								<Label text="Society" labelFor="input-a"/>
+								<Input id="societyInputChange" value="{ChangeOverModel>/Society}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Society"/>
 							</html:div>
 							<html:div class="col-md-6">
-								<Label text="Lane/Street" />
-								<Input id="LaneStreetId" showSuggestion="true" showValueHelp="true"
-									     valueHelpRequest="onVHLaneStreet1"
-									     suggestionItems="{path:'LaneStreet>/results'}" 
-									     value="{ChangeOverModel>/PremiseStreet}" >
+								<Label text="Lane/Street" labelFor="input-a"/>
+								<Input id="LaneStreetId" showSuggestion="true" showValueHelp="true" valueHelpRequest="onVHLaneStreet1"
+									suggestionItems="{path:'LaneStreet>/results'}" value="{ChangeOverModel>/Street}">
 									<suggestionItems>
 										<core:Item text="{LaneStreet>Street}" key="{LaneStreet>StrtCode}"/>
 									</suggestionItems>
@@ -105,11 +105,9 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
-								<Label text="Suburban" />
-								<Input id="SubUrbIdCO" showSuggestion="true" showValueHelp="true"
-									     valueHelpRequest="onVHSubUrb1"
-									     suggestionItems="{path:'SubUrban>/results'}" 
-									     value="{ChangeOverModel>/PremiseLocality}" >
+								<Label text="Suburban" labelFor="input-a"/>
+								<Input id="SubUrbIdCO" showSuggestion="true" showValueHelp="true" valueHelpRequest="onVHSubUrb1"
+									suggestionItems="{path:'SubUrban>/results'}" value="{ChangeOverModel>/Locality}">
 									<suggestionItems>
 										<core:Item text="{SubUrban>CityPart}" key="{SubUrban>CityPart}"/>
 									</suggestionItems>
@@ -117,11 +115,9 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 								<!--<Input id="subuInput" type="Text" value="{ChangeOverModel>/Suburb}" class="sapUiSmallMarginBottom" placeholder="Enter Suburban"/>-->
 							</html:div>
 							<html:div class="col-md-6">
-								<Label text="City" />
-								<Input id="IdCityValHlp" showSuggestion="true" showValueHelp="true"
-									     valueHelpRequest="onCityValHelp"
-									     suggestionItems="{path:'SubUrban>/results'}" 
-									     value="{ChangeOverModel>/PremiseCity}" >
+								<Label text="City" labelFor="input-a"/>
+								<Input id="IdCityValHlp" showSuggestion="true" showValueHelp="true" valueHelpRequest="onCityValHelp"
+									suggestionItems="{path:'SubUrban>/results'}" value="{ChangeOverModel>/City}">
 									<suggestionItems>
 										<core:Item text="{SubUrban>CityName}" key="{SubUrban>CityPart}"/>
 									</suggestionItems>
@@ -131,11 +127,9 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
-								<Label text="Postal Code"  required="true"/>
-								<Input id="IDPostalCodeVH" showSuggestion="true" showValueHelp="true"
-									     valueHelpRequest="onPostalCodeHelp"
-									     suggestionItems="{path:'PostalCode>/results'}" 
-									     value="{ChangeOverModel>/PremisePostalCode}" >
+								<Label text="Postal Code" labelFor="input-a" required="true"/>
+								<Input id="IDPostalCodeVH" showSuggestion="true" showValueHelp="true" valueHelpRequest="onPostalCodeHelp"
+									suggestionItems="{path:'PostalCode>/results'}" value="{ChangeOverModel>/PostalCode}">
 									<suggestionItems>
 										<core:Item text="{PostalCode>PostCode}" key="{PostalCode>PostCode}"/>
 									</suggestionItems>
@@ -143,8 +137,9 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 								<!--<Input id="postInput" type="Number" value="{ChangeOverModel>/PostCode1}" class="sapUiSmallMarginBottom" placeholder="Enter Postal Code"/>-->
 							</html:div>
 							<html:div class="col-md-6">
-								<Label text="Landmark" />
-								<Input id="landInputChange" required="true" value="{ChangeOverModel>/PremiseLandmark}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Landmark"/>
+								<Label text="Landmark" labelFor="input-a"/>
+								<Input id="landInputChange" required="true" value="{ChangeOverModel>/Landmark}" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Landmark"/>
 							</html:div>
 						</html:div>
 						<html:div class="row typepremises">
@@ -174,8 +169,9 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 						</html:div>
 						<html:div class="row largebox">
 							<html:div class="col-xs-12">
-								<Label text="Name of the Owner and full Address "  width="100%"/>
-								<TextArea id="OwenerNameChange" value="{ChangeOverModel>/NameOwner}" placeholder="Enter Name of the Owner and full Address" growing="true" growingMaxLines="7" width="100%"/>
+								<Label text="Name of the Owner and full Address " labelFor="input-a" width="100%"/>
+								<TextArea id="OwenerNameChange" value="{ChangeOverModel>/NameOwner}" placeholder="Enter Name of the Owner and full Address" growing="true"
+									growingMaxLines="7" width="100%"/>
 								<CheckBox id="IdSameAsAboveChange" text="Same as above" selected="false"/>
 							</html:div>
 						</html:div>
@@ -187,74 +183,48 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 						</html:div>
 						<html:div class="row buildflat">
 							<html:div class="col-md-4">
-								<Label text="Flat/Gala/shop No/ office No" />
-								<Input id="aflatInputChange" value="{ChangeOverModel>/CorrFlatNo}" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Flat/Gala/shop No/ office No"/>
+								<Label text="Flat/Gala/shop No/ office No" labelFor="input-a"/>
+								<Input id="aflatInputChange" value="{ChangeOverModel>/FlatNo1}" required="true" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Flat/Gala/shop No/ office No"/>
 							</html:div>
 							<html:div class="col-md-8">
-								<Label text="Building Name/Plot No" />
-								<Input id="abuildInputChange" type="Text" value="{ChangeOverModel>/CorrPlotNo}" class="sapUiSmallMarginBottom" placeholder="Enter Building Name/Plot No"/>
+								<Label text="Building Name/Plot No" labelFor="input-a"/>
+								<Input id="abuildInputChange" type="Text" value="{ChangeOverModel>/BuildName1}" class="sapUiSmallMarginBottom"
+									placeholder="Enter Building Name/Plot No"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
-								<Label text="Society" />
-								<Input id="asocietyInputChange" type="Text" value="{ChangeOverModel>/CorrSociety}" class="sapUiSmallMarginBottom" placeholder="Enter Society"/>
+								<Label text="Society" labelFor="input-a"/>
+								<Input id="asocietyInputChange" type="Text" value="{ChangeOverModel>/Society1}" class="sapUiSmallMarginBottom" placeholder="Enter Society"/>
 							</html:div>
 							<html:div class="col-md-6">
-								<Label text="Lane/Street" />
-								<!--<Input id="alaneInputChange" showSuggestion="true" showValueHelp="true"-->
-								<!--	     valueHelpRequest="onVHLaneStreet1"-->
-								<!--	     suggestionItems="{path:'LaneStreet>/results'}" -->
-								<!--	     value="{ChangeOverModel>/CorrStreet}" >-->
-								<!--	<suggestionItems>-->
-								<!--		<core:Item text="{LaneStreet>Street}" key="{LaneStreet>StrtCode}"/>-->
-								<!--	</suggestionItems>-->
-								<!--</Input>-->
-								<Input id="alaneInputChange" required="true" value="{ChangeOverModel>/CorrStreet}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Lane/Street"/>
+								<Label text="Lane/Street" labelFor="input-a"/>
+								<Input id="alaneInputChange" required="true" value="{ChangeOverModel>/Street1}" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Lane/Street"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
-								<Label text="Suburban" />
-								<!--<Input id="asubuInputChange" showSuggestion="true" showValueHelp="true"-->
-								<!--	     valueHelpRequest="onVHSubUrb1"-->
-								<!--	     suggestionItems="{path:'SubUrban>/results'}" -->
-								<!--	     value="{ChangeOverModel>/CorrLocality}" >-->
-								<!--	<suggestionItems>-->
-								<!--		<core:Item text="{SubUrban>CityPart}" key="{SubUrban>CityPart}"/>-->
-								<!--	</suggestionItems>-->
-								<!--</Input>-->
-								<Input id="asubuInputChange" type="Text" value="{ChangeOverModel>/CorrLocality}" class="sapUiSmallMarginBottom" placeholder="Enter Suburban"/>
+								<Label text="Suburban" labelFor="input-a"/>
+								<Input id="asubuInputChange" type="Text" value="{ChangeOverModel>/Suburb1}" class="sapUiSmallMarginBottom" placeholder="Enter Suburban"/>
 							</html:div>
 							<html:div class="col-md-6">
-								<Label text="City" />
-								<!--<Input id="acityInpuChanget" showSuggestion="true" showValueHelp="true"-->
-								<!--	     valueHelpRequest="onCityValHelp"-->
-								<!--	     suggestionItems="{path:'SubUrban>/results'}" -->
-								<!--	     value="{ChangeOverModel>/CorrCity}" >-->
-								<!--	<suggestionItems>-->
-								<!--		<core:Item text="{SubUrban>CityName}" key="{SubUrban>CityPart}"/>-->
-								<!--	</suggestionItems>-->
-								<!--</Input>-->
-								<Input id="acityInpuChanget" required="true" value="{ChangeOverModel>/CorrCity}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter City"/>
+								<Label text="City" labelFor="input-a"/>
+								<Input id="acityInpuChanget" required="true" value="{ChangeOverModel>/City11}" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter City"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
-								<Label text="Postal Code"  required="true"/>
-								<!--<Input id="apostInputChange" showSuggestion="true" showValueHelp="true"-->
-								<!--	     valueHelpRequest="onPostalCodeHelp"-->
-								<!--	     suggestionItems="{path:'PostalCode>/results'}" -->
-								<!--	     value="{ChangeOverModel>/CorrPostalCode}" >-->
-								<!--	<suggestionItems>-->
-								<!--		<core:Item text="{PostalCode>PostCode}" key="{PostalCode>PostCode}"/>-->
-								<!--	</suggestionItems>-->
-								<!--</Input>-->
-								<Input id="apostInputChange" type="Number" value="{ChangeOverModel>/CorrPostalCode}" class="sapUiSmallMarginBottom" placeholder="Enter Postal Code"/>
+								<Label text="Postal Code" labelFor="input-a" required="true"/>
+								<Input id="apostInputChange" type="Number" value="{ChangeOverModel>/PostCode11}" class="sapUiSmallMarginBottom"
+									placeholder="Enter Postal Code"/>
 							</html:div>
 							<html:div class="col-md-6">
-								<Label text="Landmark" />
-								<Input id="alandInputChange" required="true" value="{ChangeOverModel>/CorrLandmark}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Landmark"/>
+								<Label text="Landmark" labelFor="input-a"/>
+								<Input id="alandInputChange" required="true" value="{ChangeOverModel>/LandMark1}" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Landmark"/>
 							</html:div>
 						</html:div>
 						<html:div class="row ebilling">
@@ -318,79 +288,86 @@ xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 							</html:div>
 						</html:div>
 						<html:div class="row">
-							<html:div class="col-sm-4">
-								<Label text="Existing Utility" />
-								    <ActionSelect id="IdExistUtil"  selectedKey="{ChangeOverModel>/ExistingUtility}" width="100%" change="onExistUtilityChange" items="{ path: 'ExistUtility>/results' }">
-										<items>
-												<core:Item key="{ExistUtility>DomvalueL}" text="{ExistUtility>Ddtext}"/>
-										</items>
-									</ActionSelect>
+							<html:div class="col-md-6">
+								<Label text="Existing Utility" labelFor="input-a"/>
+								<Select id="IdExistUtil" selectedKey="{ChangeOverModel>/TariffCategory}" width="100%" change="onExistUtilityChange"
+									items="{ path: 'ExistUtility>/results' }">
+									<items>
+										<core:Item key="{ExistUtility>DomvalueL}" text="{ExistUtility>Ddtext}"/>
+									</items>
+								</Select>
 								<!--<Input id="lecnameInput" value="{ChangeOverModel>/LecName}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Existing Utility"/>-->
 							</html:div>
-							<html:div class="col-sm-4">
-								<Label text="Existing Utility Number" required="true" />
-								<Input id="seciInputChange" type="Text" value="{ChangeOverModel>/ExistingUtilityNo}" class="sapUiSmallMarginBottom" placeholder="Enter Existing Utility Number"/>
-							</html:div>
-						
-							<html:div class="col-sm-4">
-								<Label text="Meter No." required="true" />
-								<Input id="galaInputChange" type="Text" value="{ChangeOverModel>/MeterNo}" class="sapUiSmallMarginBottom" placeholder="Enter Meter No."/>
-							</html:div>
-							</html:div>
-						<html:div class="row">
-							<html:div class="col-sm-4">
-								<Label text="Purpose of Supply" labelFor="IdPurposeSuply"/>
-								    <Select id="IdPurposeSuply"  selectedKey="{ChangeOverModel>/PurposeSupply}" change="onSupplyPurposeChange" items="{ path: 'SupplyPurpose>/results' }">
-										<items>
-											<core:Item key="{SupplyPurpose>DomvalueL}" text="{SupplyPurpose>Ddtext}"/>
-										</items>
-									</Select>
-								<!--<Input id="bnameInput" type="Text" value="{ChangeOverModel>/BuildName2}" class="sapUiSmallMarginBottom" placeholder="Enter Purpose of Supply"/>-->
-							</html:div>
-						
-							<html:div class="col-sm-4">
-								<Label text="Category Of Supply" />
-								<Select id="IdSuplyCat"  selectedKey="{ChangeOverModel>/SupplyCategory}" change="onSupplyCatChange" items="{ path: 'SupplyCategory>/results' }">
-										<items>
-											<core:Item key="{SupplyCategory>DomvalueL}" text="{SupplyCategory>Ddtext}"/>
-										</items>
-									</Select>
-								<!--<Input id="socInput" type="Text" value="{ChangeOverModel>/Society2}" class="sapUiSmallMarginBottom" placeholder="Enter Category Of Supply"/>-->
-							</html:div>
-							<html:div class="col-sm-4">
-								<Label text="Connected Load(kW)" required="true" />
-								<Input id="streeInputChange" type="Text" value="{ChangeOverModel>/ConnLoad}" class="sapUiSmallMarginBottom" placeholder="Enter Connected Load(kW)"/>
+							<html:div class="col-md-6">
+								<Label text="Existing Utility Number" required="true" labelFor="input-a"/>
+								<Input id="seciInputChange" type="Text" value="{ChangeOverModel>/LecLicenceNo}" class="sapUiSmallMarginBottom"
+									placeholder="Enter Existing Utility Number"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
-							<html:div class="col-sm-4">
-								<Label text="Bill Amount" />
-								<Input id="banInputChange" type="Text" value="{ChangeOverModel>/BillAmount}" class="sapUiSmallMarginBottom" placeholder="Enter Bill Amount"/>
+							<html:div class="col-md-6">
+								<Label text="Meter No." required="true" labelFor="input-a"/>
+								<Input id="galaInputChange" type="Text" value="{ChangeOverModel>/FlatNo2}" class="sapUiSmallMarginBottom" placeholder="Enter Meter No."/>
 							</html:div>
-							<html:div class="col-sm-4">
-								<Label text="Contract Demand(kVA)" />
-								<Input id="placInputChange" type="Text" value="{ChangeOverModel>/ContractDmd}" class="sapUiSmallMarginBottom" placeholder="Enter Contract Demand(kVA)"/>
+							<html:div class="col-md-6">
+								<Label text="Purpose of Supply" labelFor="input-a"/>
+								<Select id="IdPurposeSuply" selectedKey="{ChangeOverModel>/TariffCategory}" width="100%" change="onSupplyPurposeChange"
+									items="{ path: 'SupplyPurpose>/results' }">
+									<items>
+										<core:Item key="{SupplyPurpose>DomvalueL}" text="{SupplyPurpose>Ddtext}"/>
+									</items>
+								</Select>
+								<!--<Input id="bnameInput" type="Text" value="{ChangeOverModel>/BuildName2}" class="sapUiSmallMarginBottom" placeholder="Enter Purpose of Supply"/>-->
 							</html:div>
-						
-							<html:div class="col-sm-4">
-								<Label text="Comsumption" />
-								<Input id="psInputChange" type="number" value="{ChangeOverModel>/Consumption}" class="sapUiSmallMarginBottom" placeholder="Enter Comsumption"/>
-							</html:div>
-							</html:div>
+						</html:div>
 						<html:div class="row">
-							<html:div class="col-sm-4">
-								<Label text="Type Of Supply" required="true" />
-								<Select id="IdTypeSuply"  selectedKey="{ChangeOverModel>/PhaseOfSupply}" change="onSupplyTypeChange" items="{ path: 'SupplyType>/results' }">
-										<items>
-												<core:Item key="{SupplyType>DomvalueL}" text="{SupplyType>Ddtext}"/>
-										</items>
-									</Select>
+							<html:div class="col-md-6">
+								<Label text="Category Of Supply" labelFor="input-a"/>
+								<Select id="IdSuplyCat" selectedKey="{ChangeOverModel>/TariffCategory}" width="100%" change="onSupplyCatChange"
+									items="{ path: 'SupplyCategory>/results' }">
+									<items>
+										<core:Item key="{SupplyCategory>DomvalueL}" text="{SupplyCategory>Ddtext}"/>
+									</items>
+								</Select>
+								<!--<Input id="socInput" type="Text" value="{ChangeOverModel>/Society2}" class="sapUiSmallMarginBottom" placeholder="Enter Category Of Supply"/>-->
+							</html:div>
+							<html:div class="col-md-6">
+								<Label text="Connected Load(kW)" required="true" labelFor="input-a"/>
+								<Input id="streeInputChange" type="Text" value="{ChangeOverModel>/Street2}" class="sapUiSmallMarginBottom"
+									placeholder="Enter Connected Load(kW)"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-md-6">
+								<Label text="Bill Amount" labelFor="input-a"/>
+								<Input id="banInputChange" type="Text" value="{ChangeOverModel>/Suburb2}" class="sapUiSmallMarginBottom" placeholder="Enter Bill Amount"/>
+							</html:div>
+							<html:div class="col-md-6">
+								<Label text="Contract Demand(kVA)" labelFor="input-a"/>
+								<Input id="placInputChange" type="Text" value="{ChangeOverModel>/City12}" class="sapUiSmallMarginBottom"
+									placeholder="Enter Contract Demand(kVA)"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-md-6">
+								<Label text="Comsumption" labelFor="input-a"/>
+								<Input id="psInputChange" type="number" value="{ChangeOverModel>/PostCode12}" class="sapUiSmallMarginBottom" placeholder="Enter Comsumption"/>
+							</html:div>
+							<html:div class="col-md-6">
+								<Label text="Type Of Supply" required="true" labelFor="input-a"/>
+								<Select id="IdTypeSuply" selectedKey="{ChangeOverModel>/TariffCategory}" width="100%" change="onSupplyTypeChange"
+									items="{ path: 'SupplyType>/results' }">
+									<items>
+										<core:Item key="{SupplyType>DomvalueL}" text="{SupplyType>Ddtext}"/>
+									</items>
+								</Select>
 								<!--<Input id="lmInput" type="Text" value="{ChangeOverModel>/LandMark2}" class="sapUiSmallMarginBottom" placeholder="Enter Type Of Supply"/>-->
 							</html:div>
-						
-							<html:div class="col-sm-4">
-								<Label text="No. Of Meters" required="true" />
-								<Input id="inputemailChange" value="{ChangeOverModel>/NoOfMeters}" placeholder="Enter No. Of Meters"/>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-md-6">
+								<Label text="No. Of Meters" required="true" labelFor="input-a"/>
+								<Input id="inputemailChange" value="{ChangeOverModel>/LecEmail}" placeholder="Enter No. Of Meters"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">

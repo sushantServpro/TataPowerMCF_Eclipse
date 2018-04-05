@@ -29,7 +29,7 @@ sap.ui.define([
 		pressSwitchOverConnection: function(oEvent) {
 			this.getRouter().navTo("SwitchOverConnection");
 		},
- 
+
 		pressChangeOverConnection: function(oEvent) {
 			this.getRouter().navTo("ChangeOverConnection");
 		},
@@ -51,7 +51,7 @@ sap.ui.define([
 		pressMeter_testing: function(oEvent) {
 			this.getRouter().navTo("Meter_testing");
 		},
-		pressLoad_Reduction: function(oEvent) { 
+		pressLoad_Reduction: function(oEvent) {
 			this.getRouter().navTo("Load_Reduction");
 		},
 		pressLoad_Enhancement: function(oEvent) {
@@ -67,9 +67,10 @@ sap.ui.define([
 			this.getRouter().navTo("Contract_Maximum_Demand_Reduction");
 		},
 		pressPermanentDisconnection: function(oEvent) {
-			this.getRouter().navTo("PermanentDisconnection"); 
+			this.getRouter().navTo("PermanentDisconnection");
 		},
 		pressReconnection: function(oEvent) {
+
 			this.getRouter().navTo("Reconnection");
 		},
 		getRouter: function() {
@@ -91,15 +92,15 @@ sap.ui.define([
 		,
 		onOpenAccess: function(oEvent) {
 			this.getRouter().navTo("OpenAccess");
+		},
+		pressTermsOfUse: function() {
+			this.getRouter().navTo("TermOfUse");
+		},
+		pressPrivacyPolicy: function() {
+			this.getRouter().navTo("PrivacyPolicy");
 		}
 
-		/**
-		 * Called when the Controller is destroyed. Use this one to free resources and finalize activities.
-		 * @memberOf tatapower.dev.view.OnlineApplications
-		 */
-		//	onExit: function() {
-		//
-		//	}
+		
 
 	});
 

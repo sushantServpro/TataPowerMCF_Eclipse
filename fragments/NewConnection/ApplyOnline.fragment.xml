@@ -2,7 +2,7 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel id="pnl_06">
+			<Panel>
 				<html:h5>Apply Online</html:h5>
 				<html:div class="apply">
 					<html:div class="row">
@@ -21,31 +21,31 @@
 						<html:hr/>
 					</html:div>
 					<html:div class="boxpad">
-					    <html:div class="row">
+						<html:div class="row">
 							<html:div class="col-md-2">
 								<Label text="Registration No." labelFor="IdRegNo1"/>
-							</html:div>	
-							<html:div class="col-md-4">	
-								<Input id="IdRegNo1" type="Text" class="sapUiSmallMarginBottom"
-								placeholder="Enter registration no. if you have already saved in draft."
-								tooltip="Enter registration no. if you have already saved in draft."/>
-						    </html:div>	
-							<html:div class="col-md-3">  
-						       	<Button text="GO" press="onGetDraftData" class="switchcenter" ariaDescribedBy="defaultButtonDescription genericButtonDescription" />
 							</html:div>
-						</html:div>	
+							<html:div class="col-md-4">
+								<Input id="IdRegNo1" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter registration no. if you have already saved in draft."
+									tooltip="Enter registration no. if you have already saved in draft."/>
+							</html:div>
+							<html:div class="col-md-3">
+								<Button text="GO" press="onGetDraftData" class="switchcenter" ariaDescribedBy="defaultButtonDescription genericButtonDescription"/>
+							</html:div>
+						</html:div>
 						<html:div class="row ">
 							<html:div class="col-md-2">
 								<!--<InputListItem >-->
-									<Select forceSelection="false" selectedKey="{NewConnectionModel>/Title}" enabled="true" id='IdSelectTitle'>
-										<core:Item key="Mr" text="Mr"/>
-										<core:Item key="Mrs" text="Mrs"/>
-										<core:Item key="Miss" text="Miss"/>
-									</Select>
+								<Select forceSelection="false" selectedKey="{NewConnectionModel>/Title}" enabled="true" id='IdSelectTitle'>
+									<core:Item key="Mr" text="Mr"/>
+									<core:Item key="Mrs" text="Mrs"/>
+									<core:Item key="Miss" text="Miss"/>
+								</Select>
 								<!--</InputListItem>-->
 							</html:div>
 							<html:div class="col-md-4">
-								<Input id="nameInput" required="true" type="Text" value="{NewConnectionModel>/FirstName}" class="sapUiSmallMarginBottom" placeholder="First Name"/>
+								<Input id="nameInput" required="true" type="Text" value="{NewConnectionModel>/FirstName}" class="sapUiSmallMarginBottom"
+									placeholder="First Name"/>
 							</html:div>
 							<html:div class="col-md-3">
 								<Input id="middleInput" type="Text" value="{NewConnectionModel>/MiddleName}" class="sapUiSmallMarginBottom" placeholder="Middle Name"/>
@@ -87,11 +87,13 @@
 						<html:div class="row buildflat">
 							<html:div class="col-md-4">
 								<Label text="Flat/Gala/shop No/ office No" labelFor="input-a"/>
-								<Input id="flatInput" required="true" value="{NewConnectionModel>/FlatNo}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Flat/Gala/shop No/ office No"/>
+								<Input id="flatInput" required="true" value="{NewConnectionModel>/FlatNo}" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Flat/Gala/shop No/ office No"/>
 							</html:div>
 							<html:div class="col-md-8">
 								<Label text="Building Name/Plot No" labelFor="input-a"/>
-								<Input id="buildInput" type="Text" value="{NewConnectionModel>/BuildName}" class="sapUiSmallMarginBottom" placeholder="Enter Building Name/Plot No"/>
+								<Input id="buildInput" type="Text" value="{NewConnectionModel>/BuildName}" class="sapUiSmallMarginBottom"
+									placeholder="Enter Building Name/Plot No"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
@@ -101,7 +103,8 @@
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Lane/Street" labelFor="input-a"/>
-								<Input id="laneInput" value="{NewConnectionModel>/Street}" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Lane/Street"/>
+								<Input id="laneInput" value="{NewConnectionModel>/Street}" required="true" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Lane/Street"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
@@ -111,7 +114,8 @@
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="City" labelFor="input-a"/>
-								<Input id="cityInput" required="true" type="Text" value="{NewConnectionModel>/City1}" class="sapUiSmallMarginBottom" placeholder="Enter City"/>
+								<Input id="cityInput" required="true" type="Text" value="{NewConnectionModel>/City1}" class="sapUiSmallMarginBottom"
+									placeholder="Enter City"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
@@ -121,7 +125,8 @@
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Landmark" labelFor="input-a"/>
-								<Input id="landInput" required="true" value="{NewConnectionModel>/LandMark}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Landmark"/>
+								<Input id="landInput" required="true" value="{NewConnectionModel>/LandMark}" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Landmark"/>
 							</html:div>
 						</html:div>
 						<html:div class="row typepremises">
@@ -152,7 +157,8 @@
 						<html:div class="row largebox">
 							<html:div class="col-xs-12">
 								<Label text="Name of the Owner and full Address " labelFor="input-a" width="100%"/>
-								<TextArea id="OwenerName" value="{NewConnectionModel>/NameOwner}" placeholder="Enter Name of the Owner and full Address" growing="true" growingMaxLines="7" width="100%"/>
+								<TextArea id="OwenerName" value="{NewConnectionModel>/NameOwner}" placeholder="Enter Name of the Owner and full Address" growing="true"
+									growingMaxLines="7" width="100%"/>
 								<CheckBox id="IdSameAsAbove" text="Same as above" selected="false"/>
 							</html:div>
 						</html:div>
@@ -165,11 +171,13 @@
 						<html:div class="row buildflat">
 							<html:div class="col-md-4">
 								<Label text="Flat/Gala/shop No/ office No" labelFor="input-a"/>
-								<Input id="aflatInput" value="{NewConnectionModel>/FlatNo1}" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Flat/Gala/shop No/ office No"/>
+								<Input id="aflatInput" value="{NewConnectionModel>/FlatNo1}" required="true" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Flat/Gala/shop No/ office No"/>
 							</html:div>
 							<html:div class="col-md-8">
 								<Label text="Building Name/Plot No" labelFor="input-a"/>
-								<Input id="abuildInput" type="Text" value="{NewConnectionModel>/BuildName1}" class="sapUiSmallMarginBottom" placeholder="Enter Building Name/Plot No"/>
+								<Input id="abuildInput" type="Text" value="{NewConnectionModel>/BuildName1}" class="sapUiSmallMarginBottom"
+									placeholder="Enter Building Name/Plot No"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
@@ -179,7 +187,8 @@
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Lane/Street" labelFor="input-a"/>
-								<Input id="alaneInput" required="true" value="{NewConnectionModel>/Street1}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Lane/Street"/>
+								<Input id="alaneInput" required="true" value="{NewConnectionModel>/Street1}" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Lane/Street"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
@@ -189,7 +198,8 @@
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="City" labelFor="input-a"/>
-								<Input id="acityInput" required="true" value="{NewConnectionModel>/City11}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter City"/>
+								<Input id="acityInput" required="true" value="{NewConnectionModel>/City11}" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter City"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
@@ -199,7 +209,8 @@
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Landmark" labelFor="input-a"/>
-								<Input id="alandInput" required="true" value="{NewConnectionModel>/LandMark1}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Landmark"/>
+								<Input id="alandInput" required="true" value="{NewConnectionModel>/LandMark1}" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Landmark"/>
 							</html:div>
 						</html:div>
 						<html:div class="row ebilling">
@@ -306,7 +317,7 @@
 						<html:div class="row">
 							<html:div class="col-md-4">
 								<Label text="Select Apertures" labelFor="input-a"/>
-								<Input id="apprtinput" type="Text"  class="sapUiSmallMarginBottom" placeholder="Enter Apertures"/>
+								<Input id="apprtinput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Apertures"/>
 							</html:div>
 							<html:div class="col-md-4">
 								<Label text="No of Points" labelFor="input-a" required="true"/>
@@ -314,59 +325,60 @@
 							</html:div>
 							<html:div class="col-md-4">
 								<Label text="Wattage per Point" required="true" labelFor="input-a"/>
-								<Input id="wattInput" type="Text"  class="sapUiSmallMarginBottom" placeholder="Enter Wattage per Point"/>
+								<Input id="wattInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Wattage per Point"/>
 							</html:div>
 							<html:div class="col-md-3">
-								<Button text="ADD RECORDS" press="onAddToLoadTab"  class="switchcenter" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+								<Button text="ADD RECORDS" press="onAddToLoadTab" class="switchcenter" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 							</html:div>
 							<html:div class="col-md-3">
-								<Button text="REMOVE RECORDS" press="onRemoveLoadTab" class="switchcenter" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+								<Button text="REMOVE RECORDS" press="onRemoveLoadTab" class="switchcenter"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 							</html:div>
 						</html:div>
 						<html:div class="tblEquip view_table">
-						<Table id="ApplyOlLoadTab" growing="true"
-			            noDataText="{NewConnectionView>/tableNoDataText}"
-			            growingScrollToLoad="true"
-			            mode="SingleSelectLeft"
-                        items="{/LoadDetailsSet}">
-							<columns>
-								<Column minScreenWidth="Desktop">
-									<Text text="Apertures"/>
-								</Column>
-								<Column minScreenWidth="Desktop" demandPopin="true">
-									<Text text="Number Of Point"/>
-								</Column>
-								<Column minScreenWidth="Desktop" demandPopin="true">
-									<Text text="Wattage Per Point"/>
-								</Column>
-								<Column minScreenWidth="Desktop" demandPopin="true">
-									<Text text="Total Wattage"/>
-								</Column>
-							</columns>
-							<items>
-								<ColumnListItem>
-									<cells>
-										<ObjectIdentifier title="{LoadDetail}"/>
-										<Text text="{NoOfPoints}"/>
-										<Text text="{WattagePoints}"/>
-										<Text text="{TotalWattage}"/>
-									</cells>
-								</ColumnListItem>
-							</items>
-						</Table>
+							<Table id="ApplyOlLoadTab" growing="true" noDataText="{NewConnectionView>/tableNoDataText}" growingScrollToLoad="true"
+								mode="SingleSelectLeft" items="{/LoadDetailsSet}">
+								<columns>
+									<Column minScreenWidth="Desktop">
+										<Text text="Apertures"/>
+									</Column>
+									<Column minScreenWidth="Desktop" demandPopin="true">
+										<Text text="Number Of Point"/>
+									</Column>
+									<Column minScreenWidth="Desktop" demandPopin="true">
+										<Text text="Wattage Per Point"/>
+									</Column>
+									<Column minScreenWidth="Desktop" demandPopin="true">
+										<Text text="Total Wattage"/>
+									</Column>
+								</columns>
+								<items>
+									<ColumnListItem>
+										<cells>
+											<ObjectIdentifier title="{LoadDetail}"/>
+											<Text text="{NoOfPoints}"/>
+											<Text text="{WattagePoints}"/>
+											<Text text="{TotalWattage}"/>
+										</cells>
+									</ColumnListItem>
+								</items>
+							</Table>
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-4">
 								<Label text="Connected Load" required="true" labelFor="input-a"/>
-								<Input id="connectInput" value="{NewConnectionModel>/ConnectLoad}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Connected Load"/>
+								<Input id="connectInput" value="{NewConnectionModel>/ConnectLoad}" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Connected Load"/>
 							</html:div>
 							<html:div class="col-md-4">
 								<Label text="section Load(KW)" required="true" labelFor="input-a"/>
-								<Input id="sectionInput" value="{NewConnectionModel>/SanctionLoad}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter section Load(KW)"/>
+								<Input id="sectionInput" value="{NewConnectionModel>/SanctionLoad}" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter section Load(KW)"/>
 							</html:div>
 							<html:div class="col-md-4">
 								<Label text="Contract Demand(KVA)" required="true" labelFor="input-a"/>
-								<Input id="demandInput" value="{NewConnectionModel>/ContractDemand}" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Contract Demand(KVA)"/>
+								<Input id="demandInput" value="{NewConnectionModel>/ContractDemand}" type="Text" class="sapUiSmallMarginBottom"
+									placeholder="Enter Contract Demand(KVA)"/>
 							</html:div>
 						</html:div>
 						<html:div class="row above">
@@ -402,17 +414,20 @@
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Licenced Number" required="true" labelFor="input-a"/>
-								<Input id="seciInput" type="Text" value="{NewConnectionModel>/LecLicenceNo}" class="sapUiSmallMarginBottom" placeholder="Enter Licenced Number"/>
+								<Input id="seciInput" type="Text" value="{NewConnectionModel>/LecLicenceNo}" class="sapUiSmallMarginBottom"
+									placeholder="Enter Licenced Number"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
 								<Label text="Flat/Gala/Shop No/Office No" required="true" labelFor="input-a"/>
-								<Input id="galaInput" type="Text" value="{NewConnectionModel>/FlatNo2}" class="sapUiSmallMarginBottom" placeholder="Enter Flat/Gala/Shop No/Office No"/>
+								<Input id="galaInput" type="Text" value="{NewConnectionModel>/FlatNo2}" class="sapUiSmallMarginBottom"
+									placeholder="Enter Flat/Gala/Shop No/Office No"/>
 							</html:div>
 							<html:div class="col-md-6">
 								<Label text="Building Name/Plot No" required="true" labelFor="input-a"/>
-								<Input id="bnameInput" type="Text" value="{NewConnectionModel>/BuildName2}" class="sapUiSmallMarginBottom" placeholder="Enter Building Name/Plot No"/>
+								<Input id="bnameInput" type="Text" value="{NewConnectionModel>/BuildName2}" class="sapUiSmallMarginBottom"
+									placeholder="Enter Building Name/Plot No"/>
 							</html:div>
 						</html:div>
 						<html:div class="row">
@@ -437,7 +452,7 @@
 						</html:div>
 						<html:div class="row">
 							<html:div class="col-md-6">
-								<Label text="Postal Code"  required="true" labelFor="input-a"/>
+								<Label text="Postal Code" required="true" labelFor="input-a"/>
 								<Input id="psInput" type="number" value="{NewConnectionModel>/PostCode12}" class="sapUiSmallMarginBottom" placeholder="Enter Postal Code"/>
 							</html:div>
 							<html:div class="col-md-6">

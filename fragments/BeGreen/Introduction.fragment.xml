@@ -59,11 +59,11 @@
 								<IconTabFilter text="News Update">
 									<html:ul class="inti_list">
 										<html:li>
-											<html:a href="pdf/dsm_natl_innovative_energy_saving_service_award.pdf" target="_blank">
+											<html:a href="pdf/DsmNatlInnovativeEnergySavingServiceAward.pdf" target="_blank">
 												Tata Power DSM Programme bags National Award for 'Innovative Energy Service Award' at the CII national Award for Energy Management</html:a>
 										</html:li>
 										<html:li>
-											<html:a href="pdf/EC_Week_Report.pdf" target="_blank">
+											<html:a href="pdf/ECWeekReport.pdf" target="_blank">
 												Tata Power DSM Cell celebrates Energy Conservation Week 2014</html:a>
 										</html:li>
 									</html:ul>
@@ -79,7 +79,7 @@
 												Maharshtra Energy Development Agency (Mahaurja)</html:a>
 										</html:li>
 										<html:li>
-											<html:a href="http://www.mercindia.org.in/" target="_blank">
+											<html:a href="http://cercind.gov.in/" target="_blank">
 												Central Electricity Regulatory Commission (CERC)</html:a>
 										</html:li>
 										<html:li>

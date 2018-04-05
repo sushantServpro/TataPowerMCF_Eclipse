@@ -1,0 +1,101 @@
+<core:FragmentDefinition xmlns="sap.m"
+	xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt"
+	height="100%" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel>
+		<content>
+
+			<html:h4 align="center">Super Efficient Ceiling Fan DSM Programme
+			</html:h4>
+			<html:h4 align="center">Programme Details</html:h4>
+			<html:ol>
+				<html:li>
+					<html:h5>
+						<html:b>Eligibility:</html:b>
+						The programme is available for Residential category consumers of
+						Tata Power in the Mumbai License Area.
+					</html:h5>
+				</html:li>
+				<html:li>
+					<html:h5>
+						<html:b>Program partner:</html:b>
+						Tata Power has partnered with Atomberg Technologies Private
+						Limited (M/S Atomberg) which will offer the super efficient
+						ceiling fans under this programme.
+					</html:h5>
+				</html:li>
+				<html:li>
+					<html:h5>
+						<html:b>Product Details:</html:b>
+						The product offered is Atomberg Make , Energy efficient Fan of
+						1200 mm Size. Please click on Product Details for more
+						information.
+					</html:h5>
+				</html:li>
+				<html:li>
+					<html:h5>
+						<html:b>Number of Ceiling Fans per consumer:</html:b>
+						Each consumer is eligible to purchase upto 4 ceiling fans under
+						the programme.
+					</html:h5>
+				</html:li>
+				<html:li>
+					<html:h5>
+						<html:b>Warranty:</html:b>
+						The ceiling fans purchased under this programme, will have 3 years
+						warranty, which will be provided by manufacturer
+					</html:h5>
+				</html:li>
+				<html:li>
+					<html:h5>
+						<html:b>Offer price:</html:b>The
+						ceiling fans are offered under New Purchase Scheme . The products
+						and offer price may change without giving prior notice. (Please
+						click on 'Models Available' tab to view the price). includes all
+						taxes &amp; duties and three years warranty. The price doesn't
+						include installation of ceiling fans.
+					</html:h5>
+				</html:li>
+				<html:li>
+					<html:h5>
+						<html:b>Registration </html:b>
+						Web-site:-For registration please click on the "Register Here"
+						tab, read and accept the terms and conditions and submit the
+						details. A unique registration number will be displayed after the
+						successful registration.
+						Call centre:-Consumer can also register by calling the Tata Power Call
+						Centre 1800-209-5161
+					</html:h5>
+				</html:li>
+				<html:li>
+					<html:h5>
+						<html:b>Order confirmation</html:b>
+						A representative of the authroised franchisee of Atomberg will
+						contact you on the phone number provided by you and confirm the
+						models and colour required and confirm the order.
+					</html:h5>
+
+				</html:li>
+				<html:li>
+					<html:h5>
+						<html:b>Payment</html:b>
+						Consumer can make the payment through a)Online payment facility
+						b)Cheque/DD and c)Cash Atomberg Installation agency will provide
+						all the details and receipt for the payment.
+					</html:h5>
+				</html:li>
+				<html:li>
+					<html:h5>
+						<html:b>Role of Tata Power:</html:b>
+						Tata Power has rolled out this programme to help consumers to save
+						the energy. Tata Power is offering a special rebate to bring the
+						effective price down for the consumers. Tata Power is only a
+						facilitator and all product related issues/ disputes/ differences
+						shall be referred to the manufacturer directly by the customer
+						without any liability, financial or otherwise, on Tata Power.
+					</html:h5>
+				</html:li>
+			</html:ol>
+
+		</content>
+	</Panel>
+</core:FragmentDefinition>

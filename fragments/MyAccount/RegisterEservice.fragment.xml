@@ -2,152 +2,151 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-		<Panel id="pnl_38">
-									<html:div class="container-fluid">
-										<html:div class="row middlebox share_feedbk">
-											<html:div class="content">
-												<html:div class="row">
-													<html:div class="col-sm-7 col-md-6">
-														<html:div class="row">
-															<html:div class="col-sm-6">
-																<html:div class="row bill_payment">
-																	<html:div class="col-xs-12">
-																		<GenericTile class="tileLayout" press="press">
-																			<TileContent>
-																				<content>
-																					<html:div class="row">
-																						<html:div class="col-xs-3">
-																							<html:image src="images/myac_online_bill.png" alt="speakers" class="img-responsive"></html:image>
-																						</html:div>
-																						<html:div class="col-xs-9">
-																							<html:span>quick bill payment</html:span>
-																						</html:div>
-																					</html:div>
-																				</content>
-																			</TileContent>
-																		</GenericTile>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="row middlebox share_feedbk">
+						<html:div class="content">
+							<html:div class="row">
+								<html:div class="col-sm-7 col-md-6">
+									<html:div class="row">
+										<html:div class="col-sm-6">
+											<html:div class="row bill_payment">
+												<html:div class="col-xs-12">
+													<GenericTile class="tileLayout" press="press">
+														<TileContent>
+															<content>
+																<html:div class="row">
+																	<html:div class="col-xs-3">
+																		<html:image src="images/myac_online_bill.png" alt="speakers" class="img-responsive"></html:image>
+																	</html:div>
+																	<html:div class="col-xs-9">
+																		<html:span>quick bill payment</html:span>
 																	</html:div>
 																</html:div>
-															</html:div>
-															<html:div class="col-sm-6">
-																<html:div class="row your_bill">
-																	<html:div class="col-xs-12">
-																		<GenericTile class="tileLayout" press="press">
-																			<TileContent>
-																				<content>
-																					<html:div class="row">
-																						<html:div class="col-xs-3">
-																							<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-responsive"></html:image>
-																						</html:div>
-																						<html:div class="col-xs-9">
-																							<html:span>pay your bill here</html:span>
-																						</html:div>
-																					</html:div>
-																				</content>
-																			</TileContent>
-																		</GenericTile>
-																	</html:div>
-																</html:div>
-															</html:div>
-														</html:div>
-													</html:div>
-													<html:div class="col-sm-5 col-md-6 counters">
-														<html:div class="row">
-															<html:div class="col-xs-4 col-sm-4 text-center">
-																<html:span>Consumer Number</html:span>
-																<html:h4>1234</html:h4>
-															</html:div>
-															<html:div class="col-xs-4 col-sm-4 text-center acc_no">
-																<html:span>Account Number</html:span>
-																<html:h4>1234</html:h4>
-															</html:div>
-															<html:div class="col-xs-4 col-sm-4 text-center">
-																<html:span>Meter Number</html:span>
-																<html:h4>1234</html:h4>
-															</html:div>
-														</html:div>
-													</html:div>
+															</content>
+														</TileContent>
+													</GenericTile>
 												</html:div>
 											</html:div>
 										</html:div>
-										<html:div class="reg_service">
-											<html:h4>Register for e-Services</html:h4>
-											<html:div>
-												<html:div class="row e_services">
-													<html:div class="col-sm-6 email_service">
-														<html:div class="email_ser_img text-center">
-															<html:image src="images/email.png" alt="email" class="img-responsive"></html:image>
-														</html:div>
-														<html:h5 class="text-center">E-Mail Alerts</html:h5>
-														<html:div class="email_alerts_chk">
-															<html:div class="row">
-																<html:div class="col-xs-6"><CheckBox text="On Bill Generation" selected="true" id="on_bill_email" /></html:div>
-																<html:div class="col-xs-6"><CheckBox text="Payment Receipt" selected="true" id="pay_receipt_email"/></html:div>
-															</html:div>
-															<html:div class="row">
-																<html:div class="col-xs-6"><CheckBox text="Discount Date Reminder" selected="true" id="disc_dt_email" /></html:div>
-																<html:div class="col-xs-6"><CheckBox text="Due Date Reminder" selected="true" id="due_dt_email"/></html:div>
-															</html:div>
-														</html:div>
-														<html:div class="email_alerts_radio">
-															<html:div class="row">
-																<html:div class="col-sm-4"><RadioButton groupName="em_radio" text="Email 1" id="em_radio1" selected="true"/></html:div>
-    																<html:div class="col-sm-8"><Input type="Text" id="text_e_radio1"/></html:div>
-															</html:div>
-															<html:div class="row">
-																<html:div class="col-sm-4"><RadioButton groupName="em_radio" text="Email 2" id="em_radio2"/></html:div>
-																<html:div class="col-sm-8"><Input type="Text" id="text_e_radio2"/></html:div>
-															</html:div>
-															<html:div class="row">
-																<html:div class="col-sm-4"><RadioButton groupName="em_radio" text="Email 3" id="em_radio3"/></html:div>
-																<html:div class="col-sm-8"><Input type="Text" id="text_e_radio3"/></html:div>
-															</html:div>
-														</html:div>
-													</html:div>
-													<html:div class="col-sm-6 email_service sms_service">
-														<html:div class="email_ser_img text-center">
-															<html:image src="images/mobile3.png" alt="mobile3" class="img-responsive"></html:image>
-														</html:div>
-														<html:h5 class="text-center">SMS Alerts</html:h5>
-														<html:div class="email_alerts_chk">
-															<html:div class="row">
-																<html:div class="col-xs-6"><CheckBox text="On Bill Generation" selected="true" id="on_bill_sms" /></html:div>
-																<html:div class="col-xs-6"><CheckBox text="Payment Receipt" selected="true" id="pay_receipt_sms"/></html:div>
-															</html:div>
-															<html:div class="row">
-																<html:div class="col-xs-6"><CheckBox text="Discount Date Reminder" selected="true" id="disc_dt_sms"/></html:div>
-																<html:div class="col-xs-6"><CheckBox text="Due Date Reminder" selected="true" id="due_dt_sms" /></html:div>
-															</html:div>
-														</html:div>
-														<html:div class="email_alerts_radio">
-															<html:div class="row">
-																<html:div class="col-sm-4"><RadioButton groupName="sms_radio" text="Mobile 1" id="sms_radio1" selected="true"/></html:div>
-																<html:div class="col-sm-8"><Input type="Text" id="text_s_radio1" /></html:div> 
-															</html:div>
-															<html:div class="row">
-																<html:div class="col-sm-4"><RadioButton groupName="sms_radio" id="sms_radio2" text="Mobile 2"/></html:div>
-																<html:div class="col-sm-8"><Input type="Text" id="text_s_radio2"/></html:div>
-															</html:div>
-															<html:div class="row">
-																<html:div class="col-sm-4"><RadioButton groupName="sms_radio" id="sms_radio" text="Mobile 3"/></html:div>
-																<html:div class="col-sm-8"><Input type="Text" id="text_s_radio3"/></html:div>
-															</html:div>
-														</html:div>
-													</html:div>
-												</html:div>
-											</html:div>
-											<html:div class="row form_row reg_serv_btn">
-												<html:div class="col-md-2 col-md-offset-4">
-													<Button text="SUBMIT" press="onPressESubmit" class="switchcenter form-control"
-														ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-												</html:div>
-												<html:div class="col-md-2">
-													<Button text="RESET" press="onPressResetRE" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+										<html:div class="col-sm-6">
+											<html:div class="row your_bill">
+												<html:div class="col-xs-12">
+													<GenericTile class="tileLayout" press="press">
+														<TileContent>
+															<content>
+																<html:div class="row">
+																	<html:div class="col-xs-3">
+																		<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-responsive"></html:image>
+																	</html:div>
+																	<html:div class="col-xs-9">
+																		<html:span>pay your bill here</html:span>
+																	</html:div>
+																</html:div>
+															</content>
+														</TileContent>
+													</GenericTile>
 												</html:div>
 											</html:div>
 										</html:div>
 									</html:div>
-								</Panel>
+								</html:div>
+								<html:div class="col-sm-5 col-md-6 counters">
+									<html:div class="row">
+										<html:div class="col-xs-4 col-sm-4 text-center">
+											<html:span>Consumer Number</html:span>
+											<html:h4>1234</html:h4>
+										</html:div>
+										<html:div class="col-xs-4 col-sm-4 text-center acc_no">
+											<html:span>Account Number</html:span>
+											<html:h4>1234</html:h4>
+										</html:div>
+										<html:div class="col-xs-4 col-sm-4 text-center">
+											<html:span>Meter Number</html:span>
+											<html:h4>1234</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="reg_service">
+						<html:h4>Register for e-Services</html:h4>
+						<html:div>
+							<html:div class="row e_services">
+								<html:div class="col-sm-6 email_service">
+									<html:div class="email_ser_img text-center">
+										<html:image src="images/email.png" alt="email" class="img-responsive"></html:image>
+									</html:div>
+									<html:h5 class="text-center">E-Mail Alerts</html:h5>
+									<html:div class="email_alerts_chk">
+										<html:div class="row">
+											<html:div class="col-xs-6"><CheckBox text="On Bill Generation"/></html:div>
+											<html:div class="col-xs-6"><CheckBox text="Payment Receipt"/></html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-xs-6"><CheckBox text="Discount Date Reminder"/></html:div>
+											<html:div class="col-xs-6"><CheckBox text="Due Date Reminder"/></html:div>
+										</html:div>
+									</html:div>
+									<html:div class="email_alerts_radio">
+										<html:div class="row">
+											<html:div class="col-sm-4"><RadioButton groupName="em_radio" text="Email 1"/></html:div>
+											<html:div class="col-sm-8"><Input type="Text" id="em_radio1"/></html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-sm-4"><RadioButton groupName="em_radio" text="Email 2"/></html:div>
+											<html:div class="col-sm-8"><Input type="Text" id="em_radio2"/></html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-sm-4"><RadioButton groupName="em_radio" text="Email 3"/></html:div>
+											<html:div class="col-sm-8"><Input type="Text" id="em_radio3"/></html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+								<html:div class="col-sm-6 email_service sms_service">
+									<html:div class="email_ser_img text-center">
+										<html:image src="images/mobile3.png" alt="mobile3" class="img-responsive"></html:image>
+									</html:div>
+									<html:h5 class="text-center">SMS Alerts</html:h5>
+									<html:div class="email_alerts_chk">
+										<html:div class="row">
+											<html:div class="col-xs-6"><CheckBox text="On Bill Generation"/></html:div>
+											<html:div class="col-xs-6"><CheckBox text="Payment Receipt"/></html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-xs-6"><CheckBox text="Discount Date Reminder"/></html:div>
+											<html:div class="col-xs-6"><CheckBox text="Due Date Reminder"/></html:div>
+										</html:div>
+									</html:div>
+									<html:div class="email_alerts_radio">
+										<html:div class="row">
+											<html:div class="col-sm-4"><RadioButton groupName="sms_radio" text="Mobile 1"/></html:div>
+											<html:div class="col-sm-8"><Input type="Text" id="sms_radio1"/></html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-sm-4"><RadioButton groupName="sms_radio" text="Mobile 2"/></html:div>
+											<html:div class="col-sm-8"><Input type="Text" id="sms_radio2"/></html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-sm-4"><RadioButton groupName="sms_radio" text="Mobile 3"/></html:div>
+											<html:div class="col-sm-8"><Input type="Text" id="sms_radio3"/></html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="row form_row reg_serv_btn">
+							<html:div class="col-md-2 col-md-offset-4">
+								<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							</html:div>
+							<html:div class="col-md-2">
+								<Button text="RESET" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
 		</content>
 	</Panel>
 </core:FragmentDefinition>

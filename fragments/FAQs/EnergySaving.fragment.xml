@@ -77,7 +77,7 @@
 							<html:div class="row">
 								<html:div class="col-sm-8">
 									<html:h5>Light</html:h5>
-									<html:ul class="inti_list">
+									<html:ul class="inti_list engSaveList">
 										<html:li>Switch off lights and fans when not required.</html:li>
 										<html:li>Replace bulbs with tube lights &amp; CFL(Compact Flourescent Lamps).</html:li>
 										<html:li>Utilise natural light by using electronic chokes &amp; regulators instead of conventional copper chokes.</html:li>
@@ -97,7 +97,7 @@
 							<html:div class="row">
 								<html:div class="col-sm-8">
 									<html:h5>Electric iron</html:h5>
-									<html:ul class="inti_list">
+									<html:ul class="inti_list engSaveList">
 										<html:li>Select iron boxes with automatic temperature cutoff.</html:li>
 										<html:li>Use appropriate regulator position for ironing.</html:li>
 										<html:li>Do not put more water on clothes while ironing.</html:li>
@@ -111,7 +111,7 @@
 							<html:div class="row">
 								<html:div class="col-sm-8">
 									<html:h5>Fans</html:h5>
-									<html:ul class="inti_list">
+									<html:ul class="inti_list engSaveList">
 										<html:li>Replace conventional regulators with electronic regulators for ceiling fans.</html:li>
 										<html:li>Install exhaust fans at a higher elevation than ceiling fans.</html:li>
 									</html:ul>
@@ -120,7 +120,7 @@
 							<html:div class="row">
 								<html:div class="col-sm-8">
 									<html:h5>Refrigerator</html:h5>
-									<html:ul class="inti_list">
+									<html:ul class="inti_list engSaveList">
 										<html:li>Do not open door frequently.</html:li>
 										<html:li>Set thermostat in medium cooling position.</html:li>
 										<html:li>Keep adequate space from wall.</html:li>
@@ -144,7 +144,7 @@
 							<html:div class="row">
 								<html:div class="col-sm-8">
 									<html:h5>Washing Machine</html:h5>
-									<html:ul class="inti_list">
+									<html:ul class="inti_list engSaveList">
 										<html:li>Use after 10 PM or before 10 AM.</html:li>
 										<html:li>Run washing machine only with full load.</html:li>
 										<html:li>Use the shortest cycle time.</html:li>
@@ -163,7 +163,7 @@
 							<html:div class="row">
 								<html:div class="col-sm-8">
 									<html:h5>Geyser</html:h5>
-									<html:ul class="inti_list">
+									<html:ul class="inti_list engSaveList">
 										<html:li>Use before 10 AM.</html:li>
 										<html:li>Switch off when not required.</html:li>
 										<html:li>Reduce thermostat setting from 60º to 50º C.</html:li>
@@ -177,7 +177,7 @@
 							<html:div class="row">
 								<html:div class="col-sm-8">
 									<html:h5>Mixers</html:h5>
-									<html:ul class="inti_list">
+									<html:ul class="inti_list engSaveList">
 										<html:li>Avoid dry grinding in your food processors (mixers and grinders) as it takes longer time than liquid grinding.</html:li>
 									</html:ul>
 								</html:div>
@@ -185,7 +185,7 @@
 							<html:div class="row">
 								<html:div class="col-sm-8">
 									<html:h5>Microwave Ovens</html:h5>
-									<html:ul class="inti_list">
+									<html:ul class="inti_list engSaveList">
 										<html:li>Use these appliances to reduce energy consumption by 50 % compared to conventional electric / gas stoves.</html:li>
 										<html:li>Do not bake large food items.</html:li>
 										<html:li>Unless you're baking breads or pastries, you may not even need to preheat.</html:li>
@@ -199,7 +199,7 @@
 							<html:div class="row">
 								<html:div class="col-sm-8">
 									<html:h5>Electric Stove</html:h5>
-									<html:ul class="inti_list">
+									<html:ul class="inti_list engSaveList">
 										<html:li>Turn off electric stoves several minutes before the specified cooking time.</html:li>
 										<html:li>Use flat-bottomed pans that make full contact with the cooking coil.</html:li>
 									</html:ul>
@@ -208,7 +208,7 @@
 							<html:div class="row">
 								<html:div class="col-sm-8">
 									<html:h5>Gas Stove</html:h5>
-									<html:ul class="inti_list">
+									<html:ul class="inti_list engSaveList">
 										<html:li>When cooking on a gas burner, use moderate flame settings to conserve LPG.</html:li>
 										<html:li>Remember that a blue flame means your gas stove is operating efficiently.</html:li>
 										<html:li>Yellowish flame is an indicator that the burner needs cleaning.</html:li>
@@ -221,7 +221,7 @@
 							<html:div class="row">
 								<html:div class="col-sm-8">
 									<html:h5>Air Conditioning</html:h5>
-									<html:ul class="inti_list">
+									<html:ul class="inti_list engSaveList">
 										<html:li>Ensure proper sealing of doors and windows.</html:li>
 										<html:li>Set thermostat at 24º C for optimum cooling.</html:li>
 										<html:li>Clean AC filter every month.</html:li>
@@ -246,6 +246,11 @@
 								</html:div>
 								<html:div class="col-sm-4 text-center">
 									<html:image src="images/enrg_sav_ac.jpg" alt="enrg_sav_ac" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-xs-12">
+									<html:p><html:em>Issued in public interest by Tata Power.</html:em></html:p>
 								</html:div>
 							</html:div>
 						</html:div>

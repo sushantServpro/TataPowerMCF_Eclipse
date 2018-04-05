@@ -1,8 +1,6 @@
 sap.ui.define([
-	"sap/ui/core/UIComponent",
-	"tatapower/dev/model/models",
-	"tatapower/dev/controller/ErrorHandler"
-], function (UIComponent,models,ErrorHandler) {
+	"sap/ui/core/UIComponent"
+], function (UIComponent) {
 	"use strict";
 
 	return UIComponent.extend("tatapower.dev.Component", {
@@ -11,16 +9,11 @@ sap.ui.define([
 			manifest: "json"
 		},
 
-		init: function() {
-		    this._oErrorHandler = new ErrorHandler(this);
+		init: function () {
 			// call the init function of the parent
 			UIComponent.prototype.init.apply(this, arguments);
-			// 	set the device model
-				this.setModel(models.createDeviceModel(),"device");
-				// set the FLP model
-				this.setModel(models.createFLPModel(),"FLP");
 			// create the views based on the url/hash
-			    this.getRouter().initialize();
+			this.getRouter().initialize();
 		}
 
 	});

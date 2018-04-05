@@ -1,0 +1,338 @@
+<core:FragmentDefinition xmlns="sap.m"
+	xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt"
+	height="100%" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel>
+		<content>
+			<Panel expandable="true" expanded="false"
+				headerText="What is Ceiling fan New Purchase programme?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Under Demand Side Management (DSM) Tata Power has
+							initiated several
+							programmes to promote energy efficiency at
+							consumer premises and
+							the programmes are approved by Maharashtra
+							Electricity Regulatory
+							Commission (MERC). The program objective is
+							to reduce electricity
+							consumption and enhance energy efficiency.
+							The programme is
+							launched by Tata Power in tie up with M/s
+							Atomberg Technologies
+							Pvt Ltd(Atomberg Technologies). Currently,
+							the program is offered
+							to Residential Consumers of Tata Power.
+							Under this program the
+							eligible consumer gets an opportunity to
+							purchase new Gorilla
+							Energy Efficient Ceiling Fans, which reduces
+							power consumption by
+							at least 60% thereby reducing their
+							electricity bill in long run.
+							The programme is offered under new
+							purchase (without exchange)
+							scheme.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="What are credentials of Atomberg Technologies?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							M/s Atomberg Technologies is a company started in the
+							year 2012 by
+							IIT-B alumni, with a strong core team of IIT-IIM
+							alumni in place,
+							a state of the art R &amp; D facility, and
+							backing from SEBI
+							registered venture investors
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="Why use Gorilla fans and how do they differ from existing (current/old) ones?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							The new ceiling fans offered under the programme are
+							Super Energy
+							Efficient Fan and are certified by BEE. The 5 star
+							rated ceiling
+							fan offered under this program typically consumes
+							around 30 W,
+							whereas the old ceiling fans consume around 75 W.
+							This results
+							into saving 45W of power per fan.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="What are the details of the Ceiling fan?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							The ceiling fan offered under this program is of 1200mm.
+							It has got
+							air delivery of 220 Cu Mtr/Min and Service Value of
+							7.0. Service
+							value of a ceiling is the ratio of air delivery to
+							the power
+							input.
+							The scheme is available under New Purchase option
+							only.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="What are the details of the Ceiling fan?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							The ceiling fan offered under this program is of 1200mm.
+							It has got
+							air delivery of 220 Cu Mtr /Min and Service Value of
+							7.0. Service
+							value of a ceiling is the ratio of air delivery to
+							the power
+							input.
+							The scheme is available under New Purchase option
+							only.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="What are annual savings if I install the fan?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Considering 10 running hours per day and approximate rate
+							of Rs.6.00 per unit, the approximate annual savings would be Rs
+							810 per fan. (Actual saving depends on fan usage and cost of
+							electricity)..
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="How many Fans can I avail?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Each Residential consumer is eligible to purchase maximum
+							four fans.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="What happens if I need more fans than my eligibility limit?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							The rebate offered is available for maximum four fans
+							only for each consumer.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="What would be guarantee of these fans?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Three years warranty is provided by Atomberg on the fans
+							purchased under this programme. The warranty card would be given
+							to you by Atomberg.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="What shall I do in case of fans failure?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Please call Atomberg call centre at 022-65352777. Please
+							retain your warrantee card and bill safely. The details are also
+							provided on warranty card.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="What will be the execution Process?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							After registration by you, a franchisee of M/s Atomberg
+							will give you
+							a call within 30 days from the date of registration
+							and confirm
+							your order and requirement/model also your choice .On
+							an
+							appointed day,electrician will visit your premises. He would be
+							carrying an ID card authorized by Atomberg.
+
+
+
+							He will deliver the
+							fans of your choice and issue warranty card and
+							an invoice.
+
+
+
+							Consumer can make the payment through a)Online payment facility
+							b)Cheque/DD and c)Cash.In case the consumer wants to pay be
+							cheque, he need to send the cheque in advance and after
+							realisation of cheque the delivery will be carried out.
+
+							After the
+							delivery, consumer will be requested to sign the job
+							completion
+							and acknowledgement form.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="How do I register for the scheme?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							You can register either by Internet Registration or
+							calling the
+							Tata Power call centre.
+
+							For registering on Internet please log on
+							to
+							<html:a href="http://www.tatapower.com"></html:a>
+							.(Be Green)
+
+							To register you would need to type in your consumer
+							number, name,
+							telephone number, consumer category, number of fans
+							required and
+							e-mail Id.
+
+							For registration by phone, dial Tata Power
+							call centre :
+							18002095161. Inform your consumer number, name,
+							telephone number,
+							consumer category and e-mail Id.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="What are the documents which will be required at the time of installation?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							You will require your latest paid electricity bill.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="What is the programme period?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Limited number of fans is approved under this programme.
+							The program
+							will be closed after the approved quantity is booked.
+							The
+							consumer will be enrolled on first come first serve basis.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="What is the role of Tata Power?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Tata Power has rolled out the programme and offered
+							special rebate to help the consumers to replace their inefficient
+							appliance by new super energy efficient appliance. Tata Power is
+							only a facilitator of this Programme and its role &amp; liability
+							is
+							restricted only to offering a rebate to the manufacturer. The
+							warranty for the ceiling fans is provided by Atomberg and any
+							future issue regarding product and warranty etc. shall be
+							directly dealt with Atomberg without involving Tata Power. Tata
+							Power shall not be responsible in any manner (financial or
+							otherwise) for any issues relating to this Programme or the
+							product in future. Tata Power's decision in all respects for
+							issues/ disputes/differences shall be final.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="Where can one buy spare remote and what will be the cost of the same?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Spare remotes can be purchased from Atomberg Website, for
+							INR 250 whcih will be inclusive of delivery charges.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="How to operate the fan when the remote is not functioning?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							In case of a problem one can toggle the switch to vary
+							the speed of the fan. If the user wants to sent the fan on speed
+							3, he will have to turn on and off the switch for 4 times,if he
+							again wants to shift it to speed 1 then he will have to turn on
+							and off the fan for 2 times. So to set the speed of the fan via
+							remote one need to turn on and off the switch for required speed+
+							1 number of times
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="Where should I contact for any doubt or query?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							In case of any query you may contact  
+						
+							<html:a href="mailto:dsmcell@tatapower.com">dsmcell@tatapower.com</html:a>
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

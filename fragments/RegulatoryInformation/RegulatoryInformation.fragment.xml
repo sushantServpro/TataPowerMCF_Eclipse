@@ -33,7 +33,7 @@
 								</html:a>
 							</html:li>
 							<html:li class="col-sm-6">
-								<html:a href="http://www.tatapower.com/regulations/pdf/Standards_of_performanance.pdf" target="_blank" title="Standard of Performance">
+								<html:a href="https://www.tatapower.com/corporate/regulatory/regulatory-mumbai.aspx" target="_blank" title="Standard of Performance">
 									<html:div class="row">
 										<html:div class="col-xs-10">Standard of Performance</html:div>
 										<html:div class="col-xs-2 text-right">
@@ -73,7 +73,7 @@
 								</html:a>
 							</html:li>
 							<html:li class="col-sm-6">
-								<html:a href="http://courtnic.nic.in/courtnicsc.asp" target="_blank" title="Supreme Court Orders">
+								<html:a href="http://courtnic.nic.in/" target="_blank" title="Supreme Court Orders">
 									<html:div class="row">
 										<html:div class="col-xs-10">Supreme Court Orders</html:div>
 										<html:div class="col-xs-2 text-right">
@@ -84,7 +84,7 @@
 							</html:li>
 						</html:ul>
 						<html:div class="row procedure_files switch_over">
-							<html:a href="pdf/Maharashtra_Electricity_Duty_Act_2016.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/RegulatoryInformation/Maharashtra_Electricity_Duty_Act_2016.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>
@@ -95,7 +95,7 @@
 										Maharashtra Electricity Duty</html:div>
 								</html:div>
 							</html:a>
-							<html:a href="pdf/ED_Notification.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/RegulatoryInformation/ED_Notification.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>
@@ -107,7 +107,7 @@
 									</html:div>
 								</html:div>
 							</html:a>
-							<html:a href="pdf/Tourism_policy_MTDC_2016.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/RegulatoryInformation/Tourism_policy_MTDC_2016.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>

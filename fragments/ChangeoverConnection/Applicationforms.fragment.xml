@@ -11,7 +11,7 @@
 							</html:div>
 						</html:div>
 						<html:div class="row">
-							<html:div class="col-sm-6"> 
+							<html:div class="col-sm-6">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body">
 										<html:div class="app">
@@ -29,7 +29,7 @@
 							</html:div>
 						</html:div>
 						<html:div class="row procedure_files switch_over">
-							<html:a href="pdf/power-supply-application-form-print-version.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/changeoverconnection/powersupplyapplicationformprintversion.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>
@@ -39,7 +39,7 @@
 									<html:div class="panel-footer">Power Supply Application Form (View Version)</html:div>
 								</html:div>
 							</html:a>
-							<html:a href="pdf/changeover-power-supply-agreement-view-version.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/changeoverconnection/changeoverpowersupplyagreementviewversion.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>

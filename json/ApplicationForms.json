@@ -35,4 +35,7 @@
 }, {
 	"text": "Meter Testing",
 	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Permanent Disconnection",
+	"ref": "sap-icon://attachment-html"
 }]

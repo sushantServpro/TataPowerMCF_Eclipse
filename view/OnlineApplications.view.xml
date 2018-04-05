@@ -7,9 +7,22 @@
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
 					<html:div class="container-fluid onl_app_frm">
-						<html:h5 align="center">Online Applications</html:h5>
 						<html:div class="row">
 							<html:div class="col-sm-10 col-sm-offset-1">
+								<html:div class="row intro_head">
+									<html:div class="col-xs-12">
+										<html:div class="online_app_bg border_rad_icon">
+											<html:div class="row icon_row_flex">
+												<html:div class="col-xs-2">
+													<html:image src="images/icon_online_appln.png" alt="icon_online_appln" class="img-responsive"></html:image>
+												</html:div>
+												<html:div class="col-xs-10">
+													<html:h4>Online Application</html:h4>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
 								<html:div class="new_online_app_menu">
 									<html:div class="row new_online_app_menu">
 										<html:div class="col-sm-3 onlinebox">
@@ -75,7 +88,7 @@
 										<html:div class="col-sm-3 onlinebox">
 											<GenericTile class="tileLayout" press="pressReconnection">
 												<TileContent>
-													<content> 
+													<content>
 														<html:div class="online_tile_img">
 															<html:image src="images/reconnection.png" alt="connection" class="img-responsive"></html:image>
 															<html:h4>Reconnection</html:h4>
@@ -124,7 +137,7 @@
 											</GenericTile>
 										</html:div>
 										<html:div class="col-sm-3 onlinebox">
-											<GenericTile class="tileLayout" press="pressLoad_Enhancement"> 
+											<GenericTile class="tileLayout" press="pressLoad_Enhancement">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">

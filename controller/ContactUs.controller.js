@@ -23,7 +23,7 @@ sap.ui.define([
 			vbox1.addItem(fragment);
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
-			var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.AssessmentOfficerVigilance"].join("."), this);
+			var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.HODCustomerServices"].join("."), this);
 			vbox.addItem(fragment1);
 
 		},
@@ -36,32 +36,32 @@ sap.ui.define([
 		},
 		handleButtonPress: function(evt) {
 
-			var vbox = this.getView().byId("FlexboxProcedure");
-			vbox.destroyItems();
-			if (evt.oSource.mProperties.text === "Vigilance Head") {
+				var vbox = this.getView().byId("FlexboxProcedure");
+				vbox.destroyItems();
+				if (evt.oSource.mProperties.text === "Vigilance Head") {
 
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.AssessmentOfficerVigilance"].join("."), this);
-				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "Call Center Number") {
+					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.AssessmentOfficerVigilance"].join("."), this);
+					vbox.addItem(fragment1);
+				} else if (evt.oSource.mProperties.text === "Call Center Number") {
 
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.CallCenterNumber"].join("."), this);
-				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "Customer Relations Center") {
+					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.CallCenterNumber"].join("."), this);
+					vbox.addItem(fragment1);
+				} else if (evt.oSource.mProperties.text === "Customer Relations Center") {
 
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.CustomerRelation"].join("."), this);
-				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "HOD Customer Services") {
+					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.CustomerRelation"].join("."), this);
+					vbox.addItem(fragment1);
+				} else if (evt.oSource.mProperties.text === "HOD Customer Services") {
 
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.HODCustomerServices"].join("."), this);
-				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "Zonal Head") {
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.ZonalManagers"].join("."), this);
-				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "HOD Commercial") {
+					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.HODCustomerServices"].join("."), this);
+					vbox.addItem(fragment1);
+				} else if (evt.oSource.mProperties.text === "Zonal Head") {
+					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.ZonalManagers"].join("."), this);
+					vbox.addItem(fragment1);
+				} else if (evt.oSource.mProperties.text === "HOD Commercial") {
 
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.HODCommercial"].join("."), this);
-				vbox.addItem(fragment1);
-			}
+					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.HODCommercial"].join("."), this);
+					vbox.addItem(fragment1);
+				}
 
 			}
 			/**

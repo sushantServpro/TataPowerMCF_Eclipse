@@ -26,14 +26,14 @@
 								<IconTabFilter text="Bill Part 1">
 									<html:div class="col-md-12">
 										<html:object>
-											<html:embed src="flash/KnowledgeCentreTataPowerConsumerCarePortal1.swf" width="100%" height="500"></html:embed>
+											<html:embed src="flash/Knowledge Centre - Tata Power Consumer Care Portal (1).swf" width="100%" height="500"></html:embed>
 										</html:object>
 									</html:div>
 								</IconTabFilter>
 								<IconTabFilter text="Bill Part 2">
 									<html:div class="col-md-12">
 										<html:object>
-											<html:embed src="flash/KnowledgeCentreTataPowerConsumerCarePortal2.swf" width="100%" height="500"></html:embed>
+											<html:embed src="flash/Knowledge Centre - Tata Power Consumer Care Portal (2).swf" width="100%" height="500"></html:embed>
 										</html:object>
 									</html:div>
 								</IconTabFilter>

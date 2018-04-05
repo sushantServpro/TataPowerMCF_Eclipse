@@ -6,7 +6,7 @@
 				<content>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
-					<html:div class="container-fluid">
+					<html:div class="container-fluid setMinHeight">
 						<html:div class="counter-sec">
 							<html:div class="container-fluid">
 								<html:div class="row">

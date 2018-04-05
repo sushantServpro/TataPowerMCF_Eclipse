@@ -16,7 +16,7 @@
 									<html:h4>Power Supply Distribution Chart</html:h4>
 									<html:ul class="nav nav-tabs nav-stacked">
 										<html:li>
-											<html:a href="#" target="_blank" title="Schematic Display of Interconnected Stations to Enhance Reliability and Redundancy">
+											<html:a href="images/power_supply_chart1.jpg" target="_blank" title="Schematic Display of Interconnected Stations to Enhance Reliability and Redundancy">
 												<html:div class="row">
 													<html:div class="col-xs-10">Schematic Display of Interconnected Stations to Enhance Reliability &amp; Redundancy</html:div>
 													<html:div class="col-xs-2 text-right">
@@ -26,7 +26,7 @@
 											</html:a>
 										</html:li>
 										<html:li>
-											<html:a href="#" target="_blank" title="Automatic Islanding System">
+											<html:a href="images/power_supply_chart2.jpg" target="_blank" title="Automatic Islanding System">
 												<html:div class="row">
 													<html:div class="col-xs-10">Automatic Islanding System</html:div>
 													<html:div class="col-xs-2 text-right">
@@ -36,7 +36,7 @@
 											</html:a>
 										</html:li>
 										<html:li>
-											<html:a href="#" target="_blank" title="Typical Setup for HT Consumer">
+											<html:a href="images/power_supply_chart3.jpg" target="_blank" title="Typical Setup for HT Consumer">
 												<html:div class="row">
 													<html:div class="col-xs-10">Typical Setup for HT Consumer</html:div>
 													<html:div class="col-xs-2 text-right">
@@ -46,7 +46,7 @@
 											</html:a>
 										</html:li>
 										<html:li>
-											<html:a href="#" target="_blank" title="Typical Setup for LT / Residential Consumer">
+											<html:a href="images/power_supply_chart4.jpg" target="_blank" title="Typical Setup for LT / Residential Consumer">
 												<html:div class="row">
 													<html:div class="col-xs-10">Typical Setup for LT / Residential Consumer</html:div>
 													<html:div class="col-xs-2 text-right">
@@ -56,7 +56,7 @@
 											</html:a>
 										</html:li>
 										<html:li>
-											<html:a href="#" target="_blank" title="Customer Segmentation">
+											<html:a href="images/power_supply_chart5.jpg" target="_blank" title="Customer Segmentation">
 												<html:div class="row">
 													<html:div class="col-xs-10">Customer Segmentation</html:div>
 													<html:div class="col-xs-2 text-right">

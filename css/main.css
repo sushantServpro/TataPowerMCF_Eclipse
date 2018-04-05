@@ -18,6 +18,14 @@
     margin-top: -20px;
 }
 
+.sapUiBody {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.4rem!important;
+}
+
 .headerMenu .sapMPanelContent,
 .footerMain .sapMPanelContent {
     padding: 0 !important;
@@ -108,6 +116,27 @@
     border: none;
     font-size: 15px;
     font-weight: 600;
+}
+
+.digitalchamps {
+    margin-top: 10px!important;
+    line-height: 2.2em!important;
+    font-weight: bold!important;
+}
+
+.digitalchamps .sapMBtnInner {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.275rem !important;
+    height: 2.500rem;
+    min-width: 2.500rem;
+    margin-top: 3px!important;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    background-color: none!important;
+    color: #147492!important;
+    font-weight: bold;
+    text-shadow: 0 0 0.125rem #ffffff !important;
 }
 
 .sapMBtn {
@@ -383,6 +412,14 @@
     font: normal 16px "Open Sans";
 }
 
+.fanview tr , td{
+	padding: 10px;
+	text-align:center;
+}
+.fanview{
+	width:100%;
+	border-collapse: collapse;
+}
 .sidetile .sapMGT.OneByOne,
 .sidetile .sapMGT.OneByOne .sapMGTContent,
 .sidetile .sapMGT.OneByOne .sapMGTContent .sapMTileCnt,
@@ -2493,6 +2530,10 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 0 15px;
 }
 
+.online_app_bg {
+	background: linear-gradient(to right, #e59304 15%, #fff 85%) !important;
+}
+
 .bill_calc_bg {
     background: linear-gradient(to right, #fb6e2b 15%, #fff 85%) !important;
 }
@@ -2578,12 +2619,18 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .knw_cen_bg {
-	background: linear-gradient(to right, #e60f18 15%, #fff 85%) !important;
+    background: linear-gradient(to right, #e60f18 15%, #fff 85%) !important;
 }
 
 .btnGo {
     margin-top: 10px;
 }
+
+.cosnGrev {
+    padding: 10px;
+}
+
+.engSaveList li { font-weight: normal; }
 
 
 /*green corner sub menus*/
@@ -2678,6 +2725,10 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     height: 100%;
     border: 3px solid #1a68b2;
     border-radius: 10px;
+}
+
+.setMinHeight {
+	min-height: 430px;
 }
 
 
@@ -3674,12 +3725,23 @@ hr {
     position: relative!important;
     text-overflow: ellipsis!important;
     width: 25rem!important;
+    
+    text-shadow: 0 0 0.125rem #ffffff!important;
+    font-size: 15px!important;
+    text-align: left!important;
+}
+.logintab .sapMITBFilter .sapMITBText:active{
+	 line-height: 2.4375rem!important;
+    overflow: hidden!important;
+    padding: 1.575rem 0 0!important;
+    position: relative!important;
+    text-overflow: ellipsis!important;
+    width: 25rem!important;
     color: #333333!important;
     text-shadow: 0 0 0.125rem #ffffff!important;
     font-size: 15px!important;
     text-align: left!important;
 }
-
 .logintab .sapMITBFilter .sapMITBText:hover {
     line-height: 2.4375rem!important;
     overflow: hidden!important;
@@ -3700,3 +3762,13 @@ hr {
 .onlinebox {
     margin-top: 30px;
 }
+
+.imgdown .sapMImageContent {
+    position: relative;
+    height: 3.875rem !important;
+    width: 10rem!important;
+    outline: none;
+    text-align:center;
+    border:none;
+}
+

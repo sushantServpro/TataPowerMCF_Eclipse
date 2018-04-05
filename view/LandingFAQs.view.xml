@@ -9,7 +9,7 @@
 					<html:div class="container">
 						<html:div class="row dividetiles">
 							<html:div class=" col-xs-12 col-sm-6 col-md-4 smalltile">
-								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="pressFAQ">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
 									<TileContent>
 										<content>
 											<html:div class="row home_ten_menu">
@@ -18,7 +18,7 @@
 												</html:div>
 												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
 													<html:h4>Billing Related</html:h4>
-													<html:h4>Quaries</html:h4>
+													<html:h4>Queries</html:h4>
 												</html:div>
 											</html:div>
 										</content>
@@ -26,7 +26,7 @@
 								</GenericTile>
 							</html:div>
 							<html:div class=" col-xs-12 col-sm-6 col-md-4 smalltile">
-								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="pressFAQ">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
 									<TileContent>
 										<content>
 											<html:div class="row home_ten_menu">
@@ -43,7 +43,7 @@
 								</GenericTile>
 							</html:div>
 							<html:div class="col-xs-12 col-sm-6 col-md-4 smalltile">
-								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="pressFAQ">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
 									<TileContent>
 										<content>
 											<html:div class="row home_ten_menu">
@@ -60,7 +60,7 @@
 								</GenericTile>
 							</html:div>
 								<html:div class=" col-xs-12 col-sm-6 col-md-4 smalltile">
-								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="pressFAQ">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
 									<TileContent>
 										<content>
 											<html:div class="row home_ten_menu">
@@ -86,7 +86,7 @@
 												</html:div>
 												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
 													<html:h4>Power Related</html:h4>
-														<html:h4>Quaries</html:h4>
+														<html:h4>Queries</html:h4>
 												</html:div>
 											</html:div>
 										</content>
@@ -94,7 +94,7 @@
 								</GenericTile>
 							</html:div>
 							<html:div class="col-xs-12 col-sm-6 col-md-4 smalltile">
-								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="pressFAQ">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
 									<TileContent>
 										<content>
 											<html:div class="row home_ten_menu">
@@ -111,7 +111,7 @@
 								</GenericTile>
 							</html:div>
 								<html:div class="col-xs-12 col-sm-6 col-md-4 smalltile">
-								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="pressFAQ">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
 									<TileContent>
 										<content>
 											<html:div class="row home_ten_menu">
@@ -127,7 +127,7 @@
 									</TileContent>
 								</GenericTile>
 							</html:div>
-								<html:div class="col-xs-12 col-sm-6 col-md-4 smalltile">
+							<html:div class="col-xs-12 col-sm-6 col-md-4 smalltile">
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
 									<TileContent>
 										<content>

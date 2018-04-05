@@ -21,6 +21,19 @@
 								</html:div>
 							</html:div>
 						</html:div>
+						<Panel expandable="true" expanded="false" headerText="How do I pay my Tata Power electricity bill online?" width="auto"
+							class="sapUiResponsiveMargin">
+							<content>
+								<html:div class="textpara">
+									<html:p>To make an online payment, please visit the TATA Power Consumer Portal by typing the following address in your address bar:
+										<html:a href="https://cp.tatapower.com/irj/portal/anonymous" target="_Blank" title="Tata Power">https://cp.tatapower.com/irj/portal/anonymous</html:a>
+									</html:p>
+									<html:p>
+										Kindly go to the Online Bill Payment section above Quick Links and click on Quick Bill Payment Or View &amp; Pay Bill Online, enter your
+										revised consumer number and pay your bills online</html:p>
+								</html:div>
+							</content>
+						</Panel>
 						<Panel expandable="true" expanded="false" headerText="Are there any extra charges for online bill payment?" width="auto"
 							class="sapUiResponsiveMargin">
 							<content>
@@ -127,6 +140,19 @@
 							<content>
 								<html:div class="textpara">
 									<html:p>The payment will be updated in TATA Power records within 3 working days.</html:p>
+								</html:div>
+							</content>
+						</Panel>
+						<Panel expandable="true" expanded="false" headerText="While trying to make an online payment, I get an error message. Why?" width="auto"
+							class="sapUiResponsiveMargin">
+							<content>
+								<html:div class="textpara">
+									<html:p>This may be due to Internet connectivity issues between the online payment gateway and the bank. Under such a circumstance, your
+										payment gets successfully processed, but the same is not reflected in your account. The actual status of your transaction will be
+										communicated by the payment gateway to TATA Power Consumer Portal and your bill payment status in TATA Power will accordingly be updated
+										within 3 working days.</html:p>
+									<html:p>Alternatively, if you face Internet connectivity issues in TATA Power Consumer Portal site, then you can try and process your online
+										payment after some time.</html:p>
 								</html:div>
 							</content>
 						</Panel>

@@ -3,7 +3,7 @@
 	<Panel >
 		<content>
 			<html:object>
-				<html:embed src="flash/futureinitiative.swf" width="100%" height="500"></html:embed>
+				<html:embed src="flash/future-initiative.swf" width="100%" height="500"></html:embed>
 			</html:object>
 		</content>
 	</Panel>

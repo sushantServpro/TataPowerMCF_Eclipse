@@ -8,7 +8,7 @@
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
 					<html:div class="container-fluid">
 						<html:div class="row">
-							<html:div class="col-md-3">
+							<html:div class="col-md-3 setMinHeight">
 								<FlexBox id="Flexboxview"></FlexBox>
 							</html:div>
 							<html:div class="col-md-9">
@@ -16,7 +16,7 @@
 							</html:div>
 						</html:div>
 					</html:div>
-					
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
 				</content>
 			</Page>
 		</pages>

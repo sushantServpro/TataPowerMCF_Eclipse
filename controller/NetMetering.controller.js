@@ -34,7 +34,7 @@ sap.ui.define([
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NetMetering.Applicationforms"].join("."), this);
 				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "Check Distribution Transformer Capacity") { 
+			} else if (evt.oSource.mProperties.text === "Check Distribution Transformer Capacity") {
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NetMetering.Check_distribution_transformer_capacity"].join("."), this);
 				vbox.addItem(fragment1);
@@ -46,6 +46,10 @@ sap.ui.define([
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NetMetering.ProcedureAndGuidlines"].join("."), this);
 				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.text === "Apply Online") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NetMetering.ApplyOnline"].join("."), this);
+				vbox.addItem(fragment1);
 			}
 
 		},
@@ -55,7 +59,16 @@ sap.ui.define([
 
 		getRouter: function() {
 			return sap.ui.core.UIComponent.getRouterFor(this);
+		},
+		pressTermsOfUse: function() {
+			this.getRouter().navTo("TermOfUse");
+		},
+		pressPrivacyPolicy: function() {
+			this.getRouter().navTo("PrivacyPolicy");
 		}
+		
+
+		
 
 	});
 

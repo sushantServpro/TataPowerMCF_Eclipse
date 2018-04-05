@@ -10,7 +10,7 @@
 						<Panel >
 							<content>
 								<html:div class="row">
-									<html:div class="col-xs-12 col-md-8 col-sm-offset-2 loginbar">
+									<html:div class="col-xs-12 col-md-8 col-sm-offset-2  loginbar">
 										<IconTabBar id="idIconTabBarNoIcons" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding logintab">
 											<items>
 												<IconTabFilter text="Consumer Login" class="consumerlog">
@@ -19,27 +19,24 @@
 															<html:div class="row">
 																<html:div class="col-md-6">
 																	<Label text="CA Number" labelFor="nameInput"/>
-																	<Input id="username" class="sapUiSmall" type="Text"/>
-																	Don't have an account Please
-																	<!--<html:a>Register Here</html:a>-->
-																	<Button text="Register Here" press="onNewUser" class="switchcenter form-control"
-																		ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+																	<Input id="nameInput" class="sapUiSmall" type="Text"/>
+																		Don't have an account Please <html:a>Register Here</html:a>
 																</html:div>
 																<html:div class="col-md-6">
 																	<Label text="Password" labelFor="passwordInput"/>
-																	<Input id="password" type="Password"/>
-																	<!--<html:a>Forgot Password ?</html:a>-->
-																	<Button text="Forgot Password ?" press="onForgotPassword" class="switchcenter form-control"
-																		ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+																	<Input id="passwordInput" type="Password"/>
+																	<html:a>Forgot Password ?</html:a>
 																</html:div>
 															</html:div>
 														</html:div>
+													
 													</html:div>
 													<html:div class="row">
-														<html:div class="col-md-2 col-md-offset-5 loginbtn">
-															<Button text="LOGIN" press="OnLogin" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-														</html:div>
-													</html:div>
+										<html:div class="col-md-2 col-md-offset-5 loginbtn">
+												<Button text="LOGIN" press="onReset" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+											</html:div>
+										
+											</html:div>
 												</IconTabFilter>
 												<IconTabFilter text="Licensed Electrical Contractor Login" class="licencelog">
 													<html:div class="row">
@@ -48,8 +45,7 @@
 																<html:div class="col-md-6">
 																	<Label text="User Name" labelFor="nameInput"/>
 																	<Input id="nInput" class="sapUiSmall" type="Text"/>
-																	Don't have an account Please
-																	<html:a>Register Here</html:a>
+																		Don't have an account Please <html:a>Register Here</html:a>
 																</html:div>
 																<html:div class="col-md-6">
 																	<Label text="Password" labelFor="passwordInput"/>
@@ -58,13 +54,17 @@
 																</html:div>
 															</html:div>
 														</html:div>
+													
 													</html:div>
 													<html:div class="row">
-														<html:div class="col-md-2 col-md-offset-5 loginbtn">
-															<Button text="LOGIN" press="OnLogin" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-														</html:div>
-														<html:div class="col-md-8 col-md-offset-2"></html:div>
-													</html:div>
+										<html:div class="col-md-2 col-md-offset-5 loginbtn">
+												<Button text="LOGIN" press="onReset" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+											</html:div>
+											<html:div class="col-md-8 col-md-offset-2">
+										
+												
+											</html:div>
+											</html:div>
 												</IconTabFilter>
 											</items>
 										</IconTabBar>

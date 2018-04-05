@@ -225,7 +225,7 @@
 				</content>
 			</Panel>
 			<Panel expandable="true" expanded="false"
-				headerText=" Who can assist the customer to fill up the Load details, since customer may not have sufficient knowledge of the subject?"
+				headerText="Who can assist the customer to fill up the Load details, since customer may not have sufficient knowledge of the subject?"
 				width="auto" class="sapUiResponsiveMargin">
 				<content>
 					<html:div class="textpara">
@@ -246,7 +246,7 @@
 				</content>
 			</Panel>
 			<Panel expandable="true" expanded="false"
-				headerText=" Which customers get Exemption on Electricity duty (ED) and Tax on Sale of Electricity (TOSE) ?" width="auto"
+				headerText="Which customers get Exemption on Electricity duty (ED) and Tax on Sale of Electricity (TOSE) ?" width="auto"
 				class="sapUiResponsiveMargin">
 				<content>
 					<html:div class="textpara">
@@ -270,18 +270,28 @@
 				<content>
 					<html:div class="textpara">
 						<html:h5>
-							Yes. Owners / Developers / Builder may please submit a supply request for the new project site, along with necessary details, at:
-						</html:h5>
-						<html:h5>Distribution Customer Acquisition Department,
+							Yes. Owners / Developers / Builder may please submit a supply request for the new project site, along with necessary details at :
 						</html:h5>
 						<html:h5>
-							Ground floor, Technopolis Knowledge Park</html:h5>
+							<html:strong>CITY Zone (Mumbai City, i.e. Mahim to Colaba/Sion to CST) :</html:strong>
+							Tata Power Mahalaxmi Receiving Station, Distribution Division, Senapati Bapat Marg, Lower Parel, Mumbai 40013.
+						</html:h5>
 						<html:h5>
-							Mahakali Caves Road,</html:h5>
+							<html:strong>NORTH Zone (Bhayandar, Mira Road, Dahisar, Borivali) &amp; WEST Zone(Kandivali, Malad, Goregaon) :</html:strong>
+							Tata Power Borivali Receiving Station,Dattapada Road, Near Magathane Bus Depot, Borivali (East), Mumbai 400066.
+						</html:h5>
 						<html:h5>
-							Andheri (E), Mumbai 400 093</html:h5>
+							<html:strong>METRO Zone (Jogeshwari, Andheri) :</html:strong>
+							Tata Power Saki Receiving Station,42, Saki Vihar Road, near Marwah House, Andheri (East), Mumbai 400072.
+						</html:h5>
 						<html:h5>
-							Tel No.: 091-22-6668 8357</html:h5>
+							<html:strong>URBAN Zone (Vile Parle, Santacruz, Khar, Bandra, BKC) :</html:strong>
+							Tata Power Sahar Receiving Station,Sahar Airport Road, Near Hotel Leela, Andheri (East), Mumbai 400059.
+						</html:h5>
+						<html:h5>
+							<html:strong>EAST Zone(Powai, Vikhroli, Ghatkopar, Kurla, Chembur, Govandi, Deonar,Mankurd, Sakinaka) :</html:strong>
+							Tata Power Powai Receiving Station,Hiranandani Kailash Complex, Near MTNL, Powai, Mumbai 400076.
+						</html:h5>
 					</html:div>
 				</content>
 			</Panel>
@@ -316,22 +326,33 @@
 					</html:div>
 				</content>
 			</Panel>
-			<Panel expandable="true" expanded="false" headerText=" Where should customer contact for availing new power connection?" width="auto"
+			<Panel expandable="true" expanded="false" headerText="Where should customer contact for availing new power connection?" width="auto"
 				class="sapUiResponsiveMargin">
 				<content>
 					<html:div class="textpara">
 						<html:h5>
 							Customers are requested to contact our Marketing office at the below address:
 						</html:h5>
-						<html:h5>The Tata Power Company Ltd
+						<html:h5>
+							<html:strong>CITY Zone (Mumbai City, i.e. Mahim to Colaba/Sion to CST) :</html:strong>
+							Tata Power Mahalaxmi Receiving Station, Distribution Division, Senapati Bapat Marg, Lower Parel, Mumbai 40013.
 						</html:h5>
-						<html:h5>Distribution Customer Acquisition Department.</html:h5>
-						<html:h5>Technopolis Knowledge Park, Ground Floor,</html:h5>
-						<html:h5>Mahakali Caves Road, Chakala, Andheri(E),
+						<html:h5>
+							<html:strong>NORTH Zone (Bhayandar, Mira Road, Dahisar, Borivali) &amp; WEST Zone(Kandivali, Malad, Goregaon) :</html:strong>
+							Tata Power Borivali Receiving Station,Dattapada Road, Near Magathane Bus Depot, Borivali (East), Mumbai 400066.
 						</html:h5>
-						<html:h5>Mumbai 400 093.
+						<html:h5>
+							<html:strong>METRO Zone (Jogeshwari, Andheri) :</html:strong>
+							Tata Power Saki Receiving Station,42, Saki Vihar Road, near Marwah House, Andheri (East), Mumbai 400072.
 						</html:h5>
-						<html:h5>Contact Details: 091- 22- 66688357</html:h5>
+						<html:h5>
+							<html:strong>URBAN Zone (Vile Parle, Santacruz, Khar, Bandra, BKC) :</html:strong>
+							Tata Power Sahar Receiving Station,Sahar Airport Road, Near Hotel Leela, Andheri (East), Mumbai 400059.
+						</html:h5>
+						<html:h5>
+							<html:strong>EAST Zone(Powai, Vikhroli, Ghatkopar, Kurla, Chembur, Govandi, Deonar,Mankurd, Sakinaka) :</html:strong>
+							Tata Power Powai Receiving Station,Hiranandani Kailash Complex, Near MTNL, Powai, Mumbai 400076.
+						</html:h5>
 					</html:div>
 				</content>
 			</Panel>

@@ -21,7 +21,7 @@
 								</html:div>
 							</html:div>
 							<html:div class="row procedure_files switch_over newsLetter">
-								<html:a href="images/hindi-ads.jpg" target="_blank" class="col-sm-3 col-md-3">
+								<html:a href="images/hindiads.jpg" target="_blank" class="col-sm-3 col-md-3">
 									<html:div class="panel panel-default">
 										<html:div class="panel-body pdfviewer">
 											<html:div>
@@ -31,7 +31,7 @@
 										<html:div class="panel-footer">We have chosen Tata Power. And you? (Hindi)</html:div>
 									</html:div>
 								</html:a>
-								<html:a href="images/marathi-ads.jpg" target="_blank" class="col-sm-3 col-md-3">
+								<html:a href="images/marathiads.jpg" target="_blank" class="col-sm-3 col-md-3">
 									<html:div class="panel panel-default">
 										<html:div class="panel-body pdfviewer">
 											<html:div>
@@ -41,7 +41,7 @@
 										<html:div class="panel-footer">We have chosen Tata Power. And you? (Marathi)</html:div>
 									</html:div>
 								</html:a>
-								<html:a href="images/Bill-payment-at-ICICI-Bank-branches.jpg" target="_blank" class="col-sm-3 col-md-3">
+								<html:a href="images/BillpaymentatICICIBankbranches.jpg" target="_blank" class="col-sm-3 col-md-3">
 									<html:div class="panel panel-default">
 										<html:div class="panel-body pdfviewer">
 											<html:div>
@@ -51,7 +51,7 @@
 										<html:div class="panel-footer">Bill payment at ICICI Bank branches</html:div>
 									</html:div>
 								</html:a>
-								<html:a href="images/Choose-Tata-Power.jpg" target="_blank" class="col-sm-3 col-md-3">
+								<html:a href="images/ChooseTataPower.jpg" target="_blank" class="col-sm-3 col-md-3">
 									<html:div class="panel panel-default">
 										<html:div class="panel-body pdfviewer">
 											<html:div>

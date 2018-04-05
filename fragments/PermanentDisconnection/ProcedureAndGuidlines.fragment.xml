@@ -6,12 +6,12 @@
 				<html:div>
 					<html:div class=" col-md-12">
 						<html:div class="go-green_intro">
-							<html:div class="intro_head"> 
+							<html:div class="intro_head">
 								<html:h4>Procedure And Guidelines</html:h4>
 							</html:div>
 						</html:div>
 						<html:div class="row procedure_files switch_over">
-							<html:a href="pdf/PermDis_PG.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/permanentdisconnection/PermDisPG.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>

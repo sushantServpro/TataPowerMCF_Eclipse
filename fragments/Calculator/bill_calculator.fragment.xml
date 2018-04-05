@@ -36,7 +36,8 @@
 								<html:div class="row">
 									<html:div class="col-sm-4">
 										<Label text="Tarrif Category"/>
-										<ActionSelect id="select1"  selectedKey="{BillCalModel>/TariffCategory}" change="onTariffCategoryChange" items="{ path: 'TariffCategory>/results' }">
+										<ActionSelect id="select1" selectedKey="{BillCalModel>/TariffCategory}" change="onTariffCategoryChange"
+											items="{ path: 'TariffCategory>/results' }">
 											<items>
 												<core:Item key="{TariffCategory>Key}" text="{TariffCategory>Value}"/>
 											</items>
@@ -44,14 +45,12 @@
 									</html:div>
 									<html:div class="col-sm-4">
 										<Label text="Tarrif "/>
-										<Input id="TarrifId" showSuggestion="true" showValueHelp="true"
-									     valueHelpRequest="handleValueHelp"
-									     suggestionItems="{path:'Tariff>/results'}" 
-									     value="{BillCalModel>/Tariff}" >
-									<suggestionItems>
-										<core:Item text="{Tariff>Tariftyp}" key="{Tariff>Tariftyp}"/>
-									</suggestionItems>
-								</Input>
+										<Input id="TarrifId" showSuggestion="true" showValueHelp="true" valueHelpRequest="handleValueHelp"
+											suggestionItems="{path:'Tariff>/results'}" value="{BillCalModel>/Tariff}">
+											<suggestionItems>
+												<core:Item text="{Tariff>Tariftyp}" key="{Tariff>Tariftyp}"/>
+											</suggestionItems>
+										</Input>
 									</html:div>
 									<html:div class="col-sm-4">
 										<Label text="Type of Customer"/>
@@ -61,79 +60,78 @@
 											</items>
 										</ActionSelect>
 									</html:div>
-									</html:div>
-									
-									<html:div class="row" >
+								</html:div>
+								<html:div class="row">
 									<html:div class="col-sm-4">
 										<Label labelFor="select-a" text="supply Voltage:" visible="{CalculatorView>/block1}"/>
-										<ActionSelect id="select-a" selectedKey="{BillCalModel>/SupplyLoad}"
-										items="{ path: 'SupplyVolt>/results' }" visible="{CalculatorView>/block1}">
+										<ActionSelect id="select-a" selectedKey="{BillCalModel>/SupplyLoad}" items="{ path: 'SupplyVolt>/results' }"
+											visible="{CalculatorView>/block1}">
 											<items>
 												<core:Item key="{SupplyVolt>Key}" text="{SupplyVolt>Value}"/>
 											</items>
 										</ActionSelect>
 									</html:div>
-								    <html:div class="col-sm-4">
-									<Label text="Connected Load(KW):" labelFor="input-c" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-c" type="Number" value="{BillCalModel>/ConnectLoad}" visible="{CalculatorView>/block1}"/>
+									<html:div class="col-sm-4">
+										<Label text="Connected Load(KW):" labelFor="input-c" visible="{CalculatorView>/block1}"/>
+										<Input id="input-c" type="Number" value="{BillCalModel>/ConnectLoad}" visible="{CalculatorView>/block1}"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KWH_Total:" labelFor="input-d" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-d" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhT}"/>
+										<Label text="KWH_Total:" labelFor="input-d" visible="{CalculatorView>/block1}"/>
+										<Input id="input-d" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhT}"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KWH-A:" labelFor="input-e" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-e" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhA}"/>
+										<Label text="KWH-A:" labelFor="input-e" visible="{CalculatorView>/block1}"/>
+										<Input id="input-e" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhA}"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KWH-B:" labelFor="input-f" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-f" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhB}"/>
+										<Label text="KWH-B:" labelFor="input-f" visible="{CalculatorView>/block1}"/>
+										<Input id="input-f" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhB}"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KWH-B2:" labelFor="input-g" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-g" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhB2}"/>
+										<Label text="KWH-B2:" labelFor="input-g" visible="{CalculatorView>/block1}"/>
+										<Input id="input-g" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhB2}"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KWH-C" labelFor="input-h" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-h" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhC}"/>
+										<Label text="KWH-C" labelFor="input-h" visible="{CalculatorView>/block1}"/>
+										<Input id="input-h" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhC}"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KWH-D:" labelFor="input-i" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-i" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhD}"/>
+										<Label text="KWH-D:" labelFor="input-i" visible="{CalculatorView>/block1}"/>
+										<Input id="input-i" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhD}"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="RKVAH_Total:" labelFor="input-j" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-j" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/RkvahT}"/>
+										<Label text="RKVAH_Total:" labelFor="input-j" visible="{CalculatorView>/block1}"/>
+										<Input id="input-j" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/RkvahT}"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KVAH A:" labelFor="input-k" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-k" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahA}"/>
+										<Label text="KVAH A:" labelFor="input-k" visible="{CalculatorView>/block1}"/>
+										<Input id="input-k" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahA}"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KVAH B:" labelFor="input-l" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-l" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahB}"/>
+										<Label text="KVAH B:" labelFor="input-l" visible="{CalculatorView>/block1}"/>
+										<Input id="input-l" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahB}"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KVAH B2:" labelFor="input-m" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-m" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahB2}"/>
+										<Label text="KVAH B2:" labelFor="input-m" visible="{CalculatorView>/block1}"/>
+										<Input id="input-m" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahB2}"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KVAH C:" labelFor="input-n" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-n" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahC}"/>
+										<Label text="KVAH C:" labelFor="input-n" visible="{CalculatorView>/block1}"/>
+										<Input id="input-n" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahC}"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KVAH D:" labelFor="input-o" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-o" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahD}"/>
+										<Label text="KVAH D:" labelFor="input-o" visible="{CalculatorView>/block1}"/>
+										<Input id="input-o" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahD}"/>
 									</html:div>
-										<html:div class="col-sm-4">
-									<Label text="CMD:" labelFor="input-p" visible="{CalculatorView>/block1}"/>
-		                        	<Input id="input-p" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/Cmd}"/>
+									<html:div class="col-sm-4">
+										<Label text="CMD:" labelFor="input-p" visible="{CalculatorView>/block1}"/>
+										<Input id="input-p" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/Cmd}"/>
 									</html:div>
-										</html:div>
-										<html:div class="row">
-										<html:div class="col-sm-4">
-									<Label text="Consuption (Unit):" labelFor="input-q" visible="{CalculatorView>/block2}"/>
-		                        	<Input id="input-q" type="Number" visible="{CalculatorView>/block2}" value=""/>
+								</html:div>
+								<html:div class="row">
+									<html:div class="col-sm-4">
+										<Label text="Consuption (Unit):" labelFor="input-q" visible="{CalculatorView>/block2}"/>
+										<Input id="input-q" type="Number" visible="{CalculatorView>/block2}" value=""/>
 									</html:div>
 								</html:div>
 								<html:div class="row form_row">

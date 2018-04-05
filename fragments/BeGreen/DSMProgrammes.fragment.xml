@@ -31,16 +31,17 @@
 												<html:h5 class="text-center">Programmes for Residential Consumers</html:h5>
 												<html:div class="row cons_opt">
 													<html:div class="col-xs-6 col-sm-6">
-														<ImageContent class="pro_img_cont" src="images/ceil_fan.png" description="Ceiling Fan" press="press"></ImageContent>
+														<ImageContent class="pro_img_cont" src="images/ceil_fan.png" description="Ceiling Fan"  press="handleButtonPress"></ImageContent>
+														<!--<Link text="Ceiling Fan" press="handleButtonPress"/>-->
 													</html:div>
 													<html:div class="col-xs-6 col-sm-6">
-														<ImageContent class="pro_img_cont" src="images/led.png" description="LED Tube" press="press"></ImageContent>
+														<ImageContent class="pro_img_cont" src="images/led.png" description="LED Tube" press="handleButtonPress"></ImageContent>
 													</html:div>
 													<html:div class="col-xs-6 col-sm-6">
-														<ImageContent class="pro_img_cont" src="images/refridg.png" description="Refrigerator" press="press"></ImageContent>
+														<ImageContent class="pro_img_cont" src="images/refridg.png" description="Energy Refrigerator" press="handleButtonPress"></ImageContent>
 													</html:div>
 													<html:div class="col-xs-6 col-sm-6">
-														<ImageContent class="pro_img_cont" src="images/ac.png" description="AC" press="press"></ImageContent>
+														<ImageContent class="pro_img_cont" src="images/ac.png" description="Split AC" press="handleButtonPress"></ImageContent>
 													</html:div>
 												</html:div>
 											</html:div>
@@ -48,13 +49,13 @@
 												<html:h5 class="text-center">Programmes for Industrial/Commercial Consumers</html:h5>
 												<html:div class="row cons_opt">
 													<html:div class="col-xs-6 col-sm-6">
-														<ImageContent class="pro_img_cont" src="images/audit.png" description="Enery Audit" press="press"></ImageContent>
+														<ImageContent class="pro_img_cont" src="images/audit.png" description="Enery Audit" press="handleButtonPress"></ImageContent>
 													</html:div>
 													<html:div class="col-xs-6 col-sm-6">
-														<ImageContent class="pro_img_cont" src="images/led.png" description="LED Tube" press="press"></ImageContent>
+														<ImageContent class="pro_img_cont" src="images/led.png" description="LED Tube" press="handleButtonPress"></ImageContent>
 													</html:div>
 													<html:div class="col-xs-6 col-sm-6">
-														<ImageContent class="pro_img_cont" src="images/ac.png" description="AC" press="press"></ImageContent>
+														<ImageContent class="pro_img_cont" src="images/ac.png" description="Split AC" press="handleButtonPress"></ImageContent>
 													</html:div>
 												</html:div>
 											</html:div>

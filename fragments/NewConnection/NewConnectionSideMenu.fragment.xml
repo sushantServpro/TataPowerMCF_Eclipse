@@ -2,7 +2,6 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel>
 		<content>
-			<!--<Tree  items="{path: '/'}">-->
 			<Tree  items="{path: '/'}">
 				<CustomTreeItem>
 					<FlexBox alignItems="Start" width="100%">

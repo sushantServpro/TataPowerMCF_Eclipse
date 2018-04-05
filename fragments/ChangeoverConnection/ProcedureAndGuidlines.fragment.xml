@@ -3,11 +3,11 @@
 	<Panel >
 		<content>
 			<Panel>
-				<html:div class="procedure_head"> 
+				<html:div class="procedure_head">
 					<html:h4>Procedure And Guidelines</html:h4>
 				</html:div>
 				<html:div class="row procedure_files">
-					<html:a href="pdf/Estimation_for_Security_Deposit.pdf" target="_blank" class="col-sm-3 col-md-3">
+					<html:a href="pdf/changeoverconnection/EstimationforSecurityDeposit.pdf" target="_blank" class="col-sm-3 col-md-3">
 						<html:div class="panel panel-default">
 							<html:div class="panel-body pdfviewer">
 								<html:div>

@@ -32,8 +32,8 @@
 				<content>
 					<html:div class="textpara">
 						<html:h5>
-							Please dial our 24 hrs Call Centre for lodging power failure complaints and any other power related complaints or receive updates on power
-							restoration status.
+							In the event of any Power Failures, you can register a Power Failure complaint via SMS. Send NS &lt;12 digit Consumer No&gt; to 9223170707.
+							You can also register a complaint by logging into our Mobile App Or by sending us a Whatsapp at 7045116237
 						</html:h5>
 					</html:div>
 				</content>
@@ -55,7 +55,7 @@
 				<content>
 					<html:div class="textpara">
 						<html:h5>
-							In case of residential customers, if your neighbours have power supply when you don?t, the fault is most probably within your house. It is
+							In case of residential customers, if your neighbours have power supply when you don't, the fault is most probably within your house. It is
 							advisable to call the local electrician in such cases.
 						</html:h5>
 					</html:div>

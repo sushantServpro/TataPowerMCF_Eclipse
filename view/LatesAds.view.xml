@@ -6,7 +6,7 @@
 				<content>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
-					<html:div class="container">
+					<html:div class="container setMinHeight">
 						<html:div class="row">
 							<html:div class="col-md-12">
 								<FlexBox id="FlexboxProcedure"></FlexBox>

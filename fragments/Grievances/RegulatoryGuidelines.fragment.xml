@@ -49,7 +49,7 @@
 				<html:div class="electricity_act">
 					<html:ul class="nav nav-tabs nav-stacked">
 						<html:li>
-							<html:a href="#" target="_blank" title="Electricity Act, 2003">
+							<html:a href="http://www.tatapower.com/regulations/electricity-amendments.aspx" target="_blank" title="Electricity Act, 2003">
 								<html:div class="row">
 									<html:div class="col-xs-10">Electricity Act, 2003</html:div>
 									<html:div class="col-xs-2 text-right">
@@ -63,7 +63,7 @@
 				<html:div class="reg_forum">
 					<html:h5>Regulations regarding Grievance Redressal Forum and Electricity Ombudsman</html:h5>
 					<html:div class="row procedure_files">
-						<html:a href="#" target="_blank" class="col-sm-3 col-md-3">
+						<html:a href="pdf/Grievances/MERCConsumerRedressalOmbudsman2006.pdf" target="_blank" class="col-sm-3 col-md-3">
 							<html:div class="panel panel-default">
 								<html:div class="panel-body pdfviewer">
 									<html:div>
@@ -73,7 +73,7 @@
 								<html:div class="panel-footer">Grievance Redressal Forum and Ombudsman Regulations, 2006 (English)</html:div>
 							</html:div>
 						</html:a>
-						<html:a href="#" target="_blank" class="col-sm-3 col-md-3">
+						<html:a href="pdf/Grievances/MERCConsumerRedressalOmbudsmanMarathi2006.pdf" target="_blank" class="col-sm-3 col-md-3">
 							<html:div class="panel panel-default">
 								<html:div class="panel-body pdfviewer">
 									<html:div>
@@ -98,7 +98,7 @@
 								<html:div class="panel-footer">Completed forms can be submitted to grievance.cell@tatapower.com</html:div>
 							</html:div>
 						</html:a>
-						<html:a href="#" target="_blank" class="col-sm-3 col-md-3">
+						<html:a href="pdf/Grievances/ApplicationToForumFoRedressaOfGrievanceEng.pdf" target="_blank" class="col-sm-3 col-md-3">
 							<html:div class="panel panel-default">
 								<html:div class="panel-body pdfviewer">
 									<html:div>
@@ -108,7 +108,7 @@
 								<html:div class="panel-footer">Application to Forum for redressal of grievance (English)</html:div>
 							</html:div>
 						</html:a>
-						<html:a href="#" target="_blank" class="col-sm-3 col-md-3">
+						<html:a href="pdf/Grievances/ApplicationToForumForRedressalOfGrievanceMar.pdf" target="_blank" class="col-sm-3 col-md-3">
 							<html:div class="panel panel-default">
 								<html:div class="panel-body pdfviewer">
 									<html:div>
@@ -123,7 +123,7 @@
 				<html:div class="reg_forum">
 					<html:h5>Important Link</html:h5>
 					<html:div class="row procedure_files">
-						<html:a href="#" title="Mail Us" class="col-sm-4 col-md-5">
+						<html:a href="http://tatapower.com/regulations/redressal-report.aspx" target="_blank" title="Mail Us" class="col-sm-4 col-md-5">
 							<html:div class="row panel panel-default pnl_imp_lnk">
 								<html:div class="col-sm-4 pdfviewer">
 									<html:div>

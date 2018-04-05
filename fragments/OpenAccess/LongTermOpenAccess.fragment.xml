@@ -17,7 +17,7 @@
 					<html:h6 class="indicate">*Indicates Mandatory Fields</html:h6>
 					<html:div class="detailrequire">
 						<html:div class="open_access_form_heading">
-							<html:h6 class="text-center">Application for Grant of Long Term Open Access</html:h6>
+							<html:h6 class="text-center">Application for Grant of Short Term Open Access</html:h6>
 						</html:div>
 						<html:div class="boxpad">
 							<html:div class="row">
@@ -28,7 +28,7 @@
 											<Input id="cnntreeInput" type="text" class="sapUiSmallMarginBottom"/>
 										</html:div>
 										<html:div class="col-xs-3 btnGo">
-											<Button text="GO" press="onPressGoLong" class="switchcenter form-control"></Button>
+											<Button text="GO" press="onPress" class="switchcenter form-control"></Button>
 										</html:div>
 									</html:div>
 								</html:div>
@@ -116,10 +116,10 @@
 								<html:div class="col-sm-6">
 									<html:div class="row">
 										<html:div class="col-xs-6">
-											<RadioButton  id="applNew" groupName="application_type" text="New"/>
+											<RadioButton groupName="application_type" text="New"/>
 										</html:div>
 										<html:div class="col-xs-6">
-											<RadioButton id="applRnew" groupName="application_type" text="Renewal"/>
+											<RadioButton groupName="application_type" text="Renewal"/>
 										</html:div>
 									</html:div>
 								</html:div>
@@ -146,21 +146,21 @@
 								<html:div class="col-sm-6">
 									<html:div class="row">
 										<html:div class="col-xs-4">
-											<RadioButton groupName="applicant_type" text="Buyer" id="iBuyer"/>
+											<RadioButton groupName="applicant_type" text="Buyer"/>
 										</html:div>
 										<html:div class="col-xs-4">
-											<RadioButton groupName="applicant_type" text="Seller" id="iSeller"/>
+											<RadioButton groupName="applicant_type" text="Seller"/>
 										</html:div>
 										<html:div class="col-xs-4">
-											<RadioButton groupName="applicant_type" text="Trader" id="iTrader"/>
+											<RadioButton groupName="applicant_type" text="Trader"/>
 										</html:div>
 									</html:div>
 									<html:div class="row">
 										<html:div class="col-xs-12">
-											<RadioButton groupName="applicant_type" text="Captive Generating Station" id="iCaptive"/>
+											<RadioButton groupName="applicant_type" text="Captive Generating Station"/>
 										</html:div>
-										<html:div class="col-xs-12"> 
-											<RadioButton groupName="applicant_type" text="Renewal Energy Generating Station" id="iRenew"/>
+										<html:div class="col-xs-12">
+											<RadioButton groupName="applicant_type" text="Renewal Energy Generating Station"/>
 										</html:div>
 									</html:div>
 								</html:div>
@@ -172,10 +172,10 @@
 								<html:div class="col-sm-6">
 									<html:div class="row">
 										<html:div class="col-xs-6">
-											<RadioButton groupName="generator_type" text="Inter State(Outside Maharashtra)" id="iInter"/>
+											<RadioButton groupName="generator_type" text="Inter State(Outside Maharashtra)"/>
 										</html:div>
 										<html:div class="col-xs-6">
-											<RadioButton groupName="generator_type" text="Intra State(Within Maharashtra)" id="iIntra"/>
+											<RadioButton groupName="generator_type" text="Intra State(Within Maharashtra)"/>
 										</html:div>
 									</html:div>
 								</html:div>
@@ -202,17 +202,17 @@
 								</html:div>
 								<html:div class="col-md-6">
 									<Label text="Buyer Capacity in the Contract(MW) :" labelFor="buyer_cont"/>
-									<Input id="buyer_cont" type="Number" value="0.00" class="sapUiSmallMarginBottom"/>
+									<Input id="buyer_cont" type="Number" class="sapUiSmallMarginBottom"/>
 								</html:div>
 							</html:div>
 							<html:div class="row boxpad_row">
 								<html:div class="col-md-6">
 									<Label text="Buyer Capacity if contracted to other source(MW) :" labelFor="buyer_oth_cont"/>
-									<Input id="buyer_oth_cont" type="Number" value="0.00" class="sapUiSmallMarginBottom"/>
+									<Input id="buyer_oth_cont" type="Number" class="sapUiSmallMarginBottom"/>
 								</html:div>
 								<html:div class="col-md-6">
 									<Label text="Buyer no of days Open Access Applied :" labelFor="buyer_app_days"/>
-									<Input id="buyer_app_days" type="Number"  class="sapUiSmallMarginBottom"/>
+									<Input id="buyer_app_days" type="Number" class="sapUiSmallMarginBottom"/>
 								</html:div>
 							</html:div>
 							<html:div class="row">
@@ -237,13 +237,13 @@
 								</html:div>
 								<html:div class="col-md-6">
 									<Label text="Seller Capacity in the Contract(MW) :" labelFor="seller_cont"/>
-									<Input id="seller_cont" type="Number" value="0.00" class="sapUiSmallMarginBottom"/>
+									<Input id="seller_cont" type="Number" class="sapUiSmallMarginBottom"/>
 								</html:div>
 							</html:div>
 							<html:div class="row boxpad_row">
 								<html:div class="col-md-6">
 									<Label text="Seller Capacity if contracted to other source(MW) :" labelFor="seller_oth_cont"/>
-									<Input id="seller_oth_cont" type="Number" value="0.00" class="sapUiSmallMarginBottom"/>
+									<Input id="seller_oth_cont" type="Number" class="sapUiSmallMarginBottom"/>
 								</html:div>
 								<html:div class="col-md-6">
 									<Label text="Seller no of days Open Access Applied :" labelFor="seller_app_days"/>
@@ -272,13 +272,13 @@
 								</html:div>
 								<html:div class="col-md-6">
 									<Label text="Package Exchange Capacity in the Contract(MW) :" labelFor="package_exchange_cont"/>
-									<Input id="package_exchange_cont" type="Number" value="0.00" class="sapUiSmallMarginBottom"/>
+									<Input id="package_exchange_cont" type="Number" class="sapUiSmallMarginBottom"/>
 								</html:div>
 							</html:div>
 							<html:div class="row boxpad_row">
 								<html:div class="col-md-6">
 									<Label text="Package Exchange Capacity if contracted to other source(MW) :" labelFor="package_exchange_oth_cont"/>
-									<Input id="package_exchange_oth_cont" type="Number" value="0.00" class="sapUiSmallMarginBottom"/>
+									<Input id="package_exchange_oth_cont" type="Number" class="sapUiSmallMarginBottom"/>
 								</html:div>
 								<html:div class="col-md-6">
 									<Label text="Package Exchange no of days Open Access Applied :" labelFor="package_exchange_app_days"/>
@@ -320,45 +320,15 @@
 									<Input id="coord_mobile_no" type="Text" class="sapUiSmallMarginBottom"/>
 								</html:div>
 							</html:div>
-							<html:div class="row loaddetails">
-								<html:div class="col-xs-12">
-									<html:h5>Capcity Details
-									</html:h5>
-								</html:div>
-							</html:div>
-							<html:div class="row">
-								<html:div class="col-md-2">
-									<Label text="Preoid From" labelFor="input-a"/>
-									<!--<Input id="PreFrm" type="Text" class="sapUiSmallMarginBottom" />-->
-									<DatePicker id="PreFrm" change="handleChange"/>
-								</html:div>
-								<html:div class="col-md-2">
-									<Label text="Preoid To" labelFor="input-a"/>
-									<!--<Input id="PreTo" type="Text" class="sapUiSmallMarginBottom"/>-->
-									<DatePicker id="PreTo" change="handleChange"/>
-								</html:div>
-								<html:div class="col-md-2">
-									<Label text="Time From" labelFor="input-a" required="true"/>
-									<DateTimeInput  id="timeFr" type="Time" valueFormat="HH:mm:ss" displayFormat="HH:mm:ss" change="handleChange" class="sapUiSmallMarginBottom"/>
-								</html:div>
-								<html:div class="col-md-2">
-									<Label text="Time To" required="true" labelFor="input-a"/>
-									<DateTimeInput  id="timeTo"  type="Time" valueFormat="HH:mm:ss" displayFormat="HH:mm:ss" change="handleChange" class="sapUiSmallMarginBottom"/>
-								</html:div>
-								<html:div class="col-md-2">
-									<Label text="Capcity(WM)" required="true" labelFor="input-a"/>
-									<Input id="idCap" type="Text" value="0.00" class="sapUiSmallMarginBottom"/>
-								</html:div>
-								<html:div class="col-md-2">
-									<Button text="ADD RECORDS" press="onAddToLoadTab" class="switchcenter" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-								</html:div>
-								<html:div class="col-md-2">
-									<Button text="REMOVE RECORDS" press="onRemoveLoadTab" class="switchcenter"
-										ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-								</html:div>
-							</html:div>
 							<html:div class="view_table short_term_tbl">
-								<Table id="ApplyOlLoadTab" growing="true" growingScrollToLoad="true" mode="SingleSelectLeft" items="{oLoadTableModel}">
+								<Table id="table2" inset="false" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+									<headerToolbar>
+										<Toolbar>
+											<content>
+												<Title text="Capacity Applied" level="H2"/>
+											</content>
+										</Toolbar>
+									</headerToolbar>
 									<columns>
 										<Column>
 											<Text text="Period From"/>
@@ -367,10 +337,16 @@
 											<Text text="Period To"/>
 										</Column>
 										<Column>
-											<Text text="Time From"/>
+											<Text text="Time From(HH)"/>
 										</Column>
 										<Column>
-											<Text text="Time To"/>
+											<Text text="Time From(MM)"/>
+										</Column>
+										<Column>
+											<Text text="Time To(HH)"/>
+										</Column>
+										<Column>
+											<Text text="Time To(MM)"/>
 										</Column>
 										<Column>
 											<Text text="Capacity(MW)"/>
@@ -379,12 +355,14 @@
 									<items>
 										<ColumnListItem>
 											<cells>
-												<ObjectIdentifier title="{CapPeriodFrom}"/>
-												<Text text="{CapPeriodTo}"/>
-												<Text text="{CapTimeFrom}"/>
-												<Text text="{CapTimeTo}"/>
-												<!--<DateTimeInput  id="timeTo" value="{CapTimeTo}" editable="false" type="Time" valueFormat="PTHHHmmMssS" displayFormat="HH:mm" change="handleChange" class="sapUiSmallMarginBottom"/>-->
-												<Text text="{Capcity}"/>
+												<ObjectIdentifier title="{Name}" text="{ProductId}"/>
+												<Text text="{SupplierName}"/>
+												<Text text="{Width} x {Depth} x {Height} {DimUnit}"/>
+												<ObjectNumber number="{WeightMeasure}" unit="{WeightUnit}"
+													state="{ parts: [ {path: 'WeightMeasure'}, {path: 'WeightUnit'} ], formatter: 'sap.m.sample.Table.Formatter.weightState' }"/>
+												<ObjectNumber
+													number="{ parts:[{path:'Price'},{path:'CurrencyCode'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }"
+													unit="{CurrencyCode}"/>
 											</cells>
 										</ColumnListItem>
 									</items>
@@ -404,11 +382,11 @@
 							<html:div class="row boxpad_row">
 								<html:div class="col-md-6">
 									<Label text="Seller" labelFor="seller"/>
-									<Input id="Ppaseller" type="Text" class="sapUiSmallMarginBottom"/>
+									<Input id="seller" type="Text" class="sapUiSmallMarginBottom"/>
 								</html:div>
 								<html:div class="col-md-6">
 									<Label text="Buyer :" labelFor="buyer"/>
-									<Input id="Ppabuyer" type="Text" class="sapUiSmallMarginBottom"/>
+									<Input id="buyer" type="Text" class="sapUiSmallMarginBottom"/>
 								</html:div>
 							</html:div>
 							<html:div class="row boxpad_row">
@@ -428,7 +406,7 @@
 								</html:div>
 								<html:div class="col-md-6">
 									<Label text="Capacity :" labelFor="capacity_ppa"/>
-									<Input id="capacity_ppa" value="0.00" type="Text" class="sapUiSmallMarginBottom"/>
+									<Input id="capacity_ppa" type="Text" class="sapUiSmallMarginBottom"/>
 								</html:div>
 							</html:div>
 							<html:div class="row">
@@ -541,11 +519,11 @@
 							</html:div>
 							<html:div class="row boxpad_row">
 								<html:div class="col-md-3 col-md-offset-3">
-									<Button icon="sap-icon://arrow-right" text="SAVE AND SUBMIT" press="onPressSubmitLong" class="switchcenter"
+									<Button icon="sap-icon://arrow-right" text="SAVE AND SUBMIT" press="onPress" class="switchcenter"
 										ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 								</html:div>
 								<html:div class="col-md-3">
-									<Button icon="sap-icon://save" text="SAVE IN DRAFT" press="onPressSaveLong" class="switchcenter"
+									<Button icon="sap-icon://save" text="SAVE IN DRAFT" press="onPress" class="switchcenter"
 										ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 								</html:div>
 							</html:div>

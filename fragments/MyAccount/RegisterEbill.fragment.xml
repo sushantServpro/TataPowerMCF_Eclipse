@@ -22,10 +22,10 @@
 						<html:div class="row reg_bill_row">
 							<html:div class="col-xs-9">
 								<Label text="Consumer Number" labelFor="cnntreeInput"/>
-								<Input id="IdCustNO" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+								<Input id="cnntreeInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 							</html:div>
-							<html:div class="col-xs-3">
-								<Button text="GO" press="onPressGo" class="switchcenter form-control"></Button>
+							<html:div class="col-xs-3 btnGo">
+								<Button text="GO" press="onPress" class="switchcenter form-control"></Button>
 							</html:div>
 						</html:div>
 					</html:div>
@@ -33,41 +33,41 @@
 				<html:div class="row">
 					<html:div class="col-md-4 col-md-offset-4">
 						<Label text="Consumer Number" labelFor="cnntreeInput"/>
-						<Input id="IdCustNO" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+						<Input id="cnntreeInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 					</html:div>
 				</html:div>
 				<html:div class="row">
 					<html:div class="col-md-4 col-md-offset-4">
 						<Label text="Consumer Name" labelFor="cnntreeInput"/>
-						<Input id="IdCustName" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+						<Input id="cnntrInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 					</html:div>
 				</html:div>
 				<html:div class="row">
 					<html:div class="col-md-4 col-md-offset-4">
 						<Label text="Email" labelFor="cnntreeInput"/>
-						<Input id="IdCustEmail" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+						<Input id="cnntreInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 					</html:div>
 				</html:div>
 				<html:div class="row">
 					<html:div class="col-md-4 col-md-offset-4">
 						<Label text="Mobile Number" labelFor="cnntreeInput"/>
-						<Input id="IdCustMobNo" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+						<Input id="cnnntrInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 					</html:div>
 				</html:div>
 				<html:div class="row">
 					<html:div class="col-md-8 col-md-offset-2">
-						<RadioButton id="RDBAgree" groupName="GroupB"
+						<RadioButton groupName="GroupB"
 							text="I agree to save trees and contribute toward nature by opening for e-bill and stop reciving paper bills" selected="true"/>
-						<RadioButton  id="RDBNotAgree" groupName="GroupB"
+						<RadioButton groupName="GroupB"
 							text="I want to opt out for e-bills and receive paper bill going forward"/>
 					</html:div>
 				</html:div>
 				<html:div class="row form_row reg_serv_btn">
 					<html:div class="col-md-2 col-md-offset-4">
-						<Button text="SUBMIT" press="onPressSubmit" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+						<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 					</html:div>
 					<html:div class="col-md-2">
-						<Button text="RESET" press="onPressReset" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+						<Button text="RESET" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 					</html:div>
 				</html:div>
 				<html:div class="row">

@@ -5,7 +5,14 @@ sap.ui.define([
 
 	return Controller.extend("tatapower.dev.controller.ApplicationForms", {
 
-	
+		/**
+		 * Called when a controller is instantiated and its View controls (if available) are already created.
+		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
+		 * @memberOf tatapower.dev.TATAPOWER..view.FAQ
+		 */
+		//	onInit: function() {
+		//
+		//	},
 		onInit: function(evt) {
 
 			// set explored app's demo model on this sample
@@ -79,11 +86,21 @@ sap.ui.define([
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ApplicationForms.MeterTestingRequestForm"].join("."), this);
 				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.text === "Permanent Disconnection") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ApplicationForms.PermanentDisconnectionForm"].join("."), this);
+				vbox.addItem(fragment1);
 			}
 
+		},
+		pressTermsOfUse: function() {
+			this.getRouter().navTo("TermOfUse");
+		},
+		pressPrivacyPolicy: function() {
+			this.getRouter().navTo("PrivacyPolicy");
 		}
 
-	
+		
 
 	});
 

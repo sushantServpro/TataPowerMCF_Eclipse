@@ -1,0 +1,80 @@
+<core:FragmentDefinition xmlns="sap.m"
+	xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt"
+	height="100%" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel>
+		<content>
+			<html:table class="fanview table table-bordered">
+				<html:tr>
+					<html:th>Model</html:th>
+					<html:th>Model Details</html:th>
+					<html:th>MRP</html:th>
+					<html:th>Discounted Offer Price under New Purchase (without
+						exchange)
+					</html:th>
+					<html:th>View Details</html:th>
+				</html:tr>
+				<html:tr>
+					<html:td>
+						<html:image src="images/ivory_fan_new.jpg"
+							alt="ivory_fan_new" class="img-responsive"></html:image>
+					</html:td>
+					<html:td>Atomberg
+						Make
+						Model-Gorilla
+						Colour-Ivory
+
+						with Remote
+					</html:td>
+					<html:td>Rs.3600</html:td>
+					<html:td>Rs.1680</html:td>
+					<html:td>
+						<html:a href="pdf/submitfanpdf/Atomberg_Brochure.pdf"
+							target="_blank">
+							<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+						</html:a>
+					</html:td>
+				</html:tr>
+				<html:tr>
+					<html:td>
+						<html:image src="images/brown_fan_new.jpg"
+							alt="white_fan_new" class="img-responsive"></html:image>
+					</html:td>
+					<html:td>Atomberg
+						Make
+						Model-Gorilla
+						Colour-Brown
+
+						with Remote
+					</html:td>
+					<html:td>Rs.3600</html:td>
+					<html:td>Rs.1680</html:td>
+					<html:td><html:a href="pdf/submitfanpdf/Atomberg_Brochure.pdf"
+							target="_blank">
+							<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+						</html:a></html:td>
+				</html:tr>
+				<html:tr>
+					<html:td>
+						<html:image src="images/white_fan_new.jpg"
+							alt="white_fan_new" class="img-responsive"></html:image>
+					</html:td>
+					<html:td>Atomberg
+						Make
+						Model-Gorilla
+						Colour-White
+
+						with Remote
+					</html:td>
+					<html:td>Rs.3600</html:td>
+					<html:td>Rs.1680</html:td>
+					<html:td><html:a href="pdf/submitfanpdf/Atomberg_Brochure.pdf"
+							target="_blank">
+							<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+						</html:a></html:td>
+				</html:tr>
+
+			</html:table>
+
+		</content>
+	</Panel>
+</core:FragmentDefinition>

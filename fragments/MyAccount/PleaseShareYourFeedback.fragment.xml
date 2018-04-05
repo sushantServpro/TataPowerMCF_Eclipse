@@ -70,170 +70,108 @@
 							</html:div>
 						</html:div>
 					</html:div>
-				<html:div class="share_ur_feed">
-						<html:div class="row">
+					<html:div class="row share_ur_feed">
+						<html:div>
 							<html:h4>Please share your feedback</html:h4>
 						</html:div>
-						<html:div class="row feedbk_ques">
-							<html:div class="container-fluid">
-							<html:div class="row quesn">
-							<html:div class="col-sm-6">
-								<Label text="Consumer Name" labelFor="consm_num"/>
-								<Input id="IdConsm_name" editable="false" required="true" placeholder="Enter"/>
-							</html:div>
-							<html:div class="col-sm-6">
-								<Label text=" Account Number" labelFor="consm_num"/>
-								<Input id="IdAcc_no" editable="false" required="true" placeholder="Enter"/>
-							</html:div> 
-							<html:div class="col-sm-6">
-								<Label text="Email Id" labelFor="consm_num"/>
-								<Input id="IdEmail" required="true" editable="false" placeholder="Enter"/>
-							</html:div>
-							<html:div class="col-sm-6">
-								<Label text="Mobile Number" labelFor="consm_num"/>
-								<Input id="IdMob_no" required="true" editable="false" placeholder="Enter"/>
-							</html:div> 
-							</html:div>
-							
-							<html:div class="row quesn">
-									<html:div class="ques_no">
-										<html:h5>
-											 "How often" do you use the Tata Power Customer Portal?
-											<html:span class="req_star">*</html:span>
-										</html:h5>
+						<html:div class="feedback_form">
+							<html:h5 class="mandatory">
+								<html:em>*Indicates Mandatory Fields</html:em>
+							</html:h5>
+							<html:div class="content">
+								<html:div class="row form_row">
+									<html:div class="col-sm-6">
+										<Label text="Name" labelFor="name"/>
+										<Input id="name" required="true" type="Text" placeholder="Enter"/>
 									</html:div>
-									<html:div class="row cat_opt">
-										<html:div class="col-sm-3">
-											<RadioButton id="RDB_UsageType1" groupName="ques010" text="Daily" selected="true"/>
+									<html:div class="col-sm-6">
+										<Label text="Account Number" labelFor="acc_no"/>
+										<Input type="acc_no" id="full_name" required="true" placeholder="Enter"/>
+									</html:div>
+								</html:div>
+								<html:div class="row form_row">
+									<html:div class="col-sm-6">
+										<Label text="Email ID" labelFor="email_id"/>
+										<Input type="Email" id="email_id" required="true" placeholder="Enter"/>
+									</html:div>
+									<html:div class="col-sm-6">
+										<Label text="Mobile Number" labelFor="mob_no"/>
+										<Input type="mob_no" id="mob_no" required="true" placeholder="Enter"/>
+									</html:div>
+								</html:div>
+								<html:div class="feed_quetion">
+									<html:h3 class="text-center">answer only 5 questions</html:h3>
+									<html:div class="ques_div">
+										<html:h5>"How often" do you use the Tata Power Customer Portal?</html:h5>
+										<html:div class="row radioBtn">
+											<html:div class="col-sm-3"><RadioButton groupName="ques1" text="Daily"/></html:div>
+											<html:div class="col-sm-3"><RadioButton groupName="ques1" text="Weekly" selected="true"/></html:div>
+											<html:div class="col-sm-3"><RadioButton groupName="ques1" text="Monthly"/></html:div>
+											<html:div class="col-sm-3"><RadioButton groupName="ques1" text="Yearly"/></html:div>
 										</html:div>
-										<html:div class="col-sm-3">
-											<RadioButton id="RDB_UsageType2" groupName="ques010" text="Weekly"/>
+									</html:div>
+									<html:div class="ques_div">
+										<html:h5>Which of the "following services" of Tata Power Customer Portal you use?</html:h5>
+										<html:div class="row radioBtn">
+											<html:div class="col-sm-3"><CheckBox text="Bill Payments" groupName="ques2" selected="true"/></html:div>
+											<html:div class="col-sm-3"><CheckBox text="View &amp; Download Bills" groupName="ques2"/></html:div>
+											<html:div class="col-sm-3"><CheckBox text="Registering Complaints" groupName="ques2" selected="true"/></html:div>
+											<html:div class="col-sm-3"><CheckBox text="As &amp; When required" groupName="ques2"/></html:div>
 										</html:div>
-										<html:div class="col-sm-3">
-											<RadioButton id="RDB_UsageType3" groupName="ques010" text="Monthly"/>
+										<html:div class="row radioBtn">
+											<html:div class="col-sm-3"><CheckBox text="DSM Programme Registration" groupName="ques2"/></html:div>
+											<html:div class="col-sm-3"><CheckBox text="Tariff Related Info." groupName="ques2" selected="true"/></html:div>
+											<html:div class="col-sm-3"><CheckBox text="Seeking answers to queries" groupName="ques2"/></html:div>
+											<html:div class="col-sm-3"><CheckBox text="Other" groupName="ques2" selected="true"/></html:div>
 										</html:div>
-										<html:div class="col-sm-3">
-											<RadioButton groupName="ques010" id="RDB_UsageType4" text="As and when required"/>
+										<html:div class="ques_area">
+											<TextArea placeholder="Please Specify" growing="true" growingMaxLines="7" width="100%"/>
 										</html:div>
 									</html:div>
 								</html:div>
-								
-								<html:div class="row quesn">
-									<html:div class="ques_no">
-										<html:h5>
-											 Which of the "following services" of Tata Power Customer Portal you use?
-											<html:span class="req_star">*</html:span>
-										</html:h5>
-									</html:div>
-									<html:div class="row ques_ans">
-										<html:div class="col-sm-3">
-											<CheckBox id="CHB_BillPay" text="Bill Payments" selected="false"/>
+								<html:div class="feed_rating">
+									<html:div class="row feedRatingFlex">
+										<html:div class="col-sm-6">
+											<html:div class="ques_div">
+												<html:h5>Kindly rate us on the Look &amp; Feel of our existing Customer Portal?</html:h5>
+												<html:div class="row">
+													<html:div class="col-sm-8">
+														<RatingIndicator id="rate1" maxValue="4" class="sapUiSmallMarginBottom" value="3" iconSize="22px" tooltip="Rating Tooltip"/>
+													</html:div>
+													<html:div class="col-sm-4 uRated">You Rated:
+														<html:span>3</html:span>
+													</html:div>
+												</html:div>
+											</html:div>
 										</html:div>
-										<html:div class="col-sm-3">
-										    <CheckBox id="CHB_ViewNDwn" text="View  Download Bills" selected="false"/>
-										</html:div>
-										<html:div class="col-sm-3">
-											<CheckBox id="CHB_RegComp" text="Registering Complaints" selected="false"/>
-										</html:div>
-										<html:div class="col-sm-3">
-											<CheckBox id="CHB_DSMReg" text="DSM Programme Registration" selected="false"/>
-										</html:div>
-										<html:div class="col-sm-3">
-											<CheckBox id="CHB_TariffInfo" text="Tariff Related Info." selected="false"/>
-										</html:div>
-										<html:div class="col-sm-3">
-											<CheckBox id="CHB_Queries" text="Seeking answers to queries" selected="false"/>
-										</html:div>
-										<html:div class="col-sm-3">
-											<CheckBox id="CHB_Others" text="Others" selected="false"/>
+										<html:div class="col-sm-6">
+											<html:div class="ques_div">
+												<html:h5>Kindly rate us on the Ease of Navigation on Tata Power Customer Portal?</html:h5>
+												<html:div class="row">
+													<html:div class="col-sm-8">
+														<RatingIndicator id="rate2" maxValue="4" class="sapUiSmallMarginBottom" value="3" iconSize="22px" tooltip="Rating Tooltip"/>
+													</html:div>
+													<html:div class="col-sm-4 uRated">You Rated:
+														<html:span>3</html:span>
+													</html:div>
+												</html:div>
+											</html:div>
 										</html:div>
 									</html:div>
 								</html:div>
-								
-								<html:div class="row quesn">
-									<html:div class="ques_no">
-										<html:h5>
-											Kindly rate us on the Look and Feel of our existing Customer Portal?
-											<html:span class="req_star">*</html:span>
-										</html:h5>
-									</html:div>
-									<html:div class="row ques_ans">
-										<html:div class="col-sm-3">
-											<RadioButton id="RDB_LookFeel1" groupName="ques1" text="Very Difficult" selected="true"/>
-											<html:span class="feed_img">
-												<html:image src="images/red_smile.png" alt="be_green_banner"></html:image>
-											</html:span>
-										</html:div>
-										<html:div class="col-sm-3">
-											<RadioButton id="RDB_LookFeel2" groupName="ques1" text="Difficult"/>
-											<html:span class="feed_img">
-												<html:image src="images/yellow_smile.png" alt="be_green_banner"></html:image>
-											</html:span>
-										</html:div>
-										<html:div class="col-sm-3">
-											<RadioButton groupName="ques1" id="RDB_LookFeel3" text="Easy"/>
-											<html:span class="feed_img">
-												<html:image src="images/blue_smile.png" alt="be_green_banner"></html:image>
-											</html:span>
-										</html:div>
-										<html:div class="col-sm-3">
-											<RadioButton groupName="ques1" text="Very Easy" id="RDB_LookFeel4"/>
-											<html:span class="feed_img">
-												<html:image src="images/green_smile.png" alt="be_green_banner"></html:image>
-											</html:span>
+								<html:div class="feed_sugg">
+									<html:div class="ques_div">
+										<html:h5>We shall be keen to hear from you any suggestion?</html:h5>
+										<html:div class="ques_area">
+											<TextArea placeholder="Please enter your suggestion" growing="true" growingMaxLines="7" width="100%"/>
 										</html:div>
 									</html:div>
 								</html:div>
-								<html:div class="row quesn">
-									<html:div class="ques_no">
-										<html:h5>
-											 Kindly rate us on the Ease of Navigation on Tata Power Customer Portal?
-											<html:span class="req_star">*</html:span>
-										</html:h5>
-									</html:div>
-									<html:div class="row ques_ans">
-										<html:div class="col-sm-3">
-											<RadioButton id="RDB_EaseNav1" groupName="ques2" text="Very Difficult"/>
-											<html:span class="feed_img">
-												<html:image src="images/red_smile.png" alt="be_green_banner"></html:image>
-											</html:span>
-										</html:div>
-										<html:div class="col-sm-3">
-											<RadioButton id="RDB_EaseNav2" groupName="ques2" text="Difficult" selected="true"/>
-											<html:span class="feed_img">
-												<html:image src="images/yellow_smile.png" alt="be_green_banner"></html:image>
-											</html:span>
-										</html:div>
-										<html:div class="col-sm-3">
-											<RadioButton groupName="ques2" id="RDB_EaseNav3" text="Easy"/>
-											<html:span class="feed_img">
-												<html:image src="images/blue_smile.png" alt="be_green_banner"></html:image>
-											</html:span>
-										</html:div>
-										<html:div class="col-sm-3">
-											<RadioButton groupName="ques2" text="Very Easy" id="RDB_EaseNav4"/>
-											<html:span class="feed_img">
-												<html:image src="images/green_smile.png" alt="be_green_banner"></html:image>
-											</html:span>
-										</html:div>
+								<html:div>
+									<html:div class="col-md-2 col-md-offset-5 text-center">
+										<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 									</html:div>
 								</html:div>
-							</html:div>
-						</html:div>
-						<html:div class="row form_row">
-							<html:div class="col-sm-12">
-								<html:div class="feed_category">
-									<Label text="We shall be keen to hear from you any suggestions?" />
-									<TextArea id="SuggestBoxId" rows ="3" maxLength="250" width="100%" placeholder="Enter"/>
-								</html:div>
-							</html:div>
-						</html:div>
-						<html:div class="row form_row">
-							<html:div class="col-md-2 col-md-offset-4">
-								<Button text="SUBMIT" press="onSubmitFeedback" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-							</html:div>
-							<html:div class="col-md-2">
-								<Button text="NOT NOW" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 							</html:div>
 						</html:div>
 					</html:div>

@@ -22,7 +22,7 @@
 							</html:div>
 						</html:div>
 						<html:div class="row procedure_files switch_over">
-							<html:a href="pdf/NACH_FormV2.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/PaymentOptions/NACH_Form.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>

@@ -6,25 +6,28 @@
 				<html:div class="procedure_head">
 					<html:h4>Standard Drawings</html:h4>
 				</html:div>
-				<html:div class="row procedure_files">
-					<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank" class="col-sm-3 col-md-3">
+				<html:div class="row procedure_files switch_over">
+					<html:a href="pdf/newconnection/StandarddrawingMeteringpoints.pdf" target="_blank" class="col-sm-3 col-md-3">
 						<html:div class="panel panel-default">
 							<html:div class="panel-body pdfviewer">
 								<html:div>
 									<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
 								</html:div>
 							</html:div>
-							<html:div class="panel-footer">Estimation of Security Deposite</html:div>
+							<html:div class="panel-footer">
+								11kV HT S.S with 2 nos Metering points</html:div>
 						</html:div>
 					</html:a>
-					<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank" class="col-sm-3 col-md-3">
+					<html:a href="pdf/newconnection/STANDARDCSS.pdf" target="_blank" class="col-sm-3 col-md-3">
 						<html:div class="panel panel-default">
 							<html:div class="panel-body pdfviewer">
 								<html:div>
 									<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
 								</html:div>
 							</html:div>
-							<html:div class="panel-footer">Estimation of Security Deposite</html:div>
+							<html:div class="panel-footer">
+								STANDARD CSS DWG 11KV 8X5 1250kVA
+							</html:div>
 						</html:div>
 					</html:a>
 				</html:div>

@@ -22,7 +22,7 @@
 							</html:div>
 						</html:div>
 						<html:div class="row procedure_files switch_over">
-							<html:a href="pdf/Schedule_of_Charges.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/RegulatoryInformation/Schedule_of_Charges.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>

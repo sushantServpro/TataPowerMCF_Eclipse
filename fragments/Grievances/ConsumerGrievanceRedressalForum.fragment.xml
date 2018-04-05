@@ -96,68 +96,384 @@
 					</html:div>
 				</html:div>
 				<html:div class="electricity_act consmr_act_lst">
-					<html:ul class="nav nav-tabs nav-stacked">
-						<html:li>
-							<html:a href="#" target="_blank" title="Consumer Grievance Redressal Forum 2012">
-								<html:div class="row">
-									<html:div class="col-xs-10">Consumer Grievance Redressal Forum 2012</html:div>
-									<html:div class="col-xs-2 text-right">
-										<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+					<Panel expandable="true" expanded="false" headerText="Consumer Grievance Redressal Forum 2012" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="row procedure_files cosnGrev">
+								<html:a href="pdf/Grievances/CG_1_2012.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 01</html:div>
 									</html:div>
-								</html:div>
-							</html:a>
-						</html:li>
-						<html:li>
-							<html:a href="#" target="_blank" title="Consumer Grievance Redressal Forum 2013">
-								<html:div class="row">
-									<html:div class="col-xs-10">Consumer Grievance Redressal Forum 2013</html:div>
-									<html:div class="col-xs-2 text-right">
-										<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_2_2012.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 02</html:div>
 									</html:div>
-								</html:div>
-							</html:a>
-						</html:li>
-						<html:li>
-							<html:a href="#" target="_blank" title="Consumer Grievance Redressal Forum 2014">
-								<html:div class="row">
-									<html:div class="col-xs-10">Consumer Grievance Redressal Forum 2014</html:div>
-									<html:div class="col-xs-2 text-right">
-										<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_3_2012.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 03</html:div>
 									</html:div>
-								</html:div>
-							</html:a>
-						</html:li>
-						<html:li>
-							<html:a href="#" target="_blank" title="Consumer Grievance Redressal Forum 2015">
-								<html:div class="row">
-									<html:div class="col-xs-10">Consumer Grievance Redressal Forum 2015</html:div>
-									<html:div class="col-xs-2 text-right">
-										<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_4_2012.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 04</html:div>
 									</html:div>
-								</html:div>
-							</html:a>
-						</html:li>
-						<html:li>
-							<html:a href="#" target="_blank" title="Consumer Grievance Redressal Forum 2016">
-								<html:div class="row">
-									<html:div class="col-xs-10">Consumer Grievance Redressal Forum 2016</html:div>
-									<html:div class="col-xs-2 text-right">
-										<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+								</html:a>
+							</html:div>
+							<html:div class="row procedure_files cosnGrev">
+								<html:a href="pdf/Grievances/CG_5_2012.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 05</html:div>
 									</html:div>
-								</html:div>
-							</html:a>
-						</html:li>
-						<html:li>
-							<html:a href="#" target="_blank" title="Consumer Grievance Redressal Forum 2017">
-								<html:div class="row">
-									<html:div class="col-xs-10">Consumer Grievance Redressal Forum 2017</html:div>
-									<html:div class="col-xs-2 text-right">
-										<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_6_2012.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 06</html:div>
 									</html:div>
-								</html:div>
-							</html:a>
-						</html:li>
-					</html:ul>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_7_2012.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 07</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_8_2012.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 08</html:div>
+									</html:div>
+								</html:a>
+							</html:div>
+							<html:div class="row procedure_files cosnGrev">
+								<html:a href="pdf/Grievances/CG_9_2012.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 09</html:div>
+									</html:div>
+								</html:a>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Consumer Grievance Redressal Forum 2013" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="row procedure_files cosnGrev">
+								<html:a href="pdf/Grievances/CG_1_2013.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 01</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_2_2013.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 02</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_3_2013.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 03</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_4_2013.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 04</html:div>
+									</html:div>
+								</html:a>
+							</html:div>
+							<html:div class="row procedure_files cosnGrev">
+								<html:a href="pdf/Grievances/CG_5_2013.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 05</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_6_2013.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 06</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_7_2013.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 07</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_8_2013.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 08</html:div>
+									</html:div>
+								</html:a>
+							</html:div>
+							<html:div class="row procedure_files cosnGrev">
+								<html:a href="pdf/Grievances/CG_9_2013.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 09</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_10_2013.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 10</html:div>
+									</html:div>
+								</html:a>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Consumer Grievance Redressal Forum 2014" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="row procedure_files cosnGrev">
+								<html:a href="pdf/Grievances/CG_1_2014.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 01</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_2_2014.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 02</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_3_2014.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 03</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_4_2014.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 04</html:div>
+									</html:div>
+								</html:a>
+							</html:div>
+							<html:div class="row procedure_files cosnGrev">
+								<html:a href="pdf/Grievances/CG_5_2014.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 05</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_6_2014.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 06</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_7_2014.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 07</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_8_2014.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 08</html:div>
+									</html:div>
+								</html:a>
+							</html:div>
+							<html:div class="row procedure_files cosnGrev">
+								<html:a href="pdf/Grievances/CG_9_2014.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 09</html:div>
+									</html:div>
+								</html:a>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Consumer Grievance Redressal Forum 2015" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="row procedure_files cosnGrev">
+								<html:a href="pdf/Grievances/CG_1_2015.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 01</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/CG_2_2015.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum - 02</html:div>
+									</html:div>
+								</html:a>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Consumer Grievance Redressal Forum 2016" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="row procedure_files cosnGrev">
+								<html:a href="pdf/Grievances/CPL_Switches_2016.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">CPL Switches Pvt. Final Order</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Grievances/M_Y_Wagh_2016.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">M Y Wagh Final Order</html:div>
+									</html:div>
+								</html:a>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Consumer Grievance Redressal Forum 2017" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="row procedure_files cosnGrev">
+								<html:a href="pdf/Grievances/Order_2017.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Consumer Grievance Redressal Forum 2017</html:div>
+									</html:div>
+								</html:a>
+							</html:div>
+						</content>
+					</Panel>
 				</html:div>
 				<html:div class="procedure_head">
 					<html:p>For any requests/complaints pertaining to Tata Power Delhi Distribution Ltd(TPDDL), the consumers may please mark their mail to

@@ -15,8 +15,7 @@ sap.ui.define([
 			sPreviousHash = oHistory.getPreviousHash();
 			if (sPreviousHash !== undefined) {
 				window.history.go(-1);
-			}
-			else {
+			} else {
 				this.getRouter().navTo("appHome", {}, true /*no history*/ );
 			}
 		},

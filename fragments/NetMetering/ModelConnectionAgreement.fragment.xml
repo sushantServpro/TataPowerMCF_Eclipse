@@ -9,9 +9,9 @@
 							<html:div class="intro_head">
 								<html:h4>Model Connection Agreement</html:h4>
 							</html:div>
-						</html:div> 
+						</html:div>
 						<html:div class="row procedure_files switch_over">
-							<html:a href="pdf/Model_Connection_Agreement.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/Netmetering/ModelConnectionAgreement.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>

@@ -1,0 +1,94 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel >
+				<html:h5>DMS Programmes Registration</html:h5>
+				<html:div class="apply">
+					<html:div class="row">
+						<html:div class=" col-md-2 tata1">
+							<html:image src="images/tata_logo_white.png" alt="tata_logo" class="img-responsive"></html:image>
+						</html:div>
+						<html:div class=" col-md-1 pull-right tata2">
+							<html:image src="images/tata_emblem_white.png" alt="tata_logo" class="img-responsive"></html:image>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:h6 class="indicate">*Indicates Mandatory Fields</html:h6>
+				<html:div class="detailrequire">
+					<html:div class="detailspremises">
+						<html:h5 class="indicate2">5 Star Ceiling Fan DSM Programme
+							Terms and Conditions</html:h5>
+							<html:hr/>
+					</html:div>
+					<html:div class="boxpad">
+							<html:div class="row"><html:div class="col-md-12">
+							<html:p>1. This is a Demand side Management Initiative to promote energy efficiency at consumer end. The programme is approved by Maharashtra Electricity Regulatory Commission (MERC) and is available only for Tata Power 'Residential Consumer'. The consumer participation is voluntary.</html:p>
+							<html:p>2. The product offered under the programme is Atomberg Technologies Gorilla, energy saving 1200 mm Ceiling fan.The regulators are not provided with the ceiling fans.</html:p>
+							<html:p>3. Consumer can make the payment through a)Online payment facility b)Cheque/DD and c)Cash. In case the consumer wants to pay be cheque, he needs to send the cheque in advance and after realisation of cheque the delivery will be carried out.</html:p>
+							<html:p>4. Consumer can purchase fans under new purchase (without exchange) scheme Maximum Four Fans will be offered under this programme to each consumer.</html:p>
+							<html:p>5. The fans shall be delivered by authorized franchisee of M/s Atomberg Technologies Private Ltd.</html:p>
+							<html:p>6. Co-operation and Precaution by consumer: Consumer in his own interest shall check the identity card of person visiting his premises.</html:p>
+							<html:p>7. The delivery is expected to be carried out within a period of one months from registration.</html:p>
+							<html:p>8. This is a limited period programme. The products and prices may change without giving prior notice.</html:p>
+							<html:p>9. Tata Power is only a facilitator of this Programme and its role &amp; liability is restricted only to offering a rebate to the manufacturer. The warrantee for the ceiling fans is provided by Atomberg and any future issue regarding product and warrantee etc. shall be directly dealt with Atomberg without involving Tata Power. Tata Power shall not be responsible in any manner (financial or otherwise) for any issues relating to this Programme or the product in future. Tata Power's decision in all respects for issues/ disputes/differences shall be final.</html:p>
+							</html:div></html:div>
+							<html:div class="row">
+								<html:div class="col-md-3">
+									<CheckBox id="IdAgreetermRef" text=" I/We agree to all above terms and conditions" select="onSelectAgree"  selected="false"/> 
+								</html:div>
+							</html:div>
+						<html:div id="frmblock" style="display:none;">
+						<html:div class="row">
+							<Label class="col-md-4" text="Consumer Name" required="true"  labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="conNameInputIdRef"  required="true" type="Text" class="sapUiSmallMarginBottom"  />
+						</html:div></html:div>
+						
+						<html:div class="row">
+							<Label class="col-md-4" text="Consumer Number" required="true"  labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="conNoInputIdRef"  required="true" type="Number" class="sapUiSmallMarginBottom" />
+							
+						</html:div>
+						<html:div class="col-md-2"><Button icon="sap-icon://search" text="Next" id="btnBackPageSWCRef" press="onNextSearch" class="switchcenter"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription" ></Button></html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Consumer Name as in Bill:	" enabled="false" labelFor="input-a"/>
+							<html:div class="col-md-4" style="display:none;" id="blockConRef" ><Input id="conBillNameInputIdRef"  enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" value="{RefData>/ExCaName}" />
+						</html:div></html:div>
+						
+						<html:div class="row">
+							<Label class="col-md-4" text="Contact Number" enabled="false" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="contactNoInputIdRef" enabled="false" required="true" type="Number" class="sapUiSmallMarginBottom" value="{RefData>/PrimaryPhone}"/>
+						</html:div></html:div>
+						
+						<html:div class="row">
+							<Label class="col-md-4" text="Alternate Contact Number" enabled="false" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="altContactNoInputIdRef" enabled="false" required="true" type="Number" class="sapUiSmallMarginBottom" value="{RefData>/SecondaryPhone}" />
+						</html:div></html:div>
+						
+							<html:div class="row">
+							<Label class="col-md-4" text="Contact Email id" enabled="false" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="ContactEmailInputIdRef" enabled="false" required="true" type="Email" class="sapUiSmallMarginBottom" value="{RefData>/PrimaryEmail}" />
+						</html:div></html:div>
+						<html:div id="hideblockRef" style="display:none;">
+							<html:div class="row" >
+								<Label class="col-md-4" text="Capacity" enabled="false" labelFor="input-a"/>
+								<html:div class="col-md-4"><Input id="capacityInputIdRef"  required="true" type="Text" class="sapUiSmallMarginBottom" />
+							</html:div></html:div>
+							<html:div class="row" >
+								<Label class="col-md-4" text="Quantity" enabled="false" labelFor="input-a"/>
+								<html:div class="col-md-4"><Input id="qtyInputIdRef"  required="true" type="Text" class="sapUiSmallMarginBottom" />
+							</html:div></html:div>
+							<html:div class="row" >
+								<html:div class="col-md-2"><Button icon="sap-icon://save" text="Submit" id="btnSaveCeiling" press="onSubmitBeGreen" class="switchcenter"
+										ariaDescribedBy="defaultButtonDescription genericButtonDescription" ></Button></html:div>
+							</html:div>
+						</html:div>
+						</html:div>	
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

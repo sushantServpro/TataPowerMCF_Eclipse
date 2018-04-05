@@ -4,7 +4,7 @@
 		<content>
 			<html:div class="container-fluid">
 				<html:div class="go-green_intro">
-				<html:div class="row intro_head">
+					<html:div class="row intro_head">
 						<html:div class="col-xs-12">
 							<html:div class="bill_calc_bg border_rad_icon">
 								<html:div class="row icon_row_flex">
@@ -29,23 +29,16 @@
 										<html:div class="row">
 											<html:div class="col-xs-12 energy_cal_opt">
 												<Label text="Select Equipment" labelFor="selectEquip"/>
-												<ActionSelect id="selectEquip" selectedKey="{EnergyCalModel>/ZzeuipNo}" 
-												change="onEquipmentChange" items="{ path: 'EquipmentModel>/results' }">
+												<ActionSelect id="selectEquip" selectedKey="{EnergyCalModel>/ZzeuipNo}" change="onEquipmentChange"
+													items="{ path: 'EquipmentModel>/results' }">
 													<items>
 														<core:Item key="{EquipmentModel>ZzeuipNo}" text="{EquipmentModel>ZzeqipName}"/>
 													</items>
 												</ActionSelect>
 											</html:div>
-											
 											<html:div class="col-xs-12 energy_cal_opt">
-											<Image
-											    id="IdEquimg"
-				                            	src="images/Equipment_images/AIRCOOLER.bmp"
-					                            densityAware="true"
-					                            alt="speakers" style="margin-top:20px">
-					                         </Image>
+												<Image id="IdEquimg" src="images/Equipment_images/AIRCOOLER.bmp" densityAware="true" alt="speakers" style="margin-top:20px"></Image>
 											</html:div>
-											
 											<html:div class="col-xs-12 energy_cal_opt">
 												<Label text="Number of Equipments" labelFor="numEquip"/>
 												<html:div class="row">
@@ -53,7 +46,8 @@
 														<!--<Input id="numEquip" type="Text"/>-->
 													</html:div>
 													<html:div class="col-sm-10">
-														<Slider id="Slider1" value="{EnergyCalModel>/Tariff}" width="100%" min="0" max="10" change="OnValueChange" showAdvancedTooltip="true" showHandleTooltip="false"/>
+														<Slider id="Slider1" value="{EnergyCalModel>/Tariff}" width="100%" min="0" max="10" change="OnValueChange" showAdvancedTooltip="true"
+															showHandleTooltip="false"/>
 													</html:div>
 												</html:div>
 											</html:div>
@@ -64,14 +58,14 @@
 														<!--<Input id="dailyUse" type="Text"/>-->
 													</html:div>
 													<html:div class="col-sm-10">
-														<Slider id="Slider2" value="{EnergyCalModel>/Tariff}" width="100%" min="0" max="24" change="OnValueChange" showAdvancedTooltip="true" showHandleTooltip="false"/>
+														<Slider id="Slider2" value="{EnergyCalModel>/Tariff}" width="100%" min="0" max="24" change="OnValueChange" showAdvancedTooltip="true"
+															showHandleTooltip="false"/>
 													</html:div>
 												</html:div>
 											</html:div>
 											<html:div class="col-xs-12 energy_cal_opt">
 												<Label text="Wattage / Star" labelFor="selectWattage"/>
-												<ActionSelect id="selectWattage" selectedKey="{EnergyCalModel>/EuipNo}" 
-												change="OnValueChange" items="{ path: 'WattageModel>/results' }">
+												<ActionSelect id="selectWattage" selectedKey="{EnergyCalModel>/EuipNo}" change="OnValueChange" items="{ path: 'WattageModel>/results' }">
 													<items>
 														<core:Item key="{WattageModel>EuipNo}" text="{WattageModel>MeaValue}"/>
 													</items>
@@ -81,13 +75,13 @@
 												<html:div class="row">
 													<html:div class="col-xs-6">
 														<html:h4>
-														    <ObjectIdentifier id="DailyCon" title="0.00"/>
+															<ObjectIdentifier id="DailyCon" title="0.00"/>
 														</html:h4>
 														<html:p>DAILY CONSUMPTION (Units)</html:p>
 													</html:div>
 													<html:div class="col-xs-6">
 														<html:h4>
-														   <ObjectIdentifier id="MonthlyCon" title="0.00"/> 
+															<ObjectIdentifier id="MonthlyCon" title="0.00"/>
 														</html:h4>
 														<html:p>MONTHLY CONSUMPTION (Units)</html:p>
 													</html:div>
@@ -97,7 +91,7 @@
 												<html:div class="row">
 													<html:div class="col-sm-4 col-sm-offset-4 text-center">
 														<Button text="ADD TO LIST" press="onAddToList" type="Accept" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-														<Button text="REMOVE FROM LIST" press="onRemoveFromList"  type="Reject" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+														<Button text="REMOVE FROM LIST" press="onRemoveFromList" type="Reject" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 													</html:div>
 												</html:div>
 											</html:div>
@@ -108,11 +102,8 @@
 						</html:div>
 					</html:div>
 					<html:div class="tblEquip view_table">
-						<Table id="tblEquip" growing="true"
-			            noDataText="{CalculatorView>/tableNoDataText}"
-			            growingScrollToLoad="true"
-			            mode="SingleSelectLeft"
-                        items="{oTableModel}">
+						<Table id="tblEquip" growing="true" noDataText="{CalculatorView>/tableNoDataText}" growingScrollToLoad="true" mode="SingleSelectLeft"
+							items="{oTableModel}">
 							<columns>
 								<Column minScreenWidth="Desktop">
 									<Text text="Equipment"/>
@@ -135,7 +126,8 @@
 							</items>
 						</Table>
 					</html:div>
-					<Button text="Add to Database" press="onAddDatabase"  class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+					<Button text="Add to Database" press="onAddDatabase" class="switchcenter rpfbtn"
+						ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 				</html:div>
 			</html:div>
 		</content>
