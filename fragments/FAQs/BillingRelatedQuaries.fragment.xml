@@ -1,0 +1,741 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<html:div>
+				<html:div class="go-green_intro">
+					<html:div class="row intro_head">
+						<html:div class="col-xs-12">
+							<html:div class="faq_bg border_rad_icon">
+								<html:div class="row icon_row_flex">
+									<html:div class="col-xs-2">
+										<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
+									</html:div>
+									<html:div class="col-xs-10">
+										<html:h4>Billing Related Queries</html:h4>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+				<Panel expandable="true" expanded="false" headerText="How is the consumption of electricity billed?" width="auto"
+					class="sapUiResponsiveMargin">
+					<content >
+						<html:div class="textpara">
+							<html:ul class="innerpoint">
+								<html:li>
+									<html:h5>
+										Customer is billed according to the category and the tariff schedule in force.</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										The components are applicable as per the customer category.</html:h5>
+								</html:li>
+							</html:ul>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="What is one unit of power?" width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:ul class="innerpoint">
+								<html:li>
+									<html:h5>
+										All electrical equipment draw power when switched ON.</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										The amount of energy consumed is measured in kilowatt hours (kWh) which is one "unit" of electricity.</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										One kWh or unit of electrical energy is consumed when "Wattage of the equipment" multiplied by "the usage in hours" equals 1000 Watt-hour,
+										i.e. 1 kWh or one unit.</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										One unit is thus, the amount of energy consumed in lighting a 100 watt bulb for 10 hours or using a 2 kW (2000 watt) geyser for Â½ hour.</html:h5>
+								</html:li>
+							</html:ul>
+							<html:h5>
+								The electricity meter records consumption in units and the same is billed as energy charges.</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="What is Maximum Demand (MD)?" width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:ul class="innerpoint">
+								<html:li>
+									<html:h5>
+										Maximum Demand or MD is the maximum amount of power the customer has consumed in 30-minutes slot timed from 00 hrs by internal clock in the
+										meter during the month.</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										It is recorded in kVA by a trivector meter.</html:h5>
+								</html:li>
+							</html:ul>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="What is Power Factor?" width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:ul class="innerpoint">
+								<html:li>
+									<html:h5>
+										Many large customers draw more electrical power than can be actually converted into useful energy.</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										This extra power, which does no useful work, is called the reactive energy and is measured in reactive units (rkVAh).</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										This reactive energy is related to the power factor of the load.</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										The lower the power factor, the more is the reactive energy drawn resulting in overloading of supply cables.</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										Certain types of equipment like motors, air-conditioning units etc. inherently have low power factor.</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										The power factor can be improved by installing capacitors.</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										Power factor surcharge is levied, if the power factor is less than the particular value set by MERC.</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										Similarly incentive is also given for maintaining higher power factor..</html:h5>
+								</html:li>
+							</html:ul>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="What is Fuel Adjustment Charges or FAC?" width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:ul class="innerpoint">
+								<html:li>
+									<html:h5>
+										The prevailing tariff for energy is based on an average cost of fuel consumed for thermal generation in TTata Power.</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										The actual cost of fuel may vary from this cost.</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										To account for this difference in price, a "Fuel Adjustment Charge" (FAC) is levied</html:h5>
+								</html:li>
+							</html:ul>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="What is Electricity Duty?" width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:ul>
+								<html:li>
+									<html:h5>
+										The electricity duty is levied by the State Government in accordance with the Bombay Electricity Duty Act, 1958, as amended from time to
+										time.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										This amount is collected on behalf of the State Government.
+									</html:h5>
+								</html:li>
+							</html:ul>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="What is Tax on Sale of Electricity?" width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								Tax on sale of electricity is levied on all units sold in accordance with Maharashtra State Tax on Sale of Electricity Act, 1963.</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="What is Delayed Payment Charges or DPC?" width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:ul>
+								<html:li>
+									<html:h5>
+										In case electricity bills are not paid within the due date mention on the bill, delayed payment charges of 2 percent on the total
+										electricity bill (including Taxes &amp; Duties) shall be levied on the bill amount.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										For the purpose of computation of time limit for payment of bills, "The day of presentation of bill" or "the date the bill" or "the date of
+										issue of the bill", etc., as the case may be, will not be excluded.
+									</html:h5>
+								</html:li>
+							</html:ul>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="What is Prompt Payment Discount?" width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								A prompt payment discount of 1 percent on the monthly bill (Excluding taxes &amp; Duties) shall be available to the consumers if the bills
+								are paid within a period of 7 working days from the date of issue of the bill.
+							</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="What is Minimum Monthly Charges?" width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								This is the minimum amount per month, which the customer has to pay even if no electricity is consumed during the month.</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false"
+					headerText="What is Multiplication Factor (MF) and how is it calculated? How is it different from mine to others?" width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:ul>
+								<html:li>
+									<html:h5>
+										MF means Multiplying Factor which is used to calculate your bill.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										Energy meters are generally designed to withstand continuously 440 Volts and a maximum of 60 A current.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:li>
+										<html:h5>
+											If customer's load is more than 60 A or supply voltage is higher than 440 Volts, Current and voltage transformers are used in metering
+											circuit to restrict the current and voltage to the rated capacity of meter.
+										</html:h5>
+									</html:li>
+									<html:h5>
+										These transformers reduce the voltage &amp; current applied to meter in certain proportion which is called transformation ratio.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										The consumption recorded by the meter is therefore less than the actual consumption of the customer in the same proportion.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										To arrive at actual consumption of customer, consumption registered by meter is multiplied by proportionality factor which is called
+										Multiplying factor or MF.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										Thus MF = CT ratio X VT ratio</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										The ratio for CT &amp; VT for a particular customer is designed in accordance with customer's load requirement and load pattern.
+									</html:h5>
+								</html:li>
+							</html:ul>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="What are components of electricity bill?" width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>Customer's electric bill consists of the following components as per the existing tariff schedule and may vary in future:</html:h5>
+							<html:ol>
+								<html:li>
+									<html:h5>
+										Residential / Industrial / Commercial Customers (less than 20 kW load) billed on single part tariff consists of:</html:h5>
+									<html:ol class="innerpoint">
+										<html:li>
+											<html:h5>
+												Energy Charges</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Fixed Charges</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Fuel Adjustment Charges (FAC)</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Electricity Duty</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Tax on Sale of Electricity</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Delayed Payment Charges</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Security Deposit &amp; Interest on it</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Prompt payment discount</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Wheeling charges:Wheeling charges are payable for the usage of the distribution network.</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Regulatory Asset charges :Regulatory Asset Charges is the Charge for past recoveries of the Distribution Utility which could not be
+												recovered since, the approved Tariff was not sufficient to recover the costs incurred.</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Cross Subsidy Surcharge:Cross Subsidy Surcharge is the charge levied on a consumer who buys power from an entity other than the distribution
+												licensee he is connected to, to compensate the host distribution licensee serving such consumers for loss of the cross-subsidy element built
+												into the tariff of such consumers. (It is the difference between the tariff applicable to the relevant category of consumers and the cost of
+												the distribution licensee to supply electricity to the consumers of the applicable class.)</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Other Charges in view of MTR Tariff impacting July 15 Bill: Due to revised tariff order being retrospectively applicable from 1st June 2015,
+												consumers were billed on revised tariff for the month of July 15 along with the differential tariff for the applicable days of the month of
+												June 15. The credit of Fuel Adjustment charges(FAC) that was passed on to the consumers in their June 15 bill had to be recovered in their
+												July 15 bill basis the revised order as the credit of FAC is no more applicable for the said period. Please note that these charges (Tariff
+												differential and FAC recovery) are one-time adjustments due to tariff revision. These charges were indicated as âOther Charges âon
+												reverse side of the bill and reflected as past dues on the front side of the bill due to technical issue.</html:h5>
+										</html:li>
+									</html:ol>
+								</html:li>
+								<html:li>
+									<html:h5>Industrial &amp; Commercial Customers, (more than 20 kW load) billed on two part tariff consists of:</html:h5>
+									<html:ol class="innerpoint">
+										<html:li>
+											<html:h5>
+												Maximum Demand Charges</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Energy Charges</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Fuel Adjustment Charges (FAC)</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Electricity or Government Duty</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Delayed Payment Charges</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Tax on Sale of Electricity</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Power factor surcharge / Incentive</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Prompt payment discount</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Security Deposit &amp; Interest on it</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Wheeling charges:Wheeling charges are payable for the usage of the distribution network.</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Regulatory Asset charges : Regulatory Asset Charges is the Charge for past recoveries of the Distribution Utility which could not be
+												recovered since, the approved Tariff was not sufficient to recover the costs incurred.</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Cross Subsidy Surcharge:Cross Subsidy Surcharge is the charge levied on a consumer who buys power from an entity other than the distribution
+												licensee he is connected to, to compensate the host distribution licensee serving such consumers for loss of the cross-subsidy element built
+												into the tariff of such consumers. (It is the difference between the tariff applicable to the relevant category of consumers and the cost of
+												the distribution licensee to supply electricity to the consumers of the applicable class.)</html:h5>
+										</html:li>
+										<html:li>
+											<html:h5>
+												Other Charges in view of MTR Tariff impacting July 15 Bill:Due to revised tariff order being retrospectively applicable from 1st June 2015,
+												consumers were billed on revised tariff for the month of July 15 along with the differential tariff for the applicable days of the month of
+												June 15. The credit of Fuel Adjustment charges(FAC) that was passed on to the consumers in their June 15 bill had to be recovered in their
+												July 15 bill basis the revised order as the credit of FAC is no more applicable for the said period. Please note that these charges (Tariff
+												differential and FAC recovery) are one-time adjustments due to tariff revision. These charges were indicated as âœOther Charges âœon
+												reverse side of the bill and reflected as past dues on the front side of the bill due to technical issue.</html:h5>
+										</html:li>
+									</html:ol>
+								</html:li>
+							</html:ol>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="How does one calculate one's electricity consumption?" width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								Please refer to the "Ready reckoner for monthly consumption". The type of appliances, its power consumption and number of units it would
+								consume per month against the number of hours of usage are given in the ready reckoner. You can, therefore, work out your own electricity
+								consumption with this chart. For more accurate assessment please refer to the wattage of your appliance mentioned on its nameplate. Also be
+								accurate on the hours of usage of each appliance, as otherwise, it would give you a wrong picture. An example of how to work out your
+								consumption is given below :</html:h5>
+							<html:table class="table">
+								<html:thead>
+									<html:tr>
+										<html:th>Slno</html:th>
+										<html:th>Description</html:th>
+										<html:th>Wattage</html:th>
+										<html:th>Nos.</html:th>
+										<html:th>Average usage in hours per day</html:th>
+										<html:th>Energy Consumption per month in units (kWh)</html:th>
+									</html:tr>
+								</html:thead>
+								<html:tbody>
+									<html:tr>
+										<html:td>1</html:td>
+										<html:td>Tube Light (Ordinary choke)</html:td>
+										<html:td>40</html:td>
+										<html:td>5</html:td>
+										<html:td>6</html:td>
+										<html:td>40 x 5 x 6 x 30/ 1000 = 36</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>2</html:td>
+										<html:td>Fan</html:td>
+										<html:td>40</html:td>
+										<html:td>4</html:td>
+										<html:td>14</html:td>
+										<html:td>40 x 4 x 14 x 30/ 1000= 67
+										</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>3</html:td>
+										<html:td>Electric Iron</html:td>
+										<html:td>750</html:td>
+										<html:td>1</html:td>
+										<html:td>Â½</html:td>
+										<html:td>750 x 1 x Â½ x 30/ 1000 =11
+										</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>4</html:td>
+										<html:td>Geyser</html:td>
+										<html:td>3000</html:td>
+										<html:td>1</html:td>
+										<html:td>Â½</html:td>
+										<html:td>3000 x 1 x Â½ x 30/ 1000=45
+										</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>5</html:td>
+										<html:td>Colour T.V.</html:td>
+										<html:td>80</html:td>
+										<html:td>1</html:td>
+										<html:td>8</html:td>
+										<html:td>80 x 1 x 8 x 30/ 1000=19
+										</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td colspan="5">Total</html:td>
+										<html:td >187 unit</html:td>
+									</html:tr>
+								</html:tbody>
+							</html:table>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="Who should one contact for common billing and metering queries?" width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								Even though every effort is made to eliminate billing errors, should the customer face any problem may contact our "Call Centre" at the
+								following telephone numbers: 1800 209 5161 (Toll Free).
+							</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="What does a new customer do if the first electricity bill is not received?"
+					width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:ul>
+								<html:li>
+									<html:h5>
+										The meters of all customers are read once every month.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										The meter readings are recorded area-wise and on particular dates.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										If the intimation regarding a new customer is received after the metering cycle in that area is completed, the new customer's metering would
+										appear only in the next cycle of reading.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										If the bill is not received even after 2 months of initial power connection, you should contact "Call Center" immediately.
+									</html:h5>
+								</html:li>
+							</html:ul>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="What does one do if a bill has not been received or is lost?" width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								The customer should contact the "Call Centrer" or Consumer Relations Dept. and collect a duplicate bill. The duplicate bill will be sent to
+								him by courier or fax.
+							</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="Who should the customer contact if the tariff applied is not correct?" width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								The customer should contact the "Call Centre" and the matter will be attended to.
+							</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="What does one do if the meter reading on the bill appears incorrect?" width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								You may register your complaint at Call Centre. On receipt of the complaint, the meter readings will be checked and necessary action will be
+								taken and informed to the customer.
+							</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false"
+					headerText="What should be done if the current bill shows arrears even though the previous bill has been paid within the stipulated period?"
+					width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:ul>
+								<html:li>
+									<html:h5>
+										While printing the electricity bill, payment details up to a certain date only are considered.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										Payments made after this date will, therefore, not be reflected in the new bill.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										If the copy of the receipt of the earlier payment made is submitted to the Consumer Relations Department, necessary corrections would be
+										made on the bill and the balance amount will be accepted.
+									</html:h5>
+								</html:li>
+							</html:ul>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false"
+					headerText="Why does a bill indicate nil or low units even though the consumption has been regular?" width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								This can be due to the meter or the metering installation becoming defective. To avoid getting a bigger amended bill later on, bring this to
+								the company's notice immediately by contacting the "Call Center". Lower bill may also be due to wrong reading taken for billing, due to
+								human error, although every care is taken to avoid such errors.
+							</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="Why does a bill appear to be in excess of the usual?" width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:ul>
+								<html:li>
+									<html:h5>
+										Normally high bills are due to higher consumption, because of some new electrical equipment added or some festivals or special occasions,
+										like a marriage in the family or, change of weather etc.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										If not, compare your unit consumption with earlier bills preferably for similar period.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										Use the ready reckoner available on the website to estimate your consumption.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										Even if the unit consumption is normal, the bill amount can increase due to tariff revision, increase in FAC or Government duty.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										An excess bill could also be due to incorrect reading taken for billing.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										This can be verified by checking the reading on your meter.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										If not satisfied, contact the "Call Center" and the matter will be investigated further.
+									</html:h5>
+								</html:li>
+							</html:ul>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false"
+					headerText="Does the Tata Power meter reader go every month to read the meter, or is the bill prepared on estimated consumption every alternate month?"
+					width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								The meters of all customers are read once in a month. The meter readings are recorded area-wise and on particular dates. Hence the bills
+								that are send to the customers are based on actual consumption of the customer in the particular month.
+							</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false"
+					headerText="Why does the bill show that the units have been consumed even though the premises were unoccupied and locked? " width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								Upon receiving the complaint through the "Call Centre", the meter reading will be checked and the meter tested. If meter tests healthy, it
+								would mean that the meter had recorded correctly. The responsibility of the customer's main switch rests on the customer. If someone has
+								used electricity supply tapping from this main switch, the company is not responsible and the owner has to pay for the units recorded. It
+								is, therefore, in owner's interest to keep the meter under lock and key with access to the responsible authorised personnel only.
+							</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="How is billing adjustment made for the defective metering period?" width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>The meter will be tested on a dispute raised by the customer on payment of testing fees. If it is found to be beyond the tolerance
+								limits, the testing fees will be refunded. If the meter or metering installation develops a fault or ceases to register the actual
+								consumption or maximum demand, the consumption during the defective period will be assessed based on the MERC guidelines and necessary
+								correction will be given as applicable. If you apprehend that the meter is not functioning correctly, report immediately so that checking
+								and rectification can be carried out. If the meter or metering installation is found tampered with, the Company would assess the consumption
+								and bill for the same. Penalty will also be changed as per Electricity Act. If a person tampers with company's installation the person is
+								liable for imprisonment and or fine as per the Electricity Act.
+							</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="Can a customer replace the main supply fuse installed by the company?" width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								The meter boards, main cut-outs, fuse, etc., should on no account be interfered with by any one other than the Company's authorised
+								representative. The seals, which are fixed on the meters and the Company's apparatus, must never be tampered with. The Company seals are
+								placed to protect their apparatus. Should this be ignored or disobeyed or disregarded, the customer shall render himself liable to a penalty
+								under the new Electricity Act, 2003. If a person tampers with the Company's installation the person is liable for imprisonment and/or fine
+								as per the Electricity Act.
+							</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="Provision under Electricity Act 2003." width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								he relevant part from the new Electricity Act 2003 is quoted as below : PART - XIV : OFFENCES AND PENALTIES Theft of electricity - 135.
+							</html:h5>
+							<html:ul>
+								<html:li>
+									<html:h5>
+										Whoever, dishonestly.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										taps, makes or causes to be made any connection with overhead, underground or under water lines or cables, or service wires, or service
+										facilities of a licensee; or
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										tampers a meter, installs or uses a tampered meter, current transformer, loop connection or any other device or method which interferes with
+										accurate or proper registration, calibration or metering of electric current or otherwise results in a manner whereby electricity is stolen
+										or wasted; or
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										damages or destroys an electric meter, apparatus, equipment , or wire or causes or allows any of them to be so damaged or destroyed as to
+										interfere with the proper or accurate metering of electricity, so as to abstract or consume or use electricity, shall be punishable with
+										imprisonment for a term which may extend to three years or with fine or with both: Provided that in a case where the load abstracted,
+										consumed, or used or attempted abstraction or attempted consumption or attempted use,
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										does not exceed 10 kilowatt, the fine imposed on first conviction shall not be less than three times the financial gain on account of such
+										theft of electricity and in the event of second or subsequent conviction the fine imposed shall not be less than six times the financial
+										gain on account of such theft of electricity;
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										exceeds 10 kilowatt, the fine imposed on first conviction shall not be less than three times the financial gain on account of such theft of
+										electricity and in the event of second or subsequent conviction, the sentence shall be imprisonment for a term not less than six months but
+										which may extend to five years and with fine not less than six times the financial gain on account of such theft of electricity: Provided
+										further that if it is proved that any artificial means or means not authorised by the Board or licensee exist for the abstraction,
+										consumption or use of electricity by the customer, it shall be presumed, until the contrary is proved that any abstraction, consumption or
+										use of electricity has been dishonestly caused by such customer.
+									</html:h5>
+								</html:li>
+							</html:ul>
+						</html:div>
+					</content>
+				</Panel>
+			</html:div>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

@@ -1,0 +1,38 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro audit_prog">
+						<html:div class="intro_head">
+							<html:h4>5-Star Split AC Exchange Programme</html:h4>
+						</html:div>
+						<html:div class="intro_img">
+							<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+						</html:div>
+						<html:div class="intro_desc">
+							<html:h5 class="text-center">5-Star Split AC Exchange Programme</html:h5>
+						</html:div>
+						<html:p class="text-center">(For Tata Power Residential and Industrial/Commercial Consumers)</html:p>
+						<html:p class="text-center">Dear Consumer,</html:p>
+						<html:div class="row">
+							<html:div class="col-sm-8 col-sm-offset-2">
+								<html:p class="text-center">Thank you for your interest in our 5-Star Split AC Exchange Program. We have received an overwhelming response
+									for it. As the full approved quantity is booked by consumers, the new registration of this program is closed now. Please keep watching this
+									space for further announcement.</html:p>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-sm-12 split_ac_link">
+							<html:p class="text-center">Please write to
+								<html:a href="mailto:dsmcell@tatapower.com" title="Mail Us">dsmcell@tatapower.com</html:a>
+								for any queries.</html:p>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

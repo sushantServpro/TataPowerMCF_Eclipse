@@ -1,0 +1,111 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="grn_cor border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_green_corn.png" alt="icon_green_corn" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Explore</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="green_explore">
+						<html:div class="row grn_exp_row">
+							<html:div class="col-sm-6">
+								<html:div class="green_explore_lst">
+									<html:div class="row">
+										<html:div class="col-xs-4">
+											<html:image src="images/demand_site.png" alt="demand_site" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-8">
+											<html:h5>Demand Side Management</html:h5>
+											<html:p>Demand-side management (DSM) refers to cooperative activities...</html:p>
+											<html:div class="green_knw_more text-right">
+												<Link text="Know More" press="pressDSM"/>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="col-sm-6">
+								<html:div class="green_explore_lst">
+									<html:div class="row">
+										<html:div class="col-xs-4">
+											<html:image src="images/energy_cons.png" alt="energy_cons" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-8">
+											<html:h5>Energy Conservation</html:h5>
+											<html:p>We have to control and prevent wastage of electrical energy ...</html:p>
+											<html:div class="green_knw_more text-right">
+												<html:a href="pdf/energy-cons-booklet.pdf" target="_blank">Know More</html:a>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="col-sm-6">
+								<html:div class="green_explore_lst">
+									<html:div class="row">
+										<html:div class="col-xs-4">
+											<html:image src="images/green_build.png" alt="green_build" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-8">
+											<html:h5>Green Buildings</html:h5>
+											<html:p>Green Buildings represent eco-friendly, energy ...</html:p>
+											<html:div class="green_knw_more text-right">
+												<Link text="Know More" press="pressGreenBuildings"/>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="col-sm-6">
+								<html:div class="green_explore_lst">
+									<html:div class="row">
+										<html:div class="col-xs-4">
+											<html:image src="images/climate_change.png" alt="climate_change" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-8">
+											<html:h5>Combat Climate Change</html:h5>
+											<html:p>Tata Power is part of a group of 46 leading international companies</html:p>
+											<html:div class="green_knw_more text-right">
+												<Link text="Know More" press="pressCombatClimateChange"/>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="col-sm-6">
+								<html:div class="green_explore_lst">
+									<html:div class="row">
+										<html:div class="col-xs-4">
+											<html:image src="images/club_energy.png" alt="club_energy" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-8">
+											<html:h5>Tata Power Club Energy</html:h5>
+											<html:p>With the increasing demand for ENERGY, effective management ...</html:p>
+											<html:div class="green_knw_more text-right">
+												<html:a href="http://www.clubenerji.com/" target="_blank">Know More</html:a>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

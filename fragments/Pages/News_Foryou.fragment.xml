@@ -1,0 +1,98 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="row intro_head">
+					<html:div class="col-xs-12">
+						<html:div class="news_for_u_bg border_rad_icon">
+							<html:div class="row icon_row_flex">
+								<html:div class="col-xs-2">
+									<html:image src="images/icon_news_foryou.png" alt="icon_news_foryou" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-xs-10">
+									<html:h4>News for You</html:h4>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:p class="senleader">Dear Friend,</html:p>
+				<html:p class="senleader">We welcome you to this forum where you can share your opinion, unresolved complaint, query and feedback directly
+					with our seniorleaders, steering this special channel. The senior leaders who are a part of this forum are:</html:p>
+				<html:div class="row">
+					<html:div class="col-md-6">
+						<html:div class="seniorleader">
+							<html:div class="row ">
+								<html:div class="col-md-4">
+									<html:image src="images/coo.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+								</html:div>
+								<html:div class="col-md-8">
+									<html:p class="senled">
+										<html:image src="images/speech_top.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+										Our endeavor is to deliver “uninterrupted power supply” to all the customers.It will be heartening to know your experiences or suggestions
+										to help us get better. Please feel free to provide us your valuable feedback or suggestions. We are committed to serving our customers to
+										the best of our ability.
+										<html:image src="images/speech_bottom.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+									</html:p>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="row sr_lead_info">
+							<html:div class="col-md-6 ">
+								<html:h5>Mr. Ashok S. Sethi</html:h5>
+								<html:p class="mdname">COO &amp; Executive Director</html:p>
+							</html:div>
+							<html:div class="col-md-3 col-md-offset-3 lead_btn_write">
+								<Button icon="sap-icon://edit" press="onPress" ariaLabelledBy="actionButtonLabel" class="switchcenter write" text="WRITE"/>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="col-md-6">
+						<html:div class="seniorleader">
+							<html:div class="row">
+								<html:div class="col-md-4">
+									<html:image src="images/ceo.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+								</html:div>
+								<html:div class="col-md-8">
+									<html:p class="senled">
+										<html:image src="images/speech_top.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+										I acknowledge that you have a choice of a service provider.I can assure you that we are committed to serving our customers
+										seamlessly.However, in case your experience is otherwise or you have suggestion for us to serve you better, kindly write to me, directly. I
+										will always cherish your feedback, suggestion or inputs for improvements. Please accept my thanks and gratitude for visiting our web-link
+										and spending your valuable time in engaging with us.
+										<html:image src="images/speech_bottom.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+									</html:p>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="row sr_lead_info">
+							<html:div class="col-md-6 ">
+								<html:h5>Mr. Anil Sardana</html:h5>
+								<html:p class="mdname">CEO &amp; Managing Director</html:p>
+							</html:div>
+							<html:div class="col-md-3 col-md-offset-3 lead_btn_write">
+								<Button icon="sap-icon://edit" press="onPress" ariaLabelledBy="actionButtonLabel" class="switchcenter write" text="WRITE"/>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:p class="senleader">Please feel free to write to them. We are committed to address all your concerns to your fullest</html:p>
+				<html:p class="senleader">satisfaction and put your feedback into action.</html:p>
+				<html:div class="textimgvalue">
+					<html:image src="images/feedback.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+				</html:div>
+				<html:h5 class="text-center best_regards">BEST REGARDS</html:h5>
+				<html:h5 class="teamtata">Team TATA Power</html:h5>
+				<html:p class="penleader">For any requests/complaints pertaining to Tata Power Delhi Distribution Ltd (TPDDL), the consumers may please mark their mail to
+					<html:a href="mailto:ccag@tatapower-ddl.com" title="Mail Us">ccag@tatapower-ddl.com</html:a>
+				</html:p>
+				<html:p class="penleader">OR at TPDDL website with link
+					<html:a href="http://www.tatapower-ddl.com/" title="Tata Power DDl" target="_blank">http://www.tatapower-ddl.com/</html:a>
+					to enable timely resolution.
+				</html:p>
+				<html:p class="penleader">TPDDL has an independent Complaint Management Process to ensure complaint resolution in line with regulations and customer satisfaction.</html:p>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

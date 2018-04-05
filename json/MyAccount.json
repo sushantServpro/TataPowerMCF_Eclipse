@@ -1,0 +1,23 @@
+[{
+	"text": "Register For E-Bill",
+	"ref": "sap-icon://attachment-html"
+
+}, {
+	"text": "Register For E-Service",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Change Password",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "My Account Statement",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Online Payment Receipt",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "View And Pay Bill Online",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Please Share your feedback",
+	"ref": "sap-icon://attachment-html"
+}]

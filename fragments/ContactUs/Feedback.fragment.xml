@@ -1,0 +1,136 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="intro_head">
+							<html:h4>Feedback</html:h4>
+						</html:div>
+					</html:div>
+					<html:div class="feddback_desc">
+						<html:p>
+							For any requests/complaints pertaining to Tata Power Delhi Distribution Ltd(TPDDL), the consumers may please mark their mail to
+							<html:a href="mailto:ccag@tatapower-ddl.com" title="Mail Us">ccag@tatapower-ddl.com</html:a>
+							OR at TPDDL website with link
+							<html:a href="http://www.tatapower-ddl.com/" title="TPDDL Wwebsite" target="_blank">http://www.tatapower-ddl.com/</html:a>. to enable timely
+							resolution.TPDDL has an independent Complaint Management Process to ensure complaint resolution in line with regulations and customer
+							satisfaction. regulations and customer satisfaction.
+						</html:p>
+						<html:h5 class="feed_note">
+							Please enter all related information for us to help you better
+						</html:h5>
+						<html:div class="feedback_form">
+							<html:h5 class="mandatory">
+								<html:em>*Indicates Mandatory Fields</html:em>
+							</html:h5>
+							<html:div class="radio_row">
+								<html:div class="row form_row">
+									<html:div class="col-sm-6">
+										<Label text="Are you a customer of Tata Power" labelFor="land_num"/>
+									</html:div>
+									<html:div class="col-sm-6">
+										<html:div class="row">
+											<html:div class="col-xs-6">
+												<RadioButton groupName="GroupB" text="Yes" selected="true"/>
+											</html:div>
+											<html:div class="col-xs-6">
+												<RadioButton groupName="GroupB" text="No"/>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="row form_row">
+								<html:div class="col-sm-6">
+									<html:div class="row">
+										<html:div class="col-md-9">
+											<Label text="Consumer Number" labelFor="con_num"/>
+											<Input id="con_num" required="true" type="Text" placeholder="Enter"/>
+										</html:div>
+										<html:div class="col-md-3">
+											<Button type="Accept" text="Enter" class="switchcenter rpfbtn" press="onPress"
+												ariaDescribedBy="acceptButtonDescription genericButtonDescription"></Button>
+										</html:div>
+									</html:div>
+								</html:div>
+								<html:div class="col-sm-6">
+									<Label text="Full Name" labelFor="full_name"/>
+									<Input type="Number" id="full_name" required="true" placeholder="Enter"/>
+								</html:div>
+							</html:div>
+							<html:div class="row form_row">
+								<html:div class="col-sm-6">
+									<Label text="Landline Number" labelFor="land_num"/>
+									<Input id="land_num" required="true" placeholder="Enter"/>
+								</html:div>
+								<html:div class="col-sm-6">
+									<Label text="Mobile Number" labelFor="mobile_num"/>
+									<Input type="Number" id="mobile_num" required="true" placeholder="Enter"/>
+								</html:div>
+							</html:div>
+							<html:div class="row form_row">
+								<html:div class="col-sm-6">
+									<Label text="Email ID" labelFor="email_id"/>
+									<Input type="Email" id="email_id" required="true" placeholder="Enter"/>
+								</html:div>
+								<html:div class="col-sm-6">
+									<Label text="How often do you visit our website" labelFor="how_visit"/>
+									<MultiComboBox selectionChange="handleSelectionChange" selectionFinish="handleSelectionFinish"
+										items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+										<core:Item key="{ProductId}" text="{Name}"/>
+									</MultiComboBox>
+								</html:div>
+							</html:div>
+							<html:div class="radio_row">
+								<html:div class="row form_row">
+									<html:div class="col-sm-6">
+										<Label text="Type of feedback" labelFor="feed_type"/>
+									</html:div>
+									<html:div class="col-sm-6">
+										<html:div class="row">
+											<html:div class="col-xs-6">
+												<RadioButton groupName="GroupB" text="Query/Complaint" selected="true"/>
+											</html:div>
+											<html:div class="col-xs-6">
+												<RadioButton groupName="GroupB" text="Other"/>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="row form_row">
+								<html:div class="col-sm-6">
+									<Label text="Purpose of visiting the website" labelFor="purpose"/>
+									<MultiComboBox selectionChange="handleSelectionChange" selectionFinish="handleSelectionFinish"
+										items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+										<core:Item key="{ProductId}" text="{Name}"/>
+									</MultiComboBox>
+								</html:div>
+								<html:div class="col-sm-6">
+									<Label text="Image Verification" labelFor="captcha"/>
+									<Input type="Number" id="captcha1" required="true" placeholder="Enter"/>
+								</html:div>
+							</html:div>
+							<html:div class="row form_row">
+								<html:div class="col-sm-6">
+									<Label text="Suggestions for improvement regarding the website" labelFor="purpose"/>
+									<TextArea placeholder="Enter" growing="true" growingMaxLines="7" width="100%"/>
+								</html:div>
+								<html:div class="col-sm-6">
+									<Input type="Text" id="captcha" required="true" placeholder="Enter Image-Validation Code"/>
+								</html:div>
+							</html:div>
+							<html:div class="row form_row">
+								<html:div class="col-md-2 col-md-offset-5">
+									<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

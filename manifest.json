@@ -1,0 +1,743 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "tatapower.dev",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"ach": "CA-UI5-DOC",
+		"dataSources": {
+			"employeeRemote": {
+				"uri": "/sap/opu/odata/SAP/zmcf_portal_srv/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			},
+			"ZERP_UTILITIES_UMC_EXT_SRV": {
+				"uri": "/sap/opu/odata/sap/ZERP_UTILITIES_UMC_EXT_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/ZERP_UTILITIES_UMC_EXT_SRV/metadata.xml"
+				}
+			},
+			"ERP_UTILITIES_UMC_SRV": {
+				"uri": "/sap/opu/odata/sap/ERP_UTILITIES_UMC/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/ERP_UTILITIES_UMC_SRV/metadata.xml"
+				}
+			},
+			"ZCRM_PF_COMPLAINTS_SRV": {
+				"uri": "/sap/opu/odata/sap/ZCRM_PF_COMPLAINTS_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/ZCRM_PF_COMPLAINTS_SRV/metadata.xml"
+				}
+			},
+			"ZCMCF_PORTAL_SRV": {
+				"uri": "/sap/opu/odata/sap/ZCMCF_PORTAL_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/ZCMCF_PORTAL_SRV/metadata.xml"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_bluecrystal"
+		]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"rootView": "tatapower.dev.view.App",
+		"dependencies": {
+			"minUI5Version": "1.30",
+			"libs": {
+				"sap.m": {
+					
+				}
+			}
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "tatapower.dev.i18n.i18n"
+				}
+			},
+			"": {
+				"dataSource": "employeeRemote",
+				"settings": {
+					"useBatch": false
+				}
+			},
+			"NewModel": {
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+					"defaultOperationMode": "Server",
+					"defaultBindingMode": "OneTime",
+					"defaultCountMode": "Request",
+					"useBatch": false
+				},
+				"dataSource": "ZERP_UTILITIES_UMC_EXT_SRV",
+				"preload": "true"
+			},
+			"Model1": {
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+					"defaultOperationMode": "Server",
+					"defaultBindingMode": "OneTime",
+					"defaultCountMode": "Request",
+					"useBatch": false
+				},
+				"dataSource": "ERP_UTILITIES_UMC_SRV",
+				"preload": "true"
+			},
+			"ComModel1": {
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+					"defaultOperationMode": "Server",
+					"defaultBindingMode": "OneTime",
+					"defaultCountMode": "Request",
+					"useBatch": false
+				},
+				"dataSource": "ZCRM_PF_COMPLAINTS_SRV",
+				"preload": "true"
+			},
+			"McfPortalModel": {
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+					"defaultOperationMode": "Server",
+					"defaultBindingMode": "OneTime",
+					"defaultCountMode": "Request",
+					"useBatch": false
+				},
+				"dataSource": "ZCMCF_PORTAL_SRV",
+				"preload": "true"
+			}
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "tatapower.dev.view",
+				"controlId": "app",
+				"controlAggregation": "pages",
+				"transition": "slide",
+				"bypassed": {
+					"target": "notFound"
+				}
+			},
+			"routes": [
+				{
+					"pattern": "",
+					"name": "appHome",
+					"target": "home"
+				},
+				{
+					"pattern": "ApplicationForms",
+					"name": "ApplicationForms",
+					"target": "ApplicationForms"
+				},
+				{
+					"pattern": "ChangePassword",
+					"name": "ChangePassword",
+					"target": "ChangePassword"
+				},
+				{
+					"pattern": "NewUserRegister",
+					"name": "NewUserRegister",
+					"target": "NewUserRegister"
+				},
+				{
+					"pattern": "PaymentOptions",
+					"name": "PaymentOptions",
+					"target": "PaymentOptions"
+				},
+				{
+					"pattern": "RegulatoryInformation",
+					"name": "RegulatoryInformation",
+					"target": "RegulatoryInformation"
+				},
+				{
+					"pattern": "Landingdigitalservice",
+					"name": "Landingdigitalservice",
+					"target": "Landingdigitalservice"
+				},
+				{
+					"pattern": "MyAccount",
+					"name": "MyAccount",
+					"target": "MyAccount"
+				},
+				{
+					"pattern": "MyAccounts",
+					"name": "MyAccounts",
+					"target": "MyAccounts"
+				},
+				{
+					"pattern": "QuickPayment",
+					"name": "QuickPayment",
+					"target": "QuickPayment"
+				},
+				{
+					"pattern": "BeGreen",
+					"name": "BeGreen",
+					"target": "BeGreen"
+				},
+				{
+					"pattern": "ContactUs",
+					"name": "ContactUs",
+					"target": "ContactUs"
+				},
+				{
+					"pattern": "EaseOfDoingBusiness",
+					"name": "EaseOfDoingBusiness",
+					"target": "EaseOfDoingBusiness"
+				},
+				{
+					"pattern": "FAQ",
+					"name": "FAQ",
+					"target": "FAQ"
+				},
+				{
+					"pattern": "Grievances",
+					"name": "Grievances",
+					"target": "Grievances"
+				},
+				{
+					"pattern": "KnowledgeCenter",
+					"name": "KnowledgeCenter",
+					"target": "KnowledgeCenter"
+				},
+				{
+					"pattern": "NewConnections",
+					"name": "NewConnections",
+					"target": "NewConnections"
+				},
+				{
+					"pattern": "Wireman",
+					"name": "Wireman",
+					"target": "Wireman"
+				},
+				{
+					"pattern": "GreenCorner",
+					"name": "GreenCorner",
+					"target": "GreenCorner"
+				},
+				{
+					"pattern": "Newsletter",
+					"name": "Newsletter",
+					"target": "Newsletter"
+				},
+				{
+					"pattern": "Wireman",
+					"name": "Wireman",
+					"target": "Wireman"
+				},
+				{
+					"pattern": "AboutUs",
+					"name": "AboutUs",
+					"target": "AboutUs"
+				},
+				{
+					"pattern": "Calculator",
+					"name": "Calculator",
+					"target": "Calculator"
+				},
+				{
+					"pattern": "OnlineApplications",
+					"name": "OnlineApplications",
+					"target": "OnlineApplications"
+				},
+				{
+					"pattern": "NewCustomer",
+					"name": "NewCustomer",
+					"target": "NewCustomer"
+				},
+				{
+					"pattern": "PaymentHistory",
+					"name": "PaymentHistory",
+					"target": "PaymentHistory"
+				},
+				{
+					"pattern": "LatesAds",
+					"name": "LatesAds",
+					"target": "LatesAds"
+				},
+				{
+					"pattern": "RegisterPowerFailure",
+					"name": "RegisterPowerFailure",
+					"target": "RegisterPowerFailure"
+				},
+				{
+					"pattern": "SeniorLeadership",
+					"name": "SeniorLeadership",
+					"target": "SeniorLeadership"
+				},
+				{
+					"pattern": "SwitchOverConnection",
+					"name": "SwitchOverConnection",
+					"target": "SwitchOverConnection"
+				},
+				{
+					"pattern": "TariffDetails",
+					"name": "TariffDetails",
+					"target": "TariffDetails"
+				},
+				{
+					"pattern": "NetMetering",
+					"name": "NetMetering",
+					"target": "NetMetering"
+				},
+				{
+					"pattern": "ChangeOverConnection",
+					"name": "ChangeOverConnection",
+					"target": "ChangeOverConnection"
+				},
+				{
+					"pattern": "AdvanceBillPayment",
+					"name": "AdvanceBillPayment",
+					"target": "AdvanceBillPayment"
+				},
+				{
+					"pattern": "LandingFAQs",
+					"name": "LandingFAQs",
+					"target": "LandingFAQs"
+				},
+				{
+					"pattern": "LandingKnowledgeCenter",
+					"name": "LandingKnowledgeCenter",
+					"target": "LandingKnowledgeCenter"
+				},
+				{
+					"pattern": "VideoGallery",
+					"name": "VideoGallery",
+					"target": "VideoGallery"
+				},
+				{
+					"pattern": "PayBill",
+					"name": "PayBill",
+					"target": "PayBill"
+				},
+				{
+					"pattern": "Meter_Shifting",
+					"name": "Meter_Shifting",
+					"target": "Meter_Shifting"
+				},
+				{
+					"pattern": "Contract_Maximum_Demand_Reduction",
+					"name": "Contract_Maximum_Demand_Reduction",
+					"target": "Contract_Maximum_Demand_Reduction"
+				},
+				{
+					"pattern": "Safetyathome",
+					"name": "Safetyathome",
+					"target": "Safetyathome"
+				},
+				{
+					"pattern": "TermOfUse",
+					"name": "TermOfUse",
+					"target": "TermOfUse"
+				},
+				{
+					"pattern": "PrivacyPolicy",
+					"name": "PrivacyPolicy",
+					"target": "PrivacyPolicy"
+				},
+				{
+					"pattern": "OpenAccess",
+					"name": "OpenAccess",
+					"target": "OpenAccess"
+				},
+				{
+					"pattern": "Reconnection",
+					"name": "Reconnection",
+					"target": "Reconnection"
+				},
+				{
+					"pattern": "PermanentDisconnection",
+					"name": "PermanentDisconnection",
+					"target": "PermanentDisconnection"
+				},
+				{
+					"pattern": "Load_Enhancement",
+					"name": "Load_Enhancement",
+					"target": "Load_Enhancement"
+				},
+				{
+					"pattern": "Tariff_Category_Change",
+					"name": "Tariff_Category_Change",
+					"target": "Tariff_Category_Change"
+				},
+				{
+					"pattern": "Contract_Maximum_Demand_Enhancement",
+					"name": "Contract_Maximum_Demand_Enhancement",
+					"target": "Contract_Maximum_Demand_Enhancement"
+				},
+				{
+					"pattern": "Meter_testing",
+					"name": "Meter_testing",
+					"target": "Meter_testing"
+				},
+				{
+					"pattern": "Load_Reduction",
+					"name": "Load_Reduction",
+					"target": "Load_Reduction"
+				},
+				{
+					"pattern": "Shedulepoweroutage",
+					"name": "Shedulepoweroutage",
+					"target": "Shedulepoweroutage"
+				},
+				{
+					"pattern": "Writetocustomercare",
+					"name": "Writetocustomercare",
+					"target": "Writetocustomercare"
+				},
+				{
+					"pattern": "GreenBuildings",
+					"name": "GreenBuildings",
+					"target": "GreenBuildings"
+				},
+				{
+					"pattern": "CombatClimateChange",
+					"name": "CombatClimateChange",
+					"target": "CombatClimateChange"
+				},
+				{
+					"pattern": "EnergyEfficientDevices",
+					"name": "EnergyEfficientDevices",
+					"target": "EnergyEfficientDevices"
+				},
+				{
+					"pattern": "PowerConsumptionGuidelines",
+					"name": "PowerConsumptionGuidelines",
+					"target": "PowerConsumptionGuidelines"
+				},
+				{
+					"pattern": "ReducingyourBill",
+					"name": "ReducingyourBill",
+					"target": "ReducingyourBill"
+				},
+				{
+					"pattern": "Loginpage",
+					"name": "Loginpage",
+					"target": "Loginpage"
+				}
+			],
+			"targets": {
+				"home": {
+					"viewName": "Home",
+					"viewLevel": 1
+				},
+				"PermanentDisconnection": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "PermanentDisconnection",
+					"viewLevel": 2
+				},
+				"ApplicationForms": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "ApplicationForms",
+					"viewLevel": 2
+				},
+				"Landingdigitalservice": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Landingdigitalservice",
+					"viewLevel": 2
+				},
+				"PaymentOptions": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "PaymentOptions",
+					"viewLevel": 2
+				},
+				"NewUserRegister": {
+					"viewName": "NewUserRegister",
+					"viewLevel": 2
+				},
+				"ChangePassword": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "ChangePassword",
+					"viewLevel": 2
+				},
+				"RegulatoryInformation": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "RegulatoryInformation",
+					"viewLevel": 2
+				},
+				"notFound": {
+					"viewName": "NotFound",
+					"transition": "show"
+				},
+				"MyAccount": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "MyAccount",
+					"viewLevel": 2
+				},
+				"MyAccounts": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "MyAccounts",
+					"viewLevel": 2
+				},
+				"Loginpage": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Loginpage",
+					"viewLevel": 2
+				},
+				"NewCustomer": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "NewCustomer",
+					"viewLevel": 2
+				},
+				"PaymentHistory": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "PaymentHistory",
+					"viewLevel": 5
+				},
+				"QuickPayment": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "QuickPayment",
+					"viewLevel": 6
+				},
+				"BeGreen": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "BeGreen",
+					"viewLevel": 7
+				},
+				"ContactUs": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "ContactUs",
+					"viewLevel": 8
+				},
+				"LatesAds": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "LatesAds",
+					"viewLevel": 8
+				},
+				"EaseOfDoingBusiness": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "EaseOfDoingBusiness",
+					"viewLevel": 9
+				},
+				"FAQ": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "FAQ",
+					"viewLevel": 10
+				},
+				"Grievances": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Grievances",
+					"viewLevel": 11
+				},
+				"KnowledgeCenter": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "KnowledgeCenter",
+					"viewLevel": 12
+				},
+				"NewConnections": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "NewConnections",
+					"viewLevel": 13
+				},
+				"Wireman": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Wireman",
+					"viewLevel": 14
+				},
+				"GreenCorner": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "GreenCorner",
+					"viewLevel": 15
+				},
+				"Newsletter": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Newsletter",
+					"viewLevel": 16
+				},
+				"AboutUs": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "AboutUs",
+					"viewLevel": 17
+				},
+				"Calculator": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Calculator",
+					"viewLevel": 18
+				},
+				"OnlineApplications": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "OnlineApplications",
+					"viewLevel": 19
+				},
+				"RegisterPowerFailure": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "RegisterPowerFailure",
+					"viewLevel": 19
+				},
+				"SeniorLeadership": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "SeniorLeadership",
+					"viewLevel": 19
+				},
+				"VideoGallery": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "VideoGallery",
+					"viewLevel": 20
+				},
+				"ChangeOverConnection": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "ChangeOverConnection",
+					"viewLevel": 20
+				},
+				"AdvanceBillPayment": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "AdvanceBillPayment",
+					"viewLevel": 20
+				},
+				"NetMetering": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "NetMetering",
+					"viewLevel": 20
+				},
+				"TariffDetails": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "TariffDetails",
+					"viewLevel": 20
+				},
+				"SwitchOverConnection": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "SwitchOverConnection",
+					"viewLevel": 20
+				},
+				"LandingFAQs": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "LandingFAQs",
+					"viewLevel": 20
+				},
+				"LandingKnowledgeCenter": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "LandingKnowledgeCenter",
+					"viewLevel": 20
+				},
+				"PayBill": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "PayBill",
+					"viewLevel": 20
+				},
+				"Safetyathome": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Safetyathome",
+					"viewLevel": 19
+				},
+				"TermOfUse": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "TermOfUse",
+					"viewLevel": 20
+				},
+				"PrivacyPolicy": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "PrivacyPolicy",
+					"viewLevel": 20
+				},
+				"OpenAccess": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "OpenAccess",
+					"viewLevel": 20
+				},
+				"Reconnection": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Reconnection",
+					"viewLevel": 20
+				},
+				"Load_Enhancement": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Load_Enhancement",
+					"viewLevel": 20
+				},
+				"Tariff_Category_Change": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Tariff_Category_Change",
+					"viewLevel": 20
+				},
+				"Contract_Maximum_Demand_Enhancement": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Contract_Maximum_Demand_Enhancement",
+					"viewLevel": 20
+				},
+				"Meter_testing": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Meter_testing",
+					"viewLevel": 20
+				},
+				"Load_Reduction": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Load_Reduction",
+					"viewLevel": 20
+				},
+				"Meter_Shifting": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Meter_Shifting",
+					"viewLevel": 2
+				},
+				"Contract_Maximum_Demand_Reduction": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Contract_Maximum_Demand_Reduction",
+					"viewLevel": "2"
+				},
+				"Shedulepoweroutage": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Shedulepoweroutage",
+					"viewLevel": 20
+				},
+				"Writetocustomercare": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Shedulepoweroutage",
+					"viewLevel": 20
+				},
+				"GreenBuildings": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "GreenBuildings",
+					"viewLevel": 2
+				},
+				"CombatClimateChange": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "CombatClimateChange",
+					"viewLevel": 2
+				},
+				"PowerConsumptionGuidelines": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "PowerConsumptionGuidelines",
+					"viewLevel": 2
+				},
+				"ReducingyourBill": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "ReducingyourBill",
+					"viewLevel": 2
+				},
+				"EnergyEfficientDevices": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "EnergyEfficientDevices",
+					"viewLevel": 2
+				}
+			}
+		}
+	}
+}

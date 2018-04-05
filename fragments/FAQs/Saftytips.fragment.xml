@@ -1,0 +1,94 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<html:div class="go-green_intro">
+				<html:div class="row intro_head">
+					<html:div class="col-xs-12">
+						<html:div class="faq_bg border_rad_icon">
+							<html:div class="row icon_row_flex">
+								<html:div class="col-xs-2">
+									<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-xs-10">
+									<html:h4>Safety Tips</html:h4>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</html:div>
+			<Panel expandable="true" expanded="false" headerText="Is it necessary to install Earth Leakage Circuit Breakers (ELCB)?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>It is recommended to have Earth Leakage Circuit Breaker in your house it acts as a safeguard from electrical shocks. Even if it
+							trips frequently due to leakage in the circuit, it should not be bypassed. Instead electrical appliances and circuits should be checked by a
+							qualified electrician.</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="An ELCB with 30mA setting trips very often thus causing inconvenience. Is it safe to install an ELCB with higher setting?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Any leakage current above 30 mA, if it flows through the human body makes it a part of the circuit and can cause Cardio Pulmonary Failure
+							(Stopping of breathing and heart function) even for a short while. Hence it is not advisable to install ELCB of settings higher than 30 mA.
+							The cause of tripping such probable leakage in the circuit should be established and attended.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="Is it safe to operate the geyser switch with wet hands while in bath?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>Wet hand is a good conductor of electricity. Please do not operate the switch with water dripping. Mop your hands dry before
+							operating the switch handle.</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="Who will ensure that our residential wiring is healthy?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Such job should be carried out through licensed Electrical Contractor.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="What is the purpose of Neutral and Earth in a supply system?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>The neutral in the supply line provides a return path to the current whereas Earth connection protects the equipment against any
+							leakage of current. Earth connection is a major component of the circuit of ELCB.</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="What should be done when somebody gets an electrical shock?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>In case of an electrical accident, turn off the supply immediately. Insulate yourself on a dry board / insulating material before
+							removing the person in contact with the live part.\ Immediately call for a doctor and continue to give artificial respiration till medical
+							assistance arrives.</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="Is it safe to use water in case of an electrical fire? What should be done in the event of a fire in electrical wiring / gadget? "
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>No. Water should not be poured on when the circuit on fire is live, i.e., carrying electricity. The electric supply should be put
+							"OFF" first (to make the circuit DEAD or de-energised) before pouring water on the burning equipment / circuit.</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

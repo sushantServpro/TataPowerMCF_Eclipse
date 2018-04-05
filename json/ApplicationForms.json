@@ -1,0 +1,38 @@
+[{
+	"text": "New Connection",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Changeover Connection",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Switchover Connection",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Extension/Reduction of Load",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Shifting of service",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Change of Name",
+	"ref": "sap-icon://attachment-html"
+
+}, {
+	"text": "Address Correction",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Extension/Reduction of Contract Demand",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Tariff Category Change",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "NACH",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "IGR Form",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Meter Testing",
+	"ref": "sap-icon://attachment-html"
+}]

@@ -1,0 +1,81 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tatapower.dev.controller.Login"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="My Account" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container">
+						<Panel >
+							<content>
+								<html:div class="row">
+									<html:div class="col-xs-12 col-md-8 col-sm-offset-2 loginbar">
+										<IconTabBar id="idIconTabBarNoIcons" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding logintab">
+											<items>
+												<IconTabFilter text="Consumer Login" class="consumerlog">
+													<html:div class="row">
+														<html:div class="col-md-8 col-sm-offset-2">
+															<html:div class="row">
+																<html:div class="col-md-6">
+																	<Label text="CA Number" labelFor="nameInput"/>
+																	<Input id="username" class="sapUiSmall" type="Text"/>
+																	Don't have an account Please
+																	<!--<html:a>Register Here</html:a>-->
+																	<Button text="Register Here" press="onNewUser" class="switchcenter form-control"
+																		ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+																</html:div>
+																<html:div class="col-md-6">
+																	<Label text="Password" labelFor="passwordInput"/>
+																	<Input id="password" type="Password"/>
+																	<!--<html:a>Forgot Password ?</html:a>-->
+																	<Button text="Forgot Password ?" press="onForgotPassword" class="switchcenter form-control"
+																		ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+													<html:div class="row">
+														<html:div class="col-md-2 col-md-offset-5 loginbtn">
+															<Button text="LOGIN" press="OnLogin" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+														</html:div>
+													</html:div>
+												</IconTabFilter>
+												<IconTabFilter text="Licensed Electrical Contractor Login" class="licencelog">
+													<html:div class="row">
+														<html:div class="col-md-8 col-sm-offset-2">
+															<html:div class="row">
+																<html:div class="col-md-6">
+																	<Label text="User Name" labelFor="nameInput"/>
+																	<Input id="nInput" class="sapUiSmall" type="Text"/>
+																	Don't have an account Please
+																	<html:a>Register Here</html:a>
+																</html:div>
+																<html:div class="col-md-6">
+																	<Label text="Password" labelFor="passwordInput"/>
+																	<Input id="pInput" type="Password"/>
+																	<html:a>Forgot Password ?</html:a>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+													<html:div class="row">
+														<html:div class="col-md-2 col-md-offset-5 loginbtn">
+															<Button text="LOGIN" press="OnLogin" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+														</html:div>
+														<html:div class="col-md-8 col-md-offset-2"></html:div>
+													</html:div>
+												</IconTabFilter>
+											</items>
+										</IconTabBar>
+									</html:div>
+								</html:div>
+							</content>
+						</Panel>
+					</html:div>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

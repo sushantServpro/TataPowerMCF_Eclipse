@@ -1,0 +1,257 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<html:div class="container-fluid">
+				<html:div class="go-green_intro audit_prog">
+					<html:div class="row intro_head">
+						<html:div class="col-xs-12">
+							<html:div class="faq_bg border_rad_icon">
+								<html:div class="row icon_row_flex">
+									<html:div class="col-xs-2">
+										<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
+									</html:div>
+									<html:div class="col-xs-10">
+										<html:h4>Energy Saving</html:h4>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="energy_saving_desc">
+					<html:div class="row">
+						<html:div class="col-sm-3 text-center">
+							<html:image src="images/mumbai.jpg" alt="mumbai" class="img-responsive"></html:image>
+						</html:div>
+						<html:div class="col-sm-9">
+							<html:p>
+								Mumbai is the one Indian city that has always enjoyed uninterrupted, 24-hour power supply. Something that we in Mumbai are rightly proud of.
+								However, following the severe power shortage faced by State of Maharashtra and the city's unprecedented lifestyle boom, this envied status
+								of uninterrupted power is under threat. While efforts are on to plug the power deficit of 400-500 MW in Mumbai through alternate resources,
+								with summer around the corner, we could be in for a power shortage crisis during the peak hours of 10 am - 8 pm.
+							</html:p>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-sm-12">
+							<html:p>
+								But it doesn't have to be that way, if we act now. A few simple steps and we can avoid power cuts. But before we list out those steps, just
+								ask yourself, "Am I willing to do my bit for the future of our great city?" I think we all know the answer.
+							</html:p>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-sm-12">
+							<html:h4>Shift consumption away from the 10 am - 8 pm peak times:</html:h4>
+							<html:p>
+								Let's avoid adding to the power demand during this peak time. By simply using some of our common electrical appliances before and after this
+								time band. Washing machines, geysers, irons, water pumps in buildings - all can be shifted without much inconvenience.
+							</html:p>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-sm-12">
+							<html:h4>ACs at 26º C</html:h4>
+							<html:p>
+								ACs are possibly the biggest cause of any summer power crisis. Every time one more AC is switched on and every time the temperature is
+								lowered by one more degree, a huge load is added to the system. We can however work towards uninterrupted power - if we give up 'freezing'
+								for 'cool enough'. Let's all go 26 this summer - it's actually quite comfortable.
+							</html:p>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-sm-12">
+							<html:h4>Switch off from the plug point</html:h4>
+							<html:p>
+								Whenever we leave a plug point 'ON' after switching an electrical appliance 'OFF' with the remote, power is still being consumed in
+								'stand-by mode'. And no small amount either - these little wastages account for an unbelievable 5% of the city's power consumption. You will
+								agree that's a sheer waste. So, after usage, let's switch off our ACs, TVs, washing machines, microwaves, geysers and mobile chargers from
+								the plug point. Every single time. It is up to each one of us to make the change - if you will, Mumbai will!
+							</html:p>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-sm-12">
+							<html:h4>Save Electricity</html:h4>
+							<html:div class="row">
+								<html:div class="col-sm-8">
+									<html:h5>Light</html:h5>
+									<html:ul class="inti_list">
+										<html:li>Switch off lights and fans when not required.</html:li>
+										<html:li>Replace bulbs with tube lights &amp; CFL(Compact Flourescent Lamps).</html:li>
+										<html:li>Utilise natural light by using electronic chokes &amp; regulators instead of conventional copper chokes.</html:li>
+										<html:li>Optimise use of lights in malls, multiplexes &amp; hotels.</html:li>
+										<html:li>Turn off the lights when not in use.</html:li>
+										<html:li>Take advantage of daylight by using light-coloured, loose-weave curtains on your windows to allow daylight to penetrate the room.
+											Also, decorate with lighter colours that reflect daylight.</html:li>
+										<html:li>De-dust lighting fixtures to maintain illumination.</html:li>
+										<html:li>Use task lighting; instead of brightly lighting an entire room, focus the light where you need it.</html:li>
+										<html:li>Compact fluorescent bulbs are four times more energy efficient than incandescent bulbs and provide the same lighting.</html:li>
+									</html:ul>
+								</html:div>
+								<html:div class="col-sm-4 text-center">
+									<html:image src="images/enrg_sav_bulb.jpg" alt="enrg_sav_bulb" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-sm-8">
+									<html:h5>Electric iron</html:h5>
+									<html:ul class="inti_list">
+										<html:li>Select iron boxes with automatic temperature cutoff.</html:li>
+										<html:li>Use appropriate regulator position for ironing.</html:li>
+										<html:li>Do not put more water on clothes while ironing.</html:li>
+										<html:li>Do not iron wet clothes.</html:li>
+									</html:ul>
+								</html:div>
+								<html:div class="col-sm-4 text-center">
+									<html:image src="images/engr_sav_iron.jpg" alt="engr_sav_iron" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-sm-8">
+									<html:h5>Fans</html:h5>
+									<html:ul class="inti_list">
+										<html:li>Replace conventional regulators with electronic regulators for ceiling fans.</html:li>
+										<html:li>Install exhaust fans at a higher elevation than ceiling fans.</html:li>
+									</html:ul>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-sm-8">
+									<html:h5>Refrigerator</html:h5>
+									<html:ul class="inti_list">
+										<html:li>Do not open door frequently.</html:li>
+										<html:li>Set thermostat in medium cooling position.</html:li>
+										<html:li>Keep adequate space from wall.</html:li>
+										<html:li>Do not overload the refrigerator.</html:li>
+										<html:li>Defrost your refrigerator regularly.</html:li>
+										<html:li>Regularly defrost manual-defrost refrigerators and freezers; frost buildup increases the amount of energy needed to keep the motor running.</html:li>
+										<html:li>Leave enough space between your refrigerator and the walls so that air can easily circulate around the refrigerator.</html:li>
+										<html:li>Don't keep your refrigerator or freezer too cold.</html:li>
+										<html:li>Make sure your refrigerator door seals are airtight.</html:li>
+										<html:li>Cover liquids and wrap foods stored in the refrigerator. Uncovered foods release moisture and make the compressor work harder.</html:li>
+										<html:li>Do not open the doors of the refrigerators frequently.</html:li>
+										<html:li>Don't leave the fridge door open for longer than necessary, as cold air will escape.</html:li>
+										<html:li>Use smaller cabinets for storing frequently used items.</html:li>
+										<html:li>Avoid putting hot or warm food straight into the fridge.</html:li>
+									</html:ul>
+								</html:div>
+								<html:div class="col-sm-4 text-center">
+									<html:image src="images/enrg_sav_refrigerator.jpg" alt="enrg_sav_refrigerator" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-sm-8">
+									<html:h5>Washing Machine</html:h5>
+									<html:ul class="inti_list">
+										<html:li>Use after 10 PM or before 10 AM.</html:li>
+										<html:li>Run washing machine only with full load.</html:li>
+										<html:li>Use the shortest cycle time.</html:li>
+										<html:li>Use optimal quantity of water.</html:li>
+										<html:li>Use timer facility to save energy.</html:li>
+										<html:li>Use the correct amount of detergent.</html:li>
+										<html:li>Use hot water only for very dirty clothes.</html:li>
+										<html:li>Always use cold water in the rinse cycle.</html:li>
+										<html:li>Prefer natural drying over electric dryers.</html:li>
+									</html:ul>
+								</html:div>
+								<html:div class="col-sm-4 text-center">
+									<html:image src="images/enrg_sav_washing_machine.jpg" alt="enrg_sav_washing_machine" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-sm-8">
+									<html:h5>Geyser</html:h5>
+									<html:ul class="inti_list">
+										<html:li>Use before 10 AM.</html:li>
+										<html:li>Switch off when not required.</html:li>
+										<html:li>Reduce thermostat setting from 60º to 50º C.</html:li>
+										<html:li>Use Solar Water Heater - a good replacement for an electric water heater.</html:li>
+									</html:ul>
+								</html:div>
+								<html:div class="col-sm-4 text-center">
+									<html:image src="images/enrg_sav_geyser.jpg" alt="enrg_sav_geyser" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-sm-8">
+									<html:h5>Mixers</html:h5>
+									<html:ul class="inti_list">
+										<html:li>Avoid dry grinding in your food processors (mixers and grinders) as it takes longer time than liquid grinding.</html:li>
+									</html:ul>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-sm-8">
+									<html:h5>Microwave Ovens</html:h5>
+									<html:ul class="inti_list">
+										<html:li>Use these appliances to reduce energy consumption by 50 % compared to conventional electric / gas stoves.</html:li>
+										<html:li>Do not bake large food items.</html:li>
+										<html:li>Unless you're baking breads or pastries, you may not even need to preheat.</html:li>
+										<html:li>Don't open the oven door too often to check food condition as each opening leads to a temperature drop of 25º C.</html:li>
+									</html:ul>
+								</html:div>
+								<html:div class="col-sm-4 text-center">
+									<html:image src="images/enrg_sav_kitchen.jpg" alt="enrg_sav_kitchen" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-sm-8">
+									<html:h5>Electric Stove</html:h5>
+									<html:ul class="inti_list">
+										<html:li>Turn off electric stoves several minutes before the specified cooking time.</html:li>
+										<html:li>Use flat-bottomed pans that make full contact with the cooking coil.</html:li>
+									</html:ul>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-sm-8">
+									<html:h5>Gas Stove</html:h5>
+									<html:ul class="inti_list">
+										<html:li>When cooking on a gas burner, use moderate flame settings to conserve LPG.</html:li>
+										<html:li>Remember that a blue flame means your gas stove is operating efficiently.</html:li>
+										<html:li>Yellowish flame is an indicator that the burner needs cleaning.</html:li>
+										<html:li>Use pressure cookers as much as possible.</html:li>
+										<html:li>Use lids to cover the pans while cooking.</html:li>
+										<html:li>Bring items taken out of refrigerators (like vegetable, milk, etc.) to room temperature before placing on the gas stove for heating.</html:li>
+									</html:ul>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-sm-8">
+									<html:h5>Air Conditioning</html:h5>
+									<html:ul class="inti_list">
+										<html:li>Ensure proper sealing of doors and windows.</html:li>
+										<html:li>Set thermostat at 24º C for optimum cooling.</html:li>
+										<html:li>Clean AC filter every month.</html:li>
+										<html:li>Use film / tinted glass on windows.</html:li>
+										<html:li>Prefer air conditioners having automatic temperature cut off.</html:li>
+										<html:li>Keep regulators at "low cool" position.</html:li>
+										<html:li>Operate the ceiling fan in conjunction with your window air conditioner to spread the cooled air more effectively throughout the
+											room and operate the air conditioner at higher temperature.</html:li>
+										<html:li>Seal the doors and windows properly.</html:li>
+										<html:li>Leave enough space between your air conditioner and the walls to allow better air circulation.</html:li>
+										<html:li>A roof garden can reduce the load on Air Conditioner.</html:li>
+										<html:li>Use windows with sun films / curtains.</html:li>
+										<html:li>Set your thermostat as high as comfortably possible in the summer. The less difference between the indoor and outdoor temperatures,
+											the lower will be energy consumption.</html:li>
+										<html:li>Don't set your thermostat at a colder setting than normal when you turn on your air conditioner. It will not cool your home any
+											faster and could result in excessive cooling.</html:li>
+										<html:li>Don't place lamps or TV sets near your air-conditioning thermostat. The thermostat senses heat from these appliances, which can
+											cause the air conditioner to run longer than necessary.</html:li>
+										<html:li>Plant trees or shrubs to shade air-conditioning units but not to block the airflow. A unit operating in the shade uses as much as
+											10% less electricity than the same one operating in the sun.</html:li>
+									</html:ul>
+								</html:div>
+								<html:div class="col-sm-4 text-center">
+									<html:image src="images/enrg_sav_ac.jpg" alt="enrg_sav_ac" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</html:div>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

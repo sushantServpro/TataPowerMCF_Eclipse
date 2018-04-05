@@ -1,0 +1,516 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tatapower.dev.controller.OnlineApplications"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="PayBill" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container-fluid onl_app_frm">
+						<html:h5 align="center">Online Applications</html:h5>
+						<html:div class="row">
+							<html:div class="col-sm-10 col-sm-offset-1">
+								<html:div class="new_online_app_menu">
+									<html:div class="row new_online_app_menu">
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressNewConnection">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/new_connection.png" alt="new_connection" class="img-responsive"></html:image>
+															<html:h4>New Connection</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressChangeOverConnection">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/change_connection.png" alt="change_connection" class="img-responsive"></html:image>
+															<html:h4>Changeover Connection</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressSwitchOverConnection">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/switchover_connection.png" alt="switchover_connection" class="img-responsive"></html:image>
+															<html:h4>Switchover Connection</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressNetMetering">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/net_metering.png" alt="net_metering" class="img-responsive"></html:image>
+															<html:h4>Net Metering</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="onOpenAccess">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/open_access.png" alt="new_connection" class="img-responsive"></html:image>
+															<html:h4>Open access</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressReconnection">
+												<TileContent>
+													<content> 
+														<html:div class="online_tile_img">
+															<html:image src="images/reconnection.png" alt="connection" class="img-responsive"></html:image>
+															<html:h4>Reconnection</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressAdvanceBillPayment">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/advance_bill_payment.png" alt="switchover_connection" class="img-responsive"></html:image>
+															<html:h4>Advance Bill Payment</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressRegisterNow_andGetRewarded">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/reword_connection.png" alt="net_metering" class="img-responsive"></html:image>
+															<html:h4>Register Now and
+																<html:span>
+																	Get Rewarded</html:span>
+															</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressPermanentDisconnection">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/permannt_discnnction.png" alt="new_connection" class="img-responsive"></html:image>
+															<html:h4>Permanent Disconnection</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressLoad_Enhancement"> 
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/load_reduce.png" alt="change_connection" class="img-responsive"></html:image>
+															<html:h4>Load Enhancement</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressLoad_Reduction">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/load_enhance.png" alt="switchover_connection" class="img-responsive"></html:image>
+															<html:h4>Load Reduction</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressTariff_Category_Change">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/tariff_cat_chnge.png" alt="net_metering" class="img-responsive"></html:image>
+															<html:h4>Tariff Category Change</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressContract_Maximum_Demand_Enhancement">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/max_demand_enhance.png" alt="new_connection" class="img-responsive"></html:image>
+															<html:h4>Contract Maximum
+																<html:span>Demand Enhancement</html:span>
+															</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressContract_Maximum_Demand_Reduction">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/max_demand_reduce.png" alt="change_connection" class="img-responsive"></html:image>
+															<html:h4>Contract Maximum
+																<html:span>Demand Reduction</html:span>
+															</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressMeter_Shifting">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/meter_shifting.png" alt="switchover_connection" class="img-responsive"></html:image>
+															<html:h4>Meter Shifting</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressMeter_testing">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/meter_testing.png" alt="net_metering" class="img-responsive"></html:image>
+															<html:h4>Meter Testing</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<!--	<IconTabBar expanded="{device>/isNoPhone}" class="sapUiSmallMarginBottom sapUiResponsiveContentPadding">
+							<items>
+								<IconTabFilter icon="images/new_connection.png" text="New connection">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>New Connection</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-12">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" press="pressNewConnection"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" press="pressNewConnection"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLICATION FORM" press="pressNewConnection"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="FAQs" press="pressNewConnection"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="STANDARD DRAWINGS" press="pressNewConnection"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/change_connection.png" text="Change Over Connection">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Change Over Connection</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" press="pressChangeOverConnection"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" press="pressChangeOverConnection"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLICATION FORM" press="pressChangeOverConnection"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="FAQS" press="pressChangeOverConnection"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/switchover_connection.png" text="Switch Over Connection">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Switch Over Connection</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-12">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" press="pressSwitchOverConnection"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" press="pressSwitchOverConnection"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APLLICATION FORM" press="pressSwitchOverConnection"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/net_metering.png" text="Net Metering">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Net Metering</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-12">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" press="pressNetMetering"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APLLICATION FORM" press="pressNetMetering"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="MODEL CONNECTION AGREEMENT" press="pressNetMetering"/></html:span>
+											</html:div>
+											<html:div class="col-md-6 ">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="CHECK DISTRIBUTION TRANSFORMER CAPACITY" press="pressNetMetering"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" press="pressNetMetering"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/open_access.png" text="Open Access">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Open Access</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="SHORT TERM" press="onOpenAccess"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="LONG/MEDIUM TERM" target="_blank" href="#"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/reconnection.png" text="Reconnection">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Reconnection</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/advance_bill_payment.png" text="Advance Bill Payment">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Advance Bill Payment</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-12">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" press="pressAdvanceBillPayment"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" press="pressAdvanceBillPayment"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="INSTRUCTIONS FOR SUBMITING FORM" press="pressAdvanceBillPayment"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/reword_connection.png" text="Register &amp; Get Rewarded">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Register Now and Get Rewarded</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/permannt_discnnction.png" text="Permanent Disconnection">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Permanent Disconnection</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-12">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="INSTRUCTIONS FOR SUBMITING FORM" target="_blank" href="#"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/load_reduce.png" text="Load Enhancement">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Load Enhancement</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/load_enhance.png" text="Load Reduction">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Load Reduction</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/tariff_cat_chnge.png" text="Tariff Category Change">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Tariff Category Change</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" press="pressTariffDetails"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/max_demand_enhance.png" text="Max Demand Enhancement">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Contract Maximum Demand Enhancement</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/max_demand_reduce.png" text="Max Demand Reduction">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Contract Maximum Demand Reduction</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/meter_shifting.png" text="Meter Shifting">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Meter Shifting</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/meter_testing.png" text="Meter Testing">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Meter Testing</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" press="ProcedureAndGuidlines"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="INSTRUCTIONS FOR SUBMITING FORM" press="InstructionsForSubmittingForm"/></html:span>
+											</html:div>
+										</html:div>
+									</html:div>
+								</IconTabFilter>
+							</items>
+						</IconTabBar>-->
+					</html:div>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,55 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel class="headerMainPanel">
+		<content>
+			<html:div class="header_one">
+				<html:nav class="navbar navbar-default">
+					<html:div class="container-fluid">
+						<html:div class="navbar-header">
+							<html:image src="images/tata_logo.png" alt="tata_logo" class="img-responsive"></html:image>
+						</html:div>
+						<html:div class="navbar-header pull-right">
+							<html:image src="images/tata_emblem.png" alt="tata_emblem" class="img-responsive"></html:image>
+						</html:div>
+						<html:ul class="nav navbar-nav navbar-right search_list">
+							<html:li>
+								<SearchField class="sapUiSmallMargin"/>
+							</html:li>
+						</html:ul>
+						<html:ul class="nav navbar-nav navbar-right lang_link">
+							<html:li>
+								<html:a href="#" title="facebook" target="_blank">
+								
+								</html:a>
+							</html:li>
+						
+						</html:ul>
+						<html:ul class="nav navbar-nav navbar-right social_links">
+							<html:li>
+								<html:a href="https://www.facebook.com/tatapower/" title="facebook" target="_blank">
+									<html:image src="images/fb.png"></html:image>
+								</html:a>
+							</html:li>
+							
+							<html:li>
+								<html:a href="https://twitter.com/tatapower" title="twitter" target="_blank">
+									<html:image src="images/twitter.png"></html:image>
+								</html:a>
+							</html:li>
+							<html:li>
+								<html:a href="https://www.youtube.com/channel/UCCz5pvnMksWgbWh5MKMH-vQ" title="yutube" target="_blank">
+									<html:image src="images/ytube.png"></html:image>
+								</html:a>
+							</html:li>
+							<html:li>
+								<html:a href="https://in.linkedin.com/company/tata-power" title="linkdin" target="_blank">
+									<html:image src="images/linkdin.png"></html:image>
+								</html:a>
+							</html:li>
+						</html:ul>
+					</html:div>
+				</html:nav>
+			</html:div>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

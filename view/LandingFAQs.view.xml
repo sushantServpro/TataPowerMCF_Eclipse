@@ -1,0 +1,172 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tatapower.dev.controller.LandingFAQs"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Landing FAQ" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container">
+						<html:div class="row dividetiles">
+							<html:div class=" col-xs-12 col-sm-6 col-md-4 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="pressFAQ">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/billing.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Billing Related</html:h4>
+													<html:h4>Quaries</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-12 col-sm-6 col-md-4 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="pressFAQ">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/failure.png"  alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Power Failure </html:h4>
+														<html:h4>Problem </html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-6 col-md-4 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="pressFAQ">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/safety.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Safty Tips</html:h4>
+												
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+								<html:div class=" col-xs-12 col-sm-6 col-md-4 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="pressFAQ">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/energy.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Energy Saving</html:h4>
+													
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-12 col-sm-6 col-md-4 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/power.png"  alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Power Related</html:h4>
+														<html:h4>Quaries</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-6 col-md-4 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="pressFAQ">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/glossary.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Electicity</html:h4>
+													<html:h4>Glossary</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+								<html:div class="col-xs-12 col-sm-6 col-md-4 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="pressFAQ">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/payment.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Online</html:h4>
+													<html:h4>Payment</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+								<html:div class="col-xs-12 col-sm-6 col-md-4 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/new_conn.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>New </html:h4>
+													<html:h4>Connection</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-6 col-md-4 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/changeover_conn.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Change Over</html:h4>
+													<html:h4>Connection</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+								</html:div>
+									</html:div>
+					
+							<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
+						</content>
+					</Page>
+				</pages>
+			</App>
+		</mvc:View>

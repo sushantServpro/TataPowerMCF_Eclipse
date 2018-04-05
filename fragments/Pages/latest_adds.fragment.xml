@@ -1,0 +1,71 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container">
+					<html:div class="row Newsletter">
+						<html:div class="col-sm-10 col-sm-offset-1">
+							<html:div class="row intro_head">
+								<html:div class="col-xs-12">
+									<html:div class="latest_ad_bg border_rad_icon">
+										<html:div class="row icon_row_flex">
+											<html:div class="col-xs-2">
+												<html:image src="images/Icon_adcamp.png" alt="Icon_adcamp" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="col-xs-10">
+												<html:h4>Latest Ads Campaigns</html:h4>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="row procedure_files switch_over newsLetter">
+								<html:a href="images/hindi-ads.jpg" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">We have chosen Tata Power. And you? (Hindi)</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="images/marathi-ads.jpg" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">We have chosen Tata Power. And you? (Marathi)</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="images/Bill-payment-at-ICICI-Bank-branches.jpg" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Bill payment at ICICI Bank branches</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="images/Choose-Tata-Power.jpg" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Choose Tata Power</html:div>
+									</html:div>
+								</html:a>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

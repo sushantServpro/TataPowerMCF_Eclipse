@@ -1,0 +1,136 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<html:div class="row nctabbar">
+				<IconTabBar id="idIconTabBarStretchContent" backgroundDesign="Transparent" applyContentPadding="false" expanded="{device>/isNoPhone}"
+					class="sapUiResponsiveContentPadding">
+					<items>
+						<IconTabFilter icon="images/residential.png">
+							<html:div class="row innertabvst">
+								<IconTabBar expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+									<items>
+										<IconTabFilter text="VALUE PREPOSITION">
+											<html:div class="intabnc">
+												<html:p>Economical tariffs, highly reliable and safe power supply, and multiple modes of interaction and payment for our customers convenience</html:p>
+											</html:div>
+										</IconTabFilter>
+										<IconTabFilter text="SERVICE PROVIDED">
+											<html:div class="intabnc">
+												<html:ul class="blue_bullet_list">
+													<html:li>15 Customer relation centers, 15 Bill Collection centers and 24x7 customer-care support for our customers convenience</html:li>
+													<html:li>One Touch Convenience to our Customers – Tata Power Mobile App</html:li>
+													<html:li>
+														<html:strong>Easy Information :</html:strong>
+														Chatbot – TINA (Tata Power interactive application), Mobile app, Customer Portal, Bill on SMS</html:li>
+													<html:li>
+														<html:strong>Ease of Payment :</html:strong>
+														Dynamic QR Codes, Paytm, Drop boxes, Mobile vans, Bill collection Centers, Suvidha Cash Payment outlets</html:li>
+													<html:li>Economical tariffs, ensured through the lowest Average Cost of Supply</html:li>
+													<html:li>Reliable and Safe power supply with minimum disruptions and best-in-class restoration timelines</html:li>
+													<html:li>
+														<html:strong>Talk to us :</html:strong>
+														Twitter, Facebook, Consumer Meets</html:li>
+													<html:li>
+														<html:strong>Safety Handbook</html:strong>
+													</html:li>
+												</html:ul>
+											</html:div>
+										</IconTabFilter>
+										<IconTabFilter text="TARIFF">
+											<Text text="Notes go here ..."/>
+										</IconTabFilter>
+									</items>
+								</IconTabBar>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-md-3 col-md-offset-3">
+									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+										<html:image src="images/life_history.png" alt="tata_logo"></html:image>
+									</html:a>
+								</html:div>
+								<html:div class="col-md-6 ">
+									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+										<html:image src="images/apply_to_us.png" alt="tata_logo"></html:image>
+									</html:a>
+								</html:div>
+							</html:div>
+						</IconTabFilter>
+						<IconTabFilter icon="images/commercial.png">
+							<html:div class="row innertabvst">
+								<IconTabBar expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+									<items>
+										<IconTabFilter text="VALUE PREPOSITION">
+											<html:div class="intabnc">
+												<html:p>Economical tariffs for permanent supply, and cheapest tariffs for construction supply. Reliable and safe power supply with minimum
+													disruptions and best-in-class restoration timelines</html:p>
+											</html:div>
+										</IconTabFilter>
+										<IconTabFilter text="SERVICE PROVIDED">
+											<html:div class="intabnc">
+												<html:ul class="blue_bullet_list">
+													<html:li>Economical tariffs, ensured through the lowest Average Cost of Supply</html:li>
+													<html:li>Reliable and Safe power supply with minimum disruptions and best-in-class restoration timelines</html:li>
+													<html:li>One-Touch Convenience to our Customers through Tata Power Mobile App</html:li>
+													<html:li>State-of-the-art grid and reliable generation ensures minimum disruptions</html:li>
+													<html:li>Economical tariffs, ensured through the lowest Average Cost of Supply</html:li>
+													<html:li>Building capabilities of customer-side Technicians through Wireman training, OEM Training and Skill Development through our
+														world-class skill-development academy (TPSDI)</html:li>
+													<html:li>GIS integrated Call center for fast and accurate identification of fault location &amp; Vehicle management system for faster
+														restoration of power in case of fault</html:li>
+													<html:li>Automated Meter Reading</html:li>
+													<html:li>
+														benchmark reliability indices (SAIFI, SAIDI) across Distribution Utilities in Mumbai
+														<html:ul>
+															<html:li>Number of interruptions per customer in a year (SAIFI), 40 % lesser affected customers</html:li>
+															<html:li>Average interruptions in minutes faced by a customer (SAIDI), 3 times faster restoration than best competitor performance close to
+																global best-in-class</html:li>
+														</html:ul>
+													</html:li>
+													<html:li>
+														Distribution Management system
+														<html:ul>
+															<html:li>Centralized Monitoring and Control of Network</html:li>
+															<html:li>Real time monitoring and control of the Distribution Network</html:li>
+															<html:li>Minimal interruption and faster restoration to consumers</html:li>
+														</html:ul>
+													</html:li>
+													<html:li>Energy Audit programs to determine inefficiencies and introduce cost effective measures</html:li>
+													<html:li>Safety audit for assessing risk or vulnerability</html:li>
+													<html:li>Power factor improvement model</html:li>
+													<html:li>Demand Side Management to increase efficiency and contribute to the environment and you</html:li>
+													<html:li>Round the clock alert maintenance executives – Separate fault duty cell</html:li>
+													<html:li>Reliability centered maintenance for predictive analysis of distribution assets for improved reliability indices</html:li>
+													<html:li>Connectivity to Roof top Solar &amp; seamless Net Meterin</html:li>
+													<html:li>Techno-commercial support to consumers seeking Open Access (through Tata Power Trading)</html:li>
+												</html:ul>
+											</html:div>
+										</IconTabFilter>
+										<IconTabFilter text="TARIFF">
+											<Text text="Notes go here ..."/>
+										</IconTabFilter>
+									</items>
+								</IconTabBar>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-md-3 col-md-offset-3">
+									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+										<html:image src="images/life_history.png" alt="tata_logo"></html:image>
+									</html:a>
+								</html:div>
+								<html:div class="col-md-6 ">
+									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+										<html:image src="images/apply_to_us.png" alt="tata_logo"></html:image>
+									</html:a>
+								</html:div>
+							</html:div>
+						</IconTabFilter>
+						<IconTabFilter icon="images/industrial.png">
+							<Text text="People content goes here ..."/>
+						</IconTabFilter>
+					</items>
+				</IconTabBar>
+			</html:div>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

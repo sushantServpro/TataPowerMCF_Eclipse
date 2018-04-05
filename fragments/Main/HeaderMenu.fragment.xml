@@ -1,0 +1,362 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel class="headerMenu">
+		<content>
+			<html:div class="header_two">
+				<html:nav class="navbar navbar-default">
+					<html:div class="container-fluid">
+						<html:div class="navbar-header">
+							<ImageContent class="img-responsive" src="images/home_nav.png" description="Profile image" press="onHomePress"></ImageContent>
+						</html:div>
+						<html:ul class="nav navbar-nav main_nav sec_nav">
+							<html:li>
+								<MenuButton text="Online Application" buttonMode="Split" useDefaultActionOnly="true">
+									<menu>
+										<Menu itemSelected="onMenuAction">
+											<items>
+												<MenuItem text="New Connection">
+													<items>
+														<MenuItem text="Apply Online" press="pressNewOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressNewPro"/>
+														<MenuItem text="Application Form" press="pressNewApp"/>
+														<MenuItem text="Standard Drawings" press="pressNewDraw"/>
+														<MenuItem text="FAQs" press="pressFAQ"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Change Over Connection">
+													<items>
+														<MenuItem text="Apply Online" press="pressChangeOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressChangePro"/>
+														<MenuItem text="Application Form" press="pressChangeApp"/>
+														<MenuItem text="FAQs" press="pressFAQ"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Switch Over Connection">
+													<items>
+														<MenuItem text="Apply Online" press="pressSwitchOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressSwitchPro"/>
+														<MenuItem text="Application Form" press="pressSwitchApp"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Net Metering">
+													<items>
+														<MenuItem text="Apply Online" press="pressNetOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressNetPro"/>
+														<MenuItem text="Application Form" press="pressNetApp"/>
+														<MenuItem text="Check Distribution Capacity" press="pressCheckDistCap"/>
+														<MenuItem text="Model Connection Agreement" press="pressConAgg"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Open Access">
+													<items>
+														<MenuItem text="Short Term" press="pressShortTerm"/>
+														<MenuItem text="Medium/Long Term" press="pressShortTerm"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Reconnection">
+													<items>
+														<MenuItem text="Apply Online" press="pressReconOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Advance Bill Payment">
+													<items>
+														<MenuItem text="Apply Online" press="pressAdvBillOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressAdvBillPro"/>
+														<MenuItem text="Instructions for Submitting Form" press="pressAdvBillInst"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Register &amp; Get Rewarded">
+													<items>
+														<MenuItem text="Apply Online" press="pressReconOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Permanent Disconnection">
+													<items>
+														<MenuItem text="Apply Online" press="pressDisConOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressDisConBillPro"/>
+														<MenuItem text="Instructions for Submitting Form" press="pressDisConInst"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Load Enhancement">
+													<items>
+														<MenuItem text="Apply Online" press="pressLoadEnhasOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Load Reduction">
+													<items>
+														<MenuItem text="Apply Online" press="pressLoadRedctOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Tariff Category Change">
+													<items>
+														<MenuItem text="Apply Online" press="pressTariffCatOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Max Demand Enhancement">
+													<items>
+														<MenuItem text="Apply Online" press="pressMaxDemandOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Meter Shifting">
+													<items>
+														<MenuItem text="Apply Online" press="pressMeterShiftOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Meter Testing">
+													<items>
+														<MenuItem text="Apply Online" press="pressMeterTestOline"/>
+													</items>
+												</MenuItem>
+											</items>
+										</Menu>
+									</menu>
+								</MenuButton>
+							</html:li>
+							<html:li>
+								<MenuButton text="Tarrif Details" buttonMode="Split" useDefaultActionOnly="true">
+									<menu>
+										<Menu itemSelected="onMenuAction">
+											<items>
+												<MenuItem text="Tariff Rates"></MenuItem>
+												<MenuItem text="Tariff Schedule"></MenuItem>
+												<MenuItem text="FAC Rates"></MenuItem>
+											</items>
+										</Menu>
+									</menu>
+								</MenuButton>
+							</html:li>
+							<html:li>
+								<MenuButton text="Digital Champions" buttonMode="Split" useDefaultActionOnly="true"></MenuButton>
+							</html:li>
+							<html:li>
+								<MenuButton text="FAQ's" buttonMode="Split" useDefaultActionOnly="true"></MenuButton>
+							</html:li>
+							<html:li>
+								<MenuButton text="About Us" buttonMode="Split" useDefaultActionOnly="true">
+									<menu>
+										<Menu itemSelected="onMenuAction">
+											<items>
+												<MenuItem text="About Power Supply" press="pressAboutUs"></MenuItem>
+												<MenuItem text="About Tata Power Customer Portal" press="pressAboutUs"></MenuItem>
+												<MenuItem text="Milestones" press="pressAboutUs"></MenuItem>
+												<MenuItem text="Future Intiatives" press="pressAboutUs"></MenuItem>
+											</items>
+										</Menu>
+									</menu>
+								</MenuButton>
+							</html:li>
+							<html:li>
+								<MenuButton text="Contact Us" buttonMode="Split" useDefaultActionOnly="true">
+									<menu>
+										<Menu itemSelected="onMenuAction">
+											<items>
+												<MenuItem text="HOD Customer Services" press="pressContactUs"></MenuItem>
+												<MenuItem text="HOD Commercial" press="pressContactUs"></MenuItem>
+												<MenuItem text="Vigilance Head" press="pressContactUs"></MenuItem>
+												<MenuItem text="Zonal Head" press="pressContactUs"></MenuItem>
+												<MenuItem text="Call Center Number" press="pressContactUs"></MenuItem>
+											</items>
+										</Menu>
+									</menu>
+								</MenuButton>
+							</html:li>
+						</html:ul>
+						<html:ul class="nav navbar-nav navbar-right user_prof">
+							<html:li>
+								<html:span>Welcome</html:span>
+								<html:h5>Guest</html:h5>
+							</html:li>
+							<html:li>
+								<ImageContent class="img-responsive" src="images/profile.png" description="profileimg" press="pressLoginpage"></ImageContent>
+							</html:li>
+						</html:ul>
+						<html:ul class="nav navbar-nav navbar-right mobile_store">
+							<html:li>
+								<html:a href="https://itunes.apple.com/in/app/tata-power-mobile-app/id1136636873?mt=8">
+									<html:image src="images/app_store.png" alt="app_store" class="img-responsive"></html:image>
+								</html:a>
+							</html:li>
+							<html:li>
+								<html:a href="https://play.google.com/store/apps/details?id=com.tata.tatapower">
+									<html:image src="images/play_store.png" alt="play_store" class="img-responsive"></html:image>
+								</html:a>
+							</html:li>
+						</html:ul>
+					</html:div>
+				</html:nav>
+			</html:div>
+			<html:div class="resposive_nav">
+				<html:nav class="navbar navbar-default">
+					<html:div class="navbar-header">
+						<Button icon="sap-icon://menu2" type="Transparent" press="goDown">
+							<layoutData>
+								<OverflowToolbarLayoutData priority="NeverOverflow"/>
+							</layoutData>
+						</Button>
+						<html:image src="images/tata_logo.png" alt="home" class="img-responsive"></html:image>
+					</html:div>
+					<Panel width="auto" id="pnl_toggletab">
+						<content>
+							<html:ul class="nav navbar-nav main_nav">
+								<html:li>
+									<MenuButton text="Online Application" buttonMode="Split" useDefaultActionOnly="true">
+										<menu>
+											<Menu itemSelected="onMenuAction">
+												<items>
+													<MenuItem text="basic" icon="sap-icon://chalkboard">
+														<items>
+															<MenuItem text="add" icon="sap-icon://add"/>
+															<MenuItem text="subtract" icon="sap-icon://less"/>
+															<MenuItem text="multiply" icon="sap-icon://decline"/>
+														</items>
+													</MenuItem>
+													<MenuItem text="complex" icon="sap-icon://display">
+														<items>
+															<MenuItem text="square" icon="sap-icon://status-completed"/>
+														</items>
+													</MenuItem>
+												</items>
+											</Menu>
+										</menu>
+									</MenuButton>
+								</html:li>
+								<html:li>
+									<MenuButton text="Tarrif Details" buttonMode="Split" useDefaultActionOnly="true">
+										<menu>
+											<Menu itemSelected="onMenuAction">
+												<items>
+													<MenuItem text="basic" icon="sap-icon://chalkboard">
+														<items>
+															<MenuItem text="add" icon="sap-icon://add"/>
+															<MenuItem text="subtract" icon="sap-icon://less"/>
+															<MenuItem text="multiply" icon="sap-icon://decline"/>
+														</items>
+													</MenuItem>
+													<MenuItem text="complex" icon="sap-icon://display">
+														<items>
+															<MenuItem text="square" icon="sap-icon://status-completed"/>
+														</items>
+													</MenuItem>
+												</items>
+											</Menu>
+										</menu>
+									</MenuButton>
+								</html:li>
+								<html:li>
+									<MenuButton text="Digital Service" buttonMode="Split" useDefaultActionOnly="true">
+										<menu>
+											<Menu itemSelected="onMenuAction">
+												<items>
+													<MenuItem text="basic" icon="sap-icon://chalkboard">
+														<items>
+															<MenuItem text="add" icon="sap-icon://add"/>
+															<MenuItem text="subtract" icon="sap-icon://less"/>
+															<MenuItem text="multiply" icon="sap-icon://decline"/>
+														</items>
+													</MenuItem>
+													<MenuItem text="complex" icon="sap-icon://display">
+														<items>
+															<MenuItem text="square" icon="sap-icon://status-completed"/>
+														</items>
+													</MenuItem>
+												</items>
+											</Menu>
+										</menu>
+									</MenuButton>
+								</html:li>
+								<html:li>
+									<MenuButton text="My Account" buttonMode="Split" useDefaultActionOnly="true">
+										<menu>
+											<Menu itemSelected="onMenuAction">
+												<items>
+													<MenuItem text="basic" icon="sap-icon://chalkboard">
+														<items>
+															<MenuItem text="add" icon="sap-icon://add"/>
+															<MenuItem text="subtract" icon="sap-icon://less"/>
+															<MenuItem text="multiply" icon="sap-icon://decline"/>
+														</items>
+													</MenuItem>
+													<MenuItem text="complex" icon="sap-icon://display">
+														<items>
+															<MenuItem text="square" icon="sap-icon://status-completed"/>
+														</items>
+													</MenuItem>
+												</items>
+											</Menu>
+										</menu>
+									</MenuButton>
+								</html:li>
+								<html:li>
+									<MenuButton text="Payment Options" buttonMode="Split" useDefaultActionOnly="true">
+										<menu>
+											<Menu itemSelected="onMenuAction">
+												<items>
+													<MenuItem text="basic" icon="sap-icon://chalkboard">
+														<items>
+															<MenuItem text="add" icon="sap-icon://add"/>
+															<MenuItem text="subtract" icon="sap-icon://less"/>
+															<MenuItem text="multiply" icon="sap-icon://decline"/>
+														</items>
+													</MenuItem>
+													<MenuItem text="complex" icon="sap-icon://display">
+														<items>
+															<MenuItem text="square" icon="sap-icon://status-completed"/>
+														</items>
+													</MenuItem>
+												</items>
+											</Menu>
+										</menu>
+									</MenuButton>
+								</html:li>
+								<html:li>
+									<MenuButton text="FAQ's" buttonMode="Split" useDefaultActionOnly="true">
+										<menu>
+											<Menu itemSelected="onMenuAction">
+												<items>
+													<MenuItem text="basic" icon="sap-icon://chalkboard">
+														<items>
+															<MenuItem text="add" icon="sap-icon://add"/>
+															<MenuItem text="subtract" icon="sap-icon://less"/>
+															<MenuItem text="multiply" icon="sap-icon://decline"/>
+														</items>
+													</MenuItem>
+													<MenuItem text="complex" icon="sap-icon://display">
+														<items>
+															<MenuItem text="square" icon="sap-icon://status-completed"/>
+														</items>
+													</MenuItem>
+												</items>
+											</Menu>
+										</menu>
+									</MenuButton>
+								</html:li>
+								<html:li>
+									<MenuButton text="More" buttonMode="Split" useDefaultActionOnly="true">
+										<menu>
+											<Menu itemSelected="onMenuAction">
+												<items>
+													<MenuItem text="basic" icon="sap-icon://chalkboard">
+														<items>
+															<MenuItem text="add" icon="sap-icon://add"/>
+															<MenuItem text="subtract" icon="sap-icon://less"/>
+															<MenuItem text="multiply" icon="sap-icon://decline"/>
+														</items>
+													</MenuItem>
+													<MenuItem text="complex" icon="sap-icon://display">
+														<items>
+															<MenuItem text="square" icon="sap-icon://status-completed"/>
+														</items>
+													</MenuItem>
+												</items>
+											</Menu>
+										</menu>
+									</MenuButton>
+								</html:li>
+							</html:ul>
+						</content>
+					</Panel>
+				</html:nav>
+			</html:div>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

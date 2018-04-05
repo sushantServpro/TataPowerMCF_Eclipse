@@ -1,0 +1,550 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="tatapower.dev.controller.PowerConsumptionGuidelines" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container">
+						<Panel>
+							<html:div class="container-fluid">
+								<html:div class="go-green_intro">
+									<html:div class="row intro_head">
+										<html:div class="col-xs-12">
+											<html:div class="grn_cor border_rad_icon">
+												<html:div class="row icon_row_flex">
+													<html:div class="col-xs-2">
+														<html:image src="images/icon_green_corn.png" alt="icon_green_corn" class="img-responsive"></html:image>
+													</html:div>
+													<html:div class="col-xs-10">
+														<html:h4>Power Consumption Guidelines</html:h4>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+								<html:div class="pow_conm">
+									<html:h4 class="text-center">
+										MONTHLY ENERGY CONSUMPTION READY RECKONER
+									</html:h4>
+									<html:div class="table-responsive">
+										<html:table class="table table-bordered">
+											<html:tr>
+												<html:th colspan="9" class="text-center">AVERAGE USAGE IN HOURS PER DAY</html:th>
+											</html:tr>
+											<html:tr>
+												<html:td>TYPE OF APPLIANCE</html:td>
+												<html:td>WATTS</html:td>
+												<html:td>10</html:td>
+												<html:td>20</html:td>
+												<html:td>30</html:td>
+												<html:td>40</html:td>
+												<html:td>50</html:td>
+												<html:td>60</html:td>
+												<html:td>120</html:td>
+											</html:tr>
+											<html:tr>
+												<html:th colspan="9" class="text-center">ESTIMATED UNITS CONSUMED IN 30 DAYS</html:th>
+											</html:tr>
+											<html:tr>
+												<html:td>TUBE LIGHT (Electronic Choke)</html:td>
+												<html:td>36</html:td>
+												<html:td>1</html:td>
+												<html:td>2</html:td>
+												<html:td>4</html:td>
+												<html:td>6</html:td>
+												<html:td>9</html:td>
+												<html:td>11</html:td>
+												<html:td>13</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>TUBE LIGHT (Ordinary Choke)</html:td>
+												<html:td>52</html:td>
+												<html:td>2</html:td>
+												<html:td>3</html:td>
+												<html:td>6</html:td>
+												<html:td>9</html:td>
+												<html:td>12</html:td>
+												<html:td>16</html:td>
+												<html:td>19</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>GLS BULB</html:td>
+												<html:td>100</html:td>
+												<html:td>3</html:td>
+												<html:td>6</html:td>
+												<html:td>12</html:td>
+												<html:td>18</html:td>
+												<html:td>24</html:td>
+												<html:td>30</html:td>
+												<html:td>36</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>CEILING FAN / html:TABLE FAN</html:td>
+												<html:td>40</html:td>
+												<html:td>1</html:td>
+												<html:td>2</html:td>
+												<html:td>5</html:td>
+												<html:td>7</html:td>
+												<html:td>10</html:td>
+												<html:td>12</html:td>
+												<html:td>14</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>CEILING FAN</html:td>
+												<html:td>75</html:td>
+												<html:td>2</html:td>
+												<html:td>5</html:td>
+												<html:td>9</html:td>
+												<html:td>14</html:td>
+												<html:td>18</html:td>
+												<html:td>23</html:td>
+												<html:td>27</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>PEDESTAL FAN</html:td>
+												<html:td>100</html:td>
+												<html:td>3</html:td>
+												<html:td>6</html:td>
+												<html:td>12</html:td>
+												<html:td>18</html:td>
+												<html:td>24</html:td>
+												<html:td>30</html:td>
+												<html:td>36</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>EXHAUST FAN : DOMESTIC</html:td>
+												<html:td>250</html:td>
+												<html:td>8</html:td>
+												<html:td>15</html:td>
+												<html:td>30</html:td>
+												<html:td>45</html:td>
+												<html:td>60</html:td>
+												<html:td>75</html:td>
+												<html:td>90</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>EXHAUST FAN : INDUSTRIAL</html:td>
+												<html:td>750</html:td>
+												<html:td>23</html:td>
+												<html:td>45</html:td>
+												<html:td>90</html:td>
+												<html:td>135</html:td>
+												<html:td>180</html:td>
+												<html:td>225</html:td>
+												<html:td>270</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>FRIDGE 165 LTRS</html:td>
+												<html:td>100</html:td>
+												<html:td colspan="7">CONTINUOUS RUNNING 2 UNITS / DAY</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>FRIDGE 310 LTRS</html:td>
+												<html:td>400</html:td>
+												<html:td colspan="7">CONTINUOUS RUNNING 3 UNITS / DAY</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>RADIO / TAPE</html:td>
+												<html:td>50</html:td>
+												<html:td>2</html:td>
+												<html:td>3</html:td>
+												<html:td>6</html:td>
+												<html:td>9</html:td>
+												<html:td>12</html:td>
+												<html:td>15</html:td>
+												<html:td>18</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>COLOUR TV</html:td>
+												<html:td>80</html:td>
+												<html:td>2</html:td>
+												<html:td>5</html:td>
+												<html:td>10</html:td>
+												<html:td>14</html:td>
+												<html:td>19</html:td>
+												<html:td>24</html:td>
+												<html:td>29</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>VCP / VCR / CD / VCD</html:td>
+												<html:td>30</html:td>
+												<html:td>1</html:td>
+												<html:td>2</html:td>
+												<html:td>4</html:td>
+												<html:td>5</html:td>
+												<html:td>7</html:td>
+												<html:td>9</html:td>
+												<html:td>11</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>TELEPHONE ANSWERING MACHINE</html:td>
+												<html:td>100</html:td>
+												<html:td>3</html:td>
+												<html:td>6</html:td>
+												<html:td>12</html:td>
+												<html:td>18</html:td>
+												<html:td>24</html:td>
+												<html:td>30</html:td>
+												<html:td>36</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>COMPUTER</html:td>
+												<html:td>300</html:td>
+												<html:td>9</html:td>
+												<html:td>18</html:td>
+												<html:td>36</html:td>
+												<html:td>54</html:td>
+												<html:td>72</html:td>
+												<html:td>90</html:td>
+												<html:td>108</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>MONITOR</html:td>
+												<html:td>70</html:td>
+												<html:td>2</html:td>
+												<html:td>4</html:td>
+												<html:td>8</html:td>
+												<html:td>13</html:td>
+												<html:td>17</html:td>
+												<html:td>21</html:td>
+												<html:td>25</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>PRINTER</html:td>
+												<html:td>25</html:td>
+												<html:td>1</html:td>
+												<html:td>2</html:td>
+												<html:td>3</html:td>
+												<html:td>5</html:td>
+												<html:td>6</html:td>
+												<html:td>8</html:td>
+												<html:td>9</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>FAX / TELEX</html:td>
+												<html:td>250</html:td>
+												<html:td>8</html:td>
+												<html:td>15</html:td>
+												<html:td>30</html:td>
+												<html:td>45</html:td>
+												<html:td>60</html:td>
+												<html:td>75</html:td>
+												<html:td>90</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>WATER PUMP 0.5 HP</html:td>
+												<html:td>375</html:td>
+												<html:td>11</html:td>
+												<html:td>23</html:td>
+												<html:td>45</html:td>
+												<html:td>68</html:td>
+												<html:td>90</html:td>
+												<html:td>113</html:td>
+												<html:td>135</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>ROOM A/C 1 TON</html:td>
+												<html:td>1400</html:td>
+												<html:td>42</html:td>
+												<html:td>84</html:td>
+												<html:td>168</html:td>
+												<html:td>252</html:td>
+												<html:td>336</html:td>
+												<html:td>420</html:td>
+												<html:td>504</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>ROOM A/C 1.5 TON</html:td>
+												<html:td>2100</html:td>
+												<html:td>63</html:td>
+												<html:td>126</html:td>
+												<html:td>252</html:td>
+												<html:td>378</html:td>
+												<html:td>504</html:td>
+												<html:td>630</html:td>
+												<html:td>756</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>AIR COOLER SMALL</html:td>
+												<html:td>250</html:td>
+												<html:td>8</html:td>
+												<html:td>15</html:td>
+												<html:td>30</html:td>
+												<html:td>45</html:td>
+												<html:td>60</html:td>
+												<html:td>75</html:td>
+												<html:td>90</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>AIR COOLER BIG</html:td>
+												<html:td>400</html:td>
+												<html:td>12</html:td>
+												<html:td>24</html:td>
+												<html:td>48</html:td>
+												<html:td>72</html:td>
+												<html:td>96</html:td>
+												<html:td>120</html:td>
+												<html:td>144</html:td>
+											</html:tr>
+										</html:table>
+									</html:div>
+									<html:div class="green_build_desc">
+										<html:p>
+											Appliances listed below may not normally operate beyond a few minutes or beyond a few hours in certain cases. The table has therefore to be
+											used on actual consumption pattern.
+										</html:p>
+									</html:div>
+									<html:div class="table-responsive">
+										<html:table class="table table-bordered">
+											<html:tr>
+												<html:th colspan="9" class="text-center">AVERAGE USAGE IN MINUTES PER DAY</html:th>
+											</html:tr>
+											<html:tr>
+												<html:td>TYPE OF APPLIANCE</html:td>
+												<html:td>WATTS</html:td>
+												<html:td>10</html:td>
+												<html:td>20</html:td>
+												<html:td>30</html:td>
+												<html:td>40</html:td>
+												<html:td>50</html:td>
+												<html:td>60</html:td>
+												<html:td>120</html:td>
+											</html:tr>
+											<html:tr>
+												<html:th colspan="9" class="text-center">ESTIMATED UNITS CONSUMED IN 30 DAYS</html:th>
+											</html:tr>
+											<html:tr>
+												<html:td>ELECTRIC IRON</html:td>
+												<html:td>750</html:td>
+												<html:td>4</html:td>
+												<html:td>8</html:td>
+												<html:td>11</html:td>
+												<html:td>15</html:td>
+												<html:td>19</html:td>
+												<html:td>23</html:td>
+												<html:td>45</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>DHOBI IRON</html:td>
+												<html:td>1000</html:td>
+												<html:td>5</html:td>
+												<html:td>10</html:td>
+												<html:td>15</html:td>
+												<html:td>20</html:td>
+												<html:td>25</html:td>
+												<html:td>30</html:td>
+												<html:td>60</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>COOKER</html:td>
+												<html:td>1200</html:td>
+												<html:td>6</html:td>
+												<html:td>12</html:td>
+												<html:td>18</html:td>
+												<html:td>24</html:td>
+												<html:td>30</html:td>
+												<html:td>36</html:td>
+												<html:td>72</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>TOASTER</html:td>
+												<html:td>750</html:td>
+												<html:td>4</html:td>
+												<html:td>8</html:td>
+												<html:td>11</html:td>
+												<html:td>15</html:td>
+												<html:td>19</html:td>
+												<html:td>23</html:td>
+												<html:td>45</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>MIXER (BIG)</html:td>
+												<html:td>400</html:td>
+												<html:td>2</html:td>
+												<html:td>4</html:td>
+												<html:td>6</html:td>
+												<html:td>8</html:td>
+												<html:td>10</html:td>
+												<html:td>12</html:td>
+												<html:td>24</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>MIXER (SMALL)</html:td>
+												<html:td>250</html:td>
+												<html:td>1</html:td>
+												<html:td>3</html:td>
+												<html:td>4</html:td>
+												<html:td>5</html:td>
+												<html:td>6</html:td>
+												<html:td>8</html:td>
+												<html:td>15</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>GEYSER 1</html:td>
+												<html:td>2000</html:td>
+												<html:td>10</html:td>
+												<html:td>20</html:td>
+												<html:td>30</html:td>
+												<html:td>40</html:td>
+												<html:td>50</html:td>
+												<html:td>60</html:td>
+												<html:td>120</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>GEYSER 2</html:td>
+												<html:td>3000</html:td>
+												<html:td>15</html:td>
+												<html:td>30</html:td>
+												<html:td>45</html:td>
+												<html:td>60</html:td>
+												<html:td>75</html:td>
+												<html:td>90</html:td>
+												<html:td>180</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>GEYSER 3</html:td>
+												<html:td>6000</html:td>
+												<html:td>30</html:td>
+												<html:td>60</html:td>
+												<html:td>90</html:td>
+												<html:td>120</html:td>
+												<html:td>150</html:td>
+												<html:td>180</html:td>
+												<html:td>360</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>HEATER (STORAGE TYPE)</html:td>
+												<html:td>1000</html:td>
+												<html:td>5</html:td>
+												<html:td>10</html:td>
+												<html:td>15</html:td>
+												<html:td>20</html:td>
+												<html:td>25</html:td>
+												<html:td>30</html:td>
+												<html:td>60</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>IMMERSION ROD</html:td>
+												<html:td>1500</html:td>
+												<html:td>8</html:td>
+												<html:td>15</html:td>
+												<html:td>23</html:td>
+												<html:td>30</html:td>
+												<html:td>38</html:td>
+												<html:td>45</html:td>
+												<html:td>90</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>ELECTRIC KETTLE / STOVE</html:td>
+												<html:td>1000</html:td>
+												<html:td>5</html:td>
+												<html:td>10</html:td>
+												<html:td>15</html:td>
+												<html:td>20</html:td>
+												<html:td>25</html:td>
+												<html:td>30</html:td>
+												<html:td>60</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>ELECTRIC OVEN 1</html:td>
+												<html:td>350</html:td>
+												<html:td>2</html:td>
+												<html:td>4</html:td>
+												<html:td>5</html:td>
+												<html:td>7</html:td>
+												<html:td>9</html:td>
+												<html:td>11</html:td>
+												<html:td>21</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>ELECTRIC OVEN 2</html:td>
+												<html:td>500</html:td>
+												<html:td>3</html:td>
+												<html:td>5</html:td>
+												<html:td>8</html:td>
+												<html:td>10</html:td>
+												<html:td>13</html:td>
+												<html:td>15</html:td>
+												<html:td>30</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>WASHING MACHINE SEMI AUTO</html:td>
+												<html:td>230</html:td>
+												<html:td>1</html:td>
+												<html:td>2</html:td>
+												<html:td>3</html:td>
+												<html:td>5</html:td>
+												<html:td>6</html:td>
+												<html:td>7</html:td>
+												<html:td>14</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>WASHING MACHINE FULLY AUTO</html:td>
+												<html:td>320</html:td>
+												<html:td>2</html:td>
+												<html:td>3</html:td>
+												<html:td>5</html:td>
+												<html:td>6</html:td>
+												<html:td>8</html:td>
+												<html:td>10</html:td>
+												<html:td>19</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>VACUUM CLEANER</html:td>
+												<html:td>600</html:td>
+												<html:td>3</html:td>
+												<html:td>6</html:td>
+												<html:td>9</html:td>
+												<html:td>12</html:td>
+												<html:td>15</html:td>
+												<html:td>18</html:td>
+												<html:td>36</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>SEWING M/C CLOTH</html:td>
+												<html:td>100</html:td>
+												<html:td>1</html:td>
+												<html:td>1</html:td>
+												<html:td>2</html:td>
+												<html:td>2</html:td>
+												<html:td>3</html:td>
+												<html:td>3</html:td>
+												<html:td>6</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>SEWING M/C REXIN</html:td>
+												<html:td>750</html:td>
+												<html:td>4</html:td>
+												<html:td>8</html:td>
+												<html:td>11</html:td>
+												<html:td>15</html:td>
+												<html:td>19</html:td>
+												<html:td>23</html:td>
+												<html:td>45</html:td>
+											</html:tr>
+											<html:tr>
+												<html:td>WATER PUMP 0.5 HP</html:td>
+												<html:td>375</html:td>
+												<html:td>2</html:td>
+												<html:td>4</html:td>
+												<html:td>6</html:td>
+												<html:td>8</html:td>
+												<html:td>9</html:td>
+												<html:td>11</html:td>
+												<html:td>23</html:td>
+											</html:tr>
+										</html:table>
+									</html:div>
+								</html:div>
+							</html:div>
+						</Panel>
+					</html:div>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

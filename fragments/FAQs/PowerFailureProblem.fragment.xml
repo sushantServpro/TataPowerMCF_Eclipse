@@ -1,0 +1,112 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<html:div class="go-green_intro">
+				<html:div class="row intro_head">
+					<html:div class="col-xs-12">
+						<html:div class="faq_bg border_rad_icon">
+							<html:div class="row icon_row_flex">
+								<html:div class="col-xs-2">
+									<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-xs-10">
+									<html:h4>Power Failure Problem</html:h4>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</html:div>
+			<Panel expandable="true" expanded="false" headerText="Why do I face power failures?" width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>Power reaches to you from substation through line or cable. At your end power supply is fed through cut-outs / fuses installed in
+							your house or in your building near your meter. Power failure occurs most commonly due to blown fuse or due to cable damage. The fuse may
+							blow due to short-circuit or overloading of equipment. Further in spite of our best efforts to provide uninterrupted power, there could be
+							problem in the line or in cable between substation and powerhouse due to storms or falling of trees.</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="How do I report a power failure?" width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Please dial our 24 hrs Call Centre for lodging power failure complaints and any other power related complaints or receive updates on power
+							restoration status.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="How often do I need to follow up after reporting of power failure?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>Once power failure has been reported there is no need to report again. Quickly Tata Power personnel start working on the problem.
+							Although we make all possible efforts to get all customers back online as quickly as possible, the actual time required to restore power may
+							vary depending upon nature of failure. You may ask Call Centre to provide estimated time of restoration. Call Centre will provide this
+							information once the problem is identified. If power is not restored within few hours or your neighbor's power has come back but yours is
+							still off, you may contact Call Centre again to get the latest status on power restoration.</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="Why do my neighbours have power and mine is still off?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							In case of residential customers, if your neighbours have power supply when you don?t, the fault is most probably within your house. It is
+							advisable to call the local electrician in such cases.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="Can I use a portable generator during non-availability of power supply?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>Residential customer can use Gen Set in their house during power outage or failure. However commercial and industrial customers
+							require separate permission to do so. However generator should be connected after isolating main supply through a double throw switch to
+							break main circuit before Gen Set circuit is made. It should never be plugged or connected to main supply inlet in the house. If it is
+							connected in the same circuit, electricity will travel through power line or transformer, creating mortal danger to utility personnel
+							working on the line. This switch is also required to protect Gen Set and appliances in your house when regular power supply is restored.</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="Can I switch ON all the appliances once the power is resumed?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:ul>
+							<html:li>
+								<html:h5>
+									As a precautionary measure, when power supply fails one should switch OFF the critical equipment such as air-conditioners, PCs,
+									Refrigerators, Television sets , etc. Please do not forget to switch OFF Geyser.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									When the power is resumed, it is recommended to switch ON the appliances one by one. After prolonged outage of power supply, please check
+									food stored in your refrigerator for signs of spoilage. Don't take a chance on food if you are not sure.
+								</html:h5>
+							</html:li>
+						</html:ul>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText="Why are there voltage fluctuations? Who should we contact if we get low / high voltage?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Tata Power is a part of Western regional power grid along with other utilities such as MSEB, BSES, GSEB, MPEB etc. Any disturbance in this
+							western grid results into voltage fluctuation for a very short duration and is beyond the control of Tata Power. We take every care to avoid
+							such disturbances and also try to restrict their duration and effect.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

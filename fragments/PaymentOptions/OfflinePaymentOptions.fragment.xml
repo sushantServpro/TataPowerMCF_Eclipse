@@ -1,0 +1,134 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="pay_opt_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_payment_opt.png" alt="icon_payment_opt" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Offline Payment Options</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="track_request off_ln_pymt">
+						<html:div class="container-fluid">
+							<html:div class="row">
+								<html:div class="col-sm-2">
+									<Label text="Enter your area" labelFor="req_num"/>
+								</html:div>
+								<html:div class="col-sm-6">
+									<Input type="Text" id="req_num"/>
+								</html:div>
+								<html:div class="col-sm-2">
+									<Button text="SEARCH" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+								</html:div>
+								<html:div class="col-sm-2">
+									<Button text="RESET" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="off_search_result">
+						<html:h5>Payment counter types in the Bandra(E) area.</html:h5>
+						<html:div class="ele_drop_box">
+							<html:h4>Electronic Drop Box</html:h4>
+							<html:ul class="drop_box">
+								<html:li>TATA POWER BKC SUBSTATION, BKC 400051</html:li>
+							</html:ul>
+						</html:div>
+						<html:div class="tata_drop_box">
+							<html:h4>Tata Power Drop Box</html:h4>
+							<html:ul class="drop_box">
+								<html:li>Bharat Petroleum Corp.Ltd, Staff Quarters, Gn R5 Block, 400051</html:li>
+								<html:li>HPCL Officers Apartments, Plot No . R-8 &amp; R-9 GN Block, Bandra -Kurla Complex, 400051</html:li>
+								<html:li>Mature Trading &amp; Investment Fortune 2000, Plot No.C-3 G Block, Bandra -Kurla Complex, 400051</html:li>
+								<html:li>ONGC Residential Complex, Plot R/6, G N Block, Bandra -Kurla Complex, 400051</html:li>
+							</html:ul>
+						</html:div>
+					</html:div>
+					<html:div class="off_pay_opts">
+						<html:div class="row off_pay_opt">
+							<html:div class="col-sm-2">
+								<html:image src="images/itz.png" alt="itz" class="img-responsive"></html:image>
+							</html:div>
+							<html:div class="col-sm-8">
+								<html:h5>Cash payments at Itz Cash World Outlets</html:h5>
+								<html:p>To locate an ItzCash World Outlet close to you,
+									<html:a href="pdf/ITZ_NEW.pdf" title="Click to View" target="_blank">click here to view</html:a>
+									or Contact ITZ Cash Call Centre on 07666155220 or SMS: FINDICW ENERGY PINCODE to 57575/7200057575 (example: FINDICW ENERGY 400097)
+								</html:p>
+							</html:div>
+							<html:div class="col-sm-2">
+								<Button text="LOCATE NEARBY OUTLET" press="onPress" class="switchcenter form-control"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							</html:div>
+						</html:div>
+						<html:div class="row off_pay_opt">
+							<html:div class="col-sm-2">
+								<html:image src="images/suvidha.png" alt="suvidha" class="img-responsive"></html:image>
+							</html:div>
+							<html:div class="col-sm-8">
+								<html:h5>Cash payments at SUVIDHAA Outlets</html:h5>
+								<html:p>To locate a Suvidhaa Outlet close to you,
+									<html:a href="pdf/SUVIDHA_NEW.pdf" title="Click to View" target="_blank">click here to view</html:a>
+									or you can also locate a store via: Call: 09223 225 225 Or Free Call back: 1800 300 00830 (Give a missed call on this number &amp; receive a
+									call back from Suvidhaa Customer Care) Or SMS: SUV FIND and send to 56070 (example: SUV FIND 400097)
+								</html:p>
+							</html:div>
+							<html:div class="col-sm-2">
+								<Button text="LOCATE NEARBY OUTLET" press="onPress" class="switchcenter form-control"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							</html:div>
+						</html:div>
+						<html:div class="row off_pay_opt">
+							<html:div class="col-sm-2">
+								<html:image src="images/icici.png" alt="icici" class="img-responsive"></html:image>
+							</html:div>
+							<html:div class="col-sm-8">
+								<html:h5>Cash &amp; Cheque payments at ICICI Bank Branches (Over the counter Cash &amp; Cheque payments only):</html:h5>
+								<html:p>To locate an ICICI Bank Branch close to you,
+									<html:a href="pdf/ICICI.pdf" title="Click to View" target="_blank">click here to view</html:a>.
+									<html:a href="pdf/faq-bill-payment-icici-bank.pdf" title="Click to View" target="_blank">FAQs - Bill payment at ICICI Bank Branches</html:a>
+								</html:p>
+							</html:div>
+							<html:div class="col-sm-2">
+								<Button text="LOCATE NEARBY OUTLET" press="onPress" class="switchcenter form-control"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							</html:div>
+						</html:div>
+						<html:div class="row off_pay_opt">
+							<html:div class="col-sm-2">
+								<html:image src="images/skypak.png" alt="skypak" class="img-responsive"></html:image>
+							</html:div>
+							<html:div class="col-sm-8">
+								<html:h5>Cheque payments at SKYPAK Cheque Drop Boxes:</html:h5>
+								<html:p>To locate a SKYPAK Cheque Drop Box close to you,
+									<html:a href="pdf/DROPBOX.pdf" title="Click to View" target="_blank">click here to view</html:a>
+								</html:p>
+							</html:div>
+							<html:div class="col-sm-2">
+								<Button text="LOCATE NEARBY OUTLET" press="onPress" class="switchcenter form-control"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="more_off_pay_opt">
+						<html:p class="text-center">More Offline Payment Options:
+							<html:a href="http://www.ktses.com/" title="Click to View" target="_blank">http://www.ktses.com/</html:a>
+						</html:p>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

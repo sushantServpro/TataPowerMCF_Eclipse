@@ -1,0 +1,51 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<TableSelectDialog
+		noDataText="No Data Found"
+		title="Contract Acct List"
+		search="_handleValueHelpSearch"
+		confirm="_handleValueHelpClose"
+		close="_handleValueHelpClose"
+		items="{path: 'Contract>/results'}">
+		<ColumnListItem>
+			<cells>
+				<Text text="{Contract>ContractAccountID}" />
+				<Text text="{Contract>AccountID}" />
+				<Text text="{Contract>CountryID}" />
+				<Text text="{Contract>IncomingPaymentBankAccountID}" />
+			</cells>
+		</ColumnListItem>
+		<columns>
+			<Column width="12em">
+				<header>
+					<Text text="Contract Acct" />
+				</header>
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true" >
+				<header>
+					<Text text="Bussiness partn" />
+				</header>
+			</Column>
+			
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<header>
+					<Text text="Bank Country" />
+				</header>
+			</Column>
+			
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<header>
+					<Text text="Bank acct" />
+				</header>
+			</Column>
+			
+		</columns>
+	</TableSelectDialog>
+</core:FragmentDefinition>

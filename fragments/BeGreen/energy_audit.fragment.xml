@@ -1,0 +1,39 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro audit_prog">
+						<html:div class="intro_head">
+							<html:h4>Energy Audit Programme</html:h4>
+						</html:div>
+						<html:div class="intro_img">
+							<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+						</html:div>
+						<html:div class="intro_desc">
+							<html:h5 class="text-center">Enerdy Audit Programme</html:h5>
+						</html:div>
+						<html:p class="text-center">(For Commercial and Industrial Customers only)</html:p>
+						<html:p class="text-center">Now you get to save money where it counts the most! Opt for our Energy Audit programme that helps you identify
+							energy saving opportunities at your own premises.</html:p>
+						<html:p class="text-center">Every facility is unique in nature of operation and energy consumption. And only an energy audit specialist can
+							identify inefficiencies in your equipments and provide you with customized recommendations for achieving energy savings.
+						</html:p>
+						<html:p class="text-center">Specialist Energy Audit Firms (approved by BEE) will conduct energy audit of your premises only at 25% cost!</html:p>\
+						<html:p class="text-center">So, take the first step in controlling your energy consumption. Register for our Energy Audit Programme at
+							discounted rates and track those energy guzzlers today!</html:p>
+						<html:p class="text-center">Yes, I am a Tata Power Commercial/Industrial Customer. I am interested to carry out energy audit in my premises
+							under Tata Power programme. Please send me the details of your programme.</html:p>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-sm-2 col-sm-offset-5 audit_reg">
+							<Button text="REGISTER" press="onPress" class="switchcenter form-control"
+								ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

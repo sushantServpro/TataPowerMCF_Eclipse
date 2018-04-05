@@ -1,0 +1,91 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="eodb_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_eodb.png" alt="icon_eodb" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Ease of Doing Business</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="eodb_desc">
+						<html:ul class="blue_bullet_list">
+							<html:li>190 Economies around the world are ranked by the World Bank on ten parameters wherein, ‘Getting Electricity’ is also one of the parameters.</html:li>
+							<html:li>
+								Some of the parameters considered in evaluating ‘Getting Electricity’ for an electricity connection which impact a 140KW / 150 KVA
+								connection on 415V supply are as follows:
+								<html:ul class="inti_list">
+									<html:li>Time taken to get electricity connection.</html:li>
+									<html:li>Cost required for getting a new connection.</html:li>
+									<html:li>Procedure required to be completed for getting new connection.</html:li>
+									<html:li>Reliability of Electricity supply.</html:li>
+								</html:ul>
+							</html:li>
+							<html:li>
+								The concerted efforts of Ministry of Power, Central Electricity Authority, Government of Maharashtra and the DISCOMS in Delhi and Mumbai,
+								have contributed in raising India’s rank in ‘Getting Electricity’ from 137th rank in 2015 to 26th rank in 2017 (Fig(i)).
+								<html:div class="row">
+									<html:div class="col-sm-6 col-sm-offset-3">
+										<html:image src="images/graph.png" alt="graph" class="img-responsive"></html:image>
+									</html:div>
+								</html:div>
+							</html:li>
+							<html:li>Many reforms have been undertaken to improve the rankings</html:li>
+						</html:ul>
+						<html:h4 class="eodb_list_head">Central Electricity Authority:</html:h4>
+						<html:ul class="blue_bullet_list">
+							<html:li>Installation of transformers on Pole Mounted Substations up to 500KVA, earlier the provision is only for 250 KVA transformers.</html:li>
+							<html:li>Electrical Inspection Clearance Authority given to DISCOM for installations up to 11 KV.</html:li>
+						</html:ul>
+						<html:h4 class="eodb_list_head">Maharashtra Electricity Regulatory Commission:</html:h4>
+						<html:ul class="blue_bullet_list">
+							<html:li>Normative Service Connection Charges.</html:li>
+							<html:li>Energization within 15 days for new electricity connections requests received through online mode.</html:li>
+							<html:li>Number of documents required for obtaining a new electricity connections reduced to 2 nos. along with application form.</html:li>
+						</html:ul>
+						<html:h4 class="eodb_list_head">Government of Maharashtra:</html:h4>
+						<html:ul class="blue_bullet_list">
+							<html:li>
+								Online facility provided to the consumer for
+								<html:ul class="inti_list">
+									<html:li>Registration of New Electricity Connections.</html:li>
+									<html:li>Uploading of Documents.</html:li>
+									<html:li>Payments of Estimate Charges.</html:li>
+								</html:ul>
+							</html:li>
+							<html:li>
+								Procedure for obtaining a New Connection have been reduced to 3:
+								<html:div class="row">
+									<html:div class="col-sm-6">
+										<html:image src="images/steps.png" alt="steps" class="img-responsive"></html:image>
+									</html:div>
+								</html:div>
+							</html:li>
+							<html:li>
+								Implementation of Outage Management System, and Supervisory Control and Data Acquisition system (SCADA) for improved reliability. Tata Power
+								Reliability Indices for FY 17 are as follows:
+								<html:ul class="inti_list">
+									<html:li>SAIFI</html:li>
+									<html:li>SAIDI</html:li>
+								</html:ul>
+							</html:li>
+							<html:li>Status tracking against Notifications</html:li>
+						</html:ul>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

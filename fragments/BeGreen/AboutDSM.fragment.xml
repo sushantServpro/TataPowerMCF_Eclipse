@@ -1,0 +1,210 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel>
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="be_green_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_be_green.png" alt="icon_be_green" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>About DSM</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="intro_img">
+							<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+						</html:div>
+						<html:div class="intro_desc">
+							<html:h5 class="text-center">Demand Side Management</html:h5>
+							<html:p class="text-center">
+								Demand Side Management (DSM) refers to cooperative activities between the utility and its customers (sometimes with the assistance of third
+								parties such as energy services companies and various trade allies) to implement options for increasing the efficiency of energy
+								utilisation, with resulting benefits to the customer, utility and society as a whole.
+							</html:p>
+							<html:p class="text-center">
+								Benefits of the DSM initiatives are manifold, some of which are described below:
+							</html:p>
+							<html:div class="ben_initiatives">
+								<html:div class="container-fluid">
+									<html:div class="row">
+										<html:div class="col-xs-12 col-sm-4">
+											<html:div class="load_shape">
+												<html:h6 class="text-center">Customer benefits</html:h6>
+												<html:p class="text-center">
+													Satisfy electricity demands, Reduce / stabilise costs (bills), Improve value of service, Maintain/improve lifestyle and productivity
+												</html:p>
+											</html:div>
+										</html:div>
+										<html:div class="col-xs-12 col-sm-4">
+											<html:div class="load_shape">
+												<html:h6 class="text-center">Societal benefits</html:h6>
+												<html:p class="text-center">
+													Reduce environmental degradation, Conserve resources, Protect global environment, Maximise customer welfare
+												</html:p>
+											</html:div>
+										</html:div>
+										<html:div class="col-xs-12 col-sm-4">
+											<html:div class="load_shape">
+												<html:h6 class="text-center">Utility benefits</html:h6>
+												<html:p class="text-center">
+													Lower cost of service, Improved operating efficiency, flexibility, Reduce capital needs, Improve customer service
+												</html:p>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:p class="text-center">
+								The implementation of DSM programmes in India is likely to:
+							</html:p>
+							<html:div class="row">
+								<html:div class="col-sm-6">
+									<html:ul class="inti_list">
+										<html:li>Improve the efficiency of energy systems.</html:li>
+										<html:li>Reduce financial needs to build new energy facilities (generation).</html:li>
+										<html:li>Minimise adverse environmental impacts.</html:li>
+									</html:ul>
+								</html:div>
+								<html:div class="col-sm-6">
+									<html:ul class="inti_list">
+										<html:li>Lower the cost of delivered energy to consumers.</html:li>
+										<html:li>Reduce power shortages and power cuts.</html:li>
+										<html:li>Improve the reliability and quality of power supply.</html:li>
+									</html:ul>
+								</html:div>
+							</html:div>
+							<html:div class="steps">
+								<html:h5 class="text-center">Steps to implement DSM</html:h5>
+								<html:p class="text-center">
+									DSM programmes are utility and customer specific. Figure below describes various steps involved in implementing a DSM initiative.
+								</html:p>
+								<html:div class="row">
+									<html:div class="col-sm-8 col-sm-offset-2">
+										<html:div class="steps_img">
+											<html:image src="images/be_green_stages.png" alt="be_green_stages" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:div>
+								<html:h5 class="text-center">
+									<html:strong>Steps in typical DSM programme</html:strong>
+								</html:h5>
+							</html:div>
+							<html:div class="step_1">
+								<html:h5 class="text-center">Step 1: Load Research</html:h5>
+								<html:p class="text-center">
+									This stage in the DSM implementation will typically assess the customer base, tariff, load profile on an hourly basis and will identify the
+									sectors contributing to the load shape. This step will also identify peak load contributors.
+								</html:p>
+							</html:div>
+							<html:div class="step_2">
+								<html:h5 class="text-center">Step 2: Define load-shape objectives</html:h5>
+								<html:p class="text-center">
+									Based on the results of the load research in the utility, DSM teams define the load shape objectives for the current situation. Various
+									load-shape objectives - Peak Clipping (reduction in the peak demand), Valley Filling (increased demand at off-peak), Load Shifting (demand
+									shifting to non-peak period), and Load Building (increased demand) are possible. These are represented in figure below.
+								</html:p>
+								<html:div class="row">
+									<html:div class="col-sm-8 col-sm-offset-2">
+										<html:div class="steps_img">
+											<html:image src="images/be_green_load_shape.png" alt="be_green_load_shape" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:div>
+								<html:h5 class="text-center">
+									<html:strong>Specific descriptions of load-shape objectives are shown in adjacent Box.</html:strong>
+								</html:h5>
+								<html:div class="load_shape">
+									<html:h6 class="text-center">Box 2.1 Meaning of load-shape objective</html:h6>
+									<html:div class="container-fluid">
+										<html:div class="row">
+											<html:div class="col-xs-12 col-sm-2 box">
+												<html:strong>Peak Clipping -</html:strong>
+											</html:div>
+											<html:div class="col-xs-12 col-sm-10 box">
+												the reduction of utility load primarily during periods of peak demand
+											</html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-xs-12 col-sm-2 box">
+												<html:strong>Valley-Filling -</html:strong>
+											</html:div>
+											<html:div class="col-xs-12 col-sm-10 box">
+												the improvement of system load factor by building load in off-peak periods
+											</html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-xs-12 col-sm-2 box">
+												<html:strong>Load Shifting -</html:strong>
+											</html:div>
+											<html:div class="col-xs-12 col-sm-10 box">
+												the reduction of utility loads during periods of peak demand, while at the same time building load in off-peak periods. Load shifting
+												typically does not substantially alter total electricity sales.
+											</html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-xs-12 col-sm-2 box">
+												<html:strong>Conservation -</html:strong>
+											</html:div>
+											<html:div class="col-xs-12 col-sm-10 box">
+												the reduction of utility loads, more or less equally, during all or most hours of the day.
+											</html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-xs-12 col-sm-2 box">
+												<html:strong>Load Building -</html:strong>
+											</html:div>
+											<html:div class="col-xs-12 col-sm-10 box">
+												the increase of utility loads, more or less equally, during all or most hours of the day.
+											</html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-xs-12 col-sm-2 box">
+												<html:strong>Flexible Utility Load Shape -</html:strong>
+											</html:div>
+											<html:div class="col-xs-12 col-sm-10 box">
+												refers to programmes that set up utility options to alter customer energy consumption on an as-needed basis, as in interruptible/
+												curtailable agreements.
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="step_3">
+								<html:h5 class="text-center">Step 3: Assess programme implementation strategies</html:h5>
+								<html:p class="text-center">
+									This step will identify the end-use applications that can be potentially targeted to reduce peak demand, specifically in sectors
+									contributing to system peak. This step will also carry out a detailed benefit-cost analysis for the end-users and the utilities, including
+									analysis of societal as well as environmental benefits.
+								</html:p>
+							</html:div>
+							<html:div class="step_4">
+								<html:h5 class="text-center">Step 4: Implementation</html:h5>
+								<html:p class="text-center">
+									Implementation stage includes programme design for specific end-use applications, promotes the programme to the target audience through
+									marketing approaches such as advertising, bills and inserts, and focused group meetings (specifically in case of commercial and industrial
+									sector).
+								</html:p>
+							</html:div>
+							<html:div class="step_5">
+								<html:h5 class="text-center">Step 5: Monitoring and Evaluation</html:h5>
+								<html:p class="text-center">
+									This step tracks the programme design and implementation and compares the same with proposed DSM goal set by the utility. A detailed
+									benefit-cost analysis in this case includes identifying the avoided supply cost for the utility vis-ï¿½-vis the total programme cost for the
+									utilities and benefits to the participants including the reduced bills or incentives to the end-users.
+								</html:p>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

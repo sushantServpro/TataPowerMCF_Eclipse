@@ -1,0 +1,536 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="apply">
+						<html:div class="row">
+							<html:div class=" col-md-2 tata1">
+								<html:image src="images/tata_logo_white.png" alt="tata_logo" class="img-responsive"></html:image>
+							</html:div>
+							<html:div class=" col-md-1 pull-right tata2">
+								<html:image src="images/tata_emblem_white.png" alt="tata_logo" class="img-responsive"></html:image>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:h6 class="indicate">*Indicates Mandatory Fields</html:h6>
+					<html:div class="detailrequire">
+						<html:div class="open_access_form_heading">
+							<html:h6 class="text-center">Application for Grant of Short Term Open Access</html:h6>
+						</html:div>
+						<html:div class="boxpad">
+							<html:div class="row">
+								<html:div class="col-sm-6">
+									<html:div class="row reg_bill_row">
+										<html:div class="col-xs-9">
+											<Label text="Consumer Number :" labelFor="cnntreeInput"/>
+											<Input id="cnntreeInput" type="text" class="sapUiSmallMarginBottom"/>
+										</html:div>
+										<html:div class="col-xs-3 btnGo">
+											<Button text="GO" press="onPress" class="switchcenter form-control"></Button>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-xs-12 open_access_form_heading">
+									<html:h6>Details of Applicant</html:h6>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Applicant Name :" labelFor="applicant_name"/>
+									<Input id="applicant_name" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Meter No :" labelFor="meter_no"/>
+									<Input id="meter_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Phone No. :" labelFor="phone_no"/>
+									<Input id="phone_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Fax No :" labelFor="fax_no"/>
+									<Input id="fax_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Email ID :" labelFor="email_id"/>
+									<Input id="email_id" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Mobile No" labelFor="mobile_no"/>
+									<Input id="mobile_no" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-xs-12 open_access_form_heading">
+									<html:h6>Address for Correspodence</html:h6>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Flat No. :" labelFor="flat_no"/>
+									<Input id="flat_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Building Name :" labelFor="building_name"/>
+									<Input id="building_name" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Society :" labelFor="soc"/>
+									<Input id="soc" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Street/Lane :" labelFor="street"/>
+									<Input id="street" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="City :" labelFor="city"/>
+									<Input id="city" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Postal Code :" labelFor="post_code"/>
+									<Input id="post_code" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Landmark :" labelFor="landmark"/>
+									<Input id="landmark" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row open_access_form_heading">
+								<html:div class="col-sm-6">
+									<html:h6>Application Type</html:h6>
+								</html:div>
+								<html:div class="col-sm-6">
+									<html:div class="row">
+										<html:div class="col-xs-6">
+											<RadioButton groupName="application_type" text="New"/>
+										</html:div>
+										<html:div class="col-xs-6">
+											<RadioButton groupName="application_type" text="Renewal"/>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Existing Supplier :" labelFor="ext_supp"/>
+									<Input id="ext_supp" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Connection Type :" labelFor="conn_type"/>
+									<Input id="conn_type" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-xs-12 open_access_form_heading">
+									<html:h6 class="text-center">Contract Details (Agreement/MoU Details)</html:h6>
+								</html:div>
+							</html:div>
+							<html:div class="row open_access_form_heading">
+								<html:div class="col-sm-6">
+									<html:h6>Applicant Type</html:h6>
+								</html:div>
+								<html:div class="col-sm-6">
+									<html:div class="row">
+										<html:div class="col-xs-4">
+											<RadioButton groupName="applicant_type" text="Buyer"/>
+										</html:div>
+										<html:div class="col-xs-4">
+											<RadioButton groupName="applicant_type" text="Seller"/>
+										</html:div>
+										<html:div class="col-xs-4">
+											<RadioButton groupName="applicant_type" text="Trader"/>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-xs-12">
+											<RadioButton groupName="applicant_type" text="Captive Generating Station"/>
+										</html:div>
+										<html:div class="col-xs-12">
+											<RadioButton groupName="applicant_type" text="Renewal Energy Generating Station"/>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="row open_access_form_heading">
+								<html:div class="col-sm-6">
+									<html:h6>Generator Type</html:h6>
+								</html:div>
+								<html:div class="col-sm-6">
+									<html:div class="row">
+										<html:div class="col-xs-6">
+											<RadioButton groupName="generator_type" text="Inter State(Outside Maharashtra)"/>
+										</html:div>
+										<html:div class="col-xs-6">
+											<RadioButton groupName="generator_type" text="Intra State(Within Maharashtra)"/>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-xs-12 open_access_form_heading">
+									<html:h6>Buyer Details</html:h6>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Buyer No. :" labelFor="buyer_no"/>
+									<Input id="buyer_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Buyer Date :" labelFor="buyer_date"/>
+									<DatePicker id="buyer_date" change="handleChange"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Buyer Valid up to :" labelFor="buyer_valid_till"/>
+									<DatePicker id="buyer_valid_till" change="handleChange"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Buyer Capacity in the Contract(MW) :" labelFor="buyer_cont"/>
+									<Input id="buyer_cont" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Buyer Capacity if contracted to other source(MW) :" labelFor="buyer_oth_cont"/>
+									<Input id="buyer_oth_cont" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Buyer no of days Open Access Applied :" labelFor="buyer_app_days"/>
+									<Input id="buyer_app_days" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-xs-12 open_access_form_heading">
+									<html:h6>Seller Details</html:h6>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Seller No. :" labelFor="seller_no"/>
+									<Input id="seller_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Seller Date :" labelFor="seller_date"/>
+									<DatePicker id="seller_date" change="handleChange"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Seller Valid up to :" labelFor="seller_valid_till"/>
+									<DatePicker id="seller_valid_till" change="handleChange"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Seller Capacity in the Contract(MW) :" labelFor="seller_cont"/>
+									<Input id="seller_cont" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Seller Capacity if contracted to other source(MW) :" labelFor="seller_oth_cont"/>
+									<Input id="seller_oth_cont" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Seller no of days Open Access Applied :" labelFor="seller_app_days"/>
+									<Input id="seller_app_days" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-xs-12 open_access_form_heading">
+									<html:h6>Power Exchange Details</html:h6>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Package Exchange No. :" labelFor="package_exchange_no"/>
+									<Input id="package_exchange_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Package Exchange Date :" labelFor="package_exchange_date"/>
+									<DatePicker id="package_exchange_date" change="handleChange"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Package Exchange Valid up to :" labelFor="package_exchange_valid_till"/>
+									<DatePicker id="package_exchange_valid_till" change="handleChange"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Package Exchange Capacity in the Contract(MW) :" labelFor="package_exchange_cont"/>
+									<Input id="package_exchange_cont" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Package Exchange Capacity if contracted to other source(MW) :" labelFor="package_exchange_oth_cont"/>
+									<Input id="package_exchange_oth_cont" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Package Exchange no of days Open Access Applied :" labelFor="package_exchange_app_days"/>
+									<Input id="package_exchange_app_days" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-xs-12 open_access_form_heading">
+									<html:h6>Coordinator Details</html:h6>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Coordinator Name :" labelFor="coord_name"/>
+									<Input id="coord_name" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Coordinator Designation :" labelFor="coord_desgn"/>
+									<Input id="coord_desgn" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Coordinator Phone No. :" labelFor="coord_phone"/>
+									<Input id="coord_phone" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Coordinator Fax No :" labelFor="coord_fax_no"/>
+									<Input id="coord_fax_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Coordinator Email ID :" labelFor="coord_email_id"/>
+									<Input id="coord_email_id" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Coordinator Mobile No" labelFor="coord_mobile_no"/>
+									<Input id="coord_mobile_no" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="view_table short_term_tbl">
+								<Table id="table2" inset="false" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+									<headerToolbar>
+										<Toolbar>
+											<content>
+												<Title text="Capacity Applied" level="H2"/>
+											</content>
+										</Toolbar>
+									</headerToolbar>
+									<columns>
+										<Column>
+											<Text text="Period From"/>
+										</Column>
+										<Column>
+											<Text text="Period To"/>
+										</Column>
+										<Column>
+											<Text text="Time From(HH)"/>
+										</Column>
+										<Column>
+											<Text text="Time From(MM)"/>
+										</Column>
+										<Column>
+											<Text text="Time To(HH)"/>
+										</Column>
+										<Column>
+											<Text text="Time To(MM)"/>
+										</Column>
+										<Column>
+											<Text text="Capacity(MW)"/>
+										</Column>
+									</columns>
+									<items>
+										<ColumnListItem>
+											<cells>
+												<ObjectIdentifier title="{Name}" text="{ProductId}"/>
+												<Text text="{SupplierName}"/>
+												<Text text="{Width} x {Depth} x {Height} {DimUnit}"/>
+												<ObjectNumber number="{WeightMeasure}" unit="{WeightUnit}"
+													state="{ parts: [ {path: 'WeightMeasure'}, {path: 'WeightUnit'} ], formatter: 'sap.m.sample.Table.Formatter.weightState' }"/>
+												<ObjectNumber
+													number="{ parts:[{path:'Price'},{path:'CurrencyCode'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }"
+													unit="{CurrencyCode}"/>
+											</cells>
+										</ColumnListItem>
+									</items>
+								</Table>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Requried Contract Demand:" labelFor="req_cont_demand"/>
+									<Input id="req_cont_demand" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-xs-12 open_access_form_heading">
+									<html:h6>Details of PPA/MoU</html:h6>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Seller" labelFor="seller"/>
+									<Input id="seller" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Buyer :" labelFor="buyer"/>
+									<Input id="buyer" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Date of PPA/MoU :" labelFor="ppa_mou_date"/>
+									<DatePicker id="ppa_mou_date" change="handleChange"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Validity Period Commencement :" labelFor="val_per_comm"/>
+									<DatePicker id="val_per_comm" change="handleChange"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Validity Period Expiry :" labelFor="val_per_expiry"/>
+									<DatePicker id="val_per_expiry" change="handleChange"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Capacity :" labelFor="capacity_ppa"/>
+									<Input id="capacity_ppa" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-xs-12 open_access_form_heading">
+									<html:h6>Injecting Utillity details</html:h6>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Name" labelFor="inj_name"/>
+									<Input id="inj_name" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Point of injection :" labelFor="point_inj"/>
+									<Input id="point_inj" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Name of the concerned Discom/licensee :" labelFor="con_dis_lic"/>
+									<Input id="con_dis_lic" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Details(path of the nearest sub-station) :" labelFor="pdth_sub_stn"/>
+									<Input id="pdth_sub_stn" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Meter No :" labelFor="inj_meter_no"/>
+									<Input id="inj_meter_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-xs-12 open_access_form_heading">
+									<html:h6>Drawing Utillity details</html:h6>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Name" labelFor="draw_name"/>
+									<Input id="draw_name" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Point of injection :" labelFor="point_draw"/>
+									<Input id="point_draw" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Name of the concerned Discom/licensee :" labelFor="draw_con_dis_lic"/>
+									<Input id="draw_con_dis_lic" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Details(path of the nearest sub-station) :" labelFor="draw_pdth_sub_stn"/>
+									<Input id="draw_pdth_sub_stn" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Meter No :" labelFor="draw_meter_no"/>
+									<Input id="draw_meter_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Name of the trader :" labelFor="draw_trader"/>
+									<Input id="draw_trader" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-xs-12 open_access_form_heading">
+									<html:h6>Distribution Licensee</html:h6>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Distribution Licensee's ref. no :" labelFor="dist_lic_no"/>
+									<Input id="dist_lic_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="Distribution licensee approval/refusal no :" labelFor="dist_apprv_no"/>
+									<Input id="dist_apprv_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Remark(reasons for refusal to be provided :" labelFor="dist_remark"/>
+									<Input id="dist_remark" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-xs-12 open_access_form_heading">
+									<html:h6>For use of MSLDC(with ref. to appl. submitted by applicant)</html:h6>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="MSLDC ref.No :" labelFor="msldc_no"/>
+									<Input id="msldc_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+								<html:div class="col-md-6">
+									<Label text="MSLDC approval/refusal no :" labelFor="msldc_apprv_no"/>
+									<Input id="msldc_apprv_no" type="Number" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-6">
+									<Label text="Remark(reasons for refusal to be provided :" labelFor="msldc_remark"/>
+									<Input id="msldc_remark" type="Text" class="sapUiSmallMarginBottom"/>
+								</html:div>
+							</html:div>
+							<html:div class="row boxpad_row">
+								<html:div class="col-md-3 col-md-offset-3">
+									<Button icon="sap-icon://arrow-right" text="SAVE AND SUBMIT" press="onPress" class="switchcenter"
+										ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+								</html:div>
+								<html:div class="col-md-3">
+									<Button icon="sap-icon://save" text="SAVE IN DRAFT" press="onPress" class="switchcenter"
+										ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

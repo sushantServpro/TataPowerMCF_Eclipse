@@ -1,0 +1,82 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid padding_bottom">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="knw_cen_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_knowledge.png" alt="icon_knowledge" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Power Factor Improvement</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="variations_pf">
+						<html:h5>Variation in Maximum Demand with change in Power Factor (pf)</html:h5>
+						<html:div class="row">
+							<html:div class="col-sm-7">
+								<html:div class="table-responsive tbl_var_pf">
+									<html:table class="table table-bordered">
+										<html:tr>
+											<html:td rowspan="2">MD at Unity pf =</html:td>
+											<html:td>100</html:td>
+											<html:td rowspan="2">= 100 kVA</html:td>
+											<html:td rowspan="2">= 100 kVA</html:td>
+										</html:tr>
+										<html:tr>
+											<html:td>1</html:td>
+										</html:tr>
+										<html:tr>
+											<html:td rowspan="2">MD at 0.95 pf =</html:td>
+											<html:td>100</html:td>
+											<html:td rowspan="2">= 105.26 kVA</html:td>
+											<html:td rowspan="2">i.e. 5.25% Increase</html:td>
+										</html:tr>
+										<html:tr>
+											<html:td>0.95</html:td>
+										</html:tr>
+										<html:tr>
+											<html:td rowspan="2">MD at 0.90 pf =</html:td>
+											<html:td>100</html:td>
+											<html:td rowspan="2">= 111.11 kVA</html:td>
+											<html:td rowspan="2">i.e. 11.11% Increase</html:td>
+										</html:tr>
+										<html:tr>
+											<html:td>0.90</html:td>
+										</html:tr>
+									</html:table>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="variations_pf">
+						<html:h5>Advantage of improvement in Power Factor is the reduction in monthly Maximum Demand charges</html:h5>
+						<html:div class="row">
+							<html:div class="col-sm-8">
+								<html:image src="images/power_factor.png" alt="power_factor" class="img-responsive"></html:image>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="variations_pf">
+						<html:h5>Advantage of improvement in Power Factor is the reduction in monthly Maximum Demand charges. The following table lists the
+							advantages by improving power factor from 0.80 to 0.92 for load of 200 kW.</html:h5>
+						<html:div class="row">
+							<html:div class="col-sm-8">
+								<html:image src="images/active_load.png" alt="active_load" class="img-responsive"></html:image>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

@@ -1,0 +1,76 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="be_green_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_be_green.png" alt="icon_be_green" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Contact</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="intro_img">
+							<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+						</html:div>
+						<html:div class="intro_desc">
+							<html:h5 class="text-center">Reach to us !</html:h5>
+						</html:div>
+						<html:div class="be_green_contact">
+							<html:div class="cont_num">
+								<html:h6 class="text-center">Tata Power Call Centre Number</html:h6>
+								<html:div class="row">
+									<html:div class="col-sm-4 col-sm-offset-4">
+										<html:p class="text-center">
+											<html:strong>1800-209-5161</html:strong>
+										</html:p>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="cont_address">
+								<html:h6 class="text-center">Address</html:h6>
+								<html:div class="row">
+									<html:div class="col-sm-4 col-sm-offset-4">
+										<html:p class="text-center">
+											<html:strong>DSM Cell, The Tata Power Company Limited, Dharavi Receiving Station, Near Shalimar Industrial Estate, Matunga, Mumbai 400 019,
+												Maharashtra, India</html:strong>
+										</html:p>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="cont_web">
+								<html:h6 class="text-center">Website</html:h6>
+								<html:div class="row">
+									<html:div class="col-sm-4 col-sm-offset-4">
+										<html:p class="text-center">
+											<html:strong>Tata Power - Be Green</html:strong>
+										</html:p>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="cont_email">
+								<html:h6 class="text-center">Email ID</html:h6>
+								<html:div class="row">
+									<html:div class="col-sm-4 col-sm-offset-4">
+										<html:p class="text-center">
+											<html:strong>dsmcell@tatapower.com</html:strong>
+										</html:p>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

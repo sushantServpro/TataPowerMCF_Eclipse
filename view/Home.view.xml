@@ -1,0 +1,485 @@
+<mvc:View controllerName="tatapower.dev.controller.Home" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns="sap.m"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:tnt="sap.tnt" xmlns:core="sap.ui.core" height="100%">
+	<App>
+		<pages>
+			<Page title="Title" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container-fluid topheader">
+						<html:div class="row home_slider_box">
+							<html:div class="col-md-2">
+								<html:div class="row home_slider_box_flex">
+									<html:div class="col-xs-12 col-sm-4 col-md-12 sidetile">
+										<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout twox" press="onNavToQuickBill">
+											<tileContent>
+												<TileContent>
+													<content>
+														<html:div class="home_side_menu">
+															<html:div class="row home_side_menu_flex">
+																<html:div class="col-sm-3">
+																	<html:image src="images/online_bill.png" alt="speakers"></html:image>
+																</html:div>
+																<html:div class="col-sm-9">
+																	<html:h4>QUICK BILL</html:h4>
+																	<html:h4 >PAYMENT</html:h4>
+																</html:div>
+															</html:div>
+														</html:div>
+													</content>
+												</TileContent>
+											</tileContent>
+										</GenericTile>
+									</html:div>
+									<html:div class="col-xs-12 col-sm-4 col-md-12 sidetile sidetitle_mar">
+										<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout onex" press="onNavToMyAccount">
+											<tileContent>
+												<TileContent>
+													<content>
+														<html:div class="home_side_menu">
+															<html:div class="row home_side_menu_flex">
+																<html:div class="col-sm-3">
+																	<html:image src="images/my_ac.png" alt="speakers"></html:image>
+																</html:div>
+																<html:div class="col-sm-9">
+																	<html:h4>MY</html:h4>
+																	<html:h4 >ACCOUNT</html:h4>
+																</html:div>
+															</html:div>
+														</html:div>
+													</content>
+												</TileContent>
+											</tileContent>
+										</GenericTile>
+									</html:div>
+									<html:div class="col-xs-12 col-sm-4 col-md-12 sidetile">
+										<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout threex" press="OnNewCustomer">
+											<tileContent>
+												<TileContent>
+													<content>
+														<html:div class="home_side_menu">
+															<html:div class="row home_side_menu_flex">
+																<html:div class="col-sm-3">
+																	<html:image src="images/pay_bill.png" alt="speakers"></html:image>
+																</html:div>
+																<html:div class="col-sm-9">
+																	<html:h4>NEW</html:h4>
+																	<html:h4>CUSTOMER</html:h4>
+																</html:div>
+															</html:div>
+														</html:div>
+													</content>
+												</TileContent>
+											</tileContent>
+										</GenericTile>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="col-md-10">
+								<Carousel class="sapUiContentPadding" id="mainSlider" loop="true">
+									<pages>
+										<Image src="images/2.png" alt="Example picture of speakers"/>
+										<Image src="images/Mailer_final-01.jpg" alt="Example picture of speakers"/>
+										<Image src="images/Mailer_final-02.1.jpg" alt="Example picture of speakers"/>
+										<Image src="images/Mailer_final-03.1.jpg" alt="Example picture of speakers"/>
+										<Image src="images/Mailer_final-04.jpg" alt="Example picture of speakers"/>
+										<Image src="images/Mailer_final-05.jpg" alt="Example picture of speakers"/>
+										<Image src="images/Watsapp.jpg" alt="Example picture of speakers"/>
+									</pages>
+								</Carousel>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="container-fluid">
+						<html:div class="row dividetiles">
+							<html:div class=" col-xs-12 col-sm-6 col-md-3 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressOnlineApplication">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/online_appln.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Online</html:h4>
+													<html:h4>Application</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-12 col-sm-6 col-md-3 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressTariff">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/tariff_details.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Tariff Details</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-6 col-md-3 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressPowerFailure">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/power_failure.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Register</html:h4>
+													<html:h4>Power Failure</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-6 col-md-3 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressShedulepoweroutage">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/scheduled_outage.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Scheduled</html:h4>
+													<html:h4>Power</html:h4>
+													<html:h4>Outages</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-6 col-md-3 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressBeGreen">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/be_green.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Be Green</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-6 col-md-3 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressSafetyathome">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/safety_home.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Safety at Home</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-6 col-md-3 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressEaseOfBusinessDoing">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/ease_business.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Ease of</html:h4>
+													<html:h4>Doing</html:h4>
+													<html:h4>Business</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-12 col-sm-6 col-md-3 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressCustomercare">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/write_cc.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Write To</html:h4>
+													<html:h4>Customer</html:h4>
+													<html:h4>Care</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="container-fluid middlebanner">
+						<html:div class="banner_img">
+							<Image class="bannerdown" src="images/interests2.png" alt="light"/>
+						</html:div>
+						<html:div class=" row cube">
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressCalulator">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/calc.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Calculator</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressFAQ">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/faqs.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">FAQs</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressGrievances">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/grievncs.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Grievances</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressDigitalServices">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/digital_services.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Digital Services</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressApplicationForms">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/app_forms.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Application Forms</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressPaymentOptions">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/paymnt_opt.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Payment Option</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressGreenCorner">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/green_c.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Green Corner</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressKnowledgeCenter">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/kn_cntr.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Knowledge Center</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class="col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressRegulatoryInformation">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/reg_info.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Regulatory Information</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressTrainedWireman">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/trained.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Trained Wireman</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressVideoGallery">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/video_g.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Video Gallery</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressLatestAdCampaigns">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/ads_camp.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Latest Ad Campaigns</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressNewsletter">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/newslttr.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Newsletter</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressNewsforyou">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/news_fryou.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">News For You</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressSeniorLeadership">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/sr_leader.png" alt="sr_leader" class="innertileimg"></html:image>
+												<html:h4 class="innertext">Write to Sr. Leadership</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="footer">
+						<html:div class="row">
+							<html:div class="col-xs-12 col-sm-6 col-md-6 term">
+								<html:h5>
+									<Link text="Terms of Use" press="pressTermsOfUse"/>
+									|
+									<Link text="Privacy Policy" press="pressPrivacyPolicy"/>
+									|
+									<Link text="Site Map" press="handleLinkPress"/>
+								</html:h5>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-6 col-md-4 offset-col-md-6 pull-right rightreserve">
+								<html:h5>@ 2017 Tata Power - All Rights Reserved</html:h5>
+							</html:div>
+						</html:div>
+					</html:div>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

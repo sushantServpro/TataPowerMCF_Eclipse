@@ -1,0 +1,159 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_06">
+				<html:h5>Apply Online</html:h5>
+				<html:div class="apply">
+					<html:div class="row">
+						<html:div class=" col-md-2 tata1">
+							<html:image src="images/tata_logo_white.png" alt="tata_logo" class="img-responsive"></html:image>
+						</html:div>
+						<html:div class=" col-md-1 pull-right tata2">
+							<html:image src="images/tata_emblem_white.png" alt="tata_logo" class="img-responsive"></html:image>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:h6 class="indicate">*Indicates Mandatory Fields</html:h6>
+			<html:div class="detailrequire">
+						<html:h5 class="indicate2">APPLICANT DETAILS</html:h5>
+						<html:hr/>
+				
+					<html:div class="boxpad">
+						<html:div class="row ">
+	  						<html:div class="col-md-3">
+						        <Label text="Consumer Number" labelFor="input-a"/>
+							</html:div>	
+							<html:div class="col-md-4">	
+								<Input id="consumerInput" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>	
+						</html:div>	
+						
+						<html:div class="row ">
+	  						<html:div class="col-md-3">
+								<Label text="Name" labelFor="input-a"/>
+							</html:div>	
+							<html:div class="col-md-4">	
+								<Input id="nameInput" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>	
+						</html:div>	
+						<html:div class="row ">
+	  						<html:div class="col-md-3">
+								<Label text="Flat / Shop No." labelFor="input-a"/>
+							</html:div>	
+							<html:div class="col-md-4">	
+								<Input id="flatInput" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>	
+						</html:div>	
+						<html:div class="row ">
+	  						<html:div class="col-md-3">
+								<Label text="Building Name" labelFor="input-a"/>
+							</html:div>	
+							<html:div class="col-md-4">	
+								<Input id="buildInput" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>	
+						</html:div>	
+						<html:div class="row ">
+	  						<html:div class="col-md-3">
+								<Label text="Street" labelFor="input-a"/>
+							</html:div>	
+							<html:div class="col-md-4">	
+								<Input id="streetInput" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>	
+						</html:div>	
+						<html:div class="row ">
+	  						<html:div class="col-md-3">
+								<Label text="City" labelFor="input-a"/>
+							</html:div>	
+							<html:div class="col-md-4">	
+								<Input id="cityInput" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>	
+						</html:div>	
+												<html:div class="row ">
+	  						<html:div class="col-md-3">
+								<Label text="Postal Code" labelFor="input-a"/>
+							</html:div>	
+							<html:div class="col-md-4">	
+								<Input id="postalInput" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>	
+						</html:div>	
+												<html:div class="row ">
+	  						<html:div class="col-md-3">
+								<Label text="* Applicant Name" labelFor="input-a"/>
+							</html:div>	
+							<html:div class="col-md-4">	
+								<Input id="appNameInput" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>	
+						</html:div>	
+						<html:div class="row ">
+	  						<html:div class="col-md-3">
+								<Label text="* Contact No." labelFor="input-a"/>
+							</html:div>	
+							<html:div class="col-md-4">	
+								<Input id="contactInput" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>	
+						</html:div>	
+					    <html:div class="row ">
+	  						<html:div class="col-md-3">
+								<Label text="E-Mail Id." labelFor="input-a"/>
+							</html:div>	
+							<html:div class="col-md-4">	
+								<Input id="emailInput" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>	
+						</html:div>	
+					    <html:div class="row ">
+	  						<html:div class="col-md-3">
+								<Label text="Refund required through" labelFor="input-a"/>
+							</html:div>	
+							<html:div class="col-md-4">	
+								<Input id="refundInput" type="Text" class="sapUiSmallMarginBottom"/>   
+							</html:div>	
+						</html:div>	
+						<html:div class="row ">
+						<html:div class="col-md-3">
+						        <Label text="Description" labelFor="input-a"/>
+						</html:div>	
+					    <html:div class="col-md-4">	
+						        <TextArea id="descriptionInput" type="Text" rows="4" cols="52"></TextArea>
+                    	</html:div>	
+                        </html:div>	 
+                        <html:div class="row ">
+	  						<html:div class="col-md-9">
+                            <html:h3> Terms and Conditions </html:h3>
+                            </html:div>
+                        </html:div>    
+                            
+                        <html:div class="row">
+                            <html:div class="col-md-12">
+<html:p >             
+a). We/I have Tata Power Supply/Connection to the above premise. We/I request you to permanently disconnect our Power supply by
+removing the meter along with the infrastructure from the site/premises..</html:p>
+<html:p>b). We/I am the registered owner of this premise and I agree to submit our/my signature ID proof and latest paid bill copy to
+process the application.</html:p>
+<html:p>c). We/I have cleared the outstanding dues along with the security deposit due.</html:p>
+<html:p>d). We/I agree that my request will be processed only after scrutinizing the documents submitted</html:p>
+<html:p >e). Incase if the documents submitted are insufficient, the request will not be processed, We/I have to upload/submit the
+required documents within 30 days from the date of request creation else the request will stand closed.</html:p>
+<html:p>f). We/I agree that the refund will be processed through Refund Cheque/RTGS as requested at the time of application and the
+refund will be processed in the name as per the Electricity bill.</html:p>
+<html:p>g). The consumer who's applying for the Permanent Disconnection must clear the final bill</html:p>
+
+			                </html:div>
+			            </html:div> 
+                        <html:div class="row largebox">
+                            <html:div class="col-xs-12">	
+                            <CheckBox id="IdAgreePD" text="Please agree terms and conditions to submit the form." selected="false"/>
+                            </html:div>
+                        </html:div>
+                        <html:div class="row">
+                            <html:div class="col-md-3">
+                                <Button icon="sap-icon://save" text="Submit" press="onSubmitPD" class="switchcenter" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+                            </html:div>
+                        </html:div>
+                        
+			</html:div>
+			</html:div> 
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

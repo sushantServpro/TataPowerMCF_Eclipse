@@ -1,0 +1,48 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<TableSelectDialog
+		noDataText="No Data Found"
+		title="Search: SubUrban"
+		search="_handleValueHelpSearch1"
+		confirm="_handleValueHelpClose1"
+		close="_handleValueHelpClose1"
+		items="{path: 'SubUrban>/results'}">
+		<ColumnListItem>
+			<cells>
+				<!--<Text text="{LaneStreet>StrtCode}" />-->
+				<!--<Text text="{LaneStreet>Street}" />-->
+				<Text text="{SubUrban>CityPart}" />
+				<Text text="{SubUrban>CityName}" />
+			</cells>
+		</ColumnListItem>
+		<columns>
+			<!--<Column width="12em">-->
+			<!--	<header>-->
+			<!--		<Text text="Street Code" />-->
+			<!--	</header>-->
+			<!--</Column>-->
+			<!--<Column-->
+			<!--	minScreenWidth="Tablet"-->
+			<!--	demandPopin="true" >-->
+			<!--	<header>-->
+			<!--		<Text text="Street" />-->
+			<!--	</header>-->
+			<!--</Column>--> 
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<header>
+					<Text text="Suburban" />
+				</header>
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<header>
+					<Text text="City" />
+				</header>
+			</Column>
+		</columns>
+	</TableSelectDialog>
+</core:FragmentDefinition>

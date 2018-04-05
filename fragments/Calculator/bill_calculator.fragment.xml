@@ -1,0 +1,165 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_17">
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="bill_calc_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Bill Calculator</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="bill_cal_desc">
+						<html:div class="row">
+							<html:div class="col-sm-7">
+								<html:p>
+									Select your tariff category and enter your energy consumption to help us calculate your bill. If you desire to calculate your energy
+									consumption, please
+								</html:p>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="bill_cal_opt">
+						<html:div class="row">
+							<html:div class="col-sm-10 col-sm-offset-1">
+								<html:div class="row">
+									<html:div class="col-sm-4">
+										<Label text="Tarrif Category"/>
+										<ActionSelect id="select1"  selectedKey="{BillCalModel>/TariffCategory}" change="onTariffCategoryChange" items="{ path: 'TariffCategory>/results' }">
+											<items>
+												<core:Item key="{TariffCategory>Key}" text="{TariffCategory>Value}"/>
+											</items>
+										</ActionSelect>
+									</html:div>
+									<html:div class="col-sm-4">
+										<Label text="Tarrif "/>
+										<Input id="TarrifId" showSuggestion="true" showValueHelp="true"
+									     valueHelpRequest="handleValueHelp"
+									     suggestionItems="{path:'Tariff>/results'}" 
+									     value="{BillCalModel>/Tariff}" >
+									<suggestionItems>
+										<core:Item text="{Tariff>Tariftyp}" key="{Tariff>Tariftyp}"/>
+									</suggestionItems>
+								</Input>
+									</html:div>
+									<html:div class="col-sm-4">
+										<Label text="Type of Customer"/>
+										<ActionSelect id="select2" selectedKey="{BillCalModel>/CustomerType}" items="{ path: 'CustomerType>/results' }">
+											<items>
+												<core:Item key="{CustomerType>Key}" text="{CustomerType>Value}"/>
+											</items>
+										</ActionSelect>
+									</html:div>
+									</html:div>
+									
+									<html:div class="row" >
+									<html:div class="col-sm-4">
+										<Label labelFor="select-a" text="supply Voltage:" visible="{CalculatorView>/block1}"/>
+										<ActionSelect id="select-a" selectedKey="{BillCalModel>/SupplyLoad}"
+										items="{ path: 'SupplyVolt>/results' }" visible="{CalculatorView>/block1}">
+											<items>
+												<core:Item key="{SupplyVolt>Key}" text="{SupplyVolt>Value}"/>
+											</items>
+										</ActionSelect>
+									</html:div>
+								    <html:div class="col-sm-4">
+									<Label text="Connected Load(KW):" labelFor="input-c" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-c" type="Number" value="{BillCalModel>/ConnectLoad}" visible="{CalculatorView>/block1}"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KWH_Total:" labelFor="input-d" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-d" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhT}"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KWH-A:" labelFor="input-e" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-e" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhA}"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KWH-B:" labelFor="input-f" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-f" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhB}"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KWH-B2:" labelFor="input-g" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-g" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhB2}"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KWH-C" labelFor="input-h" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-h" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhC}"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KWH-D:" labelFor="input-i" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-i" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KwhD}"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="RKVAH_Total:" labelFor="input-j" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-j" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/RkvahT}"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KVAH A:" labelFor="input-k" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-k" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahA}"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KVAH B:" labelFor="input-l" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-l" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahB}"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KVAH B2:" labelFor="input-m" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-m" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahB2}"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KVAH C:" labelFor="input-n" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-n" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahC}"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KVAH D:" labelFor="input-o" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-o" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/KvahD}"/>
+									</html:div>
+										<html:div class="col-sm-4">
+									<Label text="CMD:" labelFor="input-p" visible="{CalculatorView>/block1}"/>
+		                        	<Input id="input-p" type="Number" visible="{CalculatorView>/block1}" value="{BillCalModel>/Cmd}"/>
+									</html:div>
+										</html:div>
+										<html:div class="row">
+										<html:div class="col-sm-4">
+									<Label text="Consuption (Unit):" labelFor="input-q" visible="{CalculatorView>/block2}"/>
+		                        	<Input id="input-q" type="Number" visible="{CalculatorView>/block2}" value=""/>
+									</html:div>
+								</html:div>
+								<html:div class="row form_row">
+									<html:div class="col-md-2 col-md-offset-4">
+										<Button text="CALCULATE" press="onCalculate" class="switchcenter form-control"
+											ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+									</html:div>
+									<html:div class="col-md-2">
+										<Button text="RESET" press="onReset" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="bill_note">
+						<html:div class="row">
+							<html:div class="col-sm-9">
+								<html:p>
+									Please Note: The billing amount generated is an estimated amount based on the type of customer selected by you. Your actual bill amount may
+									vary from this amount.
+								</html:p>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

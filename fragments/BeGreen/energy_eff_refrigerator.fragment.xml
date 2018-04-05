@@ -1,0 +1,55 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro audit_prog">
+						<html:div class="intro_head">
+							<html:h4>Energy Efficient Refrigerator New Purchase &amp; Exchange Programme</html:h4>
+						</html:div>
+						<html:div class="intro_img">
+							<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+						</html:div>
+						<html:div class="intro_desc">
+							<html:h5 class="text-center">Energy Efficient Refrigerator New Purchase &amp; Exchange Programme</html:h5>
+						</html:div>
+						<html:p class="text-center">(For Tata Power Residential Consumers only)</html:p>
+						<html:div class="row">
+							<html:div class="col-sm-10 col-sm-offset-1">
+								<html:p class="text-center">Refrigerator is the important but highly underrated appliance in residential energy consumption. By virtue of
+									its almost continuous operation throughout the year, it offers a great opportunity to save energy. Under our DSM initiative, we had rolled
+									out the Energy Efficient Refrigerator Program earlier. Buoyed by the tremendous response that we received, we have launched the next phase
+									of the program.</html:p>
+								<html:p class="text-center">BEE 5 Star rated refrigerators are made available up to a handsome discount of 40% on MRP. The new program
+									offers a wide range of consumer-friendly features like latest models, choice to visit the store or doorstep delivery and option of extended
+									warranty. Program has also been extended to include the new purchase option. So be energy savvy, participate in the program and avail the
+									benefit of this special offer.</html:p>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-sm-12 read_more_energy">
+							<html:p class="text-center">Read on to know more about the program and registration:</html:p>
+						</html:div>
+					</html:div>
+					<html:div class="row view_more_energy">
+						<html:div class="col-sm-8 col-sm-offset-2">
+							<html:div class="row">
+								<html:div class="col-sm-4">
+									<Label text="Consumer Number" labelFor="ecosm_num"/>
+								</html:div>
+								<html:div class="col-sm-5">
+									<Input type="Text" id="ecosm_num"/>
+								</html:div>
+								<html:div class="col-sm-3">
+									<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

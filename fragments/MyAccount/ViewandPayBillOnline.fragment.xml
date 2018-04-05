@@ -1,0 +1,136 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_25">
+				<html:div class="container-fluid">
+					<html:div class="row middlebox share_feedbk">
+						<html:div class="content">
+							<html:div class="row">
+								<html:div class="col-sm-7 col-md-6">
+									<html:div class="row">
+										<html:div class="col-sm-6">
+											<html:div class="row bill_payment">
+												<html:div class="col-xs-12">
+													<GenericTile class="tileLayout" press="press">
+														<TileContent>
+															<content>
+																<html:div class="row">
+																	<html:div class="col-xs-3">
+																		<html:image src="images/myac_online_bill.png" alt="speakers" class="img-responsive"></html:image>
+																	</html:div>
+																	<html:div class="col-xs-9">
+																		<html:span>quick bill payment</html:span>
+																	</html:div>
+																</html:div>
+															</content>
+														</TileContent>
+													</GenericTile>
+												</html:div>
+											</html:div>
+										</html:div>
+										<html:div class="col-sm-6">
+											<html:div class="row your_bill">
+												<html:div class="col-xs-12">
+													<GenericTile class="tileLayout" press="press">
+														<TileContent>
+															<content>
+																<html:div class="row">
+																	<html:div class="col-xs-3">
+																		<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-responsive"></html:image>
+																	</html:div>
+																	<html:div class="col-xs-9">
+																		<html:span>pay your bill here</html:span>
+																	</html:div>
+																</html:div>
+															</content>
+														</TileContent>
+													</GenericTile>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+								<html:div class="col-sm-5 col-md-6 counters">
+									<html:div class="row">
+										<html:div class="col-xs-4 col-sm-4 text-center">
+											<html:span>Consumer Number</html:span>
+											<html:h4>1234</html:h4>
+										</html:div>
+										<html:div class="col-xs-4 col-sm-4 text-center acc_no">
+											<html:span>Account Number</html:span>
+											<html:h4>1234</html:h4>
+										</html:div>
+										<html:div class="col-xs-4 col-sm-4 text-center">
+											<html:span>Meter Number</html:span>
+											<html:h4>1234</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="row view_table">
+						<Table id="IdViewBillTab" 
+			            growing="true"
+			            noDataText="{worklistView>/tableNoDataText}"
+			            growingScrollToLoad="true"
+                        items="{NewModel>/InvoiceSet}">
+							<headerToolbar>
+								<Toolbar>
+									<content>
+										<Title text="View &amp; Pay Bill Online" level="H2"/>
+									</content>
+								</Toolbar>
+							</headerToolbar>
+							<columns>
+								<Column minScreenWidth="Desktop">
+									<Text text="Bill Number"/>
+								</Column>
+								<Column minScreenWidth="Desktop" demandPopin="true">
+									<Text text="Bill Date"/>
+								</Column>
+								<Column minScreenWidth="Desktop" demandPopin="true">
+									<Text text="Discount"/>
+								</Column>
+								<Column minScreenWidth="Tablet" demandPopin="true">
+									<Text text="Payment Date"/>
+								</Column>
+								<Column minScreenWidth="Tablet" demandPopin="true">
+									<Text text="Net Bill Amount"/>
+								</Column>
+								<Column minScreenWidth="Tablet" demandPopin="true">
+									<Text text="Due Date"/>
+								</Column>
+								<Column minScreenWidth="Tablet" demandPopin="true">
+									<Text text="Bill Amount"/>
+								</Column>
+								<Column minScreenWidth="Desktop">
+									<Text text="View PDF"/>
+								</Column>
+								<Column minScreenWidth="Desktop">
+									<Text text="Pay"/>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<ObjectIdentifier title="{NewModel>BillNumber}"/>
+										<Text text="{path : 'NewModel>BillDate',type: 'sap.ui.model.type.Date',formatOptions: {style: 'medium'}}"/>
+										<ObjectIdentifier title="{NewModel>Discount}" text="{NewModel>Currency}"/>
+										<Text text="{path: 'NewModel>DueDate',type: 'sap.ui.model.type.Date',formatOptions: {style: 'medium'}}"/>
+										<ObjectIdentifier title="{NewModel>Amount}" text="{NewModel>Currency}"/>
+										<Text text="{path:'NewModel>DueDate',type: 'sap.ui.model.type.Date',formatOptions: {style: 'medium'}}"/>
+										<ObjectIdentifier title="{NewModel>Openamount}" text="{NewModel>Currency}"/>
+										<Button icon="sap-icon://download" tooltip="PDF" press="onDataExportPDF" />
+										<Text text="{NewModel>Status}"/>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

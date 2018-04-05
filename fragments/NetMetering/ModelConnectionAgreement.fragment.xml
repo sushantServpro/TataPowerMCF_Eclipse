@@ -1,0 +1,30 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div>
+					<html:div class=" col-md-12">
+						<html:div class="go-green_intro">
+							<html:div class="intro_head">
+								<html:h4>Model Connection Agreement</html:h4>
+							</html:div>
+						</html:div> 
+						<html:div class="row procedure_files switch_over">
+							<html:a href="pdf/Model_Connection_Agreement.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">Model Net Metering Connection Agreement</html:div>
+								</html:div>
+							</html:a>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

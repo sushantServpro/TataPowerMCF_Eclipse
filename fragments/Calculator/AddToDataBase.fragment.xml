@@ -1,0 +1,48 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:c="sap.ui.unified.calendar"
+	 xmlns:tnt="sap.tnt"
+	xmlns:core="sap.ui.core">
+<Dialog>
+<l:Grid
+		defaultSpan="L12 M12 S12"
+		width="auto">
+		<l:content>
+			<f:SimpleForm id="SimpleFormChange354"
+				minWidth="1024"
+				maxContainerCols="2"
+				editable="true"
+				layout="ResponsiveGridLayout"
+				title="Pre-plan Your Energy Consumption"
+				labelSpanL="2"
+				labelSpanM="2"
+				emptySpanL="4"
+				emptySpanM="4"
+				columnsL="1"
+				columnsM="1"
+				class="editableForm">
+				<f:content>
+					<Label text="Year" />
+					<c:YearPicker id="idYear1" />
+					<Label text="Month" />
+					<c:MonthPicker  id="monthId1"/>
+					<Label text="Energy Consumption (Units)" labelFor="TotEnConsume" />
+					<Input id="TotEnConsume" enabled="true" editable="false"  value="1234" />
+					
+				</f:content>
+			</f:SimpleForm>
+			
+		</l:content>
+	</l:Grid>
+	
+			<OverflowToolbar>
+				<ToolbarSpacer/>
+				<Button type="Emphasized" press="onSave" text="Save"/>
+				<!--<Button type="Emphasized" press="onClear" text="Clear"/>-->
+				<Button type="Emphasized" press="onClose" text="Close"/>
+			</OverflowToolbar>
+    
+	</Dialog>
+</core:FragmentDefinition>

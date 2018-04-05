@@ -1,0 +1,24 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tatapower.dev.controller.MyAccounts"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="My Account" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container-fluid">
+						<html:div class="row">
+							<html:div class="col-md-3">
+								<FlexBox id="Flexboxview"></FlexBox>
+							</html:div>
+							<html:div class="col-md-9">
+								<FlexBox id="FlexboxProcedure"></FlexBox>
+							</html:div>
+						</html:div>
+					</html:div>
+					
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

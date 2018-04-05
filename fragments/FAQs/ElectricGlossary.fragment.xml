@@ -1,0 +1,383 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="faq_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Electric Glossary</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="ele_glossaery">
+					<Panel expandable="true" expanded="false" headerText="Glossary A" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Alternating Current</html:span>
+									- an electrical current, which reverses direction repeatedly due to a change in voltage, occuring at the same frequency. Often abbreviated
+									AC or ac.
+								</html:p>
+								<html:p>
+									<html:span>Alternator</html:span>
+									- an electric generator designed to produce alternating current.
+								</html:p>
+								<html:p>
+									<html:span>Ampere</html:span>
+									- it measures the amount of electricity moving through a wire. Named after French physicist Andre M. Ampère
+								</html:p>
+								<html:p>
+									<html:span>Ambient temperature</html:span>
+									- the surrounding temperature.
+								</html:p>
+								<html:p>
+									<html:span>Ampere-hour</html:span>
+									- the flow of electricity equal to one ampere for one hour. Commonly used to rate the capacity of batteries.
+								</html:p>
+								<html:p>
+									<html:span>Apparent power</html:span>
+									- the mathematical product of voltage and current on ac systems. Since voltage and current may not be in phase on ac systems, the apparent
+									power thus calculated may not equal the real power, but may actually exceed it.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary B" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Battery</html:span>
+									- a group of two or more cells connected together to provide electrical current. Sometimes also used to describe a single cell, which
+									converts chemical energy to electrical current.
+								</html:p>
+								<html:p>
+									<html:span>Battery cycle life</html:span>
+									- the number of discharge and recharge cycles that a battery can undergo before degrading below its capacity rating.
+								</html:p>
+								<html:p>
+									<html:span>Battery self-discharge</html:span>
+									- the gradual loss of chemical energy in a battery that is not connected to any electrical load.
+								</html:p>
+								<html:p>
+									<html:span>Bonding</html:span>
+									- an electrical conducting path formed by the permanent joining of metallic parts in order to assure electrical continuity and safely
+									conduct any likely current.
+								</html:p>
+								<html:p>
+									<html:span>Branch circuit</html:span>
+									- the conductors between the last over current protective device and the outlets or loads.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary C" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Capacitor</html:span>
+									- a device that stores electrical charge usually by conducting plates or foil separated by a thin insulating layer of dielectric material.
+									Unit of measurement is Farad.
+								</html:p>
+								<html:p>
+									<html:span>Cell</html:span>
+									- a single device which converts chemical energy into electrical current. Sometimes also referred to as a battery.
+								</html:p>
+								<html:p>
+									<html:span>Charge rate</html:span>
+									- the rate at which a battery or cell is recharged.
+								</html:p>
+								<html:p>
+									<html:span>Conductor</html:span>
+									- usually a metallic substance capable of transmitting electricity with little resistance. Best conductor is silver but the most common is
+									copper.
+								</html:p>
+								<html:p>
+									<html:span>Continuous load</html:span>
+									- a sustained electrical load current for three hours or more.
+								</html:p>
+								<html:p>
+									<html:span>Coulomb</html:span>
+									- the practical unit of electric charge transmitted by a current of one ampere for one second.
+								</html:p>
+								<html:p>
+									<html:span>Current</html:span>
+									- the flow of electricity commonly measured in amperes.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary D" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Diode</html:span>
+									- an electronic device (semiconductor) that allows current to flow in only one direction.
+								</html:p>
+								<html:p>
+									<html:span>Direct current</html:span>
+									- electrical current that normally flows in one direction only. Abbreviated dc.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary E" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Electrolyte</html:span>
+									- a nonmetallic conductor of electricity usually consisting of a liquid or paste in which the flow of electricity is by ions.
+								</html:p>
+								<html:p>
+									<html:span>Energy</html:span>
+									- an electrical conducting path formed by the permanent joining of metallic parts in order to assure electrical continuity and safely
+									conduct any likely current.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary F" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Farad</html:span>
+									- a unit of capacitance. Named for the English physicist Michael Faraday 1867. Fault - a short circuit.
+								</html:p>
+								<html:p>
+									<html:span>Frequency</html:span>
+									- the number of complete alternations or cycles per second of an alternating current. Unit of measurement is Hertz.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary G" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Generator</html:span>
+									- a rotating machine which converts mechanical energy into electrical energy.
+								</html:p>
+								<html:p>
+									<html:span>Grid</html:span>
+									- Refers to the electrical utility distribution network.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary H" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Hertz</html:span>
+									- a rotating machine which converts mechanical energy into electrical energy.
+								</html:p>
+								<html:p>
+									<html:span>Horsepower</html:span>
+									- a unit of power equal to 746 watts.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary I" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Inductance</html:span>
+									- the characteristic of an electric circuit by which a voltage is induced in it by a variation of current..
+								</html:p>
+								<html:p>
+									<html:span>Inverter</html:span>
+									- an electrical device, which is designed to convert direct current into alternating current.
+								</html:p>
+								<html:p>
+									<html:span>Ion</html:span>
+									- a positively or negatively charged atom or molecule.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary J" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Joule</html:span>
+									- Named after James P. Joule, an English physicist 1889, Joules is the unit of work or energy equal to one watt for one second. One kilowatt
+									hour equals 3,600,000 Joules.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary K" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Kilovolt</html:span>
+									- unit of electrical potential equal to 1000 volts.
+								</html:p>
+								<html:p>
+									<html:span>Kilovolt amperes</html:span>
+									- a unit of apparent power equal to 1000-volt amperes.
+								</html:p>
+								<html:p>
+									<html:span>Kilowatt</html:span>
+									- unit of power equal to 1000 watts. Abbreviated kW or KW.
+								</html:p>
+								<html:p>
+									<html:span>Kilowatt-hour</html:span>
+									- unit of energy or work equal to one kilowatt for one hour.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary L" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Load</html:span>
+									- a device that consumes electrical power and is connected to a source of electricity.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary M" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>MCA</html:span>
+									- Minimum circuit amperes. This is the minimum current rating allowed for the wiring and circuit breaker or fuse protection for the
+									equipment.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary N" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Neutral</html:span>
+									- a conductor of an electrical system, which usually operates with minimal voltage to ground.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary O" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Ohm</html:span>
+									- a unit of electrical resistance. A circuit resistance of one ohm will pass a current of one ampere with a potential difference of one
+									volt. Named after the German physicist George Simon Ohm 1854.
+								</html:p>
+								<html:p>
+									<html:span>Open circuit voltage</html:span>
+									- the maximum voltage produced by a power source with no load connected.
+								</html:p>
+								<html:p>
+									<html:span>Over current</html:span>
+									- any current beyond the continuous rated current of the conductor or equipment.
+								</html:p>
+								<html:p>
+									<html:span>Overload</html:span>
+									- operation of electrical equipment above its normal full-load rating.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary P" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Power</html:span>
+									- the rate at which work is performed or that energy is transferred. Electric power is commonly measured in watts or kilowatts.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary R" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Resistance</html:span>
+									- the characteristic of materials to oppose the flow of electricity in an electric circuit.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary S" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Short circuit</html:span>
+									- a low resistance connection unintentionally made between points of an electrical circuit which may result in current flow far above normal
+									levels.
+								</html:p>
+								<html:p>
+									<html:span>Single-phase</html:span>
+									- an ac electric system or load consisting of at least one pair of conductors energized by a single alternating voltage.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary T" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Transformer</html:span>
+									- a device that converts one ac voltage and current to a different voltage and current. Constructed using two or more coils of wire around a
+									common magnetic core.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary U" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Uninterruptible power supply (UPS)</html:span>
+									- a device that provides a constant regulated voltage output in spite of interruptions of the normal power supply.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary V" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Volt</html:span>
+									- The electrical potential difference or pressure across a one-ohm resistance carrying a current of one ampere. Named after Italian
+									physicist Count Alessandro Volta
+								</html:p>
+								<html:p>
+									<html:span>Voltage drop</html:span>
+									- a voltage reduction due to impedances between the power source and the load.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Glossary W" width="auto" class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="gloass_desc">
+								<html:p>
+									<html:span>Watt</html:span>
+									- A unit of power equal to the rate of work represented by a current of one ampere under a pressure of one volt. Named after the Scottish
+									engineer James Watt, 1819.
+								</html:p>
+							</html:div>
+						</content>
+					</Panel>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

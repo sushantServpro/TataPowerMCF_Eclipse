@@ -1,0 +1,120 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel>
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro audit_prog">
+						<html:div class="intro_head">
+							<html:h4>Super-Efficient Ceiling Fan</html:h4>
+						</html:div>
+						<html:div class="intro_img">
+							<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+						</html:div>
+						<html:div class="intro_desc">
+							<html:h5 class="text-center">Super-Efficient Ceiling Fan</html:h5>
+						</html:div>
+						<html:p class="text-center">(For Tata Power Residential Consumers Only)</html:p>
+						<html:p class="text-center">As you might be aware, we had rolled out the 5 Star DSM Energy Efficient Ceiling Fan Program earlier. It
+							received an overwhelming response from our consumers. Keeping pace with the advanced technology, we have upgraded our ceiling fan program to
+							the DSM Super-Efficient Ceiling Fan Program. This is the first DSM Super-Efficient Ceiling Fan program in India.</html:p>
+						<html:p class="text-center">Based on the BLDC Motor technology, the Ceiling Fans offered under this program are more energy efficient than 5
+							Star Ceiling Fans, thus helping you save more energy and money. Apart from that, these fans come with multiple user-friendly features (e.g.
+							A Smart Remote that has speed control, sleep and timer mode) to enhance your operational convenience. Thus, these products offer an
+							enjoyable, smart and energy-saving ceiling fan experience. Read on to know more about the product offered under this program.</html:p>
+						<html:div class="intro_desc">
+							<html:h5 class="text-center">Salient Features of Super-Efficient (BLDC Technology Based) Ceiling Fan</html:h5>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-sm-6 col-sm-offset-3">
+								<html:ul class="inti_list">
+									<html:li>Consumes only 28 W at the highest speed (about 1/3rd of an ordinary fan)</html:li>
+									<html:li>Highest Service value (Air Delivery/ Watt)</html:li>
+									<html:li>Humming Noise-free Working</html:li>
+									<html:li>Greater Operational Control through Remote</html:li>
+								</html:ul>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-sm-8 col-sm-offset-2">
+								<html:image src="images/low_energy.gif" alt="low_energy" class="img-responsive"></html:image>
+							</html:div>
+						</html:div>
+						<html:div class="row sdlc_row">
+							<html:div class="col-sm-5">
+								<html:image src="images/bldc.png" alt="bldc" class="img-responsive"></html:image>
+							</html:div>
+							<html:div class="col-sm-7">
+								<html:div class="intro_desc">
+									<html:h5>What is the BLDC Technology?</html:h5>
+									<html:ul class="inti_list">
+										<html:li>Brush Less Direct Current Technology is the latest revolution in the fan industry (the way LED technology is for the lighting).</html:li>
+										<html:li>Use of the BLDC Motor is the most innovative feature of these ceiling fans.</html:li>
+										<html:li>Permanent magnets used in rotor are responsible for mass reduction in power consumption compared to windings used in the stator in
+											an ordinary induction fan.</html:li>
+										<html:li>BLDC Motor making the motor more rugged for long-term use.</html:li>
+										<html:li>Life of a BLDC fan is also expected to be much higher than ordinary fans.</html:li>
+									</html:ul>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-sm-6 intro_desc">
+								<html:h5>Timer Mode</html:h5>
+								<html:ul class="inti_list">
+									<html:li>Automatically stops after the programmed hour.</html:li>
+									<html:li>Use this feature when you don't need fan after 1, 2, 3, 6 or 9 hours.</html:li>
+									<html:li>Saves energy, increases comfort level.</html:li>
+								</html:ul>
+							</html:div>
+							<html:div class="col-sm-6">
+								<html:image src="images/Timer_Mode.gif" alt="Timer_Mode" class="img-responsive"></html:image>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-sm-6 intro_desc">
+								<html:h5>Sleep Mode</html:h5>
+								<html:ul class="inti_list">
+									<html:li>Fans speed keep on reducing gradually.</html:li>
+									<html:li>During the night increase your comfort level by switching to this mode.</html:li>
+									<html:li>Saves energy smartly.</html:li>
+								</html:ul>
+							</html:div>
+							<html:div class="col-sm-6">
+								<html:image src="images/Sleep_Mode.gif" alt="Sleep_Mode" class="img-responsive"></html:image>
+							</html:div>
+						</html:div>
+						<html:div class="intro_desc">
+							<html:h5 class="text-center">Convenience offered by the Smart Remote</html:h5>
+						</html:div>
+						<html:p class="text-center">Apart from the regular speed control, you can use the Remote to control the fan operations by using sleep and timer mode.</html:p>
+						<html:div class="row">
+							<html:div class="col-sm-6 col-sm-offset-3">
+								<html:image src="images/remote.png" alt="remote" class="img-responsive"></html:image>
+							</html:div>
+						</html:div>
+						<html:p class="text-center">All in all, these Super-efficient ceiling fans combine the extra energy savings along with comfortable and
+							convenience ceiling fan experience.</html:p>
+						<html:p class="text-center">We look forward to your participation in the Super-Efficient Ceiling Fan Program.</html:p>
+						<html:p class="text-center">To know more about the program and register for the same, please provide your consumer number below:</html:p>
+						<html:div class="row view_more_energy">
+							<html:div class="col-sm-8 col-sm-offset-2">
+								<html:div class="row">
+									<html:div class="col-sm-4">
+										<Label text="Consumer Number" labelFor="sdlccosm_num"/>
+									</html:div>
+									<html:div class="col-sm-5">
+										<Input type="Text" id="sdlccosm_num"/>
+									</html:div>
+									<html:div class="col-sm-3">
+										<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

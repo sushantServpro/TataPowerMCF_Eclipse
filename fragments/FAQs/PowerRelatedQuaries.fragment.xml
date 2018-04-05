@@ -1,0 +1,340 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<html:div class="go-green_intro">
+				<html:div class="row intro_head">
+					<html:div class="col-xs-12">
+						<html:div class="faq_bg border_rad_icon">
+							<html:div class="row icon_row_flex">
+								<html:div class="col-xs-2">
+									<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-xs-10">
+									<html:h4>Power Related Queries</html:h4>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</html:div>
+			<Panel expandable="true" expanded="false"
+				headerText="Why consumption of one customer is different from his neighbour having same equipment?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:ul>
+							<html:li>
+								<html:h5>
+									Even though same electrical gadgets / appliances are used by two customers, their usage patterns are not generally same.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									Usage of electrical gadgets / appliances depend very much on lifestyle, individual habits &amp; personal preferences.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									Electricity consumption of customers is therefore not the same.
+								</html:h5>
+							</html:li>
+						</html:ul>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="Why consumption varies from season to season?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:ul>
+							<html:li>
+								<html:h5>
+									Usage of electrical appliances is very strongly influenced by season.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									We tend to use heaters in winter &amp; air-conditioners in summer.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									Day is shorter and night is longer in winter resulting in higher lighting load in winter than in summer.
+								</html:h5>
+							</html:li>
+						</html:ul>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="Does the consumption of a ceiling fan depend on the position of the regulator?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:ul>
+							<html:li>
+								<html:h5>
+									Yes.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									When a fan is running at faster speed, it consumes more power.
+								</html:h5>
+							</html:li>
+						</html:ul>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="What are the equipment consuming higher power?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Refer to Ready Reckoner.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="Is there a variation in consumption when equipment deteriorates?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:ul>
+							<html:li>
+								<html:h5>
+									Normally it is difficult to quantify such a situation.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									It mainly depends upon the appliance, the type of defect and the extent of deterioration in its performance.
+								</html:h5>
+							</html:li>
+						</html:ul>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="My meter is tested OK but I still feel my bill is rather high. What should I do?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:ul>
+							<html:li>
+								<html:h5>
+									Normally high bills are due to higher consumption, because of some new electrical equipment added or on account of some festivals or special
+									occasions like a marriage in the family, or due to change of weather etc.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									If not, compare your unit consumption with earlier bills preferably for similar period.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									Use the Ready Reckoner to verify your consumption. Even if the unit consumption is normal, the bill amount can increase due to tariff
+									revision, increase in FAC or Government duty.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									An excess bill could also be due to incorrect reading taken for billing.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									This can be verified by checking the reading on your meter.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									If not satisfied, contact the "Call Centre" and the matter will be investigated further.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									Tata Power uses high quality electronic meters for all its customers.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									The meters are procured from highly reputed manufacturers and also undergo extensive testing in Tata Power Lab prior to putting them in
+									service at customer premise.
+								</html:h5>
+							</html:li>
+						</html:ul>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="I have three persons in my family and my neighbour has six. Why is my bill higher?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:ul>
+							<html:li>
+								<html:h5>
+									Even though same electrical gadgets / appliances are used by two customers, their usage patterns are not generally same.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									Usage of electrical gadgets / appliances depend very much on lifestyle, individual habits &amp; personal preferences.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									Electricity consumption of customers is therefore not the same.
+								</html:h5>
+							</html:li>
+						</html:ul>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="Can Tata Power give power supply in Mumbai? And in which areas?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Yes, Tata Power can give power supply in the licensed areas, which extends from Colaba to Vasai Creek and up to Kanjur Marg/ Mankhurd.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="What is the time frame required to get a new connection?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							New Connection will be provided, within the time frame stipulated by MERC in their "Standards of Performance". The details are as mentioned
+							below. Time period for provision of supply from date of receipt of completed application and payment of charges:
+						</html:h5>
+						<html:ul>
+							<html:li>
+								<html:h5>
+									In case connection is to be from existing network- One Month.
+								</html:h5>
+							</html:li>
+							<html:li>
+								<html:h5>
+									Where extension or augmentation of distributing main is required- Three Months.
+								</html:h5>
+							</html:li>
+						</html:ul>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText=" Who can assist the customer to fill up the Load details, since customer may not have sufficient knowledge of the subject?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							You may approach any Licensed Electrical Contractor in case of difficulty in arriving at the connected load / sanctioned load.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="What is Fuel Adjustment Charges (FAC) ?" width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							FAC is a variable component depending on the Fuel prices, and is calculated every month. This value is indicated in your monthly power
+							supply bill.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false"
+				headerText=" Which customers get Exemption on Electricity duty (ED) and Tax on Sale of Electricity (TOSE) ?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Railways and MCGM . IT and ITES may be exempted after verification of relevant documents.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="To whom is HT tariff applicable?" width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							HT is applicable for consumers having load more than 150 kW/ 187kVA, and for power supply at 11KV, 22KV, 33 KV.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="Can Tata Power provide supply to my new Project?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Yes. Owners / Developers / Builder may please submit a supply request for the new project site, along with necessary details, at:
+						</html:h5>
+						<html:h5>Distribution Customer Acquisition Department,
+						</html:h5>
+						<html:h5>
+							Ground floor, Technopolis Knowledge Park</html:h5>
+						<html:h5>
+							Mahakali Caves Road,</html:h5>
+						<html:h5>
+							Andheri (E), Mumbai 400 093</html:h5>
+						<html:h5>
+							Tel No.: 091-22-6668 8357</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="Is it required to submit individual / meter-wise Power Supply Application Forms?"
+				width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Yes it is required to submit individual meter-wise Power Supply Application Forms at the time of meter charging.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="When will the site visit be conducted and who will be visiting site?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							After receipt of the request for Power Supply, our representative will visit you, within 7 days.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText="Can you give supply without substation space?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							If our LT Network is available and sufficient capacity is available, we can extend our supply without Substation space. However MCGM
+							development rules will be applicable for all new projects.
+						</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="false" headerText=" Where should customer contact for availing new power connection?" width="auto"
+				class="sapUiResponsiveMargin">
+				<content>
+					<html:div class="textpara">
+						<html:h5>
+							Customers are requested to contact our Marketing office at the below address:
+						</html:h5>
+						<html:h5>The Tata Power Company Ltd
+						</html:h5>
+						<html:h5>Distribution Customer Acquisition Department.</html:h5>
+						<html:h5>Technopolis Knowledge Park, Ground Floor,</html:h5>
+						<html:h5>Mahakali Caves Road, Chakala, Andheri(E),
+						</html:h5>
+						<html:h5>Mumbai 400 093.
+						</html:h5>
+						<html:h5>Contact Details: 091- 22- 66688357</html:h5>
+					</html:div>
+				</content>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

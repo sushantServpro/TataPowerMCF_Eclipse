@@ -1,0 +1,161 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<html:div class="row intro_head">
+				<html:div class="col-xs-12">
+					<html:div class="safe_bg border_rad_icon">
+						<html:div class="row icon_row_flex">
+							<html:div class="col-xs-2">
+								<html:image src="images/icon_safety_athome.png" alt="icon_safety_athome" class="img-responsive"></html:image>
+							</html:div>
+							<html:div class="col-xs-10">
+								<html:h4>Safety at Home</html:h4>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</html:div>
+			<html:div class="saftybanner">
+				<html:image src="images/safety_banner.png" alt="safety_banner" class="img-responsive"></html:image>
+			</html:div>
+			<html:div class="row">
+				<html:div class="col-md-4 col-md-offset-5 saftybtnicon">
+					<Button icon="sap-icon://download" text="DOWNLOAD SAFETY HANDBOOK" press="onPress" class="switchcenter safety"
+						ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+				</html:div>
+			</html:div>
+			<html:div>
+				<Panel expandable="true" expanded="false" headerText="A. SAFE EQUIPMENT- Use only Standard Electrical Appliances and Components:"
+					width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>Please use electrical appliances, cords and fixtures with ISI mark only.</html:h5>
+							<html:h5>Please use power plugs equipped with Earth Leakage Circuit Breaker (ELCB) which is also called Residual</html:h5>
+							<html:h5>current circuit breaker (RCCB).</html:h5>
+							<html:div class="row">
+								<html:div class="col-md-4 col-sm-offset-2">
+									<html:image src="images/a_one_circute.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-md-4">
+									<html:image src="images/a_two_circute.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+								<html:h5>Please follow correct specifications when replacing electrical fuses.</html:h5>
+							<html:div class="row">
+								<html:div class="col-md-4 col-sm-offset-2">
+									<html:image src="images/a_one_fuse.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-md-4">
+									<html:image src="images/a_two_fuse.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+							<html:h5>Please do not use any electrical appliance without an Earth wire connection.</html:h5>
+							<html:div class="row">
+								<html:div class="col-md-4 col-sm-offset-2">
+									<html:image src="images/a_wire_yellow.png" alt="safety_banner" class="img-responsive">Earth wire connected to equipment body</html:image>
+								</html:div>
+								<html:div class="col-md-4">
+									<html:image src="images/a_wire_yellow_one.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+							<html:h5>Please ensure switch boards at a safe height and out of reach of children.</html:h5>
+							<html:div class="row">
+								<html:div class="col-md-4 col-sm-offset-2">
+									<html:image src="images/a_one_child.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-md-4">
+									<html:image src="images/a_two_child.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+							
+							</html:div>
+							<html:h5>Please cover all unused electrical outlets or use electrical outlets with inbuilt shutters.</html:h5>
+							<html:div class="row">
+								<html:div class="col-md-4 col-sm-offset-2">
+									<html:image src="images/a_one_close.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-md-4">
+									<html:image src="images/a_two_close.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+								
+							</html:div>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="B. COMPETENT ELECTRICIAN - Call Qualified Electricians only:" width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								Please call a qualified electrician to carry out any electrical repair and wiring.
+							</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="C. SAFE PRACTICES- User Safety Tips:" width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>Please do not overload circuits and install additional circuits if needed.</html:h5>
+							<html:div class="row">
+								<html:div class="col-md-4 col-sm-offset-4">
+									<html:image src="images/c_one_overload.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+							<html:h5>Please do not replace the electrical fuse unless the fault is identified &amp; rectified.</html:h5>
+							<html:h5>Please do not insert bare wires into electrical plug sockets. Always use suitable two-pin or three-pin plugs while connecting any
+								electrical appliance.</html:h5>
+							<html:div class="row">
+								<html:div class="col-md-4 col-sm-offset-2">
+									<html:image src="images/c_twooverload.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-md-4">
+									<html:image src="images/c_one_insert_wire.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-md-8">
+									<html:ul class="inti_list">
+										<html:li>Please keep all electrical appliances and equipments dry and away from water.</html:li>
+										<html:li>Please do not operate any electrical equipment with wet hands or body.</html:li>
+										<html:li>Please unplug all electrical appliances when not in use.</html:li>
+										<html:li>Please turn off all electrical equipments before leaving the house.</html:li>
+										<html:li>Please do not use worn-out, frayed, damaged cords or appliances.</html:li>
+										<html:li>Please avoid usage of electrical extension cords. If required, then please ensure that it is rated correctly. Avoid cords running
+											through doors, walls, floors or any other location where it could get damaged. Please read carefully all manuals and manufacturer’s
+											instructions before use.</html:li>
+									</html:ul>
+								</html:div>
+								<html:div class="col-md-4">
+									<html:image src="images/c_insert_wire.png" alt="safety" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="D. EMERGENCY RESPONSE - In case of emergency:" width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								In case of fire due to electrical short circuit, please do not use water. Please switch OFF the mains immediately and do not touch any
+								electrical connection, as it may still be live.
+							</html:h5>
+							<html:h5>
+								If anybody gets an electrical shock, please do not touch the person with bare hands to protect. Immediately switch OFF the supply and use
+								wooden stick to rescue. Arrange for Medical treatment immediately.
+							</html:h5>
+							<html:div class="row">
+								<html:div class="col-md-4 col-sm-offset-2">
+									<html:image src="images/d_emergency_one.png" alt="safety" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-md-6">
+									<html:image src="images/d_emergency_two.png" alt="safety" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+						</html:div>
+					</content>
+				</Panel>
+			</html:div>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

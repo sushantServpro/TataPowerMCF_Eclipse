@@ -1,0 +1,187 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="intro_head">
+							<html:h4>Zones &amp; Areas</html:h4>
+						</html:div>
+					</html:div>
+					<html:div class="tbl_zonal">
+						<html:div class="table-responsive">
+							<html:table class="table">
+								<html:thead>
+									<html:tr>
+										<html:th>East ZONE</html:th>
+										<html:th>SOUTH ZONE</html:th>
+										<html:th>SOUTH CENTRAL ZONE</html:th>
+										<html:th>CETRAL ZONE</html:th>
+										<html:th>NORTH ZONE</html:th>
+									</html:tr>
+								</html:thead>
+								<html:tbody>
+									<html:tr>
+										<html:td>Wadala (E)</html:td>
+										<html:td>Bandra</html:td>
+										<html:td>Andheri</html:td>
+										<html:td>Goregaon</html:td>
+										<html:td>Dahisar</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Vikhroli</html:td>
+										<html:td>Khar</html:td>
+										<html:td>Versova</html:td>
+										<html:td>Malad</html:td>
+										<html:td>Mira Road</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Vidyavihar</html:td>
+										<html:td>Kalina</html:td>
+										<html:td>Jogeshwari</html:td>
+										<html:td>Borivali</html:td>
+										<html:td>Bahyender</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Tilaknagar</html:td>
+										<html:td>Santacruz</html:td>
+										<html:td>Oshiwara</html:td>
+										<html:td>Kandivali</html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Sion</html:td>
+										<html:td>Vile Parle</html:td>
+										<html:td>Versova</html:td>
+										<html:td>Aarey Milk colony</html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Tagore Nagar</html:td>
+										<html:td>Mahim (W)</html:td>
+										<html:td>Sahar</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Sakinaka</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Powai</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Pant Nagar</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Nehru Nagar</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Mankhurd</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Kurla</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Kanamvar Nagar</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Jarimari</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>IIT Mumbai</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Govandi</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Deonar</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Dadar</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Chunabhatti</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Chembur</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Chandivali</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Ghatkopar</html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+										<html:td></html:td>
+									</html:tr>
+								</html:tbody>
+							</html:table>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

@@ -1,0 +1,92 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tatapower.dev.controller.TermOfUse"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Terms of Use" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container">
+						<html:div class="terms_of_use">
+							<html:h4 class="text-center">
+								Tata Power - Terms of Use
+							</html:h4>
+						</html:div>
+						<html:div class="tou_desc">
+							<html:p>
+								This Website will be provided by TATA POWER, and may be used for informational purposes only. By using the site or downloading materials
+								from the site, you agree to abide by the terms and conditions set forth in this notice. If you do not agree to abide by these terms and
+								conditions please do not use the site or download materials from the site.
+							</html:p>
+							<html:h5>LIMITED LICENSE</html:h5>
+							<html:p>
+								Subject to the terms and conditions set forth in this Agreement, TATA POWER will grant a non-exclusive, non-transferable, limited right to
+								access this site and the materials thereon. You agree not to:
+							</html:p>
+							<html:ul class="inti_list">
+								<html:li>Interrupt or attempt to interrupt the operation of the Site in any way.</html:li>
+								<html:li>Intrude or attempt to intrude into the site in any way.</html:li>
+								<html:li>Post any obscene, defamatory or annoying materials on the site.</html:li>
+								<html:li>Obscure any materials, including this notice, already posted on the site.</html:li>
+								<html:li>Use the site or any contents thereof to defame, intimidate, annoy or otherwise cause nuisance or breach the rights of any person.</html:li>
+							</html:ul>
+							<html:p>
+								TATA POWER authorises to view and download the information ("Materials") at this Website ("Site") only for personal, non-commercial use.
+								This authorization is not a transfer of title in the Materials and copies of the Materials and is subject to the following restrictions:
+							</html:p>
+							<html:ul class="inti_list">
+								<html:li>Retain, on all copies of the Materials downloaded, all copyright, trademarks and other proprietary notices contained in the
+									Materials, consent.</html:li>
+								<html:li>Not modify the Materials in any way nor reproduce or display, perform, or distribute or otherwise use them for any public or
+									commercial purpose.</html:li>
+								<html:li>Not transfer the Materials to any other person unless you give them notice of, and they agree to accept, the obligations arising
+									under these terms and conditions of use. You agree to abide by all additional restrictions displayed on the Site as it may be updated from
+									time to time. This Site, including all Materials, is copyrighted and protected by worldwide copyright laws and treaty provisions. You agree
+									to comply with all copyright laws worldwide in your use of this Site and to prevent any unauthorized copying of the Materials. Except as
+									expressly provided herein, TATA POWER does not grant any express or implied right to you under any patents, trademarks, copyrights or trade
+									secret information.</html:li>
+							</html:ul>
+							<html:p>
+								The information, material or services included in or available through this site may include inaccuracies or typographical errors. Changes
+								are periodically made to the site/services and to the information therein. TATA POWER and/or its respective suppliers may make improvements
+								and/or changes in the site/services at any time.
+							</html:p>
+							<html:p>
+								While we have made every effort to ensure the accuracy and clarity of the information presented in this site, however TATA POWER cannot be
+								held liable for any errors or inconsistencies. Advice received via this site should not be relied upon for personal, medical, legal, and
+								financial or any decisions and you should consult an appropriate professional for specific advice tailored to your situation. No information
+								on this site shall constitute an invitation to invest in TATA POWER or any of its affiliates. Neither TATA POWER nor their officers,
+								employees or agents shall be liable for any loss, damage or expense arising out of any access to or use of this site or any site linked to
+								it, including, without limitation, any loss of profit, indirect, incidental or consequential loss.
+							</html:p>
+							<html:p>
+								You specifically agree that TATA POWER shall not be responsible for unauthorized access to or alteration of your transmissions or data, any
+								material or data sent or received or not sent or received, or any transactions entered into through this site. You specifically agree that
+								TATA POWER is not responsible or liable for any threatening, defamatory, obscene, offensive or illegal content or conduct of any other party
+								or any infringement of another's rights, including intellectual property rights. You specifically agree that TATA POWER is not responsible
+								for any content sent using and/or included in this site by any third party.
+							</html:p>
+							<html:p>
+								The linked sites are not under our control and we are not responsible for the contents of any linked site or any link contained in a linked
+								site, or any changes or updates to such sites. We are providing these links to you only as a convenience, and the inclusion of any link does
+								not imply endorsement by us of the site.
+							</html:p>
+							<html:p>
+								In no event shall TATA POWER and/or its suppliers be liable for any direct, indirect, punitive, incidental, special, consequential damages
+								or any damages whatsoever including, without limitation, damages for loss of use, data or profits, arising out of or in any way connected
+								with the use or performance of this site/services, with the delay or inability to use this site/services or related services, the provision
+								of or failure to provide services, or for any information, products, services and material obtained through this site, or otherwise arising
+								out of the use of this site/services, whether based on contract, tort, negligence, strict liability or otherwise, even if TATA POWER or any
+								of its suppliers has been advised of the possibility of damages. If you are dissatisfied with any portion of this site / services, or with
+								any of these terms of use, your sole and exclusive remedy is to discontinue using this site / services. The foregoing are subject to the
+								laws of the Republic of India and the courts in Mumbai, India shall have the exclusive jurisdiction on any dispute that may arise out of the
+								use of this site.
+							</html:p>
+						</html:div>
+					</html:div>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,59 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="procedure_head">
+					<html:h4>Procedure And Guidelines</html:h4> 
+				</html:div>
+				<html:div class="row procedure_files switch_over">
+					<html:a href="pdf/Instructions_NewConsumers__Switchover.pdf" target="_blank" class="col-sm-3 col-md-3">
+						<html:div class="panel panel-default">
+							<html:div class="panel-body pdfviewer">
+								<html:div>
+									<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+								</html:div>
+							</html:div>
+							<html:div class="panel-footer">Instructions for Changeover Consumers (currently being supplied power through the R-Infra network) to avail
+								supply on Tata Power Direct Network.
+							</html:div>
+						</html:div>
+					</html:a>
+					<html:a href="pdf/Instructions_UtilityConsumers_Switchover.pdf" target="_blank" class="col-sm-3 col-md-3">
+						<html:div class="panel panel-default">
+							<html:div class="panel-body pdfviewer">
+								<html:div>
+									<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+								</html:div>
+							</html:div>
+							<html:div class="panel-footer">
+								Instructions for Other Utility Consumers (R-Infra / BEST) to avail supply on Tata Power Direct Network.</html:div>
+						</html:div>
+					</html:a>
+					<html:a href="pdf/Procedure_Guidelines_Switchover.pdf" target="_blank" class="col-sm-3 col-md-3">
+						<html:div class="panel panel-default">
+							<html:div class="panel-body pdfviewer">
+								<html:div>
+									<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+								</html:div>
+							</html:div>
+							<html:div class="panel-footer">Guidelines to fill the form
+							</html:div>
+						</html:div>
+					</html:a>
+					<html:a href="pdf/Switchover_Protocol_June_2017.PDF" target="_blank" class="col-sm-3 col-md-3">
+						<html:div class="panel panel-default">
+							<html:div class="panel-body pdfviewer">
+								<html:div>
+									<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+								</html:div>
+							</html:div>
+							<html:div class="panel-footer">Switchover Protocol June 2017
+							</html:div>
+						</html:div>
+					</html:a>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

@@ -1,0 +1,20 @@
+[{
+	"text": "NACH",
+	"ref": "sap-icon://attachment-html"
+
+}, {
+	"text": "NACH Application Form",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Online Payment",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Payment Status",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Offline Payment Options",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Online Payment Receipt",
+	"ref": "sap-icon://attachment-html"
+}]

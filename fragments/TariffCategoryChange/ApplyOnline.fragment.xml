@@ -1,0 +1,372 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:h5>Apply Online</html:h5>
+				<html:div class="apply">
+					<html:div class="row">
+						<html:div class=" col-md-2 tata1">
+							<html:image src="images/tata_logo_white.png" alt="tata_logo" class="img-responsive"></html:image>
+						</html:div>
+						<html:div class=" col-md-1 pull-right tata2">
+							<html:image src="images/tata_emblem_white.png" alt="tata_logo" class="img-responsive"></html:image>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:h6 class="indicate">*Indicates Mandatory Fields</html:h6>
+				<html:div class="detailrequire">
+					<html:div class="detailspremises">
+						<html:h5 class="indicate2"></html:h5>
+						<html:hr/>
+					</html:div>
+					<html:div class="boxpad">
+						<html:div class="row">
+							<html:div class=" col-md-2">
+								<RadioButton groupName="Groupselect" id="RBAPPL1TCC" text="Load Enhancement" select="OnApplicationChange" enabled="false"/>
+							</html:div>
+							<html:div class="col-md-2">
+								<RadioButton groupName="Groupselect" id="RBAPPL2TCC" text="Load Reduction" select="OnApplicationChange" enabled="false"/>
+							</html:div>
+							<html:div class="col-md-2">
+								<RadioButton groupName="Groupselect" id="RBAPPL3TCC" text="Category Change" select="OnApplicationChange" selected="true"/>
+							</html:div>
+							<html:div class="col-md-2">
+								<RadioButton groupName="Groupselect" id="RBAPPL4TCC" text="Meter Shifting" select="OnApplicationChange" enabled="false"/>
+							</html:div>
+							<html:div class="col-md-2">
+								<RadioButton groupName="Groupselect" id="RBAPPL5TCC" text="CMD Enhancement" select="OnApplicationChange" enabled="false"/>
+							</html:div>
+							<html:div class="col-md-2">
+								<RadioButton groupName="Groupselect" id="RBAPPL6TCC" text="CMD Reduction" select="OnApplicationChange" enabled="false"/>
+							</html:div>
+						</html:div>
+						<html:div class="row sapUiMediumMarginTop">
+							<Label class="col-md-4" text="Contract Acct:" labelFor="input-a"/>
+							<html:div class="col-md-4">
+								<Input  id="contractacctInputTCC" required="true" type="Text"
+								        class="sapUiSmallMarginBottom" showValueHelp="true"
+								        valueHelpRequest="ValueHelpAcctsearch"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Bussiness partn" enabled="false" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="bussinesspartnInputTCC" enabled="false" value="{AddressDetails>/BpNo}" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Type Of Consumer" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="typeofconInputTCC" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Business Partner Name" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="bpartnernameInputTCC" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Flat" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="flatInputTCC" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" value="{AddressDetails>/DefFlat}"/>
+						</html:div></html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="c/o" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="coTCC" enabled="false" value="{AddressDetails>/DefBuilding}" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Street 2" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="street2InputTCC" enabled="false" value="{AddressDetails>/DefSociety}" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Street 3" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="street3InputTCC" enabled="false" value="{AddressDetails>/DefLane}" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" required="true" text="City" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="cityInputTCC" enabled="false" value="{AddressDetails>/DefCity}" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" required="true" text="District" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="districtInputTCC" enabled="false" required="true"  type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Postal Code" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="pcodeInputTCC" enabled="false" value="{AddressDetails>/DefPostal}" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Land Mark" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="landmarkInputTCC" enabled="false" value="{AddressDetails>/DefLandmark}" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Mobile Phone" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="mphoneTCC" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" required="true" text="E-Mail Address" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="emailInputTCC" required="true" type="Text" class="sapUiSmallMarginBottom"
+								placeholder="(Email ID is required for speedy communication)"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Meter No." labelFor="input-a"/>
+							<html:div class="col-md-4">
+								<Select>
+									<core:Item key="100" text="100"/>
+									<core:Item key="200" text="200"/>
+									<core:Item key="300" text="300"/>
+								</Select>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Installation" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="installationInputTCC" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Type Of Supply" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="typeofsupplyInputTCC" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Rate Category" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="ratecategoryInputTCC" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Existing Con_Load(KW)" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="existingconloadInputTCC" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="0.0000000"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Existing CMD(KVA)" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="existingcmdInputTCC" enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="0.0000000"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Required/Additional Con_Load(KW)" labelFor="input-a" required="true"/>
+							<html:div class="col-md-4">
+							<Input id="reqconloadInputTCC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="0.0000000"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Required/Additional CMD(KVA)" labelFor="input-a" required="true"/>
+							<html:div class="col-md-4">
+							<Input id="reqcmdInputTCC" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="0.0000000"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Required Rate Category" labelFor="input-a" required="true"/>
+							    <html:div class="col-md-4">
+							        <ActionSelect id="reqratecatInputTCC"  selectedKey="{LoadEnhanceModel>/ExistingUtility}" 
+							        width="100%" change="onExistUtilityChange" items="{ path: 'ExistUtility>/results' }">
+										<items>
+											<core:Item key="{ExistUtility>DomvalueL}" text="{ExistUtility>Ddtext}"/>
+										</items>
+									</ActionSelect>
+								</html:div>
+						    </html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="New Connected Load (kW)" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="newconnectedloadkwInputTCC" enabled="false" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="New Contract Demand (kVA)" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="newcontrctdemandInputTCC" enabled="false" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:p class="col-md-12 text-danger">New Connected Load(kW) / New Contracted Demand (KVA) will consider for billing purpose.
+							</html:p>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Type of premises" labelFor="input-a"/>
+							<html:div class="col-md-2">
+								<RadioButton id="RB11TCC" groupName="GroupA" text="Owned" selected="true"/>
+							</html:div>
+							<html:div class="col-md-2">
+								<RadioButton id="RB22TCC" groupName="GroupA" text="Rented"/>
+							</html:div>
+							<html:div class="col-md-2">
+								<RadioButton id="RB33TCC" groupName="GroupA" text="Lease"/>
+							</html:div>
+							<html:div class="col-md-2">
+								<RadioButton id="RB44TCC" groupName="GroupA" text="Other (Specify)"/>
+							</html:div>
+						</html:div>
+						<html:div class="row powerreq">
+							<html:div class="col-xs-12">
+								<html:h5>Power Supply Requirement
+								</html:h5>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-md-offset-2 col-md-3">
+								<CheckBox id="LowVoltSingleTCC" text="Low Voltage Single Phase" selected="false"/>
+							</html:div>
+							<html:div class="col-md-3">
+								<CheckBox id="LowVoltThreeTCC" text="Low Voltage Three Phase" selected="false"/>
+							</html:div>
+							<html:div class="col-md-3">
+								<CheckBox id="HighVoltTCC" text="High Voltage" selected="false"/>
+							</html:div>
+						</html:div>
+						<html:div class="row powerreq">
+							<html:div class="col-xs-12">
+								<html:h5>Load Details
+								</html:h5>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-md-offset-2 col-md-3">
+								<RadioButton groupName="GroupE" id="RBGRP_ID1TCC" text="LED lights/Tube lights/Bulbs" selected="true"/>
+							</html:div>
+							<html:div class="col-md-3">
+								<RadioButton groupName="GroupE" id="RBGRP_ID2TCC" text="Fans" selected="true"/>
+							</html:div>
+							<html:div class="col-md-3">
+								<RadioButton groupName="GroupE" id="RBGRP_ID3TCC" text="Geysers" selected="true"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-md-offset-2 col-md-3">
+								<RadioButton groupName="GroupE" id="RBGRP_ID4TCC" text="Oven/Micro Wave" selected="true"/>
+							</html:div>
+							<html:div class="col-md-3">
+								<RadioButton groupName="GroupE" id="RBGRP_ID5TCC" text="Chiller/Air Conditioners" selected="true"/>
+							</html:div>
+							<html:div class="col-md-3">
+								<RadioButton groupName="GroupE" id="RBGRP_ID6TCC" text="Refrigerator" selected="true"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-md-offset-2 col-md-3">
+								<RadioButton groupName="GroupE" id="RBGRP_ID7TCC" text="Television" selected="true"/>
+							</html:div>
+							<html:div class="col-md-3">
+								<RadioButton groupName="GroupE" id="RBGRP_ID8TCC" text="Machinery/Apparatus" selected="true"/>
+							</html:div>
+							<html:div class="col-md-3">
+								<RadioButton groupName="GroupE" id="RBGRP_ID9TCC" text="Miscellaneous" selected="true"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="No of Points" labelFor="input-a" required="true"/>
+							<html:div class="col-md-4">
+							<Input id="pointInputTCC" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="W/Point" labelFor="input-a" required="true"/>
+							<html:div class="col-md-4">
+							<Input id="wattInputTCC" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-md-1">
+								<Button text="Add Load Details" press="onAddLoadDetails" class="switchcenter"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							</html:div>
+							<html:div class="col-md-1">
+								<Button text="Remove Load Details" press="onRemoveLoadDetails" class="switchcenter"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Table id="ApplyOlLoadTabTCC" growing="true" noDataText="{NewConnectionView>/tableNoDataText}" growingScrollToLoad="true"
+								mode="SingleSelectLeft" items="{oLoadTableModel}">
+								<columns>
+									<Column minScreenWidth="Desktop">
+										<Text text="Apertures"/>
+									</Column>
+									<Column minScreenWidth="Desktop" demandPopin="true">
+										<Text text="Number Of Point"/>
+									</Column>
+									<Column minScreenWidth="Desktop" demandPopin="true">
+										<Text text="Wattage Per Point"/>
+									</Column>
+									<Column minScreenWidth="Desktop" demandPopin="true">
+										<Text text="Total Wattage"/>
+									</Column>
+								</columns>
+								<items>
+									<ColumnListItem>
+										<cells>
+											<ObjectIdentifier title="{Apertures}"/>
+											<Text text="{NoPoint}"/>
+											<Text text="{WattPerPoint}"/>
+											<Text text="{TotWatt}"/>
+										</cells>
+									</ColumnListItem>
+								</items>
+							</Table>
+						</html:div>
+						<html:div class="row powerreq">
+							<html:div class="col-xs-12">
+								<html:h5>Licenced Electrical Contract Details
+								</html:h5>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Name" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="nameInputIdTCC" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Licence No" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="liencenoInputIdTCC" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Mobile No" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="mobilenoInputIdTCC" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="E-Mail Address" labelFor="input-a"/>
+							<html:div class="col-md-4">
+							<Input id="emailidInputIdTCC" required="true" type="Text" class="sapUiSmallMarginBottom"/>
+							</html:div>
+						</html:div>
+						<html:div class="row">
+							<html:div class="col-md-3">
+								<Button icon="sap-icon://save" text="Submit" press="onSaveMeterData" class="switchcenter"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

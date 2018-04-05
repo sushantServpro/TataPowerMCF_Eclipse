@@ -1,0 +1,57 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_10">
+				<html:div class="rpg">
+					<html:h5>
+						Register Power Failure</html:h5>
+				</html:div>
+				<html:div class="registerpf">
+					<html:h6 align="center" style="color:red">* Indicate Mondatory fields</html:h6>
+					<html:div class="row">
+						<html:div class="col-md-6">
+							<html:div class="row">
+								<html:div class="col-md-9">
+									<Label text="Consumer Number" labelFor="input-a"/>
+									<Input id="cnInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+								</html:div>
+								<html:div class="col-md-3">
+									<Button type="Accept" text="Enter" class="switchcenter rpfbtn" press="onPressGo"
+										ariaDescribedBy="acceptButtonDescription genericButtonDescription"></Button>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="col-md-6">
+							<Label text="Consumer Name" labelFor="input-a"/>
+							<Input id="ncInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-md-6">
+							<Label text="Mobile Number" labelFor="input-a"/>
+							<Input id="mobnumberInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+						</html:div>
+						<html:div class="col-md-6">
+							<Label text="Email ID" labelFor="input-a"/>
+							<Input id="emidInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-md-12">
+							<Label text="Problem Decription" labelFor="input-a"/>
+							<TextArea  id="IdProDec" placeholder="Enter Text" growing="true" growingMaxLines="7" width="100%"/>
+						</html:div>
+						<html:div class="col-md-12">
+							<Label text="Nearest Landmark" labelFor="input-a"/>
+							<Input id="nlInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+						</html:div>
+						<html:div class="col-md-2 col-md-offset-5 text-center">
+							<Button text="SUBMIT" press="OnPressSubmit" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

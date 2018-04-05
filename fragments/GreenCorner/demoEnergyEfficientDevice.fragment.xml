@@ -1,0 +1,62 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="grn_cor border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_green_corn.png" alt="icon_green_corn" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Energy Efficient Devices</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="green_build_desc">
+						<html:p>
+							Switching to energy efficient devices will help the consumer to reduce their electricity bills. The Government of India set up Bureau of
+							Energy Efficiency (BEE) on 1st March 2002 under the provisions of the Energy Conservation Act, 2001. BEE develops minimum energy performance
+							standards and labelling (S&amp;L) design for equipment and appliances.
+						</html:p>
+						<html:p>
+							BEE's S&amp;L programme for household electrical appliances aims at providing information on energy performance of appliances based on the
+							standards issued by BEE so that the consumers can make informed decisions while purchasing appliances. Consumer can make star rating as
+							important criteria in the selection of a model which helps to reduce the energy consumption of appliance without diminishing the services it
+							provides to consumers. The use of energy efficient product will help to shift the market towards greener products.
+						</html:p>
+						<html:p>
+							Under the S&amp;L scheme which was launched by BEE there are four mandatory and rest are voluntary products. The four products that are
+							under the mandatory labelling are frost free refrigerator, room air conditioner, TFL (Tubular Fluorescent Lamp) and distribution
+							transformer. The other products under the voluntary labelling are direct cool refrigerator, general purpose induction motor, mono set pumps,
+							open well pump sets, submersible pump sets, ceiling fan, domestic gas stoves, stationary storage type water heater, colour television and
+							washing machine.
+						</html:p>
+						<html:p>
+							Tata Power also promotes 5 star energy efficient products through Demand Side Management programs. To know more about these programme please
+							log on to,
+							<html:strong>"My Mumbai Green Mumbai"</html:strong>
+							initiative by Tata Power.
+						</html:p>
+						<html:p>
+							For more information on star rating products kindly visit to following sites:
+							<html:span>
+								<html:a href="http://www.bee-india.nic.in/" target="_blank" title="Bee India">http://www.bee-india.nic.in/</html:a>
+							</html:span>
+							<html:span>
+								<html:a href="http://www.saveenergy.co.in/" target="_blank" title="Save Energy">http://www.saveenergy.co.in/</html:a>
+							</html:span>
+						</html:p>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

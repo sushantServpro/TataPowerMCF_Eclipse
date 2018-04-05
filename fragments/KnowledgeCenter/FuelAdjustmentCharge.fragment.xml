@@ -1,0 +1,48 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="knw_cen_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_knowledge.png" alt="icon_knowledge" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Fuel Adjustment Charge</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="area_pwr_supply">
+						<html:div class="row">
+							<html:div class="col-sm-6">
+								<html:div class="pwr_dist_spl_chart">
+									<html:ul class="nav nav-tabs nav-stacked">
+										<html:li>
+											<html:a href="http://www.tatapower.com/regulations/fuel-charge.aspx" target="_blank"
+												title="Schematic Display of Interconnected Stations to Enhance Reliability and Redundancy">
+												<html:div class="row">
+													<html:div class="col-xs-10">Fuel Adjustment Charge</html:div>
+													<html:div class="col-xs-2 text-right">
+														<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+													</html:div>
+												</html:div>
+											</html:a>
+										</html:li>
+									</html:ul>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

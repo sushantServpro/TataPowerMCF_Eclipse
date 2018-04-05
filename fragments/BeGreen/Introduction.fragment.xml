@@ -1,0 +1,106 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="be_green_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_be_green.png" alt="icon_be_green" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Introduction</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="intro_img">
+							<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+						</html:div>
+						<html:div class="intro_desc">
+							<html:p class="text-center">Tata Power is highly committed to sustainability and has always made consistent efforts in extending this
+								commitment to all our consumers. We have undertaken various initiatives in line with our belief towards ensuring a greener and sustainable
+								planet. The nature of 'BE GREEN' is collaborative and participative and shall include all our consumer initiatives that infuse the aim of
+								sustainability.</html:p>
+							<html:h5 class="text-center">Under our unique initiative, we bring you a whole range of exchange offers!</html:h5>
+							<html:p>Now you can avail energy efficient appliances at large discounts and save on your electricity bills by participating in this energy
+								saving initiative:</html:p>
+							<html:div class="row">
+								<html:div class="col-sm-6 col-sm-offset-3">
+									<html:ul class="inti_list">
+										<html:li>You can reduce your energy costs by 30% to 50% without compromising on your comfort and convenience</html:li>
+										<html:li>Get new energy efficient appliances at large discounts</html:li>
+										<html:li>Exchange your old inefficient appliances with energy efficient appliances</html:li>
+									</html:ul>
+								</html:div>
+							</html:div>
+							<html:p class="text-center">We have partnered with leading Customer appliance manufacturers to offer you energy efficient appliances. We
+								offer Energy Audits at discounted rates for our Industrial and Commercial customers. Energy Audit will identify energy saving potential at
+								your premises by monitoring and analyzing your energy consumption. Tata Power offers a heavy discount of 75% on the Energy Audit Cost.</html:p>
+							<html:h5 class="text-center">
+								<html:span class="br_green_bold">BE GREEN</html:span>
+								by enrolling for our energy efficiency programme.</html:h5>
+						</html:div>
+						<html:div class="dear_consumer">
+							<html:h5 class="text-center">Dear Consumer</html:h5>
+							<html:p class="text-center">Thank you for visiting the Be Green site. Register for the DSM programmes of your choice on this site
+								Alternatively, you might also wish to call our 24X7 Toll Free Number (1800-209-5161) to get information and register for the Tata Power DSM
+								Programmes.</html:p>
+						</html:div>
+					</html:div>
+					<html:div class="usefull_links">
+						<IconTabBar id="idIconTabBarNoIcons" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+							<items>
+								<IconTabFilter text="News Update">
+									<html:ul class="inti_list">
+										<html:li>
+											<html:a href="pdf/dsm_natl_innovative_energy_saving_service_award.pdf" target="_blank">
+												Tata Power DSM Programme bags National Award for 'Innovative Energy Service Award' at the CII national Award for Energy Management</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="pdf/EC_Week_Report.pdf" target="_blank">
+												Tata Power DSM Cell celebrates Energy Conservation Week 2014</html:a>
+										</html:li>
+									</html:ul>
+								</IconTabFilter>
+								<IconTabFilter text="Useful Links">
+									<html:ul class="inti_list">
+										<html:li>
+											<html:a href="http://www.mercindia.org.in/" target="_blank">
+												Maharshtra Electricity Regulatory Commission (MERC)</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="http://www.mahaurja.com/" target="_blank">
+												Maharshtra Energy Development Agency (Mahaurja)</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="http://www.mercindia.org.in/" target="_blank">
+												Central Electricity Regulatory Commission (CERC)</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="http://powermin.nic.in/" target="_blank">
+												Ministry of Power</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="http://beeindia.in/" target="_blank">
+												Bureau of Energy Efficiency (BEE)</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="http://www.eeslindia.org/" target="_blank">
+												Energy Efficiency Services Limited (EESL)</html:a>
+										</html:li>
+									</html:ul>
+								</IconTabFilter>
+							</items>
+						</IconTabBar>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

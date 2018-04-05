@@ -1,0 +1,35 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="tatapower.dev.controller.LandingKnowledgeCenter" xmlns:html="http://www.w3.org/1999/xhtml">	<App>
+		<pages>
+			<Page title="Landing Knowledge Center" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container-fluid chngHeight">
+						<html:div class="new_cust_type">
+							<html:div class="row">
+								<html:div class="col-sm-8 col-sm-offset-2">
+									<html:div class="row">
+										<html:div class="col-xs-12 col-sm-3">
+											<ImageContent class="pro_img_cont" src="images/read_bill.png" description="read_bill" press="pressKnowledgeCenter"></ImageContent>
+										</html:div>
+										<html:div class="col-xs-12 col-sm-3">
+											<ImageContent class="pro_img_cont" src="images/charge.png" description="charge" press="pressKnowledgeCenter"></ImageContent>
+										</html:div>
+										<html:div class="col-xs-12 col-sm-3">
+											<ImageContent class="pro_img_cont" src="images/factory.png" description="factory" press="pressKnowledgeCenter"></ImageContent>
+										</html:div>
+										<html:div class="col-xs-12 col-sm-3">
+											<ImageContent class="pro_img_cont" src="images/safety_01.png" description="safety_01" press="pressKnowledgeCenter"></ImageContent>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

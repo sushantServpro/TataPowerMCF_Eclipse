@@ -1,0 +1,169 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tatapower.dev.controller.PaymentHistory"
+	xmlns:tnt="sap.tnt" xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="PayBill" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container-fluid">
+						<html:div class="counter-sec">
+							<html:div class="container-fluid">
+								<html:div class="row">
+									<html:div class="col-sm-6">
+										<html:h3>
+											<html:image src="images/online_bill.png" alt="speakers" style="margin-right:10px"></html:image>quick bill payment
+										</html:h3>
+									</html:div>
+									<html:div class="col-sm-6">
+										<html:div class="row">
+											<html:div class="col-sm-4 col-sm-offset-4">
+												<!--<html:h5 class="bill_amt_head">-->
+												<!--	Bill Amount $ <html:span>1234</html:span>-->
+												<!--</html:h5>-->
+											</html:div>
+											<html:div class="col-sm-4 btn_proceed">
+												<Button text="Proceed" press="onPress" ariaDescribedBy="defaultButtonDescription genericButtonDescription">
+													<layoutData>
+														<FlexItemData growFactor="1"/>
+													</layoutData>
+												</Button>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="payment_agg">
+							<html:div class="container">
+								<html:h5 class="text-center">Choose Payment Aggregator</html:h5>
+								<html:div class="container-fluid">
+									<html:div class="row payFlex">
+										<html:div class="col-sm-2 pay_tile">
+											<GenericTile class="tileLayout" press="pressbilldesk">
+												<TileContent>
+													<content>
+														<html:div class="row">
+															<html:div class="pay_img">
+																<html:image src="images/billdesk.png" alt="billdesk"></html:image>
+															</html:div>
+															<html:div class="pay_desc">
+																<html:h6>Billdesk</html:h6>
+																<html:div class="pay_desc_opt">
+																	<html:ul>
+																		<html:li>Net Banking</html:li>
+																		<html:li>Debit/Credit Card</html:li>
+																		<html:li>Ammex Card/Dinner Card</html:li>
+																		<html:li>Wallet/Cash Cards</html:li>
+																	</html:ul>
+																</html:div>
+															</html:div>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-2 pay_tile">
+											<GenericTile class="tileLayout" press="pressCitrus">
+												<TileContent>
+													<content>
+														<html:div class="row">
+															<html:div class="pay_img">
+																<html:image src="images/citrus.png" alt="citrus"></html:image>
+															</html:div>
+															<html:div class="pay_desc">
+																<html:h6>Citrus</html:h6>
+																<html:div class="pay_desc_opt">
+																	<html:ul>
+																		<html:li>Net Banking</html:li>
+																		<html:li>Debit/Credit Card</html:li>
+																		<html:li>Citrus Card</html:li>
+																	</html:ul>
+																</html:div>
+															</html:div>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-2 pay_tile">
+											<GenericTile class="tileLayout" press="pressPaytm">
+												<TileContent>
+													<content>
+														<html:div class="row">
+															<html:div class="pay_img">
+																<html:image src="images/paytm.png" alt="paytm"></html:image>
+															</html:div>
+															<html:div class="pay_desc">
+																<html:h6>Paytm</html:h6>
+																<html:div class="pay_desc_opt">
+																	<html:ul>
+																		<html:li>Net Banking</html:li>
+																		<html:li>Debit/Credit Card</html:li>
+																		<html:li>Ammex Card/Dinner Card</html:li>
+																		<html:li>Paytm Wallet</html:li>
+																	</html:ul>
+																</html:div>
+															</html:div>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-2 pay_tile">
+											<GenericTile class="tileLayout" press="pressTechprocess">
+												<TileContent>
+													<content>
+														<html:div class="row">
+															<html:div class="pay_img">
+																<html:image src="images/techp.png" alt="techp"></html:image>
+															</html:div>
+															<html:div class="pay_desc">
+																<html:h6>TechProcess</html:h6>
+																<html:div class="pay_desc_opt">
+																	<html:ul>
+																		<html:li>Net Banking</html:li>
+																		<html:li>Debit/Credit Card</html:li>
+																	</html:ul>
+																</html:div>
+															</html:div>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-2 pay_tile">
+											<GenericTile class="tileLayout" press="pressItzcash">
+												<TileContent>
+													<content>
+														<html:div class="row">
+															<html:div class="pay_img">
+																<html:image src="images/itz_cash.png" alt="itz_cash"></html:image>
+															</html:div>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+											<GenericTile class="tileLayout" press="pressUpi">
+												<TileContent>
+													<content>
+														<html:div class="row">
+															<html:div class="pay_img">
+																<html:image src="images/std_chart.png" alt="std_chart"></html:image>
+															</html:div>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

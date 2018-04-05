@@ -1,0 +1,58 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="eodb_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_eodb.png" alt="icon_eodb" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Apply Online</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="eob_new_con">
+						<html:div class="container-fluid">
+							<html:div class="row">
+								<html:div class="col-xs-12 col-sm-8">
+									<html:h5>Have you already Registered for New Connection ?</html:h5>
+									<html:span>If "YES" kindly enter the Registration Number. Else click "No" and Apply for New Connection</html:span>
+								</html:div>
+								<html:div class="col-xs-6 col-sm-2">
+									<Button text="YES" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+								</html:div>
+								<html:div class="col-xs-6 col-sm-2">
+									<Button text="NO" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="eob_apply">
+						<html:div class="container-fluid">
+							<html:div class="row">
+								<html:div class="col-sm-4">
+									<Label text="Your Registration ID" labelFor="reg_id"/>
+								</html:div>
+								<html:div class="col-sm-5">
+									<Input type="Text" id="reg_id" required="true"/>
+								</html:div>
+								<html:div class="col-sm-3">
+									<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

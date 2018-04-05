@@ -1,0 +1,25 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container padding_bottom">
+					<html:div class="row intro_head">
+						<html:div class="col-xs-12">
+							<html:div class="news_let_bg border_rad_icon">
+								<html:div class="row icon_row_flex">
+									<html:div class="col-xs-2">
+										<html:image src="images/icon_newsletter.png" alt="icon_newsletter" class="img-responsive"></html:image>
+									</html:div>
+									<html:div class="col-xs-10">
+										<html:h4>Green Buildings</html:h4>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

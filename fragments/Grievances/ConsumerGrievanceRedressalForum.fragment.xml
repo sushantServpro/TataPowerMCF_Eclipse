@@ -1,0 +1,173 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="go-green_intro">
+					<html:div class="row intro_head">
+						<html:div class="col-xs-12">
+							<html:div class="gri_bg border_rad_icon">
+								<html:div class="row icon_row_flex">
+									<html:div class="col-xs-2">
+										<html:image src="images/icon_grievances.png" alt="icon_grievances" class="img-responsive"></html:image>
+									</html:div>
+									<html:div class="col-xs-10">
+										<html:h4>Consumer Grievance Redressal Forum</html:h4>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="procedure_head">
+					<html:h4>Consumer Grievance Redressal Forum(For Mumbai Consumers Only)</html:h4>
+					<html:p>Tata Power has constituted a Consumer Grievance Redressal Forum (CGRF) in accordance with sub-section (5) of Section 42 of the Act
+						and the Maharashtra Electricity Regulatory Commission (Consumer Grievance Redressal Forum and Electricity Ombudsman) Regulations, 2006. The
+						CGRF shall take up all consumer grievances related to electricity which have either received no response within the prescribed time frame of
+						two months or is not satisfied with the response of Internal Grievance Redressal Cell (IGRC) of Tata Power.</html:p>
+				</html:div>
+				<html:div class="regulatory_info">
+					<html:div class="row ele_cgrf">
+						<html:div class="col-sm-3 ele_comsn">
+							<html:h5>CGRF Contact Details</html:h5>
+							<html:p>
+								<html:span>The Tata Power Company,</html:span>
+								<html:span>Dharavi Receiving Station,</html:span>
+								<html:span>Near Shalimar Industrial Estate,</html:span>
+								<html:span>Matunga, Mumbai 400 019.</html:span>
+							</html:p>
+						</html:div>
+						<html:div class="col-sm-4 col-sm-offset-1">
+							<html:h5>Grievance Redressal Officer:</html:h5>
+							<html:p>
+								<html:span>Mr. D N Singh (Chairman),</html:span>
+								<html:span>Ms. Varsha Raut (Member, CGRF),</html:span>
+								<html:span>Mr. Nittin Mattoo,</html:span>
+								<html:span>
+									<html:a href="mailto:nittinmattoo@tatapower.com" target="_blank" title="nittinmattoo@tatapower.com">nittinmattoo@tatapower.com</html:a>
+								</html:span>
+								<html:span>Telephone: +91 9223589452.</html:span>
+								<html:span>Fax: 091-22 6717 2730.</html:span>
+								<html:span>
+									Email ID:
+									<html:a href="mailto:igr.grievance.cell@tatapower.com" target="_blank" title="Mail Us">igr.grievance.cell@tatapower.com</html:a>
+								</html:span>
+							</html:p>
+						</html:div>
+						<html:div class="col-sm-4">
+							<html:h5>Internal Grievance Cell</html:h5>
+							<html:p>
+								<html:span>Mr. Ravindra M. Kasarpatil,</html:span>
+								<html:span>The Tata Power Company Limited,</html:span>
+								<html:span>Dharavi Receiving Station (Near Shalimar Industrial Estate),</html:span>
+								<html:span>Matunga, Mumbai - 400 019,</html:span>
+								<html:span>Telephone No.: 091-22-6717 2700.</html:span>
+								<html:span>Fax No.: 091-22 6717 2730.</html:span>
+								<html:span>
+									Email:
+									<html:a href="mailto:grievance.cell@tatapower.com" target="_blank" title="Mail Us">grievance.cell@tatapower.com</html:a>
+								</html:span>
+							</html:p>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="regulatory_info">
+					<html:div class="row">
+						<html:div class="col-sm-5 ele_comsn">
+							<html:h5>Electricity Ombudsman</html:h5>
+							<html:p>
+								<html:span>Mr. R.D Sankhe</html:span>
+								<html:span>Location: Office of the Ombudsman (Electricity),</html:span>
+								<html:span>Maharashtra Electricity Regulatory Commission,</html:span>
+								<html:span>Keshava Building, Bandra-Kurla,</html:span>
+								<html:span>Complex, Bandra (East), Mumbai 400 055</html:span>
+							</html:p>
+						</html:div>
+						<html:div class="col-sm-5 col-sm-offset-1">
+							<html:h5>Maharashtra Electricity Regulatory Commission</html:h5>
+							<html:p>
+								<html:span>13th Floor, Centre1,
+								</html:span>
+								<html:span>World Trade Centre Cuffe Parade,</html:span>
+								<html:span>Colaba, Mumbai 40006
+								</html:span>
+							</html:p>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="electricity_act consmr_act_lst">
+					<html:ul class="nav nav-tabs nav-stacked">
+						<html:li>
+							<html:a href="#" target="_blank" title="Consumer Grievance Redressal Forum 2012">
+								<html:div class="row">
+									<html:div class="col-xs-10">Consumer Grievance Redressal Forum 2012</html:div>
+									<html:div class="col-xs-2 text-right">
+										<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+									</html:div>
+								</html:div>
+							</html:a>
+						</html:li>
+						<html:li>
+							<html:a href="#" target="_blank" title="Consumer Grievance Redressal Forum 2013">
+								<html:div class="row">
+									<html:div class="col-xs-10">Consumer Grievance Redressal Forum 2013</html:div>
+									<html:div class="col-xs-2 text-right">
+										<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+									</html:div>
+								</html:div>
+							</html:a>
+						</html:li>
+						<html:li>
+							<html:a href="#" target="_blank" title="Consumer Grievance Redressal Forum 2014">
+								<html:div class="row">
+									<html:div class="col-xs-10">Consumer Grievance Redressal Forum 2014</html:div>
+									<html:div class="col-xs-2 text-right">
+										<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+									</html:div>
+								</html:div>
+							</html:a>
+						</html:li>
+						<html:li>
+							<html:a href="#" target="_blank" title="Consumer Grievance Redressal Forum 2015">
+								<html:div class="row">
+									<html:div class="col-xs-10">Consumer Grievance Redressal Forum 2015</html:div>
+									<html:div class="col-xs-2 text-right">
+										<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+									</html:div>
+								</html:div>
+							</html:a>
+						</html:li>
+						<html:li>
+							<html:a href="#" target="_blank" title="Consumer Grievance Redressal Forum 2016">
+								<html:div class="row">
+									<html:div class="col-xs-10">Consumer Grievance Redressal Forum 2016</html:div>
+									<html:div class="col-xs-2 text-right">
+										<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+									</html:div>
+								</html:div>
+							</html:a>
+						</html:li>
+						<html:li>
+							<html:a href="#" target="_blank" title="Consumer Grievance Redressal Forum 2017">
+								<html:div class="row">
+									<html:div class="col-xs-10">Consumer Grievance Redressal Forum 2017</html:div>
+									<html:div class="col-xs-2 text-right">
+										<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+									</html:div>
+								</html:div>
+							</html:a>
+						</html:li>
+					</html:ul>
+				</html:div>
+				<html:div class="procedure_head">
+					<html:p>For any requests/complaints pertaining to Tata Power Delhi Distribution Ltd(TPDDL), the consumers may please mark their mail to
+						<html:a href="mailto:ccag@tatapower-ddl.com" title="Mail Us">ccag@tatapower-ddl.com</html:a>
+						OR at TPDDL website with link
+						<html:a href="http://www.tatapower-ddl.com/" target="_blank" title="http://www.tatapower-ddl.com/">http://www.tatapower-ddl.com/</html:a>
+						to enable timely resolution. TPDDL has an independent Complaint Management Process to ensure complaint resolution in line with regulations
+						and customer satisfaction.</html:p>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

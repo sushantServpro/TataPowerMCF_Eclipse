@@ -1,0 +1,90 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid padding_bottom">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="knw_cen_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_knowledge.png" alt="icon_knowledge" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Safety Guidelines</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="safety_guide_info">
+							<html:p>
+								Electricity is one of the greatest inventions, which has dramatically changed our life style. It is our best friend and always at our
+								command. But at the same time it has to be handled carefully. It can also be dangerous to life and can cause injuries or property damage or
+								both. Hence it is essential to take all precautions in proper use of electrical equipment.
+							</html:p>
+						</html:div>
+						<html:div class="safety_guide_req">
+							<html:div class="row">
+								<html:div class="col-sm-6">
+									<html:h5>You are requested to :</html:h5>
+									<html:ul class="blue_bullet_list">
+										<html:li>Treat all circuits as LIVE until they are confirmed to be DEAD, after testing.</html:li>
+										<html:li>Use fuse wire of the correct size and capacity without a joint.</html:li>
+										<html:li>Place a main switch that is easily accessible for turning off the supply in case of an emergency.</html:li>
+										<html:li>Ensure that fuses are installed only on the phase wires.</html:li>
+										<html:li>Use E.L.C.B. (Earth Leakage Circuit Breaker) with the main switch for added personal safety.</html:li>
+										<html:li>Allow only qualified persons / licensed electricians to carry out electrical repairs.</html:li>
+										<html:li>Preferably use ISI marked / certified electrical appliances / equipment / materials.</html:li>
+										<html:li>Use electrical cables and equipment of adequate capacity and proper insulation.</html:li>
+										<html:li>Ensure that all appliances / equipment are provided with a 3-pin plug and socket.</html:li>
+										<html:li>Ensure outer metal parts of the appliances / equipment are effectively earthed.</html:li>
+										<html:li>Always use only an insulated wire for Neutral.</html:li>
+										<html:li>Always use a separate wire for Earthing.</html:li>
+										<html:li>Pull out the supply end first while removing a fuse and put in the supply end in the last while inserting it.</html:li>
+										<html:li>Before replacing a lamp ensure that the supply is turned off.</html:li>
+										<html:li>Ensure that earthing to electrical installations be done with a copper wire / plate / rod and make sure there are no paint or
+											insulating materials on the earthing terminal.</html:li>
+										<html:li>Use an adequate capacity extension box for plugging in more than one equipment.</html:li>
+										<html:li>Use only one plug in a socket.</html:li>
+										<html:li>Turn off the supply immediately in case of a short circuit / fire in or near electrical appliances.</html:li>
+										<html:li>Use only CO2 or Dry Chemical Powder extinguishers for dousing electrical fire.</html:li>
+										<html:li>Always wear dry rubber footwear / gloves while handling electrical appliances. Also stand on a rubber mat / dry wooden plank.</html:li>
+										<html:li>Turn off the supply immediately in case of an electrical accident. Insulate yourself on a dry board / insulating material before
+											removing the person in contact with the live part. Immediately call for a doctor and continue to give artificial respiration till medical
+											assistance arrives.</html:li>
+										<html:li>Educate children on the dangers of mishandling electrical connections, equipment and appliances. Cover the holes of sockets which
+											are not in use, easily reachable by children.
+										</html:li>
+									</html:ul>
+								</html:div>
+								<html:div class="col-sm-6">
+									<html:h5>You are requested not to :</html:h5>
+									<html:ul class="red_bullet_list">
+										<html:li>Make any temporary joints in the wiring, especially without proper insulation.</html:li>
+										<html:li>Insert wires directly into the plug socket without a matching plug pin, even if only on a temporary basis.</html:li>
+										<html:li>Use any appliances without proper earthing.</html:li>
+										<html:li>Install a fuse on the neutral circuit.</html:li>
+										<html:li>Overload the wires by using multiple appliances from a single plug socket.</html:li>
+										<html:li>Replace a fuse unless the fault is detected and rectified.</html:li>
+										<html:li>Provide a higher size fuse wire than the prescribed size.</html:li>
+										<html:li>Touch a bare wire, i.e. without insulation. It may be LIVE.</html:li>
+										<html:li>Allow water to enter your electrical appliances while cleaning them.</html:li>
+										<html:li>Use wet hands to turn ON or turn OFF a switch.</html:li>
+										<html:li>Plug in any appliances when the switch is ON.</html:li>
+										<html:li>Touch a person who is in contact with a live circuit.</html:li>
+										<html:li>Turn ON a switch unless the plug is completely inserted.</html:li>
+										<html:li>Use water for extinguishing fires caused due to electricity or in the vicinity of electrical equipment.</html:li>
+										<html:li>Allow children to play with sockets, plugs, wires and other electrical appliances.</html:li>
+									</html:ul>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

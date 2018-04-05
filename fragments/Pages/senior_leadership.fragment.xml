@@ -1,0 +1,209 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="row intro_head">
+					<html:div class="col-xs-12">
+						<html:div class="sr_bg border_rad_icon">
+							<html:div class="row icon_row_flex">
+								<html:div class="col-xs-2">
+									<html:image src="images/icon_writeto_srleadership.png" alt="icon_writeto_srleadership" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-xs-10">
+									<html:h4>Write to Senior Leadership</html:h4>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:p class="senleader">Dear Friend,</html:p>
+				<html:p class="senleader">We welcome you to this forum where you can share your opinion, unresolved complaint, query and feedback directly
+					with our seniorleaders, steering this special channel. The senior leaders who are a part of this forum are:</html:p>
+				<html:div class="row">
+					<html:div class="col-md-6">
+						<html:div class="seniorleader">
+							<html:div class="row ">
+								<html:div class="col-md-4">
+									<html:image src="images/coo.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+								</html:div>
+								<html:div class="col-md-8">
+									<html:p class="senled">
+										<html:image src="images/speech_top.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+										Our endeavor is to deliver “uninterrupted power supply” to all the customers.It will be heartening to know your experiences or suggestions
+										to help us get better. Please feel free to provide us your valuable feedback or suggestions. We are committed to serving our customers to
+										the best of our ability.
+										<html:image src="images/speech_bottom.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+									</html:p>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="row sr_lead_info">
+							<html:div class="col-md-6 ">
+								<html:h5>Mr. Ashok S. Sethi</html:h5>
+								<html:p class="mdname">COO &amp; Executive Director</html:p>
+							</html:div>
+							<html:div class="col-md-3 col-md-offset-3 lead_btn_write">
+								<Button icon="sap-icon://edit" press="press" ariaLabelledBy="actionButtonLabel" class="switchcenter write" text="WRITE"/>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="col-md-6">
+						<html:div class="seniorleader">
+							<html:div class="row">
+								<html:div class="col-md-4">
+									<html:image src="images/ceo.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+								</html:div>
+								<html:div class="col-md-8">
+									<html:p class="senled">
+										<html:image src="images/speech_top.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+										I acknowledge that you have a choice of a service provider.I can assure you that we are committed to serving our customers
+										seamlessly.However, in case your experience is otherwise or you have suggestion for us to serve you better, kindly write to me, directly. I
+										will always cherish your feedback, suggestion or inputs for improvements. Please accept my thanks and gratitude for visiting our web-link
+										and spending your valuable time in engaging with us.
+										<html:image src="images/speech_bottom.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+									</html:p>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="row sr_lead_info">
+							<html:div class="col-md-6 ">
+								<html:h5>Mr. Anil Sardana</html:h5>
+								<html:p class="mdname">CEO &amp; Managing Director</html:p>
+							</html:div>
+							<html:div class="col-md-3 col-md-offset-3 lead_btn_write">
+								<Button icon="sap-icon://edit" press="onPress" ariaLabelledBy="actionButtonLabel" class="switchcenter write" text="WRITE"/>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:p class="senleader">Please feel free to write to them. We are committed to address all your concerns to your fullest</html:p>
+				<html:p class="senleader">satisfaction and put your feedback into action.</html:p>
+				<html:div class="textimgvalue">
+					<html:image src="images/feedback.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+				</html:div>
+				<html:h5 class="text-center best_regards">BEST REGARDS</html:h5>
+				<html:h5 class="teamtata">Team TATA Power</html:h5>
+				<html:p class="penleader">For any requests/complaints pertaining to Tata Power Delhi Distribution Ltd (TPDDL), the consumers may please mark their mail to
+					<html:a href="mailto:ccag@tatapower-ddl.com" title="Mail Us">ccag@tatapower-ddl.com</html:a>
+				</html:p>
+				<html:p class="penleader">OR at TPDDL website with link
+					<html:a href="http://www.tatapower-ddl.com/" title="Tata Power DDl" target="_blank">http://www.tatapower-ddl.com/</html:a>
+					to enable timely resolution.
+				</html:p>
+				<html:p class="penleader">TPDDL has an independent Complaint Management Process to ensure complaint resolution in line with regulations and customer satisfaction.</html:p>
+			</Panel>
+			<!--write to sl form-->
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="intro_head">
+							<html:h4>Write to Senior Leadership</html:h4>
+						</html:div>
+					</html:div>
+					<html:div class="feddback_desc">
+						<html:div class="feedback_form">
+							<html:h5 class="mandatory">
+								<html:em>*Indicates Mandatory Fields</html:em>
+							</html:h5>
+							<html:div class="row form_row">
+								<html:div class="col-sm-2">
+									<Label text="Salutation" labelFor="con_num"/>
+									<!--<MultiComboBox selectionChange="handleSelectionChange" selectionFinish="handleSelectionFinish"-->
+									<!--	items="{ path: 'McfPortalModel>/results' }">-->
+									<!--	<core:Item key="{McfPortalModel>Key}" text="{McfPortalModel>Value}"/>-->
+									<!--</MultiComboBox>-->
+									<ComboBox id="idSal" items="{SeniorLeaderModel>/results}" >
+										<!--<items>-->
+											<core:Item key="{SeniorLeaderModel>Value}" text="{SeniorLeaderModel>Value}"/>
+										<!--</items>-->
+									</ComboBox>
+								</html:div>
+								<html:div class="col-sm-5">
+									<Label text="Consumer Number" labelFor="consm_num"/>
+									<Input type="Number" id="consm_num" required="true" placeholder="Enter"/>
+								</html:div>
+								<html:div class="col-sm-5">
+									<Label text="Consumer Name" labelFor="consm_name"/>
+									<Input type="Text" id="consm_name" required="true" placeholder="Enter"/>
+								</html:div>
+							</html:div>
+							<html:div class="row form_row">
+								<html:div class="col-sm-6">
+									<Label text="Landline Number" labelFor="land_num"/>
+									<Input id="land_num" required="true" placeholder="Enter"/>
+								</html:div>
+								<html:div class="col-sm-6">
+									<Label text="Mobile Number" labelFor="mobile_num"/>
+									<Input type="Number" id="mobile_num" required="true" placeholder="Enter"/>
+								</html:div>
+							</html:div>
+							<html:div class="row form_row">
+								<html:div class="col-sm-6">
+									<Label text="Email ID" labelFor="email_id"/>
+									<Input type="Email" id="email_id" required="true" placeholder="Enter"/>
+								</html:div>
+							</html:div>
+							<html:div class="radio_row">
+								<html:div class="row form_row">
+									<html:div class="col-sm-2">
+										<Label text="Query Category :" labelFor="query_cat"/>
+									</html:div>
+									<html:div class="col-sm-10">
+										<html:div class="row">
+											<html:div class="col-sm-2">
+												<RadioButton groupName="query_cat" id="IdQuery" text="Query"/>
+											</html:div>
+											<html:div class="col-sm-2">
+												<RadioButton groupName="query_cat" id="IdComplaint" text="Complaint"/>
+											</html:div>
+											<html:div class="col-sm-2">
+												<RadioButton groupName="query_cat" id="IdRequest" text="Request"/>
+											</html:div>
+											<html:div class="col-sm-2">
+												<RadioButton groupName="query_cat" id="IdFeedback" text="Feedback"/>
+											</html:div>
+											<html:div class="col-sm-2">
+												<RadioButton groupName="query_cat" id="IdAppreciation" text="Appreciation"/>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="row form_row">
+								<html:div class="col-xs-12">
+									<Label text="Please describe your query/complaint" labelFor="purpose"/>
+									<TextArea placeholder="Enter" id="IdQueCom" growing="true" growingMaxLines="7" width="100%"/>
+								</html:div>
+							</html:div>
+							<html:div class="row form_row">
+								<html:div class="col-sm-5">
+									<Label text="Image Verification" labelFor="captcha"/>
+									<Input id="wInput" type="text" editable="false" value="" class="sapUiSmallMarginBottom"/>
+									<!--<Button text="REFRESH CAPTCHA" press="onRefreshCaptcha" class="switchcenter rpfbtn"-->
+									<!--ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>-->
+								</html:div>
+								<html:div class="col-sm-1">
+									<!--<Label text="Image Verification" labelFor="captcha"/>-->
+									<!--<Input id="wInput" type="text" editable="false" value="" class="sapUiSmallMarginBottom"/>-->
+									<Button text="Refresh" press="onRefreshCaptcha" class="switchcenter rpfbtn"
+										ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+								</html:div>
+								<html:div class="col-sm-5">
+									<Label text="Enter Image Verification Code" labelFor="captcha"/>
+									<Input type="text" id="captcha1" required="true" placeholder="Enter"/>
+								</html:div>
+							</html:div>
+							<html:div class="row form_row">
+								<html:div class="col-md-2 col-md-offset-5">
+									<Button text="SUBMIT" press="onPressSubmit" class="switchcenter form-control"
+										ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

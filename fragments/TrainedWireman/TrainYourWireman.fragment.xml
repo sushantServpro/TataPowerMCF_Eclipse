@@ -1,0 +1,72 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_11">
+				<html:div class="go-green_intro">
+<html:div class="row intro_head">
+<html:div class="col-xs-12">
+<html:div class="wire_bg border_rad_icon">
+<html:div class="row icon_row_flex">
+<html:div class="col-xs-2">
+<html:image src="images/icon_trained_wreman.png" alt="icon_trained_wreman" class="img-responsive"></html:image>
+</html:div>
+<html:div class="col-xs-10">
+<html:h4>Trained Wireman</html:h4>
+</html:div>
+</html:div>
+</html:div>
+</html:div>
+</html:div>
+</html:div>
+				<html:h6>Please Enter all related information for us to help you better</html:h6>
+				<html:div class="wire">
+					<html:div class="row">
+						<html:div class="col-md-7">
+							<Label text="Consumer Name" labelFor="sumInput"/>
+							<Input id="sumInput" required="true" type="number" class="sapUiSmallMarginBottom" placeholder="Enter Consumer Name"/>
+						</html:div>
+						<html:div class="col-md-5">
+							<Label text="Consumer Number" labelFor="msumInput"/>
+							<Input id="msumInput" maxLength="12" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter Consumer Number"/>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-md-7">
+							<Label text="Name of the Wireman" labelFor="sumerInput"/>
+							<Input id="sumerInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter Name of the Wireman"/>
+						</html:div>
+						<html:div class="col-md-5">
+							<Label text="Contact Number/Wireman contact number:" labelFor="wconInput"/>
+							<Input id="wconInput" maxLength="10" required="true" type="Number" class="sapUiSmallMarginBottom" placeholder="Enter contact number"/>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-md-4">
+							<Label text="PWD Licence No" labelFor="wpwdInput"/>
+							<Input id="wpwdInput" maxLength="30" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter PWD Licence No"/>
+						</html:div>
+							<html:div class="col-md-3">
+							<Label text="Captcha" labelFor="wInput"/>
+							<Input id="wInput" type="text" editable="false" value="" class="sapUiSmallMarginBottom" />
+						</html:div>
+						<html:div class="col-md-5">
+							<Label text="Enter Image varification Code:" labelFor="wmInput"/>
+							<Input id="wmInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter Captcha"/>
+						</html:div>
+						<html:div class="col-md-2 col-md-offset-4">
+							<Button text="REFRESH CAPTCHA" press="onRefreshCaptcha" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+						</html:div>
+						<html:div class="col-md-2">
+							<Button text="SAVE" press="onSaveTraine" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+						</html:div>
+						<html:div class="col-md-2">
+							<Button text="CANCEL" press="onCancle" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+						</html:div>
+						
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

@@ -1,0 +1,120 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<html:div class="row">
+				<html:div class="row intro_head">
+					<html:div class="col-xs-12">
+						<html:div class="video_bg border_rad_icon">
+							<html:div class="row icon_row_flex">
+								<html:div class="col-xs-2">
+									<html:image src="images/icon_video_gallery.png" alt="icon_video_gallery" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-xs-10">
+									<html:h4>Video Gallery</html:h4>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</html:div>
+			<html:div class="row">
+				<html:div class="col-md-12">
+					<html:div class="row">
+						<html:div class="col-md-4 col-md-offset-1 col-sm-6 col-xs-12">
+							<html:a href="https://play.google.com/store/apps/details?id=com.tata.tatapower">
+								<html:image src="images/android.png" alt="play_store" class="mobileandoapp"></html:image>
+							</html:a>
+						</html:div>
+						<html:div class="col-md-4 col-md-offset-2 col-sm-6 col-xs-12">
+							<html:a href="https://itunes.apple.com/in/app/tata-power-mobile-app/id1136636873?mt=8">
+								<html:image src="images/ios.png" alt="app_store" class="mobileandoapp"></html:image>
+							</html:a>
+						</html:div>
+					</html:div>
+				</html:div>
+			</html:div>
+			<html:div class="row">
+				<html:div class="col-md-6">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body videogallery">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PyBJwuAdQ1w"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">
+							<html:h4>Tata Power Corporate Anthem</html:h4>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="col-md-6">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body videogallery">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-Uk5jhbY7jE"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">
+							<html:h4>Customer event movie</html:h4>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="col-md-6">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body videogallery">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gOkvLfKpAeU"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">
+							<html:h4>Video Message on Electrical Safety by
+							</html:h4>
+							<html:h4>
+								Mr.Ashok Sethi, COO &amp; ED , Tata Power</html:h4>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="col-md-6">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body videogallery">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OJAWa3mFbPo"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">
+							<html:h4>Tata Power Club Enerji- Celebrating</html:h4>
+							<html:h4>
+								10 years of Conservation</html:h4>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="col-md-6">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body videogallery">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pgR2y_cfl5Q"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">
+							<html:h4>Tata Power Mobile App Tutorial</html:h4>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="col-md-6">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body videogallery">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HEPMxQsE7bQ"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">
+							<html:h4>Factors that increases</html:h4>
+							<html:h4>
+								Power Consumption</html:h4>
+						</html:div>
+					</html:div>
+				</html:div>
+			</html:div>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

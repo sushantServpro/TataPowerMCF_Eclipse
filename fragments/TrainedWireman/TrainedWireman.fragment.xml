@@ -1,0 +1,90 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_35">
+			<html:div class="go-green_intro">
+<html:div class="row intro_head">
+<html:div class="col-xs-12">
+<html:div class="wire_bg border_rad_icon">
+<html:div class="row icon_row_flex">
+<html:div class="col-xs-2">
+<html:image src="images/icon_trained_wreman.png" alt="icon_trained_wreman" class="img-responsive"></html:image>
+</html:div>
+<html:div class="col-xs-10">
+<html:h4>Trained Wireman</html:h4>
+</html:div>
+</html:div>
+</html:div>
+</html:div>
+</html:div>
+</html:div>
+				<html:h6>Please enter all related information For us to help you better.</html:h6>
+				<html:div class="row wiremanfind">
+					<html:div class="col-md-6">
+						<Label text="Select Area" labelFor=""/>
+						<ComboBox id="idArea" items="{AreaModel>/results}" showSecondaryValues="true"
+						selectedKey="{WiremanView>/AreaKey}">
+						<items>
+						<core:ListItem key="{AreaModel>ZpcArea}" text="{AreaModel>ZpcArea}"/>
+						</items>
+					</ComboBox>
+					</html:div>
+					<html:div class="col-md-2">
+						<Button text="GO" press="onPressGo" class="switchcenter go" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+					</html:div>
+					<html:div class="col-md-2">
+						<Button text="CENCEL" press="onPressCancle" class="switchcenter go" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+					</html:div>
+				</html:div>
+				<html:div class="row">
+					<html:div class="wiremenfinder">
+						<html:div class="col-md-12">
+							<html:div class="searchwireman">
+									<html:div class="tblEquip view_table">
+						<Table id="idWiremanTab" growing="true"
+			            noDataText="{WiremanView>/tableNoDataText}"
+			            growingScrollToLoad="true"
+                        items="{/RegWiremanSet}">
+							<columns>
+								<Column minScreenWidth="Desktop">
+									<Text text="Name of Wireman"/>
+								</Column>
+								<Column minScreenWidth="Desktop" demandPopin="true">
+									<Text text="License No."/>
+								</Column>
+								<Column minScreenWidth="Desktop" demandPopin="true">
+									<Text text="Mobile No."/>
+								</Column>
+								<Column minScreenWidth="Desktop" demandPopin="true">
+									<Text text="Photo"/>
+								</Column>
+								<Column minScreenWidth="Desktop" demandPopin="true">
+									<Text text="Address"/>
+								</Column>
+								<Column minScreenWidth="Desktop" demandPopin="true">
+									<Text text="Area"/>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<ObjectIdentifier title="{Zwireman}"/>
+										<Text text="{ZpwdMainLic}"/>
+										<Text text="{ZwireMob}"/>
+										<Image src="data:image/jpeg;base64,{Zzimage}"  alt="speakers " class="innertileimg" />
+										<Text text="{Zzaddress}"/>
+										<Text text="{ZpcArea}"/>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

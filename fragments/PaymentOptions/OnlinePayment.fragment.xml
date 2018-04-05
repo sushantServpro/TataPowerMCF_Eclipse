@@ -1,0 +1,158 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div>
+					<html:div class=" col-md-12">
+						<html:div class="go-green_intro">
+							<html:div class="row intro_head">
+								<html:div class="col-xs-12">
+									<html:div class="pay_opt_bg border_rad_icon">
+										<html:div class="row icon_row_flex">
+											<html:div class="col-xs-2">
+												<html:image src="images/icon_payment_opt.png" alt="icon_payment_opt" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="col-xs-10">
+												<html:h4>Online Payment</html:h4>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="payBill">
+							<html:div class="payBill_head">
+								<html:h3 class="text-center">
+									<html:image src="images/pay_bill.png" alt="pay_bill"></html:image>pay your bill here</html:h3>
+							</html:div>
+							<html:div class="payBill_info">
+								<html:div class="counters">
+									<html:div class="row">
+										<html:div class="col-xs-4 col-sm-2 text-center">
+											<html:span>Consumer Number</html:span>
+											<html:h4>1234</html:h4>
+										</html:div>
+										<html:div class="col-xs-4 col-sm-3 text-center acc_no">
+											<html:span>Consumer Name</html:span>
+											<html:h4>Abc</html:h4>
+										</html:div>
+										<html:div class="col-xs-4 col-sm-4 text-center acc_no">
+											<html:span>Consumer Email ID</html:span>
+											<html:h4>abc@gmail.com</html:h4>
+										</html:div>
+										<html:div class="col-xs-4 col-sm-3 text-center">
+											<html:span>Consumer Mobile Number</html:span>
+											<html:h4>9896959793</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="make_payment">
+								<html:p>To make payment, please select a bill first</html:p>
+								<html:div class="view_table">
+									<Table mode="MultiSelect" id="tblPayBill" inset="false" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+										<headerToolbar>
+											<Toolbar>
+												<content>
+													<Title text="Current Bill" level="H2"/>
+												</content>
+											</Toolbar>
+										</headerToolbar>
+										<columns>
+											<Column minScreenWidth="Desktop">
+												<Text text="Bill Number"/>
+											</Column>
+											<Column minScreenWidth="Desktop" demandPopin="true">
+												<Text text="Bill Date"/>
+											</Column>
+											<Column minScreenWidth="Desktop" demandPopin="true">
+												<Text text="Bill Month &amp; Year"/>
+											</Column>
+											<Column minScreenWidth="Desktop" demandPopin="true">
+												<Text text="Discount"/>
+											</Column>
+											<Column minScreenWidth="Tablet" demandPopin="true" width="19%">
+												<Text text="Net Bill Amount(Rs.)(After Discount)"/>
+											</Column>
+											<Column minScreenWidth="Tablet" demandPopin="true">
+												<Text text="Due Date"/>
+											</Column>
+											<Column minScreenWidth="Tablet" demandPopin="true">
+												<Text text="Bill Amount"/>
+											</Column>
+											<Column minScreenWidth="Desktop">
+												<Text text="Remarks"/>
+											</Column>
+										</columns>
+										<items>
+											<ColumnListItem>
+												<cells>
+													<ObjectIdentifier title="{Name}" text="{ProductId}"/>
+													<Text text="{SupplierName}"/>
+													<Text text="{Width} x {Depth} x {Height} {DimUnit}"/>
+													<ObjectNumber number="{WeightMeasure}" unit="{WeightUnit}"
+														state="{ parts: [ {path: 'WeightMeasure'}, {path: 'WeightUnit'} ], formatter: 'sap.m.sample.Table.Formatter.weightState' }"/>
+													<ObjectNumber
+														number="{ parts:[{path:'Price'},{path:'CurrencyCode'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }"
+														unit="{CurrencyCode}"/>
+												</cells>
+											</ColumnListItem>
+										</items>
+									</Table>
+								</html:div>
+								<html:div class="btn_pay_bill">
+									<html:div class="container-fluid">
+										<html:div class="row">
+											<html:div class="col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
+												<Button text="PAY" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="pay_bill_sec_dep">
+								<html:div class="view_table">
+									<Table id="tblSecDepo" inset="false" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+										<headerToolbar>
+											<Toolbar>
+												<content>
+													<Title text="Security Deposite" level="H2"/>
+												</content>
+											</Toolbar>
+										</headerToolbar>
+										<columns>
+											<Column minScreenWidth="Desktop">
+												<Text text="Security Deposite Bill No"/>
+											</Column>
+											<Column minScreenWidth="Desktop" demandPopin="true">
+												<Text text="Security Deposite Due (In Rs.)"/>
+											</Column>
+											<Column minScreenWidth="Desktop" demandPopin="true">
+												<Text text="Remarks"/>
+											</Column>
+										</columns>
+										<items>
+											<ColumnListItem>
+												<cells>
+													<ObjectIdentifier title="{Name}" text="{ProductId}"/>
+													<Text text="{SupplierName}"/>
+													<Text text="{Width} x {Depth} x {Height} {DimUnit}"/>
+													<ObjectNumber number="{WeightMeasure}" unit="{WeightUnit}"
+														state="{ parts: [ {path: 'WeightMeasure'}, {path: 'WeightUnit'} ], formatter: 'sap.m.sample.Table.Formatter.weightState' }"/>
+													<ObjectNumber
+														number="{ parts:[{path:'Price'},{path:'CurrencyCode'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }"
+														unit="{CurrencyCode}"/>
+												</cells>
+											</ColumnListItem>
+										</items>
+									</Table>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

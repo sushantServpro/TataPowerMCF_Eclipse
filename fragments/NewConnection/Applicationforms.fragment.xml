@@ -1,0 +1,39 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_44">
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="intro_head">
+							<html:h4>Application Forms</html:h4>
+						</html:div>
+					</html:div>
+					<html:div class="pwr_sply_frm">
+						<html:h4 class="text-center">power supply application form</html:h4>
+						<html:div class="pwr_sply_desc">
+							<html:p class="text-center">Kindly make a note of the system generated Application Number and take a print of this page.</html:p>
+							<html:p class="text-center">It is mandatory to attach the print out of this page with your application form during the submission of your form.</html:p>
+						</html:div>
+					</html:div>
+					<html:div class="pwr_sply_app_num">
+						<html:h5 class="text-center">your application number</html:h5>
+						<html:div class="row">
+							<html:div class="col-sm-4 col-sm-offset-4">
+								<html:div class="rdm_num">
+									<Label text="WTPCA24052"/>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="row btn_continue">
+							<html:div class="col-sm-4 col-sm-offset-4 audit_reg">
+								<Button text="CONTUNUE" press="onPress" class="switchcenter form-control"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

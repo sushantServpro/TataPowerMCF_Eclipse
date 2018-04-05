@@ -1,0 +1,55 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="contact_number">
+						<html:div class="ass_officer">
+							<html:h4>Call Centre Numbers</html:h4>
+							<html:div class="row">
+								<html:div class="col-xs-12">
+									<html:div class="ass_officer_num">
+										<html:div class="row ass_officer_num_rw1">
+											<html:div class="col-sm-6">
+												<html:h5>You can reach us day &amp; night on out Toll Free Number</html:h5>
+											</html:div>
+											<html:div class="col-sm-6">
+												<html:div class="row ass_officer_num_rw2">
+													<html:div class="col-xs-3 col-sm-2">
+														<html:image src="images/number.png" alt="number" class="img-responsive"></html:image>
+													</html:div>
+													<html:div class="col-xs-9 col-sm-10">
+														<html:h4 class="cont_tel_num">1800 209 5161</html:h4>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+									<html:div class="ass_officer_num">
+										<html:div class="row ass_officer_num_rw1">
+											<html:div class="col-sm-6">
+												<html:h5>Power Failure complaints can now be registered via SMS!</html:h5>
+											</html:div>
+											<html:div class="col-sm-6">
+												<html:div class="row ass_officer_num_rw2">
+													<html:div class="col-xs-3 col-sm-2">
+														<html:image src="images/sms.png" alt="sms" class="img-responsive"></html:image>
+													</html:div>
+													<html:div class="col-xs-9 col-sm-10">
+														<html:span class="cont_tel">Send NS&lt;12 digit Consumer No&gt;to</html:span>
+														<html:h4 class="cont_tel_num">9223170707</html:h4>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

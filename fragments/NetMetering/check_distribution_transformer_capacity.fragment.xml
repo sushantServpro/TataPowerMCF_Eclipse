@@ -1,0 +1,45 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="intro_head">
+							<html:h4>Check Distribution Transfer Capacity</html:h4>
+						</html:div>
+					</html:div> 
+				</html:div>
+				<html:div class="track_request">
+					<html:div class="container-fluid">
+						<html:div class="row">
+							<html:div class="col-sm-4">
+								<Label text="Enter Consumer Number" labelFor=""/>
+							</html:div>
+							<html:div class="col-sm-5">
+								<Input type="Text" id=""/>
+							</html:div>
+							<html:div class="col-sm-3">
+								<Button text="DISPLAY" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="chk_instruction">
+					<html:div class="container-fluid">
+						<html:h5>Instructions</html:h5>
+						<html:ol type="a">
+							<html:li>The system is available for all LT consumers directly connected to Tata Power network.</html:li>
+							<html:li>LT changover consumers connected to other wires licensee network will not be able to get the transformer capacity online. Such
+								applications will be processed through wires licensee.</html:li>
+							<html:li>For all HT consumers, this system is not applicable</html:li>
+						</html:ol>
+						<html:p>*If you have any queries, please write to :
+							<html:a href="mailto:solarnetmetering@tatapower.com" title="Mail Us">solarnetmetering@tatapower.com</html:a>
+						</html:p>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

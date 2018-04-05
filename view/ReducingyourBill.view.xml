@@ -1,0 +1,80 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tatapower.dev.controller.ReducingyourBill"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container">
+						<Panel>
+							<html:div class="container-fluid">
+								<html:div class="go-green_intro">
+									<html:div class="row intro_head">
+										<html:div class="col-xs-12">
+											<html:div class="grn_cor border_rad_icon">
+												<html:div class="row icon_row_flex">
+													<html:div class="col-xs-2">
+														<html:image src="images/icon_green_corn.png" alt="icon_green_corn" class="img-responsive"></html:image>
+													</html:div>
+													<html:div class="col-xs-10">
+														<html:h4>Reducing Your Bill</html:h4>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+								<html:div class="green_build_desc">
+									<html:p>
+										Energy conservation and reducing bills should become a mantra to be competitive for everyone. The way one would exercise every day, we
+										recommend our customers to reflect on some simple solutions and options that can be implemented without any specialised support. It's proven
+										that as high as 10 to 15% of savings can come through no-cost or low-cost options evolving from changing operational practices.
+									</html:p>
+									<html:p>
+										If you are on a two-part tariff, one basic component of your bill is the demand charge. Options available for an industrial consumer is to
+										identify processes that run simultaneously but are not essential for the main production. Such processes should be operated in series as
+										against in parallel to save on the total demand. Example - if you are running baking ovens in a particular shift and are also running large
+										dryers during the same shift, you can always, change the shift operations to run the two processes in series instead of parallel. Other
+										example - if you pump water from municipal source to overhead tanks, try and run the pumps during the time when main process is not
+										operational. This will save total demand.
+									</html:p>
+									<html:p>
+										Watch your bills and study if you are paying power factor penalty. If you are, assess the benefit-cost of installing capacitor banks or
+										Automatic Power Factor Correction panels and savings due to reduced power factor penalty.
+									</html:p>
+									<html:h5>
+										Power Consumption Guidelines
+									</html:h5>
+									<html:p>
+										Use the Ready Reckoner on
+										<html:strong>Power Consumption Guideline</html:strong>
+										to know units consumed per month for appliances/equipment based on usage pattern.
+									</html:p>
+									<html:h5>
+										Energy Calculator
+									</html:h5>
+									<html:p>
+										We recommend you to use the interactive
+										<html:strong>Energy Calculator</html:strong>
+										to know your electricity bill based on your consumption pattern. Use the calculator to also simulate how much you can save if you reduce
+										hours of usage per day for some of the appliances/equipment.
+									</html:p>
+									<html:h5>
+										Energy Savings Tips
+									</html:h5>
+									<html:p>
+										We recommend you to visit some simple but proven and
+										<html:strong>effective tips</html:strong>
+										to save electricity consumption. Tata Power will keep on adding more tips for your benefit.
+									</html:p>
+								</html:div>
+							</html:div>
+						</Panel>
+					</html:div>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,48 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<TableSelectDialog
+		noDataText="No Data Found"
+		title="Tariff List"
+		search="_handleValueHelpSearch"
+		confirm="_handleValueHelpClose"
+		close="_handleValueHelpClose"
+		items="{path: 'Tariff>/results'}">
+		<ColumnListItem>
+			<cells>
+				<Text text="{Tariff>Sparte}" />
+				<Text text="{Tariff>Aklasse}" />
+				<Text text="{Tariff>Tariftyp}" />
+				<Text text="{Tariff>Ttypbez}" />
+			</cells>
+		</ColumnListItem>
+		<columns>
+			<Column width="12em">
+				<header>
+					<Text text="Division" />
+				</header>
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true" >
+				<header>
+					<Text text="Billing Class" />
+				</header>
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<header>
+					<Text text="Rate Category" />
+				</header>
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<header>
+					<Text text="Rate Category Text" />
+				</header>
+			</Column>
+		</columns>
+	</TableSelectDialog>
+</core:FragmentDefinition>

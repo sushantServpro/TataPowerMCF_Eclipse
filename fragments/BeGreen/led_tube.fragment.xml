@@ -1,0 +1,36 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro audit_prog">
+						<html:div class="intro_head">
+							<html:h4>LED Tube Light</html:h4>
+						</html:div>
+						<html:div class="intro_img">
+							<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+						</html:div>
+						<html:div class="intro_desc">
+							<html:h5 class="text-center">LED Tube Light New Purchase Programme</html:h5>
+						</html:div>
+						<html:p class="text-center">(For Tata Power Residential and Industrial/Commercial Consumers)</html:p>
+						<html:p class="text-center">Dear Consumer,</html:p>
+						<html:div class="row">
+							<html:div class="col-sm-8 col-sm-offset-2">
+								<html:p class="text-center">This Program is closed.</html:p>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-sm-12 split_ac_link">
+							<html:p class="text-center">If any query, Please write to
+								<html:a href="mailto:dsmcell@tatapower.com" title="Mail Us">dsmcell@tatapower.com</html:a>
+							</html:p>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

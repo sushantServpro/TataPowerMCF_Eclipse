@@ -1,0 +1,143 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<html:div class="container-fluid">
+				<html:div class="go-green_intro">
+				<html:div class="row intro_head">
+						<html:div class="col-xs-12">
+							<html:div class="bill_calc_bg border_rad_icon">
+								<html:div class="row icon_row_flex">
+									<html:div class="col-xs-2">
+										<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
+									</html:div>
+									<html:div class="col-xs-10">
+										<html:h4>Energy Calculator</html:h4>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="energy_cal">
+						<html:div class="row">
+							<html:div class="col-sm-6 left_side">
+								<html:p>
+									Calculate your energy consumption and save to compare the actuals Compare, with your actual consumption if you had already saved your plan.
+								</html:p>
+								<html:div class="energy_cal_opts">
+									<html:div class="container-fluid">
+										<html:div class="row">
+											<html:div class="col-xs-12 energy_cal_opt">
+												<Label text="Select Equipment" labelFor="selectEquip"/>
+												<ActionSelect id="selectEquip" selectedKey="{EnergyCalModel>/ZzeuipNo}" 
+												change="onEquipmentChange" items="{ path: 'EquipmentModel>/results' }">
+													<items>
+														<core:Item key="{EquipmentModel>ZzeuipNo}" text="{EquipmentModel>ZzeqipName}"/>
+													</items>
+												</ActionSelect>
+											</html:div>
+											
+											<html:div class="col-xs-12 energy_cal_opt">
+											<Image
+											    id="IdEquimg"
+				                            	src="images/Equipment_images/AIRCOOLER.bmp"
+					                            densityAware="true"
+					                            alt="speakers" style="margin-top:20px">
+					                         </Image>
+											</html:div>
+											
+											<html:div class="col-xs-12 energy_cal_opt">
+												<Label text="Number of Equipments" labelFor="numEquip"/>
+												<html:div class="row">
+													<html:div class="col-sm-2">
+														<!--<Input id="numEquip" type="Text"/>-->
+													</html:div>
+													<html:div class="col-sm-10">
+														<Slider id="Slider1" value="{EnergyCalModel>/Tariff}" width="100%" min="0" max="10" change="OnValueChange" showAdvancedTooltip="true" showHandleTooltip="false"/>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-xs-12 energy_cal_opt">
+												<Label text="Daily Hours of Use" labelFor="dailyUse"/>
+												<html:div class="row">
+													<html:div class="col-sm-2">
+														<!--<Input id="dailyUse" type="Text"/>-->
+													</html:div>
+													<html:div class="col-sm-10">
+														<Slider id="Slider2" value="{EnergyCalModel>/Tariff}" width="100%" min="0" max="24" change="OnValueChange" showAdvancedTooltip="true" showHandleTooltip="false"/>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-xs-12 energy_cal_opt">
+												<Label text="Wattage / Star" labelFor="selectWattage"/>
+												<ActionSelect id="selectWattage" selectedKey="{EnergyCalModel>/EuipNo}" 
+												change="OnValueChange" items="{ path: 'WattageModel>/results' }">
+													<items>
+														<core:Item key="{WattageModel>EuipNo}" text="{WattageModel>MeaValue}"/>
+													</items>
+												</ActionSelect>
+											</html:div>
+											<html:div class="col-xs-12 energy_cal_opt">
+												<html:div class="row">
+													<html:div class="col-xs-6">
+														<html:h4>
+														    <ObjectIdentifier id="DailyCon" title="0.00"/>
+														</html:h4>
+														<html:p>DAILY CONSUMPTION (Units)</html:p>
+													</html:div>
+													<html:div class="col-xs-6">
+														<html:h4>
+														   <ObjectIdentifier id="MonthlyCon" title="0.00"/> 
+														</html:h4>
+														<html:p>MONTHLY CONSUMPTION (Units)</html:p>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-xs-12 energy_cal_opt">
+												<html:div class="row">
+													<html:div class="col-sm-4 col-sm-offset-4 text-center">
+														<Button text="ADD TO LIST" press="onAddToList" type="Accept" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+														<Button text="REMOVE FROM LIST" press="onRemoveFromList"  type="Reject" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="tblEquip view_table">
+						<Table id="tblEquip" growing="true"
+			            noDataText="{CalculatorView>/tableNoDataText}"
+			            growingScrollToLoad="true"
+			            mode="SingleSelectLeft"
+                        items="{oTableModel}">
+							<columns>
+								<Column minScreenWidth="Desktop">
+									<Text text="Equipment"/>
+								</Column>
+								<Column minScreenWidth="Desktop" demandPopin="true">
+									<Text text="Daily Consumption Unit"/>
+								</Column>
+								<Column minScreenWidth="Desktop" demandPopin="true">
+									<Text text="Monthly Consumption Unit"/>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<ObjectIdentifier title="{EquipName}"/>
+										<Text text="{DailyCon}"/>
+										<Text text="{MonthlyConCon}"/>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</html:div>
+					<Button text="Add to Database" press="onAddDatabase"  class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+				</html:div>
+			</html:div>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

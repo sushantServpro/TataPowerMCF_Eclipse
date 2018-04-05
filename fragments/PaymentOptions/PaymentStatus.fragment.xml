@@ -1,0 +1,88 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div>
+					<html:div class=" col-md-12">
+						<html:div class="go-green_intro">
+							<html:div class="row intro_head">
+								<html:div class="col-xs-12">
+									<html:div class="pay_opt_bg border_rad_icon">
+										<html:div class="row icon_row_flex">
+											<html:div class="col-xs-2">
+												<html:image src="images/icon_payment_opt.png" alt="icon_payment_opt" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="col-xs-10">
+												<html:h4>Payment Status</html:h4>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-md-3"><html:h4>Consumer Number</html:h4></html:div>
+						<html:div class="col-md-6">
+							
+							<Input id="isd" type="Text" class="sapUiSmallMarginBottom"/>
+						</html:div>
+						<html:div class="col-md-3">
+							<Button text="Display" press="onReset" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+						</html:div>
+					</html:div>
+				<html:div class="datatable">
+						<Table mode="MultiSelect" id="tblPayBill" inset="false" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+										<headerToolbar>
+											<Toolbar>
+												<content>
+													<Title text="Current Bill" level="H2"/>
+												</content>
+											</Toolbar>
+										</headerToolbar>
+										<columns>
+											<Column minScreenWidth="Desktop">
+												<Text text="Bill Number"/>
+											</Column>
+											<Column minScreenWidth="Desktop" demandPopin="true">
+												<Text text="Transaction Amount"/>
+											</Column>
+											<Column minScreenWidth="Desktop" demandPopin="true">
+												<Text text="Status"/>
+											</Column>
+											<Column minScreenWidth="Desktop" demandPopin="true">
+												<Text text="Payment Method"/>
+											</Column>
+											<Column minScreenWidth="Tablet" demandPopin="true" width="19%">
+												<Text text="Transaction ID"/>
+											</Column>
+											<Column minScreenWidth="Tablet" demandPopin="true">
+												<Text text="Transaction Date"/>
+											</Column>
+											<Column minScreenWidth="Tablet" demandPopin="true">
+												<Text text="Transaction Time"/>
+											</Column>
+										
+										</columns>
+										<items>
+											<ColumnListItem>
+												<cells>
+													<ObjectIdentifier title="{Name}" text="{ProductId}"/>
+													<Text text="{SupplierName}"/>
+													<Text text="{Width} x {Depth} x {Height} {DimUnit}"/>
+													<ObjectNumber number="{WeightMeasure}" unit="{WeightUnit}"
+														state="{ parts: [ {path: 'WeightMeasure'}, {path: 'WeightUnit'} ], formatter: 'sap.m.sample.Table.Formatter.weightState' }"/>
+													<ObjectNumber
+														number="{ parts:[{path:'Price'},{path:'CurrencyCode'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }"
+														unit="{CurrencyCode}"/>
+												</cells>
+											</ColumnListItem>
+										</items>
+									</Table>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

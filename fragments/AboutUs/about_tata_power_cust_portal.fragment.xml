@@ -1,0 +1,47 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="intro_head">
+							<html:h4>About Tata Power Consumer Portal</html:h4>
+						</html:div>
+					</html:div>
+					<html:div class="about_desc">
+						<html:p>
+							Welcome to Tata Power Consumer Care Portal. We at Tata Power, have been constantly striving to innovate and provide services to exceed
+							Consumer expectations.
+						</html:p>
+						<html:p>
+							Through this portal, we are attempting to reach out to all our Consumers who will find it convenient to seek information and do meaningful
+							transactions. The design and content of this portal has been done keeping Consumers’ convenience and needs in mind. We hope you find it a
+							worthwhile experience and the navigation user friendly.
+						</html:p>
+						<html:p>
+							Please get yourself registered at once and experience the difference!
+						</html:p>
+						<html:p>
+							We value your suggestions. So, do not hesitate to give your candid feedback ! We look forward to hearing from you!
+						</html:p>
+					</html:div>
+					<html:div class="about_read_more">
+						<html:p>
+							Recognised as India’s largest private sector power utility, with a reputation for trustworthiness, built up over nearly nine decades, Tata
+							Power surges ahead into yet another year with plans of sustained growth, greater value to consumer and reliable power supply.
+						</html:p>
+						<html:p>
+							Led by a powerful vision, Tata Power pioneered the generation of electricity in India. It has now successfully served the Mumbai consumers
+							for over ninety years and has spread its footprints across the nation. Today, it is the country’s largest private player in the sector.
+							Apart from Mumbai and Delhi, the company has generation capacities in Jojobera, Jharkhand and Karnataka.
+						</html:p>
+						<html:div class="read_more_link">
+							<html:a href="https://www.tatapower.com/" title="Read More" target="_blank">Read More</html:a>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

@@ -1,0 +1,74 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="grn_cor border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_green_corn.png" alt="icon_green_corn" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Green Buildings</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="green_build_desc">
+						<html:p class="gbd_head text-center">
+							"A green building is one which uses less water, optimises energy efficiency, conserves natural resources, generates less waste and provides
+							healthier spaces for occupants, as compared to a conventional building."
+						</html:p>
+						<html:p>
+							The construction industry is one of the largest economic activities contributing to India's development. India has been witnessing
+							tremendous growth in building and construction sector for the past 5 years.
+						</html:p>
+						<html:p>
+							The Indian Green Building Council (IGBC) was formed in the year 2001 to usher in a green building movement. A Green home can have tremendous
+							benefits, both tangible and intangible. The immediate and most tangible benefit is in the reduction in water and operating energy costs
+							right from day one, during the entire life cycle of the building. The intangible benefits are enhanced air quality, excellent day lighting,
+							health &amp; wellbeing of the occupants, conservation of scarce national resources, enhance marketability for the project. LEED-INDIA for
+							new construction and major renovations is a green building rating system that helps to guide and design high-performance commercial
+							buildings.
+						</html:p>
+						<html:p>
+							The Energy Conservation Building Code (ECBC) was launched in May 2007 by the Hon'ble Minister of Power, and is presently in vogue on
+							voluntary basis.
+						</html:p>
+						<html:p>
+							The ECBC sets minimum energy standards for new commercial buildings having a connected load of 500kW or contract demand of 600 kVA. BEE is
+							promoting the implementation of energy efficiency measures in existing buildings through Energy Service Companies (ESCOs) which provide an
+							innovative business model through which the energy-saving potential in existing building can be captured and the risk faced by building
+							owner can also be addressed.
+						</html:p>
+						<html:p>
+							IGBC and ECBC encourage designers to develop low Carbon-foot-print designs related to following attributes.
+						</html:p>
+						<html:ul class="inti_list">
+							<html:li>Site Planning.</html:li>
+							<html:li>Environmental Architecture.</html:li>
+							<html:li>Energy efficient building materials.</html:li>
+							<html:li>Innovative space and water heating/cooling techniques.</html:li>
+							<html:li>Water conservation and recycling.</html:li>
+						</html:ul>
+						<html:p>
+							The Indian Bureau of Energy Efficiency has launched the Energy Conservation Building Codes for 5 climate zones in India. ECBC defines
+							performance parameters of the built commercial space (private development and public buildings).
+						</html:p>
+						<html:p>
+							For more information, we encourage you to visit following sites:
+							<html:span><html:a href="http://www.bee-india.nic.in/" target="_blank" title="Bee India">http://www.bee-india.nic.in/</html:a></html:span>
+							<html:span><html:a href="https://igbc.in/igbc/" target="_blank" title="IGBC">https://igbc.in/igbc/</html:a></html:span>
+						</html:p>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

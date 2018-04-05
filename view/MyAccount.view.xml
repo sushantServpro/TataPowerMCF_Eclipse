@@ -1,0 +1,202 @@
+
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tatapower.dev.controller.MyAccount"
+	xmlns:tnt="sap.tnt" xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="My Account" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container">
+						<html:div class="row">
+							<html:div class="col-xs-12 col-sm-12 col-md-7 profile">
+								<html:div class="row">
+									<html:div class="col-xs-12 col-sm-12 col-md-12 profileblue">
+										<html:div class="profimg">
+											<html:image src="images/profile.png" alt="prof"></html:image>
+										</html:div>
+										<html:div class="proftext">
+											<html:h4 style="">
+											<Text text="{Model1>FirstName}"/>
+											</html:h4>
+											<html:h5>
+												<Text id="Text_Fname2"/>
+											</html:h5>
+										</html:div>
+										<html:div class="row contacttext">
+											<html:div class="col-sm-3 col-md-3 proftext3">
+												<html:h5 style="color:#fff;">Email
+												</html:h5>
+												<html:h5 style="color:#fff;"> <Text id="text_email"/>
+												</html:h5>
+											</html:div>
+											<html:div class=" col-sm-3 col-md-3 proftext3">
+												<html:h5 style="color:#fff;">Mobile
+												</html:h5>
+												<html:h5 style="color:#fff;">
+													<!--<Text text="{Model1>AccountAddresses["0"].AccountAddressDependentMobilePhones["0"].CompletePhoneNo}"/>-->
+													<Text id="Text_mobile"/>
+												</html:h5>
+											</html:div>
+											<html:div class="col-sm-3 col-md-3 proftext3">
+												<html:h5 style="color:#fff;">Aadhar Number
+												</html:h5>
+												<html:h5 style="color:#fff;">
+												<Text id="Text_aadhar"/>	
+												</html:h5>
+											</html:div>
+											<html:div class="col-sm-3 col-md-3 proftextx">
+												<html:h5 style="color:#fff;">GST Number
+												</html:h5>
+												<html:h5 style="color:#fff;">
+													<Text id="Text_GST"/>
+												</html:h5>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-12 col-md-5 profiletiles">
+								<html:div class="row righttiles">
+									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile">
+										<GenericTile class="tileLayout onept" press="OnMyAccount">
+											<TileContent footer="View/Pay Bill Online" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/view_n_paybill_online.png" alt="Example picture of speakers"/>
+											</TileContent>
+										</GenericTile>
+									</html:div>
+									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile">
+										<GenericTile class="tileLayout twopt" press="OnMyAccount">
+											<TileContent footer="Consumption" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/consumprion.png" alt="Example picture of speakers"/>
+											</TileContent>
+										</GenericTile>
+									</html:div>
+									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile chg_tile">
+										<GenericTile class="tileLayout threept" press="OnMyAccount">
+											<TileContent footer="Payment Receipts" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/online_pmt_recp.png" alt="Example picture of speakers"/>
+											</TileContent>
+										</GenericTile>
+									</html:div>
+									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile bottom_tile">
+										<GenericTile class="tileLayout fourpt" press="OnMyAccount">
+											<TileContent footer="My Account Statement" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/my_billing.png" alt="Example picture of speakers"/>
+											</TileContent>
+										</GenericTile>
+									</html:div>
+									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile bottom_tile">
+										<GenericTile class="tileLayout fivept" press="OnMyAccount">
+											<TileContent footer="Register for E-Service" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/reg_e_services.png" alt="Example picture of speakers"/>
+											</TileContent>
+										</GenericTile>
+									</html:div>
+									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile bottom_tile">
+										<GenericTile class="tileLayout sixpt" press="OnMyAccount">
+											<TileContent footer="Register for E-Bill" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/reg_email.png" alt="Example picture of speakers"/>
+											</TileContent>
+										</GenericTile>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="row middlebox">
+							<html:div class="content">
+								<html:div class="row">
+									<html:div class="col-sm-12 col-md-3">
+										<html:div class="row">
+											<html:div class="col-sm-12">
+												<html:div class="row bill_payment">
+													<html:div class="col-xs-12">
+														<GenericTile class="tileLayout" press="press">
+															<TileContent>
+																<content>
+																	<html:div class="row">
+																		<html:div class="col-xs-3">
+																			<html:image src="images/myac_online_bill.png" alt="speakers" class="img-repsonsive"></html:image>
+																		</html:div>
+																		<html:div class="col-xs-9">
+																			<html:span>quick bill payment</html:span>
+																		</html:div>
+																	</html:div>
+																</content>
+															</TileContent>
+														</GenericTile>
+													</html:div>
+												</html:div>
+												<html:div class="row your_bill">
+													<html:div class="col-xs-12">
+														<GenericTile class="tileLayout" press="press">
+															<TileContent>
+																<content>
+																	<html:div class="row">
+																		<html:div class="col-xs-3">
+																			<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+																		</html:div>
+																		<html:div class="col-xs-9">
+																			<html:span>pay your bill here</html:span>
+																		</html:div>
+																	</html:div>
+																</content>
+															</TileContent>
+														</GenericTile>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+									<html:div class="col-sm-12 col-md-7 col-md-offset-2  counters">
+										<html:div class="row myacc_count_flex">
+											<html:div class="col-sm-9">
+												<html:div class="row">
+													<html:div class="col-xs-4 col-sm-4 text-center">
+														<html:span>Consumer Number</html:span>
+														<html:h4> <Text id="Text_ConNo"/></html:h4>
+													</html:div>
+													<html:div class="col-xs-4 col-sm-4 text-center acc_no">
+														<html:span>Account Number</html:span>
+														<html:h4><Text text="{Model1>AccountID}"/></html:h4>
+													</html:div>
+													<html:div class="col-xs-4 col-sm-4 text-center">
+														<html:span>Meter Number</html:span>
+														<html:h4> <Text id="text_meter"/> </html:h4>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-sm-3">
+												<html:div class="row share_feedback">
+													<html:div class="col-xs-12 col-sm-12 col-md-12">
+														<GenericTile class="tileLayout" press="press">
+															<TileContent>
+																<content>
+																	<html:div class="row">
+																		<html:div class="col-xs-4 col-sm-12 text-center">
+																			<html:image src="images/plese_share_feedback.png" alt="speakers" class="img-repsonsive"></html:image>
+																		</html:div>
+																		<html:div class="col-xs-8 col-sm-12">
+																			<html:p>Please share your
+																				<html:span>feedback</html:span>
+																			</html:p>
+																		</html:div>
+																	</html:div>
+																</content>
+															</TileContent>
+														</GenericTile>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

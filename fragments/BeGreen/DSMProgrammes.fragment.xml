@@ -1,0 +1,71 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div>
+					<html:div class="container-fluid">
+						<html:div class="go-green_intro">
+							<html:div class="row intro_head">
+								<html:div class="col-xs-12">
+									<html:div class="be_green_bg border_rad_icon">
+										<html:div class="row icon_row_flex">
+											<html:div class="col-xs-2">
+												<html:image src="images/icon_be_green.png" alt="icon_be_green" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="col-xs-10">
+												<html:h4>DSM Programmes</html:h4>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="intro_img">
+								<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+							</html:div>
+							<html:div class="prog_consumers">
+								<html:div class="row">
+									<html:div class="col-xs-12">
+										<html:div class="row">
+											<html:div class="col-xs-12">
+												<html:h5 class="text-center">Programmes for Residential Consumers</html:h5>
+												<html:div class="row cons_opt">
+													<html:div class="col-xs-6 col-sm-6">
+														<ImageContent class="pro_img_cont" src="images/ceil_fan.png" description="Ceiling Fan" press="press"></ImageContent>
+													</html:div>
+													<html:div class="col-xs-6 col-sm-6">
+														<ImageContent class="pro_img_cont" src="images/led.png" description="LED Tube" press="press"></ImageContent>
+													</html:div>
+													<html:div class="col-xs-6 col-sm-6">
+														<ImageContent class="pro_img_cont" src="images/refridg.png" description="Refrigerator" press="press"></ImageContent>
+													</html:div>
+													<html:div class="col-xs-6 col-sm-6">
+														<ImageContent class="pro_img_cont" src="images/ac.png" description="AC" press="press"></ImageContent>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-xs-12">
+												<html:h5 class="text-center">Programmes for Industrial/Commercial Consumers</html:h5>
+												<html:div class="row cons_opt">
+													<html:div class="col-xs-6 col-sm-6">
+														<ImageContent class="pro_img_cont" src="images/audit.png" description="Enery Audit" press="press"></ImageContent>
+													</html:div>
+													<html:div class="col-xs-6 col-sm-6">
+														<ImageContent class="pro_img_cont" src="images/led.png" description="LED Tube" press="press"></ImageContent>
+													</html:div>
+													<html:div class="col-xs-6 col-sm-6">
+														<ImageContent class="pro_img_cont" src="images/ac.png" description="AC" press="press"></ImageContent>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

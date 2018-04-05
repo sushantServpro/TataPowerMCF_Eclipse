@@ -1,0 +1,141 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="go-green_intro">
+					<html:div class="row intro_head">
+						<html:div class="col-xs-12">
+							<html:div class="gri_bg border_rad_icon">
+								<html:div class="row icon_row_flex">
+									<html:div class="col-xs-2">
+										<html:image src="images/icon_grievances.png" alt="icon_grievances" class="img-responsive"></html:image>
+									</html:div>
+									<html:div class="col-xs-10">
+										<html:h4>Regulatory Guidelines</html:h4>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="regulatory_info">
+					<html:div class="row">
+						<html:div class="col-sm-6 ele_comsn">
+							<html:h5>Electricity Ombudsman</html:h5>
+							<html:p>
+								<html:span>Mr. R.D Sankhe</html:span>
+								<html:span>Location: Office of the Ombudsman (Electricity),</html:span>
+								<html:span>Maharashtra Electricity Regulatory Commission,</html:span>
+								<html:span>Keshava Building, Bandra-Kurla,</html:span>
+								<html:span>Complex, Bandra (East), Mumbai 400 055</html:span>
+							</html:p>
+						</html:div>
+						<html:div class="col-sm-5 col-sm-offset-1">
+							<html:h5>Maharashtra Electricity Regulatory Commission</html:h5>
+							<html:p>
+								<html:span>606 / 6th Floor,
+								</html:span>
+								<html:span>Keshava Building, Bandra Kurla Complex,</html:span>
+								<html:span>Bandra (East), Mumbai 400 050
+								</html:span>
+								<html:span>Email ID:
+									<html:a href="mailto:pa@mercombudsman.org.in" title="Mail Us">pa@mercombudsman.org.in</html:a>
+								</html:span>
+							</html:p>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="electricity_act">
+					<html:ul class="nav nav-tabs nav-stacked">
+						<html:li>
+							<html:a href="#" target="_blank" title="Electricity Act, 2003">
+								<html:div class="row">
+									<html:div class="col-xs-10">Electricity Act, 2003</html:div>
+									<html:div class="col-xs-2 text-right">
+										<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+									</html:div>
+								</html:div>
+							</html:a>
+						</html:li>
+					</html:ul>
+				</html:div>
+				<html:div class="reg_forum">
+					<html:h5>Regulations regarding Grievance Redressal Forum and Electricity Ombudsman</html:h5>
+					<html:div class="row procedure_files">
+						<html:a href="#" target="_blank" class="col-sm-3 col-md-3">
+							<html:div class="panel panel-default">
+								<html:div class="panel-body pdfviewer">
+									<html:div>
+										<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+									</html:div>
+								</html:div>
+								<html:div class="panel-footer">Grievance Redressal Forum and Ombudsman Regulations, 2006 (English)</html:div>
+							</html:div>
+						</html:a>
+						<html:a href="#" target="_blank" class="col-sm-3 col-md-3">
+							<html:div class="panel panel-default">
+								<html:div class="panel-body pdfviewer">
+									<html:div>
+										<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+									</html:div>
+								</html:div>
+								<html:div class="panel-footer">Grievance Redressal Forum and Ombudsman Regulations, 2006 (Marathi)</html:div>
+							</html:div>
+						</html:a>
+					</html:div>
+				</html:div>
+				<html:div class="reg_forum">
+					<html:h5>Forms for Filing Redressal</html:h5>
+					<html:div class="row procedure_files">
+						<html:a href="mailto:grievance.cell@tatapower.com" title="Mail Us" class="col-sm-3 col-md-3">
+							<html:div class="panel panel-default">
+								<html:div class="panel-body pdfviewer">
+									<html:div>
+										<html:image src="images/email_ic.png" alt="tata_logo"></html:image>
+									</html:div>
+								</html:div>
+								<html:div class="panel-footer">Completed forms can be submitted to grievance.cell@tatapower.com</html:div>
+							</html:div>
+						</html:a>
+						<html:a href="#" target="_blank" class="col-sm-3 col-md-3">
+							<html:div class="panel panel-default">
+								<html:div class="panel-body pdfviewer">
+									<html:div>
+										<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+									</html:div>
+								</html:div>
+								<html:div class="panel-footer">Application to Forum for redressal of grievance (English)</html:div>
+							</html:div>
+						</html:a>
+						<html:a href="#" target="_blank" class="col-sm-3 col-md-3">
+							<html:div class="panel panel-default">
+								<html:div class="panel-body pdfviewer">
+									<html:div>
+										<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+									</html:div>
+								</html:div>
+								<html:div class="panel-footer">Application to Forum for redressal of grievance (Marathi)</html:div>
+							</html:div>
+						</html:a>
+					</html:div>
+				</html:div>
+				<html:div class="reg_forum">
+					<html:h5>Important Link</html:h5>
+					<html:div class="row procedure_files">
+						<html:a href="#" title="Mail Us" class="col-sm-4 col-md-5">
+							<html:div class="row panel panel-default pnl_imp_lnk">
+								<html:div class="col-sm-4 pdfviewer">
+									<html:div>
+										<html:image src="images/link.png" alt="link"></html:image>
+									</html:div>
+								</html:div>
+								<html:div class="col-sm-8">Case Register Details and Report</html:div>
+							</html:div>
+						</html:a>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

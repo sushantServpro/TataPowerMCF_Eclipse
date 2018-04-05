@@ -1,0 +1,114 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<html:div>
+					<html:h4>FAQs</html:h4> 
+					<html:h4 class="faqheader">Frequently Ask Question On Change Over Connection</html:h4>
+					<Panel expandable="true" expanded="false" headerText="What is the procedure to change from R-Infra to Tata Power?" width="auto"
+						class="sapUiResponsiveMargin">
+						<content >
+							<html:div class="textpara">
+								<html:h5>
+								Submit the Power Supply Application Form along with the following:
+								</html:h5>
+								<html:ul class="innerpoint">
+									<html:li>
+										<html:h5>
+										Recent R-Infra paid bill copy</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+										Photo identity proof</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+										Ownership proof</html:h5>
+									</html:li>
+										<html:li>
+										<html:h5>
+										Security deposit and registration fee by cash/ cheque in favor of The Tata Power Company Ltd</html:h5>
+									</html:li>
+								</html:ul>
+							</html:div>
+						</content>
+					</Panel>
+		<Panel expandable="true" expanded="false" headerText="What is the procedure to change from R-Infra to Tata Power for the entire society?" width="auto" class="sapUiResponsiveMargin">
+						<content>
+							<html:div class="textpara">
+								<html:h5>To initiate this process, every individual society member to submit the Power Supply Application Form along with the following:</html:h5>
+									<html:ul class="innerpoint">
+									<html:li>
+										<html:h5>
+										Recent R-Infra paid bill copy</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+										Photo identity proof</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+										Ownership proof</html:h5>
+									</html:li>
+										<html:li>
+										<html:h5>
+										Security deposit and registration fee by cash/ cheque in favor of The Tata Power Company Ltd</html:h5>
+									</html:li>
+								</html:ul>
+									<html:h5>
+										For society meters, registration certificate needs to be provided additionally.</html:h5>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="When will I get Tata power Supply?" width="auto"
+						class="sapUiResponsiveMargin">
+						<content>
+							<html:div class="textpara">
+								<html:h5>After submission of completed application form along with necessary documents and payments, power supply changeover will be effected within 30 days.</html:h5>
+									
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Who will look after the complaints after changeover to Tata Power?" width="auto"
+						class="sapUiResponsiveMargin">
+						<content>
+							<html:div class="textpara">
+								<html:h5>Tata Power will be the single point contact for all complaints, queries and requests. Tata Power shall co-ordinate with R-infra for resolution of technical complaints.</html:h5>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="Why are changeover customers charged Wheeling Charges &amp; Wheeling Loss?"
+						width="auto" class="sapUiResponsiveMargin">
+						<content>
+							<html:div class="textpara">
+								<html:h5>These charges are paid to RInfra-D as per the MERC order, towards usage of their infrastructure for wheeling the power.</html:h5>
+							</html:div>
+						</content>
+					</Panel>
+						<Panel expandable="true" expanded="false" headerText="Will the meter be changed or do we have the option to use the existing meter?"
+						width="auto" class="sapUiResponsiveMargin">
+						<content>
+							<html:div class="textpara">
+								<html:h5>A changeover customer has three options:-</html:h5>
+							<html:ol>
+									<html:li>
+										<html:h5>
+											Retain the R-infra-D meter </html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+											Install Tata Power meter </html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+										Purchase own new meter.</html:h5>
+									</html:li>
+									
+								</html:ol>
+							</html:div>
+						</content>
+					</Panel>
+				</html:div>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

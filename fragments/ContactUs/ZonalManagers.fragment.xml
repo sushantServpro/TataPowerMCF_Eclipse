@@ -1,0 +1,112 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="intro_head">
+							<html:h4>Zonal Managers Operations &amp; Maintenance</html:h4>
+						</html:div>
+					</html:div>
+					<html:div class="tbl_zonal">
+						<html:div class="table-responsive">
+							<html:table class="table">
+								<html:thead>
+									<html:tr>
+										<html:th>Zone</html:th>
+										<html:th>Manager</html:th>
+										<html:th>Designation</html:th>
+										<html:th>Email ID</html:th>
+									</html:tr>
+								</html:thead>
+								<html:tbody>
+									<html:tr>
+										<html:td rowspan="3">North Zone</html:td>
+										<html:td>Mr. Gajanan Kale</html:td>
+										<html:td>Distribution Zonal Head</html:td>
+										<html:td>gajanan.kale@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Mr. P P Tendulkar</html:td>
+										<html:td>Zonal Network Manager</html:td>
+										<html:td>pp.tendulkar@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Mr. B N Vinod Kumar</html:td>
+										<html:td>Zonal Consumer Manager</html:td>
+										<html:td>vinodkumar@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td rowspan="3">West Zone</html:td>
+										<html:td>Mr. Shriprakash Joshi</html:td>
+										<html:td>Distribution Zonal Head</html:td>
+										<html:td>shriprakashjoshi@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Mr. D S Patil</html:td>
+										<html:td>Zonal Network Manager</html:td>
+										<html:td>patilds@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Mr. Hitesh Gokani</html:td>
+										<html:td>Zonal Consumer Manager</html:td>
+										<html:td>hitesh.gokani@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td rowspan="3">Metro Zone</html:td>
+										<html:td>Mr. Jaspal Wadhwa</html:td>
+										<html:td>Distribution Zonal Head</html:td>
+										<html:td>jwadhwa@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Mr. Shriram Savarkar</html:td>
+										<html:td>Zonal Network Manager</html:td>
+										<html:td>svsavarkar@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Mr. C V Niranjan</html:td>
+										<html:td>Zonal Consumer Manager</html:td>
+										<html:td>niranjan@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td rowspan="3">Urban Zone</html:td>
+										<html:td>Mr. Milind Kulkarni</html:td>
+										<html:td>Distribution Zonal Head</html:td>
+										<html:td>mpkulkarni@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Mr. Mohammed Javed Siddiq</html:td>
+										<html:td>Zonal Network Manager</html:td>
+										<html:td>smjaved@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Mr. Kamlesh Shah</html:td>
+										<html:td>Zonal Consumer Manager</html:td>
+										<html:td>shahkr@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td rowspan="3">East Zone</html:td>
+										<html:td>Mr. Sharad Bakre</html:td>
+										<html:td>Distribution Zonal Head</html:td>
+										<html:td>sharad.bakre@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Mr. Vikas Joshi</html:td>
+										<html:td>Zonal Network Manager</html:td>
+										<html:td>joshivv@tatapower.om</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Mr. Vipul Kumar</html:td>
+										<html:td>Zonal Consumer Manager</html:td>
+										<html:td>vkvarma@tatapower.com</html:td>
+									</html:tr>
+								</html:tbody>
+							</html:table>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

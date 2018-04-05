@@ -1,0 +1,98 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:h5 align="center">Lead Management System</html:h5>
+				<html:h6 align="center">Create New Lead</html:h6>
+				<html:div class="col-md-2 col-md-offset-5 leadmgt">
+					<html:p class="leadcreationp">LEAD CREATION</html:p>
+				</html:div>
+				<html:hr/>
+				<html:div class="row">
+					<html:div class="col-md-6">
+						<html:div class="row">
+							<html:div class="col-md-12">
+								<html:i class="fa fa-user-o newfa" style="font-size: 15px;color:#147bff"></html:i>
+								<Label text="Lead Champion" labelFor="leadchapInput"/>
+								<Input id="leadchapInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+							</html:div>
+							<html:div class="col-md-12">
+								<html:i class="fa fa-phone newfa"></html:i>
+								<Label text="Your Contact Number" labelFor="leadchapmsInput"/>
+								<Input id="leadchapmsInput" required="true" type="number" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+							</html:div>
+							<html:div class="col-md-12">
+								<html:i class="fa fa-pencil newfa"></html:i>
+								<Label text="Address" labelFor="leadchapmsInput"/>
+								<TextArea placeholder="Enter Text" growing="true" growingMaxLines="10" width="100%"/>
+							</html:div>
+							<html:div class="col-md-12">
+								<html:i class="fa fa-globe newfa"></html:i>
+								<Label text="Latitude and Longitude" labelFor="leareInput"/>
+								<html:div class="row">
+									<html:div class="col-md-6">
+										<Input id="leareInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+									</html:div>
+									<html:div class="col-md-6">
+										<Input id="leadrrInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="col-md-12">
+								<html:i class="fa fa-map-marker newfa"></html:i>
+								<Label text="Nearest Landmark" labelFor="leadchapmsInput"/>
+								<Input id="nearInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+							</html:div>
+							<html:div class="col-md-12">
+								<html:i class="fa fa-picture-o newfa"></html:i>
+								<Label text="Photograph of the Site" labelFor="Input"/>
+								<html:div>
+									<u:FileUploader id="fileUploader" name="myFileUpload" uploadUrl="upload/" tooltip="Upload your file to the local server"
+										uploadComplete="handleUploadComplete"/>
+									<Button text="Upload File" class="switchcenter" press="handleUploadPress"/>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="col-md-6">
+						<html:div class="row">
+							<html:div class="col-md-12">
+								<html:i class="fa fa-file-code-o newfa"></html:i>
+								<Label text="Name of the Developer" labelFor="leadchapInput"/>
+								<Input id="ndInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+							</html:div>
+							<html:div class="col-md-12">
+								<html:i class="fa fa-database newfa"></html:i>
+								<Label text="Name of the Project" labelFor="leadchapmsInput"/>
+								<Input id="npInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+							</html:div>
+							<html:h5 class="centerinfodev">Contact Information Devloper Project</html:h5>
+							<html:div class="col-md-12">
+								<html:i class="fa fa-user-o newfa"></html:i>
+								<Label text="Contact Person" labelFor="leadchapmsInput"/>
+								<Input id="cppcpInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+							</html:div>
+							<html:div class="col-md-12">
+								<html:i class="fa fa-phone newfa"></html:i>
+								<Label text="Phone number of site official(if available)" labelFor="leadchapmsInput"/>
+								<Input id="cpplInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+							</html:div>
+							<html:div class="col-md-12">
+								<html:i class="fa fa-commenting-o newfa"></html:i>
+								<Label text="Comments(if any)" labelFor="Input"/>
+								<TextArea placeholder="Enter Text" growing="true" growingMaxLines="10" width="100%"/>
+							</html:div>
+							<html:div class="col-md-12">
+								<Label text="Indicate Mandatory fields" labelFor="leadchapmsInput"/>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="col-md-2 col-md-offset-5 text-center">
+						<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

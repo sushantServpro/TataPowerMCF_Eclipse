@@ -1,0 +1,80 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="intro_head">
+							<html:h4>Areas of Power Supply</html:h4>
+						</html:div>
+					</html:div>
+					<html:div class="area_pwr_supply">
+						<html:div class="row">
+							<html:div class="col-sm-6">
+								<html:div class="pwr_dist_spl_chart">
+									<html:h4>Power Supply Distribution Chart</html:h4>
+									<html:ul class="nav nav-tabs nav-stacked">
+										<html:li>
+											<html:a href="#" target="_blank" title="Schematic Display of Interconnected Stations to Enhance Reliability and Redundancy">
+												<html:div class="row">
+													<html:div class="col-xs-10">Schematic Display of Interconnected Stations to Enhance Reliability &amp; Redundancy</html:div>
+													<html:div class="col-xs-2 text-right">
+														<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+													</html:div>
+												</html:div>
+											</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="#" target="_blank" title="Automatic Islanding System">
+												<html:div class="row">
+													<html:div class="col-xs-10">Automatic Islanding System</html:div>
+													<html:div class="col-xs-2 text-right">
+														<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+													</html:div>
+												</html:div>
+											</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="#" target="_blank" title="Typical Setup for HT Consumer">
+												<html:div class="row">
+													<html:div class="col-xs-10">Typical Setup for HT Consumer</html:div>
+													<html:div class="col-xs-2 text-right">
+														<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+													</html:div>
+												</html:div>
+											</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="#" target="_blank" title="Typical Setup for LT / Residential Consumer">
+												<html:div class="row">
+													<html:div class="col-xs-10">Typical Setup for LT / Residential Consumer</html:div>
+													<html:div class="col-xs-2 text-right">
+														<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+													</html:div>
+												</html:div>
+											</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="#" target="_blank" title="Customer Segmentation">
+												<html:div class="row">
+													<html:div class="col-xs-10">Customer Segmentation</html:div>
+													<html:div class="col-xs-2 text-right">
+														<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+													</html:div>
+												</html:div>
+											</html:a>
+										</html:li>
+									</html:ul>
+								</html:div>
+							</html:div>
+							<html:div class="col-sm-6">
+								<html:image src="images/about_map.gif" alt="about_map" class="img-responsive"></html:image>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

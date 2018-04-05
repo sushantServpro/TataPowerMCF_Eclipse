@@ -1,0 +1,43 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel>
+		<content>
+			<Panel>
+				<html:div>
+					<html:div class=" col-md-12">
+						<html:div class="go-green_intro">
+							<html:div class="row intro_head">
+								<html:div class="col-xs-12">
+									<html:div class="app_form_bg border_rad_icon">
+										<html:div class="row icon_row_flex">
+											<html:div class="col-xs-2">
+												<html:image src="images/icon_app_form.png" alt="icon_app_form" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="col-xs-10">
+												<html:h4>Address Correction Form</html:h4>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="row procedure_files switch_over">
+							<html:a href="pdf/ApplicationForms/CombineForm.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">
+										Application Form for Address Correction 
+									</html:div>
+								</html:div>
+							</html:a>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

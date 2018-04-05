@@ -1,0 +1,59 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="cusservice">
+					<html:h4>Assessment Officer Vigilance</html:h4>
+				</html:div>
+				<html:div class="tpdcs">
+					<html:p>
+						<html:span>The Tata Power Company Limited,</html:span>
+						<html:span>Dharavi Receiving Station,</html:span>
+						<html:span>Near Matunga Labour Camp, Matunga West, Mumbai - 400 019.</html:span>
+					</html:p>
+				</html:div>
+				<html:div class="contactinfo">
+					<html:h4>Contact</html:h4>
+				</html:div>
+				<html:div class="hocustomer">
+					<html:div class="row">
+						<html:div class="col-md-3">
+							<html:h4>Mr. Gaurav Gautam</html:h4>
+							<html:h5>Group Head-Legal,</html:h5>
+							<html:h5>Docu &amp; Vigilance</html:h5>
+						</html:div>
+						<html:div class="col-md-9">
+							<html:h4>
+								<html:strong>Department :</html:strong>
+								Distribution Supply Management Group</html:h4>
+							<html:div class="row">
+								<html:div class="col-md-6">
+									<html:image src="images/number_small.png" class="telcrc" alt="steps">
+										<html:span class="tecnum">Telephone Number
+											<html:b>91-22-67172755</html:b>
+										</html:span>
+									</html:image>
+								</html:div>
+								<html:div class="col-md-6">
+									<html:image src="images/crc.png" class="telcrc" alt="steps">
+										<html:span class="mailcrc">Email ID
+											<html:b>gaurav.gautam@tatapower.com</html:b>
+										</html:span>
+									</html:image>
+								</html:div>
+								<html:div class="col-md-6">
+									<html:image src="images/crc.png" class="telcrc" alt="steps">
+										<html:span class="mailcrc">Vigilance Email Id
+											<html:b>vigilance@tatapower.com</html:b>
+										</html:span>
+									</html:image>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

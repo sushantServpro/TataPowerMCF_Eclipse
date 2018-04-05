@@ -1,0 +1,87 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tatapower.dev.controller.Landingdigitalservice"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Landing FAQ" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container">
+						<html:div class="row">
+							<html:div class="col-sm-10 col-sm-offset-1">
+								<html:div class="row">
+									<html:div class="col-xs-12">
+										<html:div class="row intro_head">
+											<html:div class="col-xs-12">
+												<html:div class="digi_bg border_rad_icon">
+													<html:div class="row icon_row_flex">
+														<html:div class="col-xs-2">
+															<html:image src="images/icon_digitl_srvces.png" alt="icon_digitl_srvces" class="img-responsive"></html:image>
+														</html:div>
+														<html:div class="col-xs-10">
+															<html:h4>Digital Service</html:h4>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+								<html:div class="newDigiServices">
+									<html:div class="row">
+										<html:div class="col-sm-6 newDigiService">
+											<html:image src="images/image001.png" alt="image001" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-sm-6 newDigiService">
+											<html:image src="images/image002.png" alt="image002" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-sm-6 newDigiService">
+											<html:image src="images/image003.png" alt="image003" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-sm-6 newDigiService">
+											<html:image src="images/image004.png" alt="image004" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-sm-12 newDigiService">
+											<html:image src="images/image006.png" alt="image006" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-sm-12 newDigiService">
+											<html:image src="images/image005.png" alt="image005" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-sm-6 newDigiService">
+											<html:image src="images/image007.png" alt="image007" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-sm-6 newDigiService">
+											<html:image src="images/image008.png" alt="image008" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-sm-6 newDigiService">
+											<html:image src="images/image009.png" alt="image009" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-sm-6 newDigiService">
+											<html:image src="images/image010.png" alt="image010" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-sm-12 newDigiService">
+											<html:image src="images/image011.png" alt="image011" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

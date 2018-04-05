@@ -1,0 +1,48 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel>
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="grn_cor border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_green_corn.png" alt="icon_green_corn" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Combat Climate Change</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="green_build_desc">
+						<html:p>
+							Tata Power is part of a group of 46 leading international companies working together to develop a global policy framework to combat climate
+							change. The 3C Initiative is a Global Opinion Group consisting of companies from a broad range of industries demanding integration of
+							climate issues in markets and trade called Combat Climate Change (3C) and was launched on January 11, 2007. 3C commits itself to the
+							following set of four actions to be undertaken to support development of the transparent policy framework called for in the Roadmap:
+						</html:p>
+						<html:ul class="inti_list">
+							<html:li>Sharing a deep understanding of the industries we work in and identifying the measures with the most impact and the steps needed to
+								gain their full effect.</html:li>
+							<html:li>Working within our respective sectors to influence our colleagues and push the development of efficient technology.</html:li>
+							<html:li>Working hard to reduce emissions in our businesses and to act as role models for other organizations.</html:li>
+							<html:li>Contribute our share to minimizing market failures by being transparent and by helping our customers make informed choices.</html:li>
+						</html:ul>
+						<html:p>
+							The recommendations presented in the 3C Roadmap have been developed out of 3C's founding statement, through a six-month process of open
+							consultation with many of the initiatives participating companies. Read more about the development of the Roadmap and participants in the 3C
+							Initiative on
+							<html:a href="www.combatclimatechange.org" target="_blank" title="Combat Climate Change">www.combatclimatechange.org</html:a>
+						</html:p>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>
